@@ -4,6 +4,13 @@
   <title>{{ page.title }}</title>
 </head>
 <body>
+  {% if page.nav_enabled == true %}
+    {% include components/sidebar.html %}
+  {% elsif layout.nav_enabled == true and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% elsif site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% endif %}
   <header>
     <h1>{{ site.title }}</h1>
   </header>
@@ -11,7 +18,7 @@
     {{ content }}
   </main>
   <footer>
-    <p>&copy; {{ site.time | date: '%Y' }}</p>
+    <p>&copy; 2024 Nooberieno, all rights reserved</p>
   </footer>
 </body>
 </html>
