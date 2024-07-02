@@ -1,6 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+title: D&D Homebrew
+layout: default
 ---
+
+# Homebrew Content
+
+- [Jimmy](Jimmy/)
+- [Gojo's Guide to Cursing](Gojo's Guide to Cursing/)
+
+{% for page in site.pages %}
+- [{{ page.title }}]({{ page.url }})
+{% endfor %}
