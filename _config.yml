@@ -15,9 +15,6 @@ favicon_ico: favicon.ico
 
 color_scheme: dark
 
-back_to_top: true
-back_to_top_text: "Back to top"
-
 cache:
   jekyll: true
   favicon.ico: true

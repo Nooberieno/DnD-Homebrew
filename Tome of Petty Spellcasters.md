@@ -14,7 +14,7 @@ When this item is discovered it adds all the spells in the spell list to the rel
 **Classes**: Sorcerer, Wizard, Warlock, Druid, Bard, Arcane Trickster, Cleric  
 
 **Description**
-A bolt of lightning streaks from the sky to strike one creature within range. The creature must make a Dexterity saving throw, taking `dice: 3d10` 5d10 lightning damage on a failed save or half as much damage on a successful one.
+A bolt of lightning streaks from the sky to strike one creature within range. The creature must make a Dexterity saving throw, taking 5d10 lightning damage on a failed save or half as much damage on a successful one.
 	If this spell is cast again by any spellcaster within 1 minute the same creature is struck.
 
 #### **2. Lego Minefield**
@@ -39,12 +39,12 @@ At Higher Levels. When you cast this spell using a spell slot of 4th level or hi
 
 **Description**
 You ignite yourself with an immense, fiery explosion that deals devastating damage to all creatures around you, including yourself. . When this spell occurs you take 90% of your max health as fire damage. This spell ignores resistance to fire damage or magic and treats immunity to fire damage or magic as resistance.
-Except creatures within 10 ft of you, all creatures within 150 ft of you must succeed on a Constitution saving throw, taking `dice: 10d10` 10d10 fire damage on a failed save or half as much on a successful one. Additionally creatures take extra damage based on their proximity to you
+Except creatures within 10 ft of you, all creatures within 150 ft of you must succeed on a Constitution saving throw, taking 10d10 fire damage on a failed save or half as much on a successful one. Additionally creatures take extra damage based on their proximity to you
 i.e. how close they are to you
 	Within 90 ft, an additional 25 fire damage
 	Within 45 ft, an additional 50 fire damage
 	Within 20 ft, an additional 75 fire damage
-Creatures within 10 ft of you do not roll the saving throw and take `dice: 10d10 + 100` 100 + 10d10 fire damage. A creature that takes 100 fire damage or more from this spell is Blinded until a Greater Restoration or Heal spell is cast to restore its vision. Additionally, a creature reduced to 0 hp by this spell is turned to ashes and may only be brought back by a Wish or True Resurrection spell.
+Creatures within 10 ft of you do not roll the saving throw and take 100 + 10d10 fire damage. A creature that takes 100 fire damage or more from this spell is Blinded until a Greater Restoration or Heal spell is cast to restore its vision. Additionally, a creature reduced to 0 hp by this spell is turned to ashes and may only be brought back by a Wish or True Resurrection spell.
 After this spell's effect takes place, you can only heal up to 50% of your max hp and cannot cast any high level magic (7th, 8th and 9th level spells). These drawbacks are not permanent and revert after you complete a long rest.
 
 #### **4. Zero Spatial Awareness**:
@@ -56,7 +56,7 @@ After this spell's effect takes place, you can only heal up to 50% of your max h
 **Classes**: Wizard, Sorcerer  
 
 **Description**
-You cloud the minds of others with a disorienting illusion. Choose a point within range to create a 20 ft radius sphere. That Sphere becomes engulfed in shifting shadows and warp perceptions. Creatures within that sphere have to make an intelligence saving throw. If they fail their movement is halved, they have disadvantage on Dexterity saving throws and Dexterity related ability checks and will also have disadvantage on attacks outside of the sphere. If the target wants to move they have to roll a `dice: d4`1d4 indicating in which direction that will move. If the target comes within 5 ft of anther creature, that creature has to make a Dexterity saving throw, if failed that creature takes `dice: 2d6` 2d6 bludgeoning damage and falls prone.
+You cloud the minds of others with a disorienting illusion. Choose a point within range to create a 20 ft radius sphere. That Sphere becomes engulfed in shifting shadows and warp perceptions. Creatures within that sphere have to make an intelligence saving throw. If they fail their movement is halved, they have disadvantage on Dexterity saving throws and Dexterity related ability checks and will also have disadvantage on attacks outside of the sphere. If the target wants to move they have to roll a 1d4 indicating in which direction that will move. If the target comes within 5 ft of anther creature, that creature has to make a Dexterity saving throw, if failed that creature takes 2d6 bludgeoning damage and falls prone.
 
 #### **5. Scooter Strike**
 *2nd level Conjuration*  
@@ -67,7 +67,7 @@ You cloud the minds of others with a disorienting illusion. Choose a point withi
 **Classes**: Wizard, Sorcerer, Arcane Trickster, Bard  
 
 **Description**
-You conjure a magical silver wheel that hurtles towards a creature within range and strikes their ankle. The target must succeed on a Dexterity saving throw or take `dice:3d6` 3d6 bludgeoning damage and fall prone. On a successful save, the target takes half damage and isn't knocked prone.
+You conjure a magical silver wheel that hurtles towards a creature within range and strikes their ankle. The target must succeed on a Dexterity saving throw or take  3d6 bludgeoning damage and fall prone. On a successful save, the target takes half damage and isn't knocked prone.
 
 _At Higher Levels._ When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
 
