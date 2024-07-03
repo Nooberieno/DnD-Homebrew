@@ -1,6 +1,6 @@
 ---
 title: Introduction for Gojo's Guide to Cursing
-default: layout
+layout: home
 ---
 Gojo's Guide to Cursing is a book adding new [[Subclasses]], [spells](Jujutsu%20spells.md) and [items](Cursed%20Items.md) inspired by Jujutsu Kaisen into DnD 5e.
 

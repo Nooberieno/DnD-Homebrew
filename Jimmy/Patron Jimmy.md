@@ -11,11 +11,12 @@ layout: default
 | 3rd             | _Bestow Curse, Fear_                |
 | 4th             | _Phantasmal Killer, Banishment_     |
 | 5th             | _Dominate Person, Destructive Wave_ |
+
 ### Abilities:
 #### **Level 1: Vengeful Resurgence**
 When you reach 0 hit points, you can instead drop to 1 hit point and gain temporary hit points equal to twice your Warlock level + your constitution modifier. This ability can be used once per long rest.
 
-#### **Level 1: Jimmy's Last Stand
+#### **Level 1: Jimmy's Last Stand**
 When you reach 10% or lower of your max hp, you activate "Jimmy's Last Stand" This effect provides:
 - Strength is increased by +6.
 - Resistance to magic, i.e. advantage on saving throws against spell cast on you.
@@ -26,14 +27,14 @@ When you reach 10% or lower of your max hp, you activate "Jimmy's Last Stand" Th
 - Any attack that is not a melee weapon attack automatically results in a critical failure.
 - You must remain below 10% or lower of your max hp in order for the effect to continue
 
-#### **Level 6: Vengeance's Boon:
+#### **Level 6: Vengeance's Boon**:
 While Jimmy's Last Stand is active, you can make an extra melee attack as a bonus action
 
-#### **Level 10: Critical Boon:
+#### **Level 10: Critical Boon**:
 Any critical hits you score while "Jimmy's Last Stand" is active, deal an extra die of damage
 While "Jimmy's Last Stand" is activated any critical failures regarding melee (both AC check and actual hits) may be re-rolled once.
 
-#### **Level 14: Eternal Fury
+#### **Level 14: Eternal Fury**
 Once per long rest, you can enter a state of "Eternal Fury" when you are reduced to 0 hit points. In this state, you:
 - Regain hit points equal to your Warlock level and gain an additional number of temporary hit points equal to twice your Warlock level.
 - Gain immunity to all damage types for 1 minute.
