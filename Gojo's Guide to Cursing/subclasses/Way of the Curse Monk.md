@@ -1,6 +1,8 @@
 ---
 title: Way of the Curse Monk
 layout: default
+parent: Cursed Subclasses
+grand_parent: Gojo's Guide to Cursing
 ---
 Harnessing the dark power of cursed energy, Way of the Curse Monks devote themselves to mastering the art of overwhelming strikes and incorporating the chaotic energy of the cursed world around them. These monks have rid themselves of Ki, turning to cursed energy instead. They combine speed an raw energy to become unpredictable and powerful warriors.
 

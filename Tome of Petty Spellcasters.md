@@ -94,7 +94,7 @@ _At Higher Levels._ When you cast this spell using a spell slot of 4th or higher
 **Classes**: All  
 
 **Description**
-Out of spells, but not out of options, you find something you can hurl at a target within range. Make a ranged spell attack against the target. On hit the target takes `dice: 3d10`3d10 force damage. This spell ignores resistance or immunity to magic.
+Out of spells, but not out of options, you find something you can hurl at a target within range. Make a ranged spell attack against the target. On hit the target takes 3d10 force damage. This spell ignores resistance or immunity to magic.
 
 **Note**
 This spell may only be cast after you have expended all spell slots, this spell may only be cast once per long rest and does not take up any spell slots, it does count towards the number of spells you know.
@@ -109,11 +109,11 @@ This spell may only be cast after you have expended all spell slots, this spell 
 **Classes**: Bard, Wizard  
 
 **Description**
-You speak loaded with acute embarrassment, forcing a creature within range to cringe. The target must succeed on a Charisma saving throw or suffer `dice: 4d6`4d6 psychic damage as it reels from discomfort. On a successful save, the target takes half damage.
+You speak loaded with acute embarrassment, forcing a creature within range to cringe. The target must succeed on a Charisma saving throw or suffer 4d6 psychic damage as it reels from discomfort. On a successful save, the target takes half damage.
 
 If the saving throw is failed by 5 or more the target gains vulnerability to psychic damage and disadvantage on Charisma until the end of the next turn.
 
-If the saving throw is failed by 10 or more the creature must make another saving throw at the start of its next turn. On a failed save, the creature is paralyzed for that turn, frozen by sheer awkwardness. On a successful save the creature takes an additional `dice: 2d6` 2d6 psychic damage.
+If the saving throw is failed by 10 or more the creature must make another saving throw at the start of its next turn. On a failed save, the creature is paralyzed for that turn, frozen by sheer awkwardness. On a successful save the creature takes an additional 2d6 psychic damage.
 
 #### **9. Testicular Torsion**
 *6th-level transmutation*  
@@ -123,9 +123,9 @@ If the saving throw is failed by 10 or more the creature must make another savin
 **Duration:** Concentration, up to 1 minute  
 **Classes**: Wizard, Sorcerer  
 
-You attempt to magically alter the very fabric of a creature's groin area, twisting and manipulating them into submission. Choose one target you can see within range. The target must make a Constitution saving throw. On a failed save, their nether regions are twisted and contorted, causing extreme excruciating pain. The target is considered restrained and unable to take any actions during the duration of the spell. Additionally, the target takes `dice: 3d12`3d12 force damage at the start of each of their turns while under the effect of the spell. The target can repeat the Constitution saving throw at the end of each of their turns to end the effect. If the target does not have testicles, the saving throw automatically succeeds.
+You attempt to magically alter the very fabric of a creature's groin area, twisting and manipulating them into submission. Choose one target you can see within range. The target must make a Constitution saving throw. On a failed save, their nether regions are twisted and contorted, causing extreme excruciating pain. The target is considered restrained and unable to take any actions during the duration of the spell. Additionally, the target takes 3d12 force damage at the start of each of their turns while under the effect of the spell. The target can repeat the Constitution saving throw at the end of each of their turns to end the effect. If the target does not have testicles, the saving throw automatically succeeds.
 
-_At Higher Levels._ When you cast this spell using a 7th-level spell slot or higher, the force damage increases by `dice: 1d12` 1d12 for each slot level above 6th.
+_At Higher Levels._ When you cast this spell using a 7th-level spell slot or higher, the force damage increases by 1d12 for each slot level above 6th.
 
 #### **10. Irritating Gaze**
 *Permanent eyelash in eye*  
@@ -161,7 +161,7 @@ You target one creature within range, causing their bones to become rubbery and 
 **Duration**: Instantaneous  
 
 **Description:**  
-You attempt to turn the target's reproductive system into heavy tungsten, causing excruciating pain and debilitating effects. The target must make a Constitution saving throw On a failed save, the target's movement speed is halved, and they take `dice: 2d8`2d8 force damage at the start of each of its turns. The target can make a new saving throw at the end of each of its turns, ending the spell on a success. On a successful save the target takes half damage. This spell fails if the target has no balls
+You attempt to turn the target's reproductive system into heavy tungsten, causing excruciating pain and debilitating effects. The target must make a Constitution saving throw On a failed save, the target's movement speed is halved, and they take 2d8 force damage at the start of each of its turns. The target can make a new saving throw at the end of each of its turns, ending the spell on a success. On a successful save the target takes half damage. This spell fails if the target has no balls
 
 #### **13. Osmium Ovaries**
 *3rd level Transmutation*  
@@ -171,7 +171,7 @@ You attempt to turn the target's reproductive system into heavy tungsten, causin
 **Duration**: Instantaneous  
 
 **Description:**  
-You attempt to turn the target's reproductive system into dense osmium, causing intense discomfort and adverse effects. The target must make a Constitution saving throw On a failed save, the target's movement speed is halved, and they take `dice: 2d8`2d8 force damage at the start of each of its turns. The target can make a new saving throw at the end of each of its turns, ending the spell on a success. On a successful save the target takes half damage. This spell fails if the target has no Ovaries
+You attempt to turn the target's reproductive system into dense osmium, causing intense discomfort and adverse effects. The target must make a Constitution saving throw On a failed save, the target's movement speed is halved, and they take 2d8 force damage at the start of each of its turns. The target can make a new saving throw at the end of each of its turns, ending the spell on a success. On a successful save the target takes half damage. This spell fails if the target has no Ovaries
 
 #### **14. Instant Brazilian Wax**
 *2nd level Transmutation*  
@@ -182,7 +182,7 @@ You attempt to turn the target's reproductive system into dense osmium, causing 
 **Classes**: Wizard, Bard  
 
 **Description**
-You target a creature within range, forcing them to make a Constitution saving throw. On a failed save, the spell rips hair from the target's nether regions, causing `dice:3d6` 3d6 damage. This process is painful and causes irritation, reducing the target's movement speed by half until the end of their next turn. If the target has no hair in that area, it takes an additional `dice: 2d6`2d6 damage. A successful save results in half damage.
+You target a creature within range, forcing them to make a Constitution saving throw. On a failed save, the spell rips hair from the target's nether regions, causing  3d6 damage. This process is painful and causes irritation, reducing the target's movement speed by half until the end of their next turn. If the target has no hair in that area, it takes an additional 2d6 damage. A successful save results in half damage.
 
 #### **15. Wrath of the Stubbed Toe**
 *2nd level Conjuration*  

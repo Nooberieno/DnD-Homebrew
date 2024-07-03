@@ -1,8 +1,9 @@
 ---
 title: Whisperwind Amulet
 layout: default
+parent: Items
 ---
-The Whisperwind Amulet is a legendary item that can be worn as an amulet
+The Whisperwind Amulet is a legendary item that can be worn as an amulet, it must be attuned by an arcane trickster rogue in order to use it
 
 ## Features
 * **Spell Slot Augmentation**:

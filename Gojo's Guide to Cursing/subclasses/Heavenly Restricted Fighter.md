@@ -1,6 +1,8 @@
 ---
 title: Heavenly Restricted Fighter
 layout: default
+parent: Cursed Subclasses
+grand_parent: Gojo's Guide to Cursing
 ---
 These fighters where born with bodies containing extreme strength, but as a trade-off their bodies are incapable of handling magic. Through training they can master their body, gaining exceptional strength, speed, and heightened senses, allowing them to surpass the limits of ordinary mortals.
 

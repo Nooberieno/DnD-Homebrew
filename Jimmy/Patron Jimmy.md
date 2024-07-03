@@ -1,6 +1,7 @@
 ---
 title: Patron Jimmy
 layout: default
+parent: Jimmy
 ---
 
 
@@ -38,6 +39,6 @@ While "Jimmy's Last Stand" is activated any critical failures regarding melee (b
 Once per long rest, you can enter a state of "Eternal Fury" when you are reduced to 0 hit points. In this state, you:
 - Regain hit points equal to your Warlock level and gain an additional number of temporary hit points equal to twice your Warlock level.
 - Gain immunity to all damage types for 1 minute.
-- Your melee attacks deal an additional 1d10 `dice: 1d10` necrotic damage.
+- Your melee attacks deal an additional 1d10 necrotic damage.
 - After 1 minute, you drop to 0 hit points and fall unconscious.
 
