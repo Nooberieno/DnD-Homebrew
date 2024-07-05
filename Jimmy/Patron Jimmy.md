@@ -20,9 +20,9 @@ When you reach 0 hit points, you can instead drop to 1 hit point and gain tempor
 #### **Level 1: Jimmy's Last Stand**
 When you reach 10% or lower of your max hp, you activate "Jimmy's Last Stand" This effect provides:
 - Strength is increased by +6.
-- Resistance to magic, i.e. advantage on saving throws against spell cast on you.
+- Resistance to magic
 - Proficiency in all Strength-based ability checks and saving throws.
-- **Reverse AC:** Your AC is reversed, all rolls equal to or below your AC now hit and all rolls above your AC miss (minimum of 10).
+- **Reverse AC:** Your AC is reversed, all rolls equal to or below your AC now hit and all rolls above your AC miss (minimum of 10).  
 **Drawbacks**:
 - You cannot cast any spells.
 - Any attack that is not a melee weapon attack automatically results in a critical failure.
