@@ -2,6 +2,7 @@
 title: Transfigured Humanoid
 layout: default
 parent: Cursed Creatures
+grand_parent: Gojo's Guide to Cursing
 ---
 
 Medium Monstrosity, Shares the Creator's Alignment
