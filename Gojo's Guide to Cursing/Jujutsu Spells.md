@@ -8,7 +8,7 @@ parent: Gojo's Guide to Cursing
 *3rd level Transmutation*
 **Casting Time**: 1 action
 **Range**: Touch
-**Components**: S
+**Components**: v, S
 **Duration**: Instantaneous
 **Classes**: Sorcerer, Warlock, Wizard
 

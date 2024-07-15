@@ -35,5 +35,9 @@ _9th level Evocation_
 **Description**:
 With yourself at the center you inscribe your Cursed Technique into the world around you, granting the following benefits:
 - Any creature with a CR lower than 5 is instantly turned into a Transfigured Humanoid.
+- Any creature that reaches 10% hp or lower must succeed on a DC 15 Constitution saving throw, failure results in that creature being turned into a Transfigured Humanoid.
 - All spells you cast while the domain is active and deal the maximum damage. if the spells damage scales with level it does the max damage for the spell slot level you used to cast it.
-- No creature can exit the radius enveloped by your Domain.
+- No creature can exit the radius enveloped by your domain, but other creatures can enter freely.
+- Your domain counts as full cover.
+
+_Note_: all domain expansion can be ended by killing the caster, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another both of the casters roll a d20, whoever rolls highest is whose domain wins.
