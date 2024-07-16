@@ -10,7 +10,7 @@ These fighters where born with bodies containing extreme strength, but as a trad
 
 At 3rd level, you forgo all forms of magic and supernatural power in exchange for unparalleled physical attributes. 
 
-_if you multiclass in this class and a spellcasting class, you can choose to reinvest your levels into a non spellcasting class, with the only exception being [[Way of the Curse Monk]], if you decide to keep your levels in a spellcasting class accepting this Martial Archetype means that if you try to cast a spell it **will automatically fail**. If your race grants spells or cantrips you lose access to them, instead you may increase your Strength, Constitution or Dexterity by 1 even above 20_
+_if you multiclass in this class and a spellcasting class, you can choose to reinvest your levels into a non spellcasting class, if you decide to keep your levels in a spellcasting class accepting this Martial Archetype means that if you try to cast a spell it **will automatically fail**. If your race grants spells or cantrips you lose access to them, instead you may increase your Strength, Constitution or Dexterity by 1 even above 20_
 
 You gain the following benefits:
 

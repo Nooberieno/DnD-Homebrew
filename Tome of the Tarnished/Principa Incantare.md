@@ -4,7 +4,7 @@ layout: default
 parent: Tome of the Tarnished
 ---
 
-Principa Incantare or as it is more widely known "Important Incantations" is a spellbook from [Tome of the Tarnished](/Tome%20of%20the%20Tarnished/) granting new spells to various classes. All of these spells require a seal of some kind. A seal is a magic item containing part of the user's magic. The seal can be pretty much anything, provided it is small enough to carry, but they usually come in the shape of a book or pedant of some kind. A magically imbued tattoo or an artificial limb can also be a seal.
+Principa Incantare or as it is more widely known "Important Incantations" is a spellbook from [Tome of the Tarnished]({{site.baseurl}}/Tome%20of%20the%20Tarnished/) granting new spells to various classes. All of these spells require a seal of some kind. A seal is a magic item containing part of the user's magic. The seal can be pretty much anything, provided it is small enough to carry, but they usually come in the shape of a book or pedant of some kind. A magically imbued tattoo or an artificial limb can also be a seal.
 
 #### 1. Golden Vow
 _3rd level Abjuration_  

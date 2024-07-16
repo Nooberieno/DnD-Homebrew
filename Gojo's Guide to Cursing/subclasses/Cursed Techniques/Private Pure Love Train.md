@@ -4,7 +4,7 @@ layout: default
 parent: Cursed Techniques
 grand_parent: Jujutsu Sorcerer
 ---
-Private Pure Love Train is a [Cursed Technique](/Gojo's%20Guide%20to%20Cursing/subclasses/Cursed%20Techniques/) for the [Jujutsu Sorcerer](/Gojo's%20Guide%20to%20Cursing/subclasses/Jujutsu%20Sorcerer) subclass. It is generally given to those who like to wager and take risks as this technique revolves around gambling.
+Private Pure Love Train is a [Cursed Technique]({{site.baseurl}}/Gojo's%20Guide%20to%20Cursing/subclasses/Cursed%20Techniques/) for the [Jujutsu Sorcerer]({{site.baseurl}}/Gojo's%20Guide%20to%20Cursing/subclasses/Jujutsu%20Sorcerer) subclass. It is generally given to those who like to wager and take risks as this technique revolves around gambling.
 
 ### Level 3: Luck of the Draw
 You gain proficiency with one gaming set of choice, this set can also act as a spellcasting focus.
