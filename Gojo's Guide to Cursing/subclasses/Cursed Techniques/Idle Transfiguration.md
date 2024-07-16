@@ -24,7 +24,7 @@ You're starting to grasp the essence of your own soul, transmuting your body to 
 These effects end at the beginning of your next turn
 
 ### Level 17: _Domain Expansion: Self Embodiment of Perfection_
-You learn the pinnacle of Jujutsu Sorcery, a Domain Expansion, which acts as your 9th level spell 
+You learn the pinnacle of Jujutsu Sorcery, a Domain Expansion, which acts as your 9th level spell. Once your domain ends you may not use any of your technique features untill you complete a long or short rest.
 
 _9th level Evocation_
 **Casting Time**: 1 action

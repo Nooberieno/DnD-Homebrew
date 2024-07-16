@@ -49,7 +49,7 @@ Choose a point you can see within 120 feet. All creatures within a 30-foot radiu
 _Note_: When casting Blue and Red with the same center point, you can spend 6 Sorcery Points to combine them into Hollow Purple.
 
 ### Level 17: _Domain Expansion: Infinite Void_
-You learn the ins and outs of your technique and can inscribe it into space itself. This acts as your 9th level spell.
+You learn the ins and outs of your technique and can inscribe it into space itself. This acts as your 9th level spell. Once your domain ends you may not use any of your technique features untill you complete a long or short rest.
 
 _9th level Evocation_  
 **Casting Time**: 1 action  
@@ -58,10 +58,10 @@ _9th level Evocation_
 **Duration**: up to 6 rounds  
 
 **Description**
-You lay out your cursed technique into the world around being infinity forth into the world. Overflowing the target's senses with infinite information. Your domain is an area of effect that does the following.
+You lay out your cursed technique into the world around being infinity forth into the world. Overflowing the target's senses with infinite information. Your domain is an area of effect that does the following. 
 - If the creature is 5 ft inside the radius when the domain is cast it must make a Dexterity saving throw, if it succeeds it moves outside the radius of your domain expansion.
 - Every time a creature starts its turn inside the domain expansion it must make a Wisdom saving throw of DC 20 or your spell save DC(whichever is higher). If it fails the creature is considered stunned for the duration of the domain expansion + 5 turns, if this spell ends, it may make the Saving throw again at the start of each of its turns, if it succeeds its no longer stunned. If it succeeds the Wisdom saving throw instead it gains 1 level of exhaustion.
-- At the start of each turn a creature inside your domain takes 6d6 psychic damage.
+- At the start of each turn a creature inside your domain takes 2d6 psychic damage.
 - Your domain counts as full cover
 
 _Note_: all domain expansion can be ended by killing the caster, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another both of the casters roll a d20, whoever rolls highest is whose domain wins.
