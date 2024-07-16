@@ -7,10 +7,13 @@ grand_parent: Gojo's Guide to Cursing
 
 Medium Monstrosity, Shares the Creator's Alignment
 
-Armor Class: 16 (natural armor)
-Hit points: (3d8 + 6) average 19
-Speed: 20 ft, swim 10 ft
-**STR**: 16(+3) **DEX**: 8(-1) **CON**: 15(+2) **INT**: 5(-3) **WIS**: 6(-2) **CHA**: 3(-4)
+Armor Class: 16 (natural armor)   
+Hit points: (3d8 + 6) average 19   
+Speed: 20 ft, swim 10 ft   
+
+| **STR** | **DEX** | **CON** | **INT** | **WIS** | **CHA**|
+|---------|---------|---------|---------|---------|--------|
+| 16(+3) | 8(-1) | 15(+2) | 5(-3) | 6(-2) | 3(-4) |
 
 Damage Resistances: necrotic
 Senses: darkvision 30 ft, Passive Perception 8
