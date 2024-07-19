@@ -56,6 +56,7 @@ As you increase your sorcerer level the chance to hit jackpot increases. Below i
 | 18             | 34                  |
 | 19             | 34                  |
 | 20             | 33                  |
+
 Your domain expansion end when you hit jackpot or you exit the domains range. Other creatures may freely enter and exit your domain.  
 _Note_: all domain expansion can be ended by killing the caster, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another both of the casters roll a d20, whoever rolls highest is whose domain wins.
 ### Level 15: Wheel of Fortune

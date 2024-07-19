@@ -26,11 +26,11 @@ These effects end at the beginning of your next turn
 ### Level 17: _Domain Expansion: Self Embodiment of Perfection_
 You learn the pinnacle of Jujutsu Sorcery, a Domain Expansion, which acts as your 9th level spell. Once your domain ends you may not use any of your technique features untill you complete a long or short rest.
 
-_9th level Evocation_
-**Casting Time**: 1 action
-**Range**: self(175 ft radius)
-**Components**: V, S
-**Duration**: up to 1 minute
+_9th level Evocation_  
+**Casting Time**: 1 action  
+**Range**: self(175 ft radius)  
+**Components**: V, S  
+**Duration**: up to 1 minute  
 
 **Description**:
 With yourself at the center you inscribe your Cursed Technique into the world around you, granting the following benefits:
