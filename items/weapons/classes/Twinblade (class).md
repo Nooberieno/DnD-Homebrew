@@ -1,7 +1,7 @@
 ---
 title: Twinblade (general)
 layout: default
-parent: Items
+parent: Weapon Classes
 ---
 
 

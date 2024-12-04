@@ -10,7 +10,7 @@ These fighters where born with bodies containing extreme strength, but as a trad
 
 At 3rd level, you forgo all forms of magic and supernatural power in exchange for unparalleled physical attributes. 
 
-_if you multiclass in this class and a spellcasting class, you can choose to reinvest your levels into a non spellcasting class, if you decide to keep your levels in a spellcasting class accepting this Martial Archetype means that if you try to cast a spell it **will automatically fail**. If your race grants spells or cantrips you lose access to them, instead you may increase your Strength, Constitution or Dexterity by 1 even above 20_
+_if you multiclass in this class and a spellcasting class, you can choose to reinvest your levels into a non spellcasting class, if you decide to keep your levels in a spellcasting class accepting this Martial Archetype means that if you try to cast a spell it **will automatically fail**. Warlocks and Clerics communication with their patron or deity will become hazy. If your race grants spells or cantrips you lose access to them, instead you may increase your Strength, Constitution or Dexterity by 1 even above 20_
 
 You gain the following benefits:
 
@@ -20,6 +20,14 @@ You gain the following benefits:
     
 - **Heightened Senses**: You gain proficiency in the Perception and Stealth skills. If you are already proficient, you add double your proficiency bonus to Perception and Stealth checks.
     
+
+And the following detriments:
+
+- **Squib**: You cannot cast magic and your body naturally resists any form of spellcasting. If a spell specifies that a unwilling target can resist, you always qualify as an unwilling target, no matter the spell.
+
+- **Arcane Nitwit**: If you had proficiency in the Arcane skill you lose it and can gain proficiency in another Dex or Strength based skill of your choice that you did not have proficiency in. If you had proficiency in all Dex and Strength based skills, you gain nothing and just lose the Arcane proficiency. 
+
+- **Murphy's Law**: You always have disadvantage when rolling an Arcane skill check and can never have a bonus higher than +3 in the Arcane Skill, if your stats would grant you higher bonuses, you may only add +3 to the roll
 
 #### Level 7: Unyielding Body
 
@@ -38,7 +46,7 @@ Starting at 10th level, your heightened perception and reflexes make you a formi
 
 - **Combat Awareness**: You can't be surprised, and attack rolls against you can't have advantage as long as you aren't incapacitated.
     
-- **Quick Reactions**: When a creature misses you with a melee attack, you can use your reaction to make a melee weapon attack against that creature.
+- **Quick Reactions**: When a creature misses you with a melee attack, you can use your reaction to make a single melee weapon attack against that creature.
     
 - **Eagle Eyes**: You can see in dim light as if it were bright light, and in darkness as if it were dim light, up to a range of 60 feet. Additionally, you have advantage on Perception checks that rely on sight.
     

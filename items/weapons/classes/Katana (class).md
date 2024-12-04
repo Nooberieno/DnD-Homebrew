@@ -1,7 +1,7 @@
 ---
 title: Katana (general)
 layout: default
-parent: Items
+parent: Weapon Classes
 ---
 
 
