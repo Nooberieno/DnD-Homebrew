@@ -270,3 +270,19 @@ A creature may only benefit from this spell once per short rest
 
 **Description**  
 You invoke a ward of ownership, marking a creature as unwelcome within a location you control. As part of casting this spell, you must specify a structure or bounded location you own or have rightful authority over(such as a home, shop, temple, or a small piece of land no larger than 10.000 square feet). You must currently be within this location to cast this spell. Choose a humanoid within range. The creature must succeed on a Charisma saving throw or be teleported to the nearest safe unoccupied space at least 30 ft outside the boundaries of the specified location. For the duration the creature is unable to re-enter the location by any means, including teleportation, planar travel or physical movement
+
+#### **21. Glimpse**
+_Squinting is for peasants, darling_  
+_Transmutation Cantrip_  
+**Casting Time**: 1 bonus action  
+**Range**: self  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Artificer, Ranger, Druid, Divination Wizard  
+
+**Description**  
+By touching your thumb to your index finger, you create a magical lens through which your vision sharpens and extends. You can see up to 1 mile away with perfect clarity, discerning fine details as though observing something no more than a 100 ft from you
+
+**Cantrip Upgrades**: At higher levels you gain the ability to create different types of lenses using different fingers
+* **5th level**: By forming the lens with your thumb and middle finger you create a darkvision effect. You can see in non-magical darkness through the lens to a distance of 120 ft
+* **11th level** By forming the lens with your thumb and ring finger you create a blindsight effect. You can see through the lens as if you had blindsight to a distance of 60 ft
+* **17th level** By forming the lens with your thumb and pinky and expending a 4th level spell slot you create a truesight effect. You gain 60 ft of truesight as long as the lens is stable, this effect disappears as soon as your thumb is no longer touching your pinky or your concentration drops.

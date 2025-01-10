@@ -20,7 +20,7 @@ Starting at 6th level you learn how to reverse your reverse your technique to he
 When you reach 10th level, when you take damage, you can use your reaction to gain resistance to that instance of damage. You can use this feature an amount of times equal to your proficiency modifier. Once you use this feature, you can't use it again until you finish a short or long rest.
 
 ### Level 14: Jujutsu Mastery
-Using Jujutsu you have controlled the raw magic flowing through your veins. At level 14, when casting a spell of 5th level or below you can spend 4 sorcery points for the following effects:
+Using Jujutsu you have controlled the raw magic flowing through your veins. At level 14, when casting a spell of 5th level or below you can spend 4 sorcery points for one of the following effects:
 - Omit both the Verbal and Semantic components of a spell
 - Omit the Material requirement for a spell
 - Cast the spell with 1.5 times damage

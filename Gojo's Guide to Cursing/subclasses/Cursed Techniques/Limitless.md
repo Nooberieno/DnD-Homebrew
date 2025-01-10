@@ -55,14 +55,14 @@ _9th level Evocation_
 **Casting Time**: 1 action  
 **Range**: Self(30 ft radius)  
 **Components**: V, S  
-**Duration**: up to 6 rounds  
+**Duration**: Concentration, up to 6 rounds  
 
 **Description**
 You lay out your cursed technique into the world around being infinity forth into the world. Overflowing the target's senses with infinite information. Your domain is an area of effect that does the following. 
 - If the creature is 5 ft inside the radius when the domain is cast it must make a Dexterity saving throw, if it succeeds it moves outside the radius of your domain expansion.
-- Every time a creature starts its turn inside the domain expansion it must make a Wisdom saving throw of DC 20 or your spell save DC(whichever is higher). If it fails the creature is considered stunned for the duration of the domain expansion + 5 turns, if this spell ends, it may make the Saving throw again at the start of each of its turns, if it succeeds its no longer stunned. If it succeeds the Wisdom saving throw instead it gains 1 level of exhaustion.
+- Every time a creature starts its turn inside the domain expansion it must make a Wisdom saving throw of DC 20 or your spell save DC(whichever is higher). If it fails the creature is considered stunned for the duration of the domain expansion + 5 turns, if this spell ends, it may make the Saving throw again at the start of each of its turns, if it succeeds its no longer stunned. If it succeeds the Wisdom saving throw instead it gains 1 level of [exhaustion](https://2014.5e.tools/conditionsdiseases.html#exhaustion_phb).
 - At the start of each turn a creature inside your domain takes 2d6 psychic damage.
 - Your domain counts as full cover
 A creature inside your domain can temporarily stop the effects of your domain by touching you. This means they are no longer required to make a Wisdom saving throw at the start of each of its turn and takes no psychic damage.
 
-_Note_: all domain expansion can be ended by killing the caster, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another both of the casters roll a d20, whoever rolls highest is whose domain wins.
+_Note_: all domain expansion can be ended by making the caster drop concentration, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another both of the casters roll a d20, whoever rolls highest is whose domain stays.
