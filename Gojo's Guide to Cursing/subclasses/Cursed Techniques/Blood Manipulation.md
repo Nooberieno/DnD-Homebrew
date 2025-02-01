@@ -5,7 +5,8 @@ parent: Cursed Techniques
 grand_parent: Jujutsu Sorcerer
 ---
 
-_**Requirement**: Users race must be capable of bleeding._
+_**Requirement**: Users race must be capable of bleeding._   
+
 Some creatures are just born with cursed blood in their veins. These [Jujutsu Sorcerers]({{site.baseurl}}/Gojo's%20Guide%20to%20Cursing/subclasses/Jujutsu%20Sorcerer) have an innate ability to control their cursed blood through this [Cursed Technique]({{site.baseurl}}/Gojo's%20Guide%20to%20Cursing/subclasses/Cursed%20Techniques/). 
 
 ### Level 3: Blood Manipulation

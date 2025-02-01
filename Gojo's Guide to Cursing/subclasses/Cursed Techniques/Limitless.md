@@ -4,7 +4,6 @@ layout: default
 parent: Cursed Techniques
 grand_parent: Jujutsu Sorcerer
 ---
-#GGTC 
 Limitless is [Cursed Technique]({{site.baseurl}}/Gojo's%20Guide%20to%20Cursing/subclasses/Cursed%20Techniques/) for the [Jujutsu Sorcerer]({{site.baseurl}}/Gojo's%20Guide%20to%20Cursing/subclasses/Jujutsu%20Sorcerer). This technique brings the concept of "**Infinity**" into reality, allowing the user to manipulate and distort space at will.
 ### Level 3: Infinity
 Infinity is the base state of limitless and allows the user to distort the space around them to ward off spells and attacks. You can spend 1 Sorcery points to gain the following effect:
