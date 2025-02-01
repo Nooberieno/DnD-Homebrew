@@ -18,8 +18,9 @@ At 2nd level, your connection to the ocean grants you access to certain spells. 
 | 5th         | _Tidal Wave_, _Wall of Water_, _Mass Healing Word_     |
 | 7th         | _Control Water_, _Watery Sphere_  |
 | 9th         | _Maelstrom_, _Cone of Cold_       |
+
 ### Level 2: Oceanic Blessing
-You use Wild Shape to transform into creatures that have a swimming speed at 2nd and 3rd level. Additionally you can breath in water and have a swimming speed equal to your walking speed while not wearing heavy armor.
+You use Wild Shape to transform into creatures that have a swimming speed at 2nd and 3rd level. Additionally you can breath in water and have a swimming speed equal to your walking speed while Wild Shaped.
 
 ### Level 2: Ocean's Embrace
 Starting at 2nd level, you gain the ability to call upon the power of the tides to protect yourself or others. As a bonus action, you can surround yourself or a creature you can see within 30 feet with a swirling barrier of water for 1 minute. The barrier grants the following effects:

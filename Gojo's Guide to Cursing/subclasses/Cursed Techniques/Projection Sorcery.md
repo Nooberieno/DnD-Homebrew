@@ -60,6 +60,6 @@ With yourself at the center you trap all creatures in a frame by frame reality, 
   - cast a leveled spell(if you have not cast a leveled spell on your turn already)
 - All spells you cast while the domain is active deal maximum damage. if the spell's damage scales with level it does the max damage for the spell slot level you used to cast it.
 - No creature can exit the radius enveloped by your domain, but other creatures can enter freely
-- Your domain counts as full cover
+- Your domain counts as full cover if a creature tries to target you from outside the domain's range.
 
 _Note_: all domain expansions can be ended by making the caster drop concentration, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another domain, both of the casters roll a d20, whoever rolls highest is whose domain stays.

@@ -15,7 +15,7 @@ At 3rd level, you replace your Ki feature with Cursed Energy. Unlike Ki, Cursed 
 - **Regaining Cursed Energy in Combat:**
     - You regain 1 Cursed Energy Point each time you hit an enemy with an unarmed strike.
     - You regain 1 Cursed Energy Point each time you take damage from a hostile creature.
-    - You cannot regain more than 2 Cursed Energy Points per turn through these means.
+    - You cannot regain more than 2 Cursed Energy Points per round through these means.
     - The amount Cursed Energy Points you regain in battle may not exceed your pool of Cursed Energy Points.
 - **Replenishing Cursed Energy Outside Combat:** You regain all Cursed Energy Points after a short or long rest.
 

@@ -11,7 +11,7 @@ When this item is discovered it adds all the spells in the spell list to the rel
 **Range**: Unlimited  
 **Components**: V, S  
 **Duration**: instantaneous  
-**Classes**: Sorcerer, Wizard, Warlock, Druid, Bard, Arcane Trickster, Cleric  
+**Classes**: All
 
 **Description**  
 A bolt of lightning streaks from the sky to strike one creature within range. The creature must make a Dexterity saving throw, taking 5d10 lightning damage on a failed save or half as much damage on a successful one.
@@ -64,7 +64,7 @@ You cloud the minds of others with a disorienting illusion. Choose a point withi
 **Casting Time**: 1 action  
 **Range**: 30 ft  
 **Components**: V, S, M(a small piece of silver)  
-**Duration**: Instantaneous
+**Duration**: Instantaneous  
 **Classes**: Wizard, Sorcerer, Arcane Trickster, Bard  
 
 **Description**  

@@ -39,7 +39,7 @@ _8th Level Transmutation_
 **Classes**: Cleric, Sorcerer, Wizard  
 
 **Description**  
-By speaking out loud you force creatures to obey your very desires. The most common use of this spell is to get enemies to follow basic commands. For example: Choose up to three creatures within range that can hear and understand you. Each target must succeed on a Wisdom saving throw or be affected by one of the following commands (your choice):
+By speaking out loud you force creatures to obey your very desires. The most common use of this spell is to get enemies to follow basic commands. For example: Choose up to three creatures within range that can hear you. The creatures do not need to share a language with you and a creature will obey even directly harmful attacks, if the spell lands. Each target must succeed on a Wisdom saving throw or be affected by one of the following commands (your choice):
 
 - **"Stop"**: The creature is paralyzed until the end of its next turn.
 - **"Flee"**: The creature must use its movement to move away from you by the safest available route on each of its turns until it is at least 60 feet away from you.

@@ -38,7 +38,6 @@ By 7th level, your physical training allows you to withstand incredible punishme
 #### Level 10: Perceptive Reflexes
 
 Starting at 10th level, your heightened perception and reflexes make you a formidable opponent in battle.
-- **Sturdy Frame**: You gain resistance to bludgeoning, piercing, and slashing damage from non-magical attacks.
 - **Quick Reactions**: When a creature misses you with a melee attack, you can use your reaction to make a single melee weapon attack against that creature.
 - **Eagle Eyes**: You can see in dim light as if it were bright light, and in darkness as if it were dim light, up to a range of 30 feet. 
 

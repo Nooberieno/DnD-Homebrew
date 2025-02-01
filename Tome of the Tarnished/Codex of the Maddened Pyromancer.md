@@ -2,6 +2,7 @@
 title: Codex of the Maddened Pyromancer
 layout: default
 parent: Tome of the Tarnished
+nav_order: 6
 ---
 This spellbook once belonged to Shabriri, a maddened pyromaniac who believed chaos was the only true state of the world. He created 5 spells to harness power from fire and imbue it with chaos. This book was then passed on to Midra, a follower of Shabriri who added the 6th spell named after himself. To whomever thinks these spells are useful, I urge thee, stay away from this dark magic. It is not for thou to be meddled with
 #### 1. Howl of Shabriri

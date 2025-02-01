@@ -6,4 +6,4 @@ parent: Talismans
 
 | Name         | Cost   | Effects                                                                                | Upgradable? | Upgrade Cost | Tier |
 | ------------ | ------ | -------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Pearl Shield | 100 GP | Decrease damage from Piercing, Slashing and Bludgeoning by 10% while wielding a shield | No          | N/A          | 1    |
+| Pearl Shield | 500 GP | Decrease damage from Piercing, Slashing and Bludgeoning by 10% while wielding a shield | No          | N/A          | 2    |

@@ -24,7 +24,7 @@ choose either the second or third form of Iai Chop
 #### Iai Chop: Second Form _Moonlight_
 As an action, you cross your arms to create a blinding light. Each creature within a 30 ft cone that can see you must make a Wisdom saving throw. On a failed save, the creature is blinded for 1 minute. A blinded creature can repeat the saving throw at the end of its turns, ending the effect on a success. You can use this feature once per short or long rest, or by spending 2 Ki points to use it again.
 
-### Iai Chop: Third Form _Daybreak_
+#### Iai Chop: Third Form _Daybreak_
 As a bonus action, you expend 2 Ki points to ignite a blade of flames in your hand and make a powerful upward slash. Choose one creature within 5 feet of you. Make a melee attack roll against the target. On a hit, the target takes 1d8 fire damage and is knocked 10 feet into the air. If the target is airborne, it falls prone unless it has a flying speed.
 
 ### Level 6: Iai Chop form
@@ -37,7 +37,7 @@ By expending 3 Ki points, you can ignite and create flames on both palms of your
 You cover the palm of your hand in flames perform a powerful downward slashing motion. By expending 3 Ki points you can use your action to unleash a devastating downward slash of flame. Choose a 10-foot radius within 30 feet. Each creature in the area must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage and is knocked prone. On a successful save, it takes half damage.
 
 ### Level 11: Iai Chop Form
-gain the sixth form of the Iai Chop
+Gain the sixth form of the Iai Chop
 
 #### Iai Chop: Sixth Form _Dusk_
 You ignite and create a sharp-blade of flames on the palm of your hands and perform a powerful thrust. This attack is a new attack option you can use when taking the attack action, expend 3 Ki points and choose one creature within 10 feet. The target must make a Dexterity saving throw. On a failed save the target takes 4d10 fire damage and is pushed back 20 feet. If the target collides with a solid object, such as a wall, it takes an additional 2d10 bludgeoning damage and falls prone. On a successful save the target takes half fire damage and is not pushed back.

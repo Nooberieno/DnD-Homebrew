@@ -16,9 +16,6 @@ At 3rd level you learn to draw on the latent power of your Cursed Technique. Cho
 ### level 6: Reverse Cursed Technique
 Starting at 6th level you learn how to reverse your reverse your technique to heal instead of harm. As a bonus action, you can heal yourself for an amount equal to 1d6 + your sorcerer level + your charisma modifier. You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
-### Level 10: Resilience of the Obscene
-When you reach 10th level, when you take damage, you can use your reaction to gain resistance to that instance of damage. You can use this feature an amount of times equal to your proficiency modifier. Once you use this feature, you can't use it again until you finish a short or long rest.
-
 ### Level 14: Jujutsu Mastery
 Using Jujutsu you have controlled the raw magic flowing through your veins. At level 14, when casting a spell of 5th level or below you can spend 4 sorcery points for one of the following effects:
 - Omit both the Verbal and Semantic components of a spell

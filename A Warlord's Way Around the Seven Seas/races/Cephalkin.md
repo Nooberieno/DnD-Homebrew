@@ -44,12 +44,12 @@ You can speak, read, and write Common and Primordial(Aquan).
 You can breathe both water and air.
 
 **Camouflage.**  
-you can attempt to hide even when you are only lightly obscured by water, foliage, dim light, or other natural phenomena. When you do so, you can change the color and pattern of your skin to match your surroundings. While camouflaged in this way, you have advantage on Dexterity (Stealth) checks to hide, and you have advantage on attack rolls against any creature that hasn't seen you since you became camouflaged. Your camouflage lasts until you move or take an action or reaction.
+you can attempt to hide even when you are only lightly obscured by water, foliage, dim light, or other natural phenomena. When you do so, you can change the color and pattern of your skin to match your surroundings. While camouflaged in this way, you have advantage on Dexterity (Stealth) checks to hide, and you have advantage on attack rolls against any creature that hasn't seen you since you became camouflaged. Your camouflage lasts until you take an action, bonus action or reaction.
 
 **Tentacles.**  
 You have 8 flexible tentacles that you can use to grapple creatures. Your tentacle reach is 5 feet longer than normal.
 
-**Subclass**
+**Subclass**  
 When you choose a race, you also need to pick one of the subraces listed below
 
 ---
@@ -60,7 +60,7 @@ When you choose a race, you also need to pick one of the subraces listed below
 
 #### **Octoid Cephalkin**
 
-_Octoids possess strong, versatile tentacles, making them excellent grapplers and close-combat specialists._
+_Octoids possess strong, versatile tentacles, making them excellent grapplers and close-combat specialists._  
 Octoid Cephalkin have the most developed tentacles out of all Cephalkin, this is to navigate the deep ocean floors they live on and catch prey effectively. Octoid Cephalkin have increased muscle growth compared to other Cephalkin. Octoids often venture on land to learn martial arts and how to wield weapons, as nothing brings them more joy then to show of their strength. Many a wrestling champion has been or been the student of an Octoid Cephalkin.
 
 **Ability Score Increase.**  
@@ -79,7 +79,7 @@ You have advantage on ability checks and saving throws to avoid being knocked pr
 
 #### **Coleoid Cephalkin**
 
-_Coleoids are stealthy and nimble, relying on their camouflage and ability to squeeze through tight spaces._
+_Coleoids are stealthy and nimble, relying on their camouflage and ability to squeeze through tight spaces._  
 It is theorized that Coleoid Cephalkin used to live in the same deep waters as other Cephalkin, but a fearsome predator forced them into hiding in cave system in shallower waters, although no one has been clear about what this predator could be. It is however, a common explanation for Coleoid's more pronounced stealth and nimbleness. Coleoid Cephalkin have the weakest, yet most flexible tentacles and although their tentacles are weak, the suction cups on them are extremely well developed, allowing them to stick to most surfaces. Coleoids can be recognized by their signature pointy head shape, reminiscent of their distant squid cousins.
 
 **Ability Score Increase.**  
@@ -88,8 +88,8 @@ Your Charisma score increases by 1.
 **Darkvision**  
 Accustomed to low light environments of deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-**Enhanced Camouflage.**  
-As an action, you can blend into your surroundings, gaining advantage on Dexterity (Stealth) checks for 1 minute. While camouflaged, your speed is reduced by 10 feet. You can use this ability a number of times equal to your proficiency modifier, regaining all uses after a long rest.
+**Enhanced Camouflage.** 
+As an action, you can blend into your surroundings, gaining advantage on Dexterity (Stealth) checks for 1 minute. While camouflaged, your speed is reduced by 10 feet. You can use this ability a number of times equal to your proficiency modifier, regaining all uses after a long rest. This replaces your racial **Camouflage** ability.
 
 **Tentacle Climb.**  
 You have a climbing speed of 25 ft. Starting at 3rd level, you can move up, down, and across vertical surfaces and ceilings without needing to make an ability check, leaving your hands free.
@@ -108,7 +108,7 @@ You can now grapple enemies within 5 ft of you as a bonus action, additionally y
 
 #### **Nautiloid Cephalkin**
 
-_Nautiloids have evolved a defensive shell, prioritizing durability over their agility on land._
+_Nautiloids have evolved a defensive shell, prioritizing durability over their agility on land._  
 Many believers of the Coleoid predator theory, say that the Nautiloid's shell is another adaptation to defend from predators. These Cephalkin live at the lowest of depths and have the hardest time adjusting to land, finding that their shell slows them down when walking. Nautiloid Cephalkin often have many facial tentacles, which is often considered creepy by other humanoid races. Nautiloids are easily recognized by the spiral shell covering their heads, which contain and protect their brains. This means Nautiloids will die if their shell is removed. Their shell has made them quite the target for bandits and poachers, as armor created from a Nautiloid's shell lighter and more durable than any metal.
 
 **Ability Score Increase.**  

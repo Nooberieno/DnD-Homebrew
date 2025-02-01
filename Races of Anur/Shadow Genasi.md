@@ -35,17 +35,17 @@ Your base walking speed is 30 feet
 You can speak, read and write Common and Primordial, though your lack of an element makes it so you do not know a Primordial dialect.
 
 ## Features
-**Omnioculus**
+**Omnioculus**  
 Accustomed to shadows, in dark environments your eyes adapt to observe your surroundings. In darkness or dim light, you have 30 ft of blindsight, or the radius of the darkness, whichever one is lower.
 
-**Born of Shadow**
+**Born of Shadow**  
 You have resistance to necrotic damage
 
-**Veil of Gloom**
+**Veil of Gloom**  
 You can cast the [Darkness](https://2014.5e.tools/spells.html#darkness_phb) spell, requiring no material components. Charisma is your spellcasting ability for this spell.  Starting at 5th level, you can cast the [Pass Without Trace](https://2014.5e.tools/spells.html#pass%20without%20trace_phb) spell with this trait, without requiring a material component. Once you cast a spell with this trait, you can't do so again until you finish a long rest.
 
-**One with the Shadow**
+**One with the Shadow**  
 You have advantage on Stealth check in dark environments, additionally you can teleport up to 30 feet to an unoccupied space you can see that is in dim light or darkness. You can use this trait a twice, regaining all uses after a long rest.
 
-**Tragic Origins**
+**Tragic Origins**  
 You have proficiency in the Insight Skill

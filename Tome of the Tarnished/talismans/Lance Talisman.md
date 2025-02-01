@@ -4,7 +4,6 @@ layout: default
 parent: Talismans
 ---
 
-
-| Name           | Cost  | Effects                                 | Upgradable? | Upgrade Cost | Tier |
-| -------------- | ----- | --------------------------------------- | ----------- | ------------ | ---- |
-| Lance Talisman | 25 GP | Increases attacks while mounted  by 10% | No          | N/A          | 1    |
+| Name           | Cost   | Effects                              | Upgradable? | Upgrade Cost | Tier |
+| -------------- | ------ | ------------------------------------ | ----------- | ------------ | ---- |
+| Lance Talisman | 100 GP | Increases damage while mounted by 5% | No          | N/A          | 1    |

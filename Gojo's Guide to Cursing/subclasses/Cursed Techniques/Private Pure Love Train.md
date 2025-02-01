@@ -25,13 +25,13 @@ When casting a spell you may now also roll a d6 gaining the following effects de
 ### Level 8: _Domain Expansion: Restless Gambler_
 You start grasping your cursed technique and learn to channel with your Domain Expansion.
 
-_4th level Evocation_
-**Casting Time**: 1 action
-**Range**: Self(50 ft radius)
-**Components**: V, S
-**Duration**: Up to a minute
+_4th level Evocation_  
+**Casting Time**: 1 action  
+**Range**: Self(50 ft radius)  
+**Components**: V, S  
+**Duration**: Up to a minute  
 
-**Description**
+**Description**  
 You lay out your domain, which manifests as a casino with turning slot machines, card tables and dice games. Each turn you start within your domain roll 2d20 if the roll is exactly 40, congrats you hit the jackpot. each round you do not hit jackpot the requirement drops by 1, so after 1 round its 39, after 2 its 38, etc. If you hit jackpot you gain the following effects for 4 minutes and 11 seconds. A jackpot ends when you run out of time, you take your max hp damage in a single round or when an enemy removes your head from your body.
 
 * At the start of your turn you heal back to max hp
@@ -59,8 +59,9 @@ As you increase your sorcerer level the chance to hit jackpot increases. Below i
 
 Your domain expansion end when you hit jackpot or you exit the domains range. Other creatures may freely enter and exit your domain.  
 _Note_: all domain expansion can be ended by killing the caster, succeeding with counterspell, casting antimagic field with the caster in range or potentially by casting your own domain expansion. If you cast domain expansion to end another both of the casters roll a d20, whoever rolls highest is whose domain wins.
+
 ### Level 15: Wheel of Fortune
-When using Gambler's Fallacy or Roll for jackpot, predict the result of the roll. If you get the result right, you immediately get jackpot when using your domain expansion or get a critical success when using Gambler's Fallacy. You may use this feature an amount of times equal to your Charisma modifier(minimum of once).
+When using Gambler's Fallacy or rolling for a jackpot, predict the result of the roll. If you get the result right, you immediately get jackpot when using your domain expansion or get a critical success when using Gambler's Fallacy. You may use this feature an amount of times equal to your Charisma modifier(minimum of once).
 
 ### Level 17: Double or Nothing
 When you reach 0 hp, you may cast your domain with an increased chance of hitting jackpot as a last attempt to save your life. You get 1 roll of a d20, if you hit roll a nat 20 you hit jackpot and regain all lost hp points. If you fail nothing happens. You may use this feature twice per long rest.
