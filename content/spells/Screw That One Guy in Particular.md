@@ -1,0 +1,18 @@
++++
+title = "Screw That One Guy In Particular"
+
+[taxonomies]
+sourcebook=["Tome of Petty Spellcasters"]
+classes = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
++++
+
+*Evocation Cantrip*  
+**Casting Time**: 1 action  
+**Range**: Unlimited  
+**Components**: V, S  
+**Duration**: instantaneous  
+**Classes**: All  
+
+**Description**  
+A bolt of lightning streaks from the sky to strike one creature within range. The creature must make a Dexterity saving throw, taking 5d10 lightning damage on a failed save or half as much damage on a successful one.  
+	If this spell is cast again by any spellcaster within 1 minute the same creature is struck.

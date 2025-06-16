@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if term %}
+    {% for page in term.pages %}
+        <a href="{{ page.permalink | safe}}">{{ page.title }}</a>
+    {% endfor %}
+{% endif %}
+
+{% endblock content%}

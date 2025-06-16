@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content%}
+
+<h1 class="title">
+    This is a website for hosting my DnD Homebrew
+</h1>
+<ul>
+    {% for sub in section.subsections %}
+        {%set sub = get_section(path=sub)%}
+        <li><a href="{{ sub.path | safe }}">{{ sub.title }} </a></li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}

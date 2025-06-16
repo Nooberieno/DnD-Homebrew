@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Cost</th>
+        <th>Effects</th>
+        <th>Upgradable?</th>
+        <th>Upgrade Cost</th>
+        <th>Tier</th>
+    </tr>
+
+    {% for page in section.pages %}
+    <tr>
+        <td><a href="{{ page.permalink | safe }}">{{ page.title }}</a></td>
+        <td>{{ page.extra.cost }}</td>
+        <td>{{ page.extra.effects }}</td>
+        <td>{{ page.extra.upgradable }}</td>
+        <td>{{ page.extra.upgrade_cost }}</td>
+        <td>{{ page.extra.tier }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock content %}
