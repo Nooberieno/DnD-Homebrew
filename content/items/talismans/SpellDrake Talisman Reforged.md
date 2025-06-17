@@ -1,17 +1,17 @@
 +++
-title = "Winged Sword Insignia"
+title = "SpellDrake Talisman Reforged"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
+tier = "2"
+cost = "250 GP"
 upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgrade_cost = "450 GP"
+effects = "Take 5% less damage from spells"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| SpellDrake Talisman Reforged | 250 GP | Take 5% less damage from spells | Yes | 450 GP | 2 |

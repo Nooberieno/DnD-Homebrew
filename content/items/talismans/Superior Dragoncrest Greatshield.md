@@ -1,17 +1,17 @@
 +++
-title = "Winged Sword Insignia"
+title = "Superior Dragoncrest Greatshield"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
+tier = "4"
+cost = "1500 GP"
 upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgrade_cost = "2150 GP"
+effects = "Decrease damage taken from Slashing, Piercing and Bludgeoning by 16%"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Superior Dragoncrest Greatshield | 1500 GP | Decrease damage taken from Slashing, Piercing and Bludgeoning by 16% | Yes | 2150 GP | 4 |

@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Tome of Overflowing Knowledge"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "5"
+cost = "4000 GP"
+upgradable = "No"
+effects = "Gain an additional spell slot in the highest level you can cast"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Tome of Overflowing Knowledge | 4000 GP | Gain an additional spell slot in the highest level you can cast | No | N/A | 5 |

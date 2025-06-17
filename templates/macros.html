@@ -1,0 +1,9 @@
+{% macro source_list(source_book, pages)%}
+
+{% for page in pages %}
+    {% if page.taxonomies.sourcebook[0] == source_book %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endif %}
+{% endfor %}
+
+{% endmacro source_list %}

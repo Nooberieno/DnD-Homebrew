@@ -1,17 +1,17 @@
 +++
-title = "Winged Sword Insignia"
+title = "Superior Crimson Amber Medallion"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
 tier = "3"
-cost = "1000 GP"
+cost = "750 GP"
 upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgrade_cost = "1000 GP"
+effects = "Gain +20% max hp"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Superior Crimson Amber Medallion | 750 GP | Gain +20% max hp | Yes | 1000 GP | 3 |

@@ -18,7 +18,7 @@
         <td>{{ page.extra.cost }}</td>
         <td>{{ page.extra.effects }}</td>
         <td>{{ page.extra.upgradable }}</td>
-        <td>{{ page.extra.upgrade_cost }}</td>
+        <td>{% if page.extra.upgrade_cost %} {{ page.extra.upgrade_cost }} {% else %} N/A {% endif %}</td>
         <td>{{ page.extra.tier }}</td>
     </tr>
     {% endfor %}

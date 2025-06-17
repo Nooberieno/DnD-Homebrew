@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Twinblade Talisman"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "4"
+cost = "3000 GP"
+upgradable = "No"
+effects = "Increases the damage of the second attack when 2 weapon fighting by 35%"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Twinblade Talisman | 3000 GP | Increases the damage of the second attack when 2 weapon fighting by 35% | No | N/A | 4 |

@@ -11,6 +11,8 @@ taxonomies = [
     { name = "sourcebook", feed = true},
     { name = "classes", feed = true},
     { name = "subclasses", feed = true},
+    { name = "feats", feed = true},
+    { name = "races", feed = true},
 ]
 
 [markdown]

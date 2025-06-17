@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Pearl Shield"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "2"
+cost = "500 GP"
+upgradable = "No"
+effects = "Decrease damage from Piercing, Slashing and Bludgeoning by 10% while wielding a shield"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Pearl Shield | 500 GP | Decrease damage from Piercing, Slashing and Bludgeoning by 10% while wielding a shield | No | N/A | 2 |

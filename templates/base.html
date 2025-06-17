@@ -10,14 +10,28 @@
         <script src="{{ get_url(path='elasticlunr.min.js', trailing_slash=false) | safe}}"></script>
         <script src="{{ get_url(path='search_index.en.js', trailing_slash=false) | safe}}"></script>
         <script src="{{ get_url(path='search.js', trailing_slash=false) | safe}}"></script>
+
+        <script src="{{ get_url(path='filter.js', trailing_slash=false) | safe }}"></script>
 </head>
 <body>
 
     <header id="nav-header">
         <div style="display: flex; flex-direction: column;">
-            <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex; justify-content: space-between; gap: 3px;">
 
                 <a id="home-button" href="{{ config.base_url }}"> <img class="logo" src="{{ get_url(path='favicon.svg', trailing_slash=false) | safe }}"> Home  </a>
+
+                <details class="nav-dropdown">
+                    <summary>Player</summary>
+                    <div>
+                        <a href="{{ get_url(path='@/spells/_index.md') | safe}}">Spells</a> <br>
+                        <a href="{{ get_url(path='@/items/_index.md') | safe}}">Items</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary>Dungeon Master</summary>
+                </details>
                 
                 <input type="text" id="search" placeholder="Search..." />
                 <section class="search-results" aria-live="polite">

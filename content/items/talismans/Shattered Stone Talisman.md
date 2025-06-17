@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Shattered Stone Talisman"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "2"
+cost = "200 GP"
+upgradable = "No"
+effects = "Increases damage done by unarmed strikes by 10%"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Shattered Stone Talisman | 200 GP | Increases damage done by unarmed strikes by 10% | No | N/A | 2 |

@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Destiny Knot"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
 tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+cost = "750 GP"
+upgradable = "No"
+effects = "If the holder becomes charmed, so does the charmer"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Destiny Knot | 750 GP | If the holder becomes charmed, so does the charmer | No | N/A | 3 |

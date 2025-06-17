@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Red-Feathered Branchsword"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "4"
+cost = "2000 GP"
+upgradable = "No"
+effects = "Increase damage by 20% when under 20% of your max hp"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Red-Feathered Branchsword | 2000 GP | Increase damage by 20% when under 20% of your max hp | No | N/A | 4 |

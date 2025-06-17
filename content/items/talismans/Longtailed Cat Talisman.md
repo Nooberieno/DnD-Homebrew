@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Longtailed Cat Talisman"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
+tier = "2"
 cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgradable = "No"
+effects = "Makes the wearer immune to fall damage"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Longtailed Cat Talisman | 1000 GP | Makes the wearer immune to fall damage | No | N/A | 2 |

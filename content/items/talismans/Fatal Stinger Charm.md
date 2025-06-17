@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Fatal Stinger Charm"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "5"
+cost = "5000 GP"
+upgradable = "No"
+effects = "Scorpion Charms now increase damage by 25%, except for the [[Magic Scorpion Charm]]"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Fatal Stinger Charm | 5000 GP | Scorpion Charms now increase damage by 25%, except for the [[Magic Scorpion Charm]] | No | N/A | 5 |

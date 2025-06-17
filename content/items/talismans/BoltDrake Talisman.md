@@ -1,17 +1,17 @@
 +++
-title = "Winged Sword Insignia"
+title = "BoltDrake Talisman"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
+tier = "1"
+cost = "50 GP"
 upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgrade_cost = "75 GP"
+effects = "Take 5 less Lightning and Thunder damage"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| BoltDrake Talisman | 50 GP | Take 5 less Lightning and Thunder damage | Yes | 75 GP | 1 |

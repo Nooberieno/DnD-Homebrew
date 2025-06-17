@@ -1,5 +1,5 @@
 +++
-title = "Winged Sword Insignia"
+title = "Bull-Goat's Artifact"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
@@ -7,11 +7,10 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "3"
 cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgradable = "No"
+effects = "Previous effects + When knocked prone you can use your reaction to stand up"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Bull-Goat's Artifact | 1000 GP | Previous effects + When knocked prone you can use your reaction to stand up | No | N/A | 3 |

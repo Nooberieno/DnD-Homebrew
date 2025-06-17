@@ -1,5 +1,5 @@
 +++
-title = "Winged Sword Insignia"
+title = "Mirror of Mana Reflection"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
@@ -7,11 +7,10 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "3"
 cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgradable = "No"
+effects = "Once per long rest expend a 1st level spell slot to reflect a damage dealing spell of 3rd level or lower back at its caster"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Mirror of Mana Reflection | 1000 GP | Once per long rest expend a 1st level spell slot to reflect a damage dealing spell of 3rd level or lower back at its caster | No | N/A | 3 |

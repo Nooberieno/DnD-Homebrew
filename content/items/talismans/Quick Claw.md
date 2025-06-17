@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Quick Claw"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "1"
+cost = "150 GP"
+upgradable = "No"
+effects = "When rolling for initiative you add a d6 to your initiative roll"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Quick Claw | 150 GP | When rolling for initiative you add a d6 to your initiative roll | No | N/A | 1 |

@@ -1,5 +1,5 @@
 +++
 title = "List of Weapons"
-template = "spells.html"
+template = "section.html"
 page_template = "page.html"
 +++

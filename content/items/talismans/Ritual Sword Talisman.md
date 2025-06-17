@@ -1,17 +1,17 @@
 +++
-title = "Winged Sword Insignia"
+title = "Ritual Sword Talisman"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
+tier = "2"
+cost = "200 GP"
 upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgrade_cost = "200GP"
+effects = "Add +5 damage of the main damage type when at max hp"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Ritual Sword Talisman | 200 GP | Add +5 damage of the main damage type when at max hp | Yes | 200GP | 2 |

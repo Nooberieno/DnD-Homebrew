@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Loaded  Dice"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "4"
+cost = "3000 GP"
+upgradable = "No"
+effects = "If you have advantage and roll lower than a 17, use a 17 instead of your roll"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Loaded  Dice | 3000 GP | If you have advantage and roll lower than a 17, use a 17 instead of your roll | No | N/A | 4 |

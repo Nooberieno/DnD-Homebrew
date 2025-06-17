@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Lightning Scorpion Charm"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "2"
+cost = "300 GP"
+upgradable = "No"
+effects = "Increases Lightning and Thunder Damage by 15%, but increases damage taken from Slashing, Piercing and Bludgeoning by 10%"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Lightning Scorpion Charm | 300 GP | Increases Lightning and Thunder Damage by 15%, but increases damage taken from Slashing, Piercing and Bludgeoning by 10% | No | N/A | 2 |

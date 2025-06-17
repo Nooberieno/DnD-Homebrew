@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Blue-Feathered Branchsword"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "4"
+cost = "3000 GP"
+upgradable = "No"
+effects = "Once per long rest regain all spell slots below 7th level when under 20% HP"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Blue-Feathered Branchsword | 3000 GP | Once per long rest regain all spell slots below 7th level when under 20% HP | No | N/A | 4 |

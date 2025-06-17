@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Magic Scorpion Charm"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
 tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+cost = "800 GP"
+upgradable = "No"
+effects = "Increases all Magical Damage by 15%, but increases damage taken from Slashing, Piercing and Bludgeoning by 25%"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Magic Scorpion Charm | 800 GP | Increases all Magical Damage by 15%, but increases damage taken from Slashing, Piercing and Bludgeoning by 25% | No | N/A | 3 |

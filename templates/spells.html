@@ -1,12 +1,70 @@
+{% import "macros.html" as macros %}
 {% extends "base.html" %}
 
 {% block content %}
 <h1 class="title">
   {{ section.title }}
 </h1>
-<ul>
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+
+{% set sourcebooks = get_taxonomy(kind="sourcebook") %}
+{% set classes = get_taxonomy(kind="classes") %}
+{% set subclasses = get_taxonomy(kind="subclasses") %}
+{% set feats = get_taxonomy(kind="feats") %}
+{% set races = get_taxonomy(kind="races") %}
+
+<div class="source-filters">
+  {% for source in sourcebooks.items %}
+    <button class="source-filter active" data-source="{{ source.name }}">
+      {{ source.name }}
+    </button>
   {% endfor %}
-</ul>
+</div>
+
+<div class="class-filters">
+  {% for class in classes.items %}
+    <button class="class-filter active" data-class="{{ class.name }}">
+      {{ class.name }}
+    </button>
+  {% endfor %}
+</div>
+
+<div class="subclass-filters">
+  {% for subclass in subclasses.items %}
+    <button class="subclass-filter active" data-subclass="{{ subclass.name }}">
+      {{ subclass.name }}
+    </button>
+  {% endfor %}
+</div>
+
+<div class="feats-filters">
+  {% for feat in feats.items %}
+    <button class="feat-filter active" data-feat="{{ feat.name }}">
+      {{ feat.name }}
+    </button>
+  {% endfor %}
+</div>
+
+<div class="race-filters">
+  {% for race in races.items %}
+    <button class="race-filter active" data-race="{{ race.name }}">
+      {{ race.name }}
+    </button>
+  {% endfor %}
+</div>
+
+
+<div class="spell-list">
+  {% for page in section.pages %}
+    <div class="spell-item" 
+         data-source="{{ page.taxonomies.sourcebook[0] }}"
+         data-classes="{{ page.taxonomies.classes | join(sep=' ') }}"
+         data-subclasses="{% if page.taxonomies.subclasses %} {{ page.taxonomies.subclasses | join(sep=' ')}} {% endif %}"
+         data-feats="{% if page.taxonomies.feats %} {{ page.taxonomies.feats | join(sep=' ') }} {% endif %}"
+         data-races="{% if page.taxonomies.races %} {{ page.taxonomies.races | join(sep=' ') }} {% endif %}"
+         >
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </div>
+  {% endfor %}
+</div>
+
 {% endblock content %}

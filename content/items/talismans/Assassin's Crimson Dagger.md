@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Assassin's Crimson Dagger"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
 tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+cost = "2000 GP"
+upgradable = "No"
+effects = "Restores health equal to 25% of damage dealt by a critical hit"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Assassin's Crimson Dagger | 2000 GP | Restores health equal to 25% of damage dealt by a critical hit | No | N/A | 3 |

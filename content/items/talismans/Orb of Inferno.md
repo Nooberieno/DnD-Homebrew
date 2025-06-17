@@ -1,17 +1,16 @@
 +++
-title = "Winged Sword Insignia"
+title = "Orb of Inferno"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
 
 [extra]
-tier = "3"
-cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+tier = "5"
+cost = "4000 GP"
+upgradable = "No"
+effects = "If a spell deals fire damage reroll 1s on its damage dice"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Orb of Inferno | 4000 GP | If a spell deals fire damage reroll 1s on its damage dice | No | N/A | 5 |

@@ -1,5 +1,5 @@
 +++
-title = "Winged Sword Insignia"
+title = "Sacrificial Twig"
 
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
@@ -7,11 +7,10 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "3"
 cost = "1000 GP"
-upgradable = "Yes"
-upgrade_cost = "750 GP"
-effects = "Increase the damage of successive attacks on a single turn (3% → 5% → 10%)"
+upgradable = "No"
+effects = "When reduced to 0 hp, you instead drop to 1 hp and gain 30 temporary hp. This item is then consumed"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Winged Sword Insignia | 1000 GP | Increase the damage of successive attacks on a single turn (3% → 5% → 10%) | Yes | 750 GP | 3 |
+| Sacrificial Twig | 1000 GP | When reduced to 0 hp, you instead drop to 1 hp and gain 30 temporary hp. This item is then consumed | No | N/A | 3 |
