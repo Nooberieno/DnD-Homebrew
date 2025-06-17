@@ -4,6 +4,9 @@ title = "Screw That One Guy In Particular"
 [taxonomies]
 sourcebook=["Tome of Petty Spellcasters"]
 classes = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
+
+[extra]
+level = 0
 +++
 
 *Evocation Cantrip*  

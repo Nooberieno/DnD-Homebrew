@@ -12,7 +12,8 @@
         <th>Tier</th>
     </tr>
 
-    {% for page in section.pages %}
+    {% set sorted_pages = section.pages | sort(attribute="extra.tier", reverse=true)%}
+    {% for page in sorted_pages %}
     <tr>
         <td><a href="{{ page.permalink | safe }}">{{ page.title }}</a></td>
         <td>{{ page.extra.cost }}</td>

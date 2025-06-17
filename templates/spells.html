@@ -54,7 +54,8 @@
 
 
 <div class="spell-list">
-  {% for page in section.pages %}
+  {% set sorted_pages = section.pages | sort(attribute="extra.level", reverse=true)%}
+  {% for page in sorted_pages %}
     <div class="spell-item" 
          data-source="{{ page.taxonomies.sourcebook[0] }}"
          data-classes="{{ page.taxonomies.classes | join(sep=' ') }}"
