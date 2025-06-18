@@ -114,49 +114,12 @@ ul{
     z-index: 1000;
 }
 
-
-.source-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-
-.source-filter {
-  padding: 8px 16px;
-  border: 2px solid $primary-color;
-  border-radius: 4px;
-  background: $background;
-  color: $primary-color;
-  cursor: pointer;
-  transition: all 0.2s;
-
-  &.active {
-    background: $primary-color;
-    color: $background;
-  }
-
-  &:hover {
-    opacity: 0.8;
-  }
-}
-
-.source-section {
-  margin-bottom: 24px;
-
-  &.hidden {
-    display: none;
-  }
-}
-
-.class-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-
-.class-filter {
+.source-filter,
+.class-filter,
+.subclass-filter,
+.feats-filter,
+.race-filter,
+.language-filter {
   padding: 8px 16px;
   border: 2px solid $primary-color;
   border-radius: 4px;
@@ -197,7 +160,11 @@ spell-item {
 }
 
 .source-filters,
-.class-filters {
+.class-filters,
+.subclass-filters,
+.feats-filters,
+.race-filters,
+.language-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;

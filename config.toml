@@ -9,10 +9,12 @@ build_search_index = true
 
 taxonomies = [
     { name = "sourcebook", feed = true},
+    { name = "spellbook", feed = true},
     { name = "classes", feed = true},
     { name = "subclasses", feed = true},
     { name = "feats", feed = true},
     { name = "races", feed = true},
+    { name = "languages", feed = true}
 ]
 
 [markdown]
