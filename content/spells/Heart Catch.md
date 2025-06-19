@@ -2,21 +2,23 @@
 title = "Heart Catch"
 
 [taxonomies]
-sourcebook = ["Gojo's Guide to Cursing"]
-spellbook = ["Jujutsu spells"]
+sourcebook = ["Jujutsu Spells"]
+spellbook = ["Jujutsu Spells"]
 classes = ['Sorcerer', 'Wizard']
 subclasses = ['Arcane Trickster Rogue']
 [extra]
 level = 4
+concentration = true
+school = "Evocation"
 +++
 
-*Level 4 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: S
-**Duration**: Concentration, Up to 1 minute
-**Classes**: Sorcerer, Wizard
-**Subclasses**: ['Arcane Trickster Rogue']
+*Level 4 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: S  
+**Duration**: Concentration, Up to 1 minute  
+**Classes**: Sorcerer, Wizard  
+**Subclasses**: Arcane Trickster Rogue  
 
 **Description**
 

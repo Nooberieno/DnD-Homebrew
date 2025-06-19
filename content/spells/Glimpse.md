@@ -8,20 +8,22 @@ classes = ['Artificer', 'Ranger', 'Druid']
 subclasses = ['Divination Wizard']
 [extra]
 level = 0
+concentration = true
+school = "Transmutation"
 +++
 
-*Transmutation Cantrip*
-**Casting Time**: 1 bonus action
-**Range**: self
-**Components**: S
-**Duration**: Concentration, up to 1 minute
-**Classes**: Artificer, Ranger, Druid
-**Subclasses**: ['Divination Wizard']
+*Transmutation Cantrip*  
+**Casting Time**: 1 bonus action  
+**Range**: self  
+**Components**: S  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Artificer, Ranger, Druid  
+**Subclasses**: Divination Wizard  
+
+> *Squinting is for peasants, darling*  
 
 **Description**
 
-
-> *Squinting is for peasants, darling*
 
 
 

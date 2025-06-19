@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Druid', 'Wizard', 'Warlock']
 [extra]
 level = 3
+concentration = true
+school = "Transmutation"
 +++
 
-*Level 3 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V, S, M(a strip of flesh from a hostile creature, which the spell consumes)
-**Duration**: Concentration, up to 1 minute
-**Classes**: Bard, Druid, Wizard, Warlock
+*Level 3 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V, S, M(a strip of flesh from a hostile creature, which the spell consumes)  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Bard, Druid, Wizard, Warlock  
 
 **Description**
 

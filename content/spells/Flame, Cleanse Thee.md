@@ -7,14 +7,16 @@ spellbook = ["Principa Incantare"]
 classes = ['Bard', 'Paladin', 'Cleric', 'Warlock']
 [extra]
 level = 3
+concentration = false
+school = "Evocation"
 +++
 
-*Level 3 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Touch
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Bard, Paladin, Cleric, Warlock
+*Level 3 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Touch  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Bard, Paladin, Cleric, Warlock  
 
 **Description**
 

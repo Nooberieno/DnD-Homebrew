@@ -7,19 +7,21 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Cleric', 'Druid', 'Sorcerer', 'Warlock', 'Wizard']
 [extra]
 level = 5
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 5 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V
-**Duration**: Instantaneous
-**Classes**: Cleric, Druid, Sorcerer, Warlock, Wizard
+*Level 5 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V  
+**Duration**: Instantaneous  
+**Classes**: Cleric, Druid, Sorcerer, Warlock, Wizard  
+
+> *Your body is clay. I am the sculptor*  
 
 **Description**
 
-
-> *Your body is clay. I am the sculptor*
 
 
 

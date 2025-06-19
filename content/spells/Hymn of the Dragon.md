@@ -8,14 +8,16 @@ classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcere
 languages = ["Orcish"]
 [extra]
 level = 7
+concentration = false
+school = "Evocation"
 +++
 
-*Level 7 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Self(60 ft line, 5 ft wide)
-**Components**: V, S, M (A dragon scale of the appropriate type of damage: black/copper for acid, blue/bronze for lightning, red/brass for fire, green for poison and white/silver for cold)
-**Duration**: Instantaneous
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Level 7 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Self(60 ft line, 5 ft wide)  
+**Components**: V, S, M (A dragon scale of the appropriate type of damage: black/copper for acid, blue/bronze for lightning, red/brass for fire, green for poison and white/silver for cold)  
+**Duration**: Instantaneous  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

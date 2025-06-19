@@ -7,14 +7,16 @@ spellbook = ["Principa Incantare"]
 classes = ['Wizard', 'Warlock', 'Sorcerer']
 [extra]
 level = 2
+concentration = true
+school = "Evocation"
 +++
 
-*Level 2 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Self
-**Components**: V, S
-**Duration**: Concentration, up to 7 turns
-**Classes**: Wizard, Warlock, Sorcerer
+*Level 2 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Self  
+**Components**: V, S  
+**Duration**: Concentration, up to 7 turns  
+**Classes**: Wizard, Warlock, Sorcerer  
 
 **Description**
 

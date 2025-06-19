@@ -2,19 +2,21 @@
 title = "Boogie Woogie"
 
 [taxonomies]
-sourcebook = ["Gojo's Guide to Cursing"]
-spellbook = ["Jujutsu spells"]
+sourcebook = ["Jujutsu Spells"]
+spellbook = ["Jujutsu Spells"]
 classes = ['Sorcerer', 'Wizard']
 [extra]
 level = 5
+concentration = false
+school = "Conjuration"
 +++
 
-*Level 5 Conjuration Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: S(a clap from the soul)
-**Duration**: Instantaneous
-**Classes**: Sorcerer, Wizard
+*Level 5 Conjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: S(a clap from the soul)  
+**Duration**: Instantaneous  
+**Classes**: Sorcerer, Wizard  
 
 **Description**
 

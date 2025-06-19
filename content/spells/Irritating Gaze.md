@@ -7,19 +7,21 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Wizard', 'Sorcerer']
 [extra]
 level = 3
+concentration = false
+school = "Illusion"
 +++
 
-*Level 3 Illusion Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Bard, Wizard, Sorcerer
+*Level 3 Illusion Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Bard, Wizard, Sorcerer  
+
+> *Permanent eyelash in eye*  
 
 **Description**
 
-
-> *Permanent eyelash in eye*
 
 
 

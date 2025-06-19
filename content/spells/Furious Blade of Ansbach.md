@@ -7,19 +7,21 @@ spellbook = ["Principa Incantare"]
 classes = ['Wizard', 'Warlock', 'Sorcerer']
 [extra]
 level = 1
+concentration = true
+school = "Evocation"
 +++
 
-*Level 1 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Self
-**Components**: V, S
-**Duration**: Concentration, up to 2 turns
-**Classes**: Wizard, Warlock, Sorcerer
+*Level 1 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Self  
+**Components**: V, S  
+**Duration**: Concentration, up to 2 turns  
+**Classes**: Wizard, Warlock, Sorcerer  
+
+> _Incantation of Ansbach, Pureblood Knight. Produces a blood blade from the side of the hand, then lunges at enemies to cleave through them. Charge to increase the number of slashes. Markedly different from the finessed swordplay of the dynast, this is an aggressive last resort of an incantation that gave rise to Ansbach's fearsome reputation_  
 
 **Description**
 
-
-> _Incantation of Ansbach, Pureblood Knight. Produces a blood blade from the side of the hand, then lunges at enemies to cleave through them. Charge to increase the number of slashes. Markedly different from the finessed swordplay of the dynast, this is an aggressive last resort of an incantation that gave rise to Ansbach's fearsome reputation_
 
 
 

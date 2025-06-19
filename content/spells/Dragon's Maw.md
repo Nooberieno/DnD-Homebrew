@@ -7,14 +7,16 @@ spellbook = ["Principa Incantare"]
 classes = ['Sorcerer', 'Warlock', 'Wizard']
 [extra]
 level = 4
+concentration = false
+school = "Conjuration"
 +++
 
-*Level 4 Conjuration Spell*
-**Casting Time**: 1 action
-**Range**: Self (30-foot cone)
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Sorcerer, Warlock, Wizard
+*Level 4 Conjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: Self (30-foot cone)  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Sorcerer, Warlock, Wizard  
 
 **Description**
 

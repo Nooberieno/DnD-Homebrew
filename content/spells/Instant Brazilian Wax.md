@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Wizard', 'Bard']
 [extra]
 level = 2
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 2 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 30 ft
-**Components**: V, S, M(a strip of cloth)
-**Duration**: Instantaneous
-**Classes**: Wizard, Bard
+*Level 2 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 30 ft  
+**Components**: V, S, M(a strip of cloth)  
+**Duration**: Instantaneous  
+**Classes**: Wizard, Bard  
 
 **Description**
 

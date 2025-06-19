@@ -2,19 +2,21 @@
 title = "Idle Transfiguration"
 
 [taxonomies]
-sourcebook = ["Gojo's Guide to Cursing"]
-spellbook = ["Jujutsu spells"]
+sourcebook = ["Jujutsu Spells"]
+spellbook = ["Jujutsu Spells"]
 classes = ['Sorcerer', 'Warlock', 'Wizard']
 [extra]
 level = 3
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 3 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: Touch
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Sorcerer, Warlock, Wizard
+*Level 3 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: Touch  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Sorcerer, Warlock, Wizard  
 
 **Description**
 

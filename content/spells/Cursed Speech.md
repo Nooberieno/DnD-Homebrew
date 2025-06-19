@@ -2,19 +2,21 @@
 title = "Cursed Speech"
 
 [taxonomies]
-sourcebook = ["Gojo's Guide to Cursing"]
-spellbook = ["Jujutsu spells"]
+sourcebook = ["Jujutsu Spells"]
+spellbook = ["Jujutsu Spells"]
 classes = ['Cleric', 'Sorcerer', 'Wizard']
 [extra]
 level = 8
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 8 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 175 ft
-**Components**: V
-**Duration**: Instantaneous
-**Classes**: Cleric, Sorcerer, Wizard
+*Level 8 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 175 ft  
+**Components**: V  
+**Duration**: Instantaneous  
+**Classes**: Cleric, Sorcerer, Wizard  
 
 **Description**
 

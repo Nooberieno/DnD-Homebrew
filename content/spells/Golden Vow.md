@@ -7,14 +7,16 @@ spellbook = ["Principa Incantare"]
 classes = ['Paladin', 'Cleric']
 [extra]
 level = 3
+concentration = true
+school = "Abjuration"
 +++
 
-*Level 3 Abjuration Spell*
-**Casting Time**: 1 action
-**Range**: Self(30 ft radius)
-**Components**: V, S
-**Duration**: Concentration, up to 14 turns
-**Classes**: Paladin, Cleric
+*Level 3 Abjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: Self(30 ft radius)  
+**Components**: V, S  
+**Duration**: Concentration, up to 14 turns  
+**Classes**: Paladin, Cleric  
 
 **Description**
 

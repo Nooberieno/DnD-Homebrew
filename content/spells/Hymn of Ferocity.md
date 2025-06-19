@@ -8,14 +8,16 @@ classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcere
 languages = ["Orcish"]
 [extra]
 level = 2
+concentration = false
+school = "Enchantment"
 +++
 
-*Level 2 Enchantment Spell*
-**Casting Time**: 1 action
-**Range**: 45 ft
-**Components**: V, S
-**Duration**: Up to 10 minutes
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Level 2 Enchantment Spell*  
+**Casting Time**: 1 action  
+**Range**: 45 ft  
+**Components**: V, S  
+**Duration**: Up to 10 minutes  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

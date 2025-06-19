@@ -8,14 +8,16 @@ classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcere
 languages = ["Orcish"]
 [extra]
 level = 6
+concentration = true
+school = "Evocation"
 +++
 
-*Level 6 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Self (30-foot line)
-**Components**: V, S, M (a small piece of flint)
-**Duration**: Concentration, up to 1 minute
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Level 6 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Self (30-foot line)  
+**Components**: V, S, M (a small piece of flint)  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

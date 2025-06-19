@@ -7,14 +7,16 @@ spellbook = ["Principa Incantare"]
 classes = ['Sorcerer', 'Wizard']
 [extra]
 level = 5
+concentration = false
+school = "Evocation"
 +++
 
-*Level 5 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: 120 ft(20 ft radius sphere)
-**Components**: V, S, M (A ruby worth at least 500 GP)
-**Duration**: Instantaneous
-**Classes**: Sorcerer, Wizard
+*Level 5 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: 120 ft(20 ft radius sphere)  
+**Components**: V, S, M (A ruby worth at least 500 GP)  
+**Duration**: Instantaneous  
+**Classes**: Sorcerer, Wizard  
 
 **Description**
 

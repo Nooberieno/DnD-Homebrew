@@ -8,14 +8,16 @@ classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcere
 languages = ["Orcish"]
 [extra]
 level = 3
+concentration = true
+school = "Abjuration"
 +++
 
-*Level 3 Abjuration Spell*
-**Casting Time**: 1 action
-**Range**: Self (15 ft radius)
-**Components**: V, S, M (small piece of Orcish drum skin)
-**Duration**: Concentration, up to 10 minutes
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Level 3 Abjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: Self (15 ft radius)  
+**Components**: V, S, M (small piece of Orcish drum skin)  
+**Duration**: Concentration, up to 10 minutes  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

@@ -8,14 +8,16 @@ classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcere
 languages = ["Orcish"]
 [extra]
 level = 0
+concentration = false
+school = "Enchantment"
 +++
 
-*Enchantment Cantrip*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Enchantment Cantrip*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

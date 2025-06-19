@@ -7,19 +7,21 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Sorcerer', 'Warlock', 'Druid', 'Bard']
 [extra]
 level = 3
+concentration = false
+school = "Abjuration"
 +++
 
-*Level 3 Abjuration Spell*
-**Casting Time**: 1 Reaction, which you take when you see a creature within 30 ft cast a spell with a verbal component.
-**Range**: 30 ft radius
-**Components**: V, S, M(a page worth of text you can't read)
-**Duration**: Instantaneous
-**Classes**: Sorcerer, Warlock, Druid, Bard
+*Level 3 Abjuration Spell*  
+**Casting Time**: 1 Reaction, which you take when you see a creature within 30 ft cast a spell with a verbal component.  
+**Range**: 30 ft radius  
+**Components**: V, S, M(a page worth of text you can't read)  
+**Duration**: Instantaneous  
+**Classes**: Sorcerer, Warlock, Druid, Bard  
+
+> *That's a lot of words... Too bad Im not reading em*  
 
 **Description**
 
-
-> *That's a lot of words... Too bad Im not reading em*
 
 
 

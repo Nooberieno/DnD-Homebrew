@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Wizard', 'Sorcerer']
 [extra]
 level = 5
+concentration = false
+school = "Illusion"
 +++
 
-*Level 5 Illusion Spell*
-**Casting Time**: 1 action
-**Range**: 50 ft
-**Components**: V, S
-**Duration**: 5 minutes
-**Classes**: Wizard, Sorcerer
+*Level 5 Illusion Spell*  
+**Casting Time**: 1 action  
+**Range**: 50 ft  
+**Components**: V, S  
+**Duration**: 5 minutes  
+**Classes**: Wizard, Sorcerer  
 
 **Description**
 

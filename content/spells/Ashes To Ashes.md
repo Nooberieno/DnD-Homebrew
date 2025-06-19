@@ -8,20 +8,22 @@ classes = ['Sorcerer', 'Warlock']
 subclasses = ['Light Domain Cleric']
 [extra]
 level = 9
+concentration = false
+school = "Evocation"
 +++
 
-*Level 9 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: self(150 ft radius)
-**Components**: V, S, M(a phoenix heart which the spell consumes)
-**Duration**: Instantaneous
-**Classes**: Sorcerer, Warlock
-**Subclasses**: ['Light Domain Cleric']
+*Level 9 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: self(150 ft radius)  
+**Components**: V, S, M(a phoenix heart which the spell consumes)  
+**Duration**: Instantaneous  
+**Classes**: Sorcerer, Warlock  
+**Subclasses**: Light Domain Cleric  
+
+> *You think you're a god, lets test that theory shall we*  
 
 **Description**
 
-
-> *You think you're a god, lets test that theory shall we*
 
 
 

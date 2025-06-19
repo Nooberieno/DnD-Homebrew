@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
 [extra]
 level = 0
+concentration = false
+school = "Evocation"
 +++
 
-*Evocation Cantrip*
-**Casting Time**: 1 action
-**Range**: Unlimited
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Evocation Cantrip*  
+**Casting Time**: 1 action  
+**Range**: Unlimited  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

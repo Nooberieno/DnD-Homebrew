@@ -7,14 +7,16 @@ spellbook = ["Codex of the Maddened Pyromancer"]
 classes = ['Sorcerer', 'Wizard', 'Warlock']
 [extra]
 level = 4
+concentration = true
+school = "Evocation"
 +++
 
-*Level 4 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Touch
-**Components**: S
-**Duration**: Concentration, up to 1 minute
-**Classes**: Sorcerer, Wizard, Warlock
+*Level 4 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Touch  
+**Components**: S  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Sorcerer, Wizard, Warlock  
 
 **Description**
 

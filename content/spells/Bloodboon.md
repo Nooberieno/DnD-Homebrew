@@ -7,19 +7,21 @@ spellbook = ["Principa Incantare"]
 classes = ['Wizard', 'Warlock', 'Sorcerer']
 [extra]
 level = 6
+concentration = false
+school = "Evocation"
 +++
 
-*Level 6 Evocation Spell*
-**Casting Time**: 1 action
-**Range**: Self(30 ft cone)
-**Components**: S, M (a vial of blood from an enemy)
-**Duration**: Instantaneous
-**Classes**: Wizard, Warlock, Sorcerer
+*Level 6 Evocation Spell*  
+**Casting Time**: 1 action  
+**Range**: Self(30 ft cone)  
+**Components**: S, M (a vial of blood from an enemy)  
+**Duration**: Instantaneous  
+**Classes**: Wizard, Warlock, Sorcerer  
+
+> _The Lord of Blood craves wounds and is willing to lend his power to those who can satisfy that craving._  
 
 **Description**
 
-
-> _The Lord of Blood craves wounds and is willing to lend his power to those who can satisfy that craving._
 
 
 

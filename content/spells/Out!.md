@@ -8,20 +8,22 @@ classes = ['Bard', 'Cleric', 'Druid', 'Wizard']
 subclasses = ['Arcane Trickster Rogue', 'Genie pact Warlock']
 [extra]
 level = 3
+concentration = false
+school = "Abjuration"
 +++
 
-*Level 3 Abjuration Spell*
-**Casting Time**: 1 action
-**Range**: 10 ft
-**Components**: V, S
-**Duration**: 24 hours
-**Classes**: Bard, Cleric, Druid, Wizard
-**Subclasses**: ['Arcane Trickster Rogue', 'Genie pact Warlock']
+*Level 3 Abjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: 10 ft  
+**Components**: V, S  
+**Duration**: 24 hours  
+**Classes**: Bard, Cleric, Druid, Wizard  
+**Subclasses**: Arcane Trickster Rogue, Genie pact Warlock  
+
+> *This place called, it wants you to leave*  
 
 **Description**
 
-
-> *This place called, it wants you to leave*
 
 
 

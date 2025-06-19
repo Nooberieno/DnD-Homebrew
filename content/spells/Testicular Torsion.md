@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Wizard', 'Sorcerer']
 [extra]
 level = 6
+concentration = true
+school = "Transmutation"
 +++
 
-*Level 6 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 60 feet
-**Components**: V, S, M (a small, twisted piece of metal)
-**Duration**: Concentration, up to 1 minute
-**Classes**: Wizard, Sorcerer
+*Level 6 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 feet  
+**Components**: V, S, M (a small, twisted piece of metal)  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Wizard, Sorcerer  
 
 **Description**
 

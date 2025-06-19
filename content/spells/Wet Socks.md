@@ -8,15 +8,17 @@ classes = ['Bard', 'Wizard', 'Sorcerer']
 subclasses = ['Arcane Trickster Rogue']
 [extra]
 level = 1
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 1 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 30 ft
-**Components**: V, S, M(a small amount of water or water based liquid)
-**Duration**: 1 hour
-**Classes**: Bard, Wizard, Sorcerer
-**Subclasses**: ['Arcane Trickster Rogue']
+*Level 1 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 30 ft  
+**Components**: V, S, M(a small amount of water or water based liquid)  
+**Duration**: 1 hour  
+**Classes**: Bard, Wizard, Sorcerer  
+**Subclasses**: Arcane Trickster Rogue  
 
 **Description**
 

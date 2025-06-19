@@ -7,19 +7,21 @@ spellbook = ["Principa Incantare"]
 classes = ['Druid', 'Ranger', 'Cleric', 'Bard']
 [extra]
 level = 1
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 1 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V, S
-**Duration**: Instantaneous
-**Classes**: Druid, Ranger, Cleric, Bard
+*Level 1 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V, S  
+**Duration**: Instantaneous  
+**Classes**: Druid, Ranger, Cleric, Bard  
+
+> _When they make your blood boil, carbonate theirs_  
 
 **Description**
 
-
-> _When they make your blood boil, carbonate theirs_
 
 
 

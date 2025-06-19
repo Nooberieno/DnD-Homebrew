@@ -8,15 +8,17 @@ classes = ['Wizard', 'Sorcerer', 'Bard']
 subclasses = ['Arcane Trickster Rogue']
 [extra]
 level = 2
+concentration = false
+school = "Conjuration"
 +++
 
-*Level 2 Conjuration Spell*
-**Casting Time**: 1 action
-**Range**: 30 ft
-**Components**: V, S, M(a small piece of silver)
-**Duration**: Instantaneous
-**Classes**: Wizard, Sorcerer, Bard
-**Subclasses**: ['Arcane Trickster Rogue']
+*Level 2 Conjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: 30 ft  
+**Components**: V, S, M(a small piece of silver)  
+**Duration**: Instantaneous  
+**Classes**: Wizard, Sorcerer, Bard  
+**Subclasses**: Arcane Trickster Rogue  
 
 **Description**
 

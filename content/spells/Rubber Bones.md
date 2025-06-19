@@ -7,19 +7,21 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Sorcerer', 'Paladin']
 [extra]
 level = 5
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 5 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 30 feet
-**Components**: V, S, M (a small rubber ball)
-**Duration**: 5 minutes
-**Classes**: Bard, Sorcerer, Paladin
+*Level 5 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 30 feet  
+**Components**: V, S, M (a small rubber ball)  
+**Duration**: 5 minutes  
+**Classes**: Bard, Sorcerer, Paladin  
+
+> *You dick I needed those*  
 
 **Description**
 
-
-> *You dick i needed those*
 
 
 

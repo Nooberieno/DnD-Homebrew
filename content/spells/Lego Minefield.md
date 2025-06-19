@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Wizard', 'Warlock', 'Sorcerer']
 [extra]
 level = 3
+concentration = true
+school = "Conjuration"
 +++
 
-*Level 3 Conjuration Spell*
-**Casting Time**: 1 action
-**Range**: 60 feet
-**Components**: V, S
-**Duration**: Concentration, up to 1 minute
-**Classes**: Wizard, Warlock, Sorcerer
+*Level 3 Conjuration Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 feet  
+**Components**: V, S  
+**Duration**: Concentration, up to 1 minute  
+**Classes**: Wizard, Warlock, Sorcerer  
 
 **Description**
 

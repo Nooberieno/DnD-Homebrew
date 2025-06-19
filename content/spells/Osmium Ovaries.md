@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
 [extra]
 level = 3
+concentration = false
+school = "Transmutation"
 +++
 
-*Level 3 Transmutation Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V, S, M(a piece of metal)
-**Duration**: Instantaneous
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Level 3 Transmutation Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V, S, M(a piece of metal)  
+**Duration**: Instantaneous  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

@@ -6,7 +6,7 @@
   {{ section.title }}
 </h1>
 
-{% set sourcebooks = get_taxonomy(kind="sourcebook") %}
+{% set spellbooks = get_taxonomy(kind="spellbook") %}
 {% set classes = get_taxonomy(kind="classes") %}
 {% set subclasses = get_taxonomy(kind="subclasses") %}
 {% set feats = get_taxonomy(kind="feats") %}
@@ -15,7 +15,7 @@
 
 
 <div class="source-filters">
-  {% for source in sourcebooks.items %}
+  {% for source in spellbooks.items %}
     <button class="source-filter active" data-source="{{ source.name }}">
       {{ source.name }}
     </button>
@@ -69,11 +69,13 @@
     <tr>
       <th>Spell</th>
       <th>Level</th>
+      <th>Concentration</th>
+      <th>School</th>
       <th>Source</th>
     </tr>
   {% for page in sorted_pages %}
   <tr class="spell-item" 
-        data-source="{{ page.taxonomies.sourcebook[0] }}"
+        data-source="{{ page.taxonomies.spellbook[0] }}"
         data-classes="{{ page.taxonomies.classes | join(sep=' ') }}"
         data-subclasses="{% if page.taxonomies.subclasses %} {{ page.taxonomies.subclasses | join(sep=' ')}} {% endif %}"
         data-feats="{% if page.taxonomies.feats %} {{ page.taxonomies.feats | join(sep=' ') }} {% endif %}"
@@ -88,7 +90,17 @@
     {% else %}
       <td>{{ page.extra.level }}</td> 
     {% endif %}
-    <td>{{ page.taxonomies.spellbook[0] }}</td>
+
+    {% if page.extra.concentration %}
+    <td>X</td>
+    {% else %}
+    <td></td>
+    {%endif%}
+
+    <td>{{ macros::abbreviate_school(school=page.extra.school)}}</td>
+
+    <td>{{ macros::abbreviate_spellbook(spellbook=page.taxonomies.spellbook[0]) }}</td>
+
   </tr>
 
 {% endfor %}

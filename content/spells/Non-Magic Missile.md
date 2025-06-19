@@ -7,14 +7,16 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Artificer', 'Bard', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
 [extra]
 level = 1
+concentration = false
+school = "Illusion"
 +++
 
-*Level 1 Illusion Spell*
-**Casting Time**: 1 action
-**Range**: 120 ft
-**Components**: V, S, M(something you can throw)
-**Duration**: Instantaneous
-**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
+*Level 1 Illusion Spell*  
+**Casting Time**: 1 action  
+**Range**: 120 ft  
+**Components**: V, S, M(something you can throw)  
+**Duration**: Instantaneous  
+**Classes**: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
 
 **Description**
 

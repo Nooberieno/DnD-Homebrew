@@ -7,19 +7,21 @@ spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Wizard']
 [extra]
 level = 3
+concentration = false
+school = "Enchantment"
 +++
 
-*Level 3 Enchantment Spell*
-**Casting Time**: 1 action
-**Range**: 60 ft
-**Components**: V
-**Duration**: Instantaneous
-**Classes**: Bard, Wizard
+*Level 3 Enchantment Spell*  
+**Casting Time**: 1 action  
+**Range**: 60 ft  
+**Components**: V  
+**Duration**: Instantaneous  
+**Classes**: Bard, Wizard  
+
+> *Who needs fireballs when you can roast their dignity*  
 
 **Description**
 
-
-> *Who needs fireballs when you can roast their dignity*
 
 
 
