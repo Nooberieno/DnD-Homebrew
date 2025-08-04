@@ -38,6 +38,14 @@
   {% endfor %}
 </div>
 
+<div class="language-filters">
+  {% for language in languages.items %}
+    <button class="lang-filter active" data-language="{{ language.name }}">
+      {{ language.name }}
+    </button>
+  {% endfor %}
+</div>
+
 <div class="feats-filters">
   {% for feat in feats.items %}
     <button class="feat-filter active" data-feat="{{ feat.name }}">
@@ -54,13 +62,6 @@
   {% endfor %}
 </div>
 
-<div class="language-filters">
-  {% for language in languages.items %}
-    <button class="lang-filter active" data-language="{{ language.name }}">
-      {{ language.name }}
-    </button>
-  {% endfor %}
-</div>
 
 
 <div class="spell-list">
@@ -78,8 +79,8 @@
         data-source="{{ page.taxonomies.spellbook[0] }}"
         data-classes="{{ page.taxonomies.classes | join(sep=' ') }}"
         data-subclasses="{% if page.taxonomies.subclasses %} {{ page.taxonomies.subclasses | join(sep='9')}} {% endif %}"
-        data-feats="{% if page.taxonomies.feats %} {{ page.taxonomies.feats | join(sep=' ') }} {% endif %}"
-        data-races="{% if page.taxonomies.races %} {{ page.taxonomies.races | join(sep=' ') }} {% endif %}"
+        data-feats="{% if page.taxonomies.feats %} {{ page.taxonomies.feats | join(sep='9') }} {% endif %}"
+        data-races="{% if page.taxonomies.races %} {{ page.taxonomies.races | join(sep='9') }} {% endif %}"
         data-language="{% if page.taxonomies.languages %} {{ page.taxonomies.languages | join(sep=' ') }} {% endif %}"
         >
     <td>
