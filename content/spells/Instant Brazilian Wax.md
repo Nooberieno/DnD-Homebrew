@@ -20,7 +20,4 @@ school = "Transmutation"
 
 **Description**
 
-
 You target a creature within range, forcing them to make a Constitution saving throw. On a failed save, the spell rips hair from the target's nether regions, causing 2d6 damage. A successful save results in half damage.
-
-

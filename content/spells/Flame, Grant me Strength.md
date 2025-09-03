@@ -20,11 +20,6 @@ school = "Evocation"
 
 **Description**
 
-
-Channeling the essence of fire, you empower your physical and fire damage. Any attack that deals Bludgeoning, Piercing, Slashing or Fire damage gains a 20% boost for the duration of this spell. 
-
-
+Channeling the essence of fire, you empower your physical and fire damage. Any attack that deals Bludgeoning, Piercing, Slashing or Fire damage gains a 20% boost for the duration of this spell.
 
 _**Note**_: if the attack deals multiple types of damage, it only gets a boost to the damage types this spell normally boosts(Bludgeoning, Piercing, Slashing and Fire)
-
-

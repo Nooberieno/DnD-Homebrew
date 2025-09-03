@@ -12,11 +12,16 @@
 <p>This website is intented as a more accesible digital reference for products you own and some additional HomeBrew content</p>
 <p>Please ensure you only access content in accordence with your local laws</p>
 
-<ul>
+<div>
+
     {% for sub in section.subsections %}
         {%set sub = get_section(path=sub)%}
-        <li><a href="{{ sub.path | safe }}">{{ sub.title }} </a></li>
+        <a href="{{ sub.path | safe }}">
+            <div class="card">
+                
+            </div>
+        </a>
     {% endfor %}
-</ul>
+</div>
 
 {% endblock content %}

@@ -20,5 +20,4 @@ school = "Conjuration"
 
 **Description**
 
-
 You channel a dragon's head that bites all creatures in a 30-foot cone originating from you. Each target must make a Dexterity saving throw, taking  6d8 piercing damage on a failed save, or half as much on a successful one.

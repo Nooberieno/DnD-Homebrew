@@ -20,5 +20,4 @@ school = "Evocation"
 
 **Description**
 
-
 Unleash a violent burst of yellow flame from your eyes, causing chaos and destruction. - Deals 8d6 fire damage to a single target within 60 feet. Can be cast while moving. - Each turn you maintain concentration on this spell, you take 1d6 fire damage.

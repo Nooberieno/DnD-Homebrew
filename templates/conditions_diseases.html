@@ -2,22 +2,24 @@
 
 {% block content %}
 
-<h1 class="title">
-    {{ section.title }}
-</h1>
+<div class="content">
 
-<ul>
-    {% for sub in section.subsections %}
+    
+    <h1 class="title">
+        {{ section.title }}
+    </h1>
+    
+    <ul>
+        {% for sub in section.subsections %}
         {% set sub = get_section(path=sub) %}
         <li>{{ sub.title }}</li>
-        <li>
             <ul>
                 {% for page in sub.pages %}
                 <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
                 {% endfor %}
             </ul>
-        </li>
-    {% endfor %}
-</ul>
+        {% endfor %}
+    </ul>
+</div>
 
 {% endblock content %}

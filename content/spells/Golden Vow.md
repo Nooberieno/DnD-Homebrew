@@ -20,5 +20,4 @@ school = "Abjuration"
 
 **Description**
 
-
 You call upon divine power through your seal, blessing yourself and allies in range with increased attack and defense. While maintaining concentration, all damage dealt by affected creatures increases by 15%, and they gain a 10% reduction of incoming damage.

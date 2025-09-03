@@ -23,14 +23,8 @@ school = "Evocation"
 **Description**
 
 
-
-
-You summon a blood blade from the side of your hand. You can then choose to immediately attack or charge the blade. Charging the blade is accomplished by concentrating on the spell for additional turns for up to 2 extra turns. For each turn you concentrate you gain one extra slash. The first slash deals 2d10. When attacking, make a melee attack for each slash you charged. (Optional) you may jump forward 5 ft and then attack. If the spell is fully charged the Target must make a Constitution saving throw or have 1 [[Bleeding|Bleed Stack]] applied to it.
-
-
+You summon a blood blade from the side of your hand. You can then choose to immediately attack or charge the blade. Charging the blade is accomplished by concentrating on the spell for additional turns for up to 2 extra turns. For each turn you concentrate you gain one extra slash. The first slash deals 2d10. When attacking, make a melee attack for each slash you charged. (Optional) you may jump forward 5 ft and then attack. If the spell is fully charged the Target must make a Constitution saving throw or have 1 level of [[Bleeding]] applied to it.
 
 _At Higher Levels:_ When you cast this spell using a spell slot of 2nd level or higher, the damage of each slash increases by 1d8 for each slot level above 1st
-
-
 
 _**Note**:_ if your concentration is broken you have to make the attack on your next turn with the slashes you had charged so far, a charge is gained at the beginning of your turn.

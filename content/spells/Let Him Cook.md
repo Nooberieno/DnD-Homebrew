@@ -21,19 +21,10 @@ school = "Enchantment"
 > *Don't interrupt a genius in the making*  
 
 **Description**
-*Don't interrupt a genius in the making*
-
-
 
 
 You see the spark of potential in your ally's action, and you shout out an encouraging phrase that rekindles their focus and determination
 
 
 
-
-
-
-
 A creature may only benefit from this spell once per short rest
-
-

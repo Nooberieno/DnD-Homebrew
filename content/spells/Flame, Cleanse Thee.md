@@ -20,9 +20,6 @@ school = "Evocation"
 
 **Description**
 
-
 Creates a purifying flame that burns away ailments and conditions. when casting remove one negative condition or ailment affecting the touched creature. This can include poison, disease, paralysis, or similar effects.
-
-
 
 _At Higher Levels_: When casting with a 5th spell slot or higher, this spell can cleanse all allies within a 10 ft radius at once.

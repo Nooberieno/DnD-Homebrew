@@ -23,12 +23,6 @@ school = "Transmutation"
 **Description**
 
 
-
-
 You utter a phrase of power, commanding the target's flesh to knit itself together or twist into unnatural shapes
-
-
-
-
 
 

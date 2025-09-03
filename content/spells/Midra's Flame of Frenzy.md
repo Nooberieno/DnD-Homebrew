@@ -20,5 +20,4 @@ school = "Evocation"
 
 **Description**
 
-
 Summons a ball-like apparition of yellow flame that continuously spews forth yellow flames. Deals 8d6 fire damage to all creatures within range. If the creature starts its turn in range it must make a Dexterity saving throw and take another 8d6 on a failed save, taking half as much on a successful one. While this spell is active, the caster is completely blind, immediately failing all checks or saves that require sight.

@@ -20,5 +20,4 @@ school = "Evocation"
 
 **Description**
 
-
 You release a maddening shriek that affects your body and the perception of the creatures around you. While maintaining concentration, your damage dealt increases by 25%, but you also take 30% more damage. Enemies within range are drawn to attack you, increasing the likelihood they target you in combat.
