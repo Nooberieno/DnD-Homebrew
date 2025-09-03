@@ -51,9 +51,14 @@ You have 8 flexible tentacles that you can use to grapple creatures. Your tentac
 **Subrace**  
 When you choose a race, you also need to pick one of the subraces listed below
 
-## **Subraces: Octoid, Coleoid, Nautiloid**
+### **Subraces: Octoid, Coleoid, Nautiloid**
 
-### **Octoid Cephalkin**
+{{subrace_button(subrace="Octoid Cephalkin")}}
+{{subrace_button(subrace="Coleoid Cephalkin")}}
+{{subrace_button(subrace="Nautiloid Cephalkin")}}
+
+{% subrace_features(subrace="Octoid Cephalkin") %}
+#### **Octoid Cephalkin**
 
 > _Octoids possess strong, versatile tentacles, making them excellent grapplers and close-combat specialists._  
 
@@ -72,7 +77,10 @@ You can use your tentacles as a natural weapon. When you grapple a creature, you
 You have advantage on ability checks and saving throws to avoid being knocked prone. You can also use your tentacles to manipulate small objects or perform simple tasks, though they can’t wield weapons or shields.
 
 
-### **Coleoid Cephalkin**
+{% end %}
+
+{% subrace_features(subrace="Coleoid Cephalkin") %}
+#### **Coleoid Cephalkin**
 
 > _Coleoids are stealthy and nimble, relying on their camouflage and ability to squeeze through tight spaces._  
 
@@ -99,7 +107,10 @@ You can squeeze through a space as narrow as 2 inches wide, provided you are wea
 **Dexterous grapple**
 You can now grapple enemies within 5 ft of you as a bonus action, additionally you gain advantage on attack rolls against enemies you are grappling.
 
-### **Nautiloid Cephalkin**
+{% end %}
+
+{% subrace_features(subrace="Nautiloid Cephalkin") %}
+#### **Nautiloid Cephalkin**
 
 > _Nautiloids have evolved a defensive shell, prioritizing durability over their agility on land._
   
@@ -119,3 +130,4 @@ As an action, you can expel a cloud of dark ink in a 10-foot radius. The area be
 
 **Increased Swimming Speed.**  
 Your swimming speed increases to 40 feet.
+{% end %}

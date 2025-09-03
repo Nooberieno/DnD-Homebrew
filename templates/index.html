@@ -1,27 +1,31 @@
 {% extends "base.html" %}
 
 {% block content%}
+<div class="content">
 
-<h1 class="title">
-    This is a website for hosting my DnD Homebrew
-</h1>
-
-<h2>Disclaimer</h2>
-
-<p>This website is not endorsed Wizards of the Coast</p>
-<p>This website is intented as a more accesible digital reference for products you own and some additional HomeBrew content</p>
-<p>Please ensure you only access content in accordence with your local laws</p>
-
-<div>
-
-    {% for sub in section.subsections %}
+    <h1 class="title">
+        This is a website for hosting my DnD Homebrew
+    </h1>
+    
+    <h2>Disclaimer</h2>
+    
+    <p>This website is not endorsed Wizards of the Coast</p>
+    <p>This website is intented as a more accesible digital reference for products you own and some additional HomeBrew content</p>
+    <p>Please ensure you only access content in accordence with your local laws</p>
+    
+    <div class="cards"> 
+        {% for sub in section.subsections %}
         {%set sub = get_section(path=sub)%}
-        <a href="{{ sub.path | safe }}">
+        <a class="card-link" href="{{ sub.path | safe }}">
             <div class="card">
-                
+                <div class="container">
+                    <div class="symbol">&#9861</div>
+                    {{ sub.title }}
+                </div>
             </div>
         </a>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>
 
 {% endblock content %}
