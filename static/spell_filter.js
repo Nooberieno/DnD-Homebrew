@@ -55,4 +55,22 @@ document.addEventListener('DOMContentLoaded', () => {
     ['source', 'class', 'subclass', 'feat', 'race', 'lang'].forEach(filterType => {
         initFilters(filterType);
     });
+    closeFilterPopup()
 });
+
+function toggleFilterPopup(){
+    const popup = document.querySelector(".filters")
+    popup.classList.toggle("show")
+    popup.classList.toggle("hidden")
+}
+
+function closeFilterPopup(){
+    const popup = document.querySelector(".filters")
+    document.addEventListener("click", (e) => {
+        
+        if(popup.contains(e.target) && popup.classList.contains("show")){
+            popup.classList.remove("show")
+            popup.classList.add("hidden")
+        }
+    })
+}
