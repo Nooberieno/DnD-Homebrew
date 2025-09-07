@@ -4,6 +4,7 @@
 {% block content %}
 
 <script src="{{ get_url(path='spell_filter.js', trailing_slash=false) | safe }}"></script>
+<script src="{{ get_url(path='sortable_tables.js', trailing_slash=false) | safe }}"></script>
 
 
 <h1 class="title">
@@ -72,7 +73,7 @@
 
 <div class="spell-list">
   {% set sorted_pages = section.pages | sort(attribute="extra.level", reverse=true)%}
-  <table class="spell-table">
+  <table class="spell-table sortable-table">
     <thead>
       <tr>
         <th>Spell</th>

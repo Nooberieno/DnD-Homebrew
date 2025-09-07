@@ -582,3 +582,13 @@ tbody > tr:nth-child(odd){
     opacity: 0.8;
   }
 }
+
+.sortable-table th {
+  cursor: pointer;
+  transition: background 0.2s;
+  position: relative;
+  user-select: none;
+}
+.sortable-table th:hover {
+  background: $macchiato-overlay0;
+}

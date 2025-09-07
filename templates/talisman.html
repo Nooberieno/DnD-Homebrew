@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+<script src="{{ get_url(path='sortable_tables.js', trailing_slash=false) | safe }}"></script>
 
 <h1 style="text-align: center;">
     Table of Talismans
@@ -9,8 +10,8 @@
 <br>
 <br>
 <br>
-
-<table class="talisman-table">
+<table id="talisman-table" class="sortable-table">
+    <thead>
     <tr>
         <th>Name</th>
         <th>Cost</th>
@@ -19,7 +20,8 @@
         <th>Upgrade Cost</th>
         <th>Tier</th>
     </tr>
-
+    </thead>
+    <tbody>
     {% set sorted_pages = section.pages | sort(attribute="extra.tier", reverse=true)%}
     {% for page in sorted_pages %}
     <tr>
@@ -31,6 +33,6 @@
         <td>{{ page.extra.tier }}</td>
     </tr>
     {% endfor %}
+    </tbody>
 </table>
-
 {% endblock content %}
