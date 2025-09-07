@@ -5,7 +5,7 @@ title = "Scooter Strike"
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Wizard', 'Sorcerer', 'Bard']
-subclasses = ['Arcane Trickster Rogue']
+subclasses = ['Rogue: Arcane Trickster']
 [extra]
 level = 2
 concentration = false
@@ -18,7 +18,7 @@ school = "Conjuration"
 **Components**: V, S, M(a small piece of silver)  
 **Duration**: Instantaneous  
 **Classes**: Wizard, Sorcerer, Bard  
-**Subclasses**: Arcane Trickster Rogue  
+**Subclasses**: _Arcane Trickster_ Rogue  
 
 **Description**
 

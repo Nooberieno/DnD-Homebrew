@@ -5,7 +5,7 @@ title = "Glimpse"
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Artificer', 'Ranger', 'Druid']
-subclasses = ['Divination Wizard']
+subclasses = ['Wizard: Divination']
 [extra]
 level = 0
 concentration = true
@@ -18,7 +18,7 @@ school = "Transmutation"
 **Components**: S  
 **Duration**: Concentration, up to 1 minute  
 **Classes**: Artificer, Ranger, Druid  
-**Subclasses**: Divination Wizard  
+**Subclasses**: _Divination_ Wizard  
 
 > *Squinting is for peasants, darling*  
 

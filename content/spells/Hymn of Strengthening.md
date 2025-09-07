@@ -5,12 +5,13 @@ title = "Hymn of Strengthening"
 sourcebook = ["Tusk's Grimoire"]
 spellbook = ["Tusk's Grimoire"]
 classes = ['Artificer', 'Bard', 'Cartomancer', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
-languages = ["Orcish"]
 [extra]
 level = 3
 concentration = true
 school = "Enchantment"
 +++
+
+_Requires speaking Orcish to cast_
 
 *Level 3 Enchantment Spell*  
 **Casting Time**: 1 action  

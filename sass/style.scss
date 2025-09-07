@@ -26,6 +26,8 @@ $macchiato-base: #24273a;
 $macchiato-mantle: #1e2030;
 $macchiato-crust: #181926;
 
+$macchiato-base-transparent: #24273a46;
+
 a{
   color: $macchiato-sky;
 }
@@ -187,7 +189,7 @@ tbody > tr:nth-child(odd){
 .subclass-filter,
 .feats-filter,
 .race-filter,
-.lang-filter {
+.level-filter {
   padding: 8px 16px;
   border: 2px solid $macchiato-text;
   border-radius: 4px;
@@ -210,6 +212,18 @@ tbody > tr:nth-child(odd){
   margin: 0 0 0 0 !important;
 }
 
+
+.spell-list{
+  height: 100%;
+  overflow: scroll !important;
+}
+
+.spell-list.view > table > thead{
+  position: sticky;
+  top: 0;
+  background-color: $macchiato-base;
+}
+
 .spell-item {
   margin-bottom: 10px;
   
@@ -227,7 +241,7 @@ tbody > tr:nth-child(odd){
 .subclass-filters,
 .feats-filters,
 .race-filters,
-.language-filters {
+.level-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -444,35 +458,46 @@ tbody > tr:nth-child(odd){
 
 .filters{
   position: absolute;
-  display: inline-block;
+  display: flex;
   cursor: pointer;
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 1 / 1;
-  z-index: 1000;
-  background-color: $macchiato-base;
+  align-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;   /* remove container constraint */
+  max-height: none;
+  background-color: $macchiato-base-transparent;
 }
 
 .filters.hidden{
-  -webkit-animation: fadeOut 1s;
-  animation: fadeOut 1s;
+  -webkit-animation: fadeOut;
+  animation: fadeOut;
   animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 .filters.show{
+  -webkit-animation: fadeIn;
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  animation: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  backdrop-filter: blur(10px);
 }
 
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity: 1;}
+  to {opacity: 1; }
 }
 
 @keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity:1 ;}
+  to {
+    opacity:1 ;
+    backdrop-filter: blur(10px);
+  }
 }
 
 @-webkit-keyframes fadeOut {
@@ -483,4 +508,77 @@ tbody > tr:nth-child(odd){
 @keyframes fadeOut {
   from {opacity: 1;}
   to {opacity:0 ; visibility: hidden;}
+}
+
+.preload * {
+  -webkit-animation-duration: 0s !important;
+  animation-duration: 0s !important;
+}
+
+.open-filters{
+  padding: 8px 16px;
+  border: 2px solid $macchiato-text;
+  border-radius: 4px;
+  background: $macchiato-base;
+  color: $macchiato-text;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 5px;
+
+  &.active {
+    background: $macchiato-text;
+    color: $macchiato-base;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.close-filters{
+  padding: 8px 16px;
+  color: $macchiato-red;
+  border: 2px solid $macchiato-red;
+  border-radius: 4px;
+  background: $macchiato-base;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 5px;
+  
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+.filter-container{
+  background-color: $macchiato-base;
+  border: 1px solid $macchiato-mauve;
+  border-radius: 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+.popup-header{
+  color: $macchiato-peach;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+}
+
+.reset-filters{
+  padding: 8px 16px;
+  color: $macchiato-green;
+  border: 2px solid $macchiato-green;
+  border-radius: 4px;
+  background: $macchiato-base;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 5px;
+  
+  &:hover{
+    opacity: 0.8;
+  }
 }

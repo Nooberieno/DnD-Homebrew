@@ -5,7 +5,7 @@ title = "Wrath of the Stubbed Toe"
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Sorcerer']
-subclasses = ['Arcane Trickster Rogue']
+subclasses = ['Rogue: Arcane Trickster']
 [extra]
 level = 2
 concentration = false
@@ -18,7 +18,7 @@ school = "Conjuration"
 **Components**: V, S  
 **Duration**: Instantaneous  
 **Classes**: Bard, Sorcerer  
-**Subclasses**: Arcane Trickster Rogue  
+**Subclasses**: _Arcane Trickster_ Rogue  
 
 **Description**
 

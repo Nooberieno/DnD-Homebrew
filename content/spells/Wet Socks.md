@@ -5,7 +5,7 @@ title = "Wet Socks"
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Wizard', 'Sorcerer']
-subclasses = ['Arcane Trickster Rogue']
+subclasses = ['Rogue: Arcane Trickster']
 [extra]
 level = 1
 concentration = false
@@ -18,7 +18,7 @@ school = "Transmutation"
 **Components**: V, S, M(a small amount of water or water based liquid)  
 **Duration**: 1 hour  
 **Classes**: Bard, Wizard, Sorcerer  
-**Subclasses**: Arcane Trickster Rogue  
+**Subclasses**: _Arcane Trickster_ Rogue  
 
 **Description**
 

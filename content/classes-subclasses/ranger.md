@@ -1,7 +1,7 @@
 +++
 title = "Ranger"
 [taxonomies]
-subclasses = ['Nightstalker - Shadow Shot Variant', 'Nightstalker - Spectral Blades Variant']
+subclasses = ['Ranger: Nightstalker - Shadow Shot Variant', 'Ranger: Nightstalker - Spectral Blades Variant']
 +++
 <table class="class-table">
   <thead>

@@ -1,7 +1,7 @@
 +++
 title = "Cartomancer"
 [taxonomies]
-subclasses = ['Joker Deck']
+subclasses = ['Cartomancer: Joker Deck']
 +++
 <table class="class-table">
   <thead>

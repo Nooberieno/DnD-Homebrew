@@ -5,7 +5,7 @@ title = "Ashes To Ashes"
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Sorcerer', 'Warlock']
-subclasses = ['Light Domain Cleric']
+subclasses = ['Cleric: Light Domain']
 [extra]
 level = 9
 concentration = false
@@ -18,14 +18,14 @@ school = "Evocation"
 **Components**: V, S, M(a phoenix heart which the spell consumes)  
 **Duration**: Instantaneous  
 **Classes**: Sorcerer, Warlock  
-**Subclasses**: Light Domain Cleric  
+**Subclasses**: _Light Domain_ Cleric  
 
 > *You think you're a god, lets test that theory shall we*  
 
 **Description**
 
 
-You ignite yourself with an immense, fiery explosion that deals devastating damage to all creatures around you, including yourself. . When this spell occurs you take 90% of your max health as fire damage. This spell ignores resistance to fire damage or magic and treats immunity to fire damage or magic as resistance.
+You ignite yourself with an immense, fiery explosion that deals devastating damage to all creatures around you, including yourself. When this spell occurs you take 90% of your max health as fire damage. This spell ignores resistance to fire damage or magic and treats immunity to fire damage or magic as resistance.
 Except creatures within 10 ft of you, all creatures within 150 ft of you must succeed on a Constitution saving throw, taking  10d10 fire damage on a failed save or half as much on a successful one. Additionally creatures take extra damage based on their proximity to you i.e. how close they are to you
 
 - Within 90 ft, an additional 25 fire damage

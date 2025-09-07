@@ -5,12 +5,13 @@ title = "Hymn of Ferocity"
 sourcebook = ["Tusk's Grimoire"]
 spellbook = ["Tusk's Grimoire"]
 classes = ['Artificer', 'Bard', 'Cartomancer', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
-languages = ["Orcish"]
 [extra]
 level = 2
 concentration = false
 school = "Enchantment"
 +++
+
+_Requires speaking Orcish to cast_
 
 *Level 2 Enchantment Spell*  
 **Casting Time**: 1 action  

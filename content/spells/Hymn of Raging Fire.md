@@ -5,12 +5,13 @@ title = "Hymn of Raging Fire"
 sourcebook = ["Tusk's Grimoire"]
 spellbook = ["Tusk's Grimoire"]
 classes = ['Artificer', 'Bard', 'Cartomancer', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
-languages = ["Orcish"]
 [extra]
 level = 6
 concentration = true
 school = "Evocation"
 +++
+
+_Requires speaking Orcish to cast_
 
 *Level 6 Evocation Spell*  
 **Casting Time**: 1 action  

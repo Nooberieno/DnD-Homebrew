@@ -5,7 +5,7 @@ title = "Heart Catch"
 sourcebook = ["Jujutsu Spells"]
 spellbook = ["Jujutsu Spells"]
 classes = ['Sorcerer', 'Wizard']
-subclasses = ['Arcane Trickster Rogue']
+subclasses = ['Rogue: Arcane Trickster']
 [extra]
 level = 4
 concentration = true
@@ -18,7 +18,7 @@ school = "Evocation"
 **Components**: S  
 **Duration**: Concentration, Up to 1 minute  
 **Classes**: Sorcerer, Wizard  
-**Subclasses**: Arcane Trickster Rogue  
+**Subclasses**: _Arcane Trickster_ Rogue  
 
 **Description**
 

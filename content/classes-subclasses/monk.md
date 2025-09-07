@@ -1,7 +1,7 @@
 +++
 title = "Monk"
 [taxonomies]
-subclasses = ['Iai Chop Monk', 'Way of the Curse Monk']
+subclasses = ['Monk: Iai Chop Monk', 'Monk: Way of the Curse Monk']
 +++
 <table class="class-table">
   <thead>

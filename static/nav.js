@@ -10,3 +10,9 @@ function close_nav(){
 }
 
 document.addEventListener("DOMContentLoaded", close_nav)
+
+function exit_preload(){
+    setTimeout(() => {document.body.className = ""}, 1000)
+}
+
+document.addEventListener("DOMContentLoaded", exit_preload)

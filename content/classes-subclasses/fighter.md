@@ -1,7 +1,7 @@
 +++
 title = "Fighter"
 [taxonomies]
-subclasses = ['Heavenly Restricted Fighter']
+subclasses = ['Fighter: Heavenly Restricted']
 +++
 <table class="class-table">
   <thead>

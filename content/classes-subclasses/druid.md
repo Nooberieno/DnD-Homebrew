@@ -1,7 +1,7 @@
 +++
 title = "Druid"
 [taxonomies]
-subclasses = ['Circle of the Tides Druid']
+subclasses = ['Druid: Circle of the Tides']
 +++
 <table class="class-table">
   <thead>

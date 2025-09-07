@@ -5,7 +5,7 @@ title = "Out!"
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
 classes = ['Bard', 'Cleric', 'Druid', 'Wizard']
-subclasses = ['Arcane Trickster Rogue', 'Genie pact Warlock']
+subclasses = ['Rogue: Arcane Trickster', 'Warlock: Genie']
 [extra]
 level = 3
 concentration = false
@@ -18,7 +18,7 @@ school = "Abjuration"
 **Components**: V, S  
 **Duration**: 24 hours  
 **Classes**: Bard, Cleric, Druid, Wizard  
-**Subclasses**: Arcane Trickster Rogue, Genie pact Warlock  
+**Subclasses**: _Arcane Trickster_ Rogue, _Genie_ Warlock  
 
 > *This place called, it wants you to leave*  
 
