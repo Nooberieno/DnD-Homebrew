@@ -35,6 +35,6 @@ Each long rest, the condition worsens. The effects stack.
 | 5   | If reduced to 0 hp, death saving throws have disadvantage |
 ## Ending the Condition
 Lesser Restoration stops Rotting from getting worse for 24 hours, but does not remove the condition.
-[[Preserving Boluses]] can prevent Rotting stop Rotting from getting worse, but cannot cure the condition.
+[Preserving Boluses](@/items/preserving_bolus.md) can prevent Rotting stop Rotting from getting worse, but cannot cure the condition.
 Greater Restoration, Heal, Wish, or Divine Intervention remove Rotting completely.
 

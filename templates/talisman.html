@@ -27,8 +27,8 @@
     <tr>
         <td><a href="{{ page.permalink | safe }}">{{ page.title }}</a></td>
         <td>{{ page.extra.cost }}</td>
-        <td>{{ page.extra.effects }}</td>
-        <td>{{ page.extra.upgradable }}</td>
+        <td>{{ page.extra.effects | markdown | safe }}</td>
+        <td>{{ page.extra.upgradable | markdown | safe}}</td>
         <td>{% if page.extra.upgrade_cost %} {{ page.extra.upgrade_cost }} {% else %} N/A {% endif %}</td>
         <td>{{ page.extra.tier }}</td>
     </tr>

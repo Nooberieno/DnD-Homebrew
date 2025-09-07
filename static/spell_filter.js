@@ -124,9 +124,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Open popup with a button
     filterBtnOpen.addEventListener("click", (e) => {
     e.stopPropagation();
-    filterBtnOpen.classList.add("active")
-    popup.classList.remove("hidden");
-    popup.classList.add("show");
+        filterBtnOpen.classList.add("active")
+        popup.classList.remove("hidden");
+        popup.classList.add("show");
         spell_list.classList.remove("view")
     });
 
