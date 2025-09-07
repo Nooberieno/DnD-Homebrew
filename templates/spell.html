@@ -4,6 +4,8 @@
 {% block content %}
 
 <script src="{{ get_url(path='spell_filter.js', trailing_slash=false) | safe }}"></script>
+<script src="{{ get_url(path='sortable_tables.js', trailing_slash=false) | safe }}"></script>
+
 
 {% set section = get_section(path='spells/_index.md')%}
 <h1 class="title">
@@ -23,15 +25,22 @@
 <div class="filters hidden">
     <div class="content">
     <div class="filter-container">
-        <div class="popup-header">
-            <p>Filters</p>
+
+        <div class="popup-row">
+            <h1>Filters</h1>
             <div style="margin-left: auto;">
                 <button class="reset-filters" onclick="resetFilterButtons()">Reset all</button>
                 <button class="close-filters" aria-label="Close Popup">X</button>
             </div>
         </div>
 
-        <b>Source</b>
+        <div class="popup-row">
+          <b>Source</b>
+          <div style="margin-left: auto;">
+            <button class="add-filter" onclick="addFilterClass('source')">All</button>
+            <button class="clear-filter" onclick="clearFilterClass('source')">Clear</button>
+          </div>
+        </div>
         <div class="source-filters">
             {% for source in spellbooks.items %}
             <button class="source-filter" data-source="{{ source.name }}">
@@ -40,8 +49,14 @@
         {% endfor %}
     </div>
     
-    <b>Classes</b>
-    <div class="class-filters">
+        <div class="popup-row">
+          <b>Classes</b>
+          <div style="margin-left: auto;">
+            <button class="add-filter" onclick="addFilterClass('class')">All</button>
+            <button class="clear-filter" onclick="clearFilterClass('class')">Clear</button>
+          </div>
+        </div>    
+        <div class="class-filters">
         <br>
         {% for class in classes.items %}
         <button class="class-filter" data-class="{{ class.name }}">
@@ -50,38 +65,32 @@
         {% endfor %}
     </div>
     
-    <b>Subclasses</b>
+        <div class="popup-row">
+          <b>Subclasses</b>
+          <div style="margin-left: auto;">
+            <button class="add-filter" onclick="addFilterClass('subclass')">All</button>
+            <button class="clear-filter" onclick="clearFilterClass('subclass')">Clear</button>
+          </div>
+        </div>  
     <div class="subclass-filters">
         <br>
         {% for subclass in subclasses.items %}
-        {% if subclass.name not in ["Way of the Curse Monk", "Iai Chop Monk", "Heavenly Restricted Fighter"]%}
+        {% if subclass.name not in ["Monk: Way of the Curse", "Monk: Iai Chop", "Fighter: Heavenly Restricted"]%}
         <button class="subclass-filter" data-subclass="{{ subclass.name }}">
             {{ subclass.name }}
         </button>
         {% endif %}
         {% endfor %}
     </div>
-    
-    <b>Feats</b>
-    <div class="feats-filters">
-        <br>
-        {% for feat in feats.items %}
-        <button class="feat-filter" data-feat="{{ feat.name }}">
-            {{ feat.name }}
-        </button>
-        {% endfor %}
-    </div>
-    
-    <b>Races</b>
-    <div class="race-filters">
-        <br>
-        {% for race in races.items %}
-        <button class="race-filter" data-race="{{ race.name }}">
-            {{ race.name }}
-        </button>
-        {% endfor %}
-    </div>
-    <b>Spell Level</b>
+
+
+    <div class="popup-row">
+          <b>Spell Level</b>
+          <div style="margin-left: auto;">
+            <button class="add-filter" onclick="addFilterClass('level')">All</button>
+            <button class="clear-filter" onclick="clearFilterClass('level')">Clear</button>
+          </div>
+        </div>  
     <div class="level-filters">
         <br>
         {% for level in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] %}
@@ -98,9 +107,9 @@
 
 <div class="no-scroll" style="display: flex; height: 80vh">
 <div>
-<div class="spell-list view">
+<div class="spell-list">
     {% set sorted_pages = section.pages | sort(attribute="extra.level", reverse=true)%}
-  <table class="spell-table">
+  <table class="spell-table sortable-table">
       <thead>
           <tr>
               <th>Spell</th>

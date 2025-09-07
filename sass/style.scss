@@ -36,6 +36,12 @@ a:visited{
   color: $macchiato-mauve;
 }
 
+blockquote{
+  margin: 10px 0;
+  padding-left: 1em;
+  border-left: 3px solid $macchiato-surface0;
+}
+
 body{
     font-family: $font;
     background-color: $macchiato-base;
@@ -44,6 +50,11 @@ body{
 
 li{
   padding-bottom: 5px;
+}
+
+h1{
+  margin-block: 0.67em;
+  font-size: 2em;
 }
 
 h2{
@@ -218,10 +229,14 @@ tbody > tr:nth-child(odd){
   overflow: scroll !important;
 }
 
-.spell-list.view > table > thead{
+.spell-list > table > thead{
   position: sticky;
   top: 0;
   background-color: $macchiato-base;
+}
+
+.spell-list.view > table > thead{
+  visibility: hidden;
 }
 
 .spell-item {
@@ -383,10 +398,16 @@ tbody > tr:nth-child(odd){
 }
 
 .talisman-table > tbody > tr > td:nth-child(1),
-.talisman-table > tbody > tr > td:nth-child(2),
+.talisman-table > tbody > tr > td:nth-child(4),
 .talisman-table > tbody > tr > td:nth-child(3){
   text-align: left;
   padding-left: 8px;
+}
+
+.talisman-table > thead{
+  position: sticky;
+  top: 0px;
+  background-color: $macchiato-base;
 }
 
 .not-found{
@@ -561,14 +582,45 @@ tbody > tr:nth-child(odd){
   padding: 0px 5px 0px 5px;
 }
 
-.popup-header{
+.popup-row{
   color: $macchiato-peach;
   font-size: large;
   display: flex;
   flex-direction: row;
+  margin-bottom: 5px;
 }
 
 .reset-filters{
+  padding: 8px 16px;
+  color: $macchiato-green;
+  border: 2px solid $macchiato-green;
+  border-radius: 4px;
+  background: $macchiato-base;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 5px;
+  
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.clear-filter{
+  padding: 8px 16px;
+  color: $macchiato-red;
+  border: 2px solid $macchiato-red;
+  border-radius: 4px;
+  background: $macchiato-base;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 5px;
+  
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.add-filter{
   padding: 8px 16px;
   color: $macchiato-green;
   border: 2px solid $macchiato-green;
@@ -591,4 +643,10 @@ tbody > tr:nth-child(odd){
 }
 .sortable-table th:hover {
   background: $macchiato-overlay0;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.sortable-table th::after{
+  content: attr(data-after);
 }

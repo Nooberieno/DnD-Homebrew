@@ -14,6 +14,18 @@ function resetFilterButtons(){
     updateVisibility()
 }
 
+function clearFilterClass(filterClass){
+    document.querySelectorAll(`.${filterClass}-filter`).forEach(button => {
+        button.classList.remove("active")
+    })
+}
+
+function addFilterClass(filterClass){
+    document.querySelectorAll(`.${filterClass}-filter`).forEach(button => {
+        button.classList.add("active")
+    })
+}
+
 function initFilters(filterClass) {
 
     const filterButtons = document.querySelectorAll(`.${filterClass}-filter`);
@@ -117,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         popup.classList.remove("show");
         popup.classList.add("hidden");
         filterBtnOpen.classList.remove("active")
-        spell_list.classList.add("view")
+        spell_list.classList.remove("view")
     }
     });
 
@@ -127,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         filterBtnOpen.classList.add("active")
         popup.classList.remove("hidden");
         popup.classList.add("show");
-        spell_list.classList.remove("view")
+        spell_list.classList.add("view")
     });
 
     // Close popup with a button
@@ -135,6 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.stopPropagation()
         popup.classList.remove("show")
         popup.classList.add("hidden")
-        spell_list.classList.add("view")
+        spell_list.classList.remove("view")
+        filterBtnOpen.classList.remove("active")
     })
 });

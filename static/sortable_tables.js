@@ -4,9 +4,13 @@ function makeTableSortable(table){
 
     headers.forEach((header, idx) => {
         // Now make them actually clickable
-        header.addEventListener('click', function () {
+        header.addEventListener('click', (e) => {
             const tbody = table.querySelector('tbody');
             const rows = Array.from(tbody.querySelectorAll('tr'));
+            
+            headers.forEach(h => h.removeAttribute("data-after"));
+
+            header.setAttribute("data-after", sortDirection ? "\u21BE" : "\u21C2")
             sortDirection = !sortDirection;
 
             rows.sort((a, b) => {
