@@ -1,12 +1,14 @@
-function close_nav(){
-    const nav = [...document.querySelectorAll(".nav-dropdown")]
-    document.addEventListener("click", (e) => {
-        if(nav.some(f => f.contains(e.target)).length != 0){
-            nav.forEach(f => {
-                    f.removeAttribute("Open")
-            });
-        }
-    })
+function close_nav() {
+  const nav = [...document.querySelectorAll(".nav-dropdown")];
+
+  document.addEventListener("click", (e) => {
+  nav.forEach(f => {
+    if (!f.contains(e.target)) {
+      f.removeAttribute("open");
+    }
+  });
+});
+
 }
 
 document.addEventListener("DOMContentLoaded", close_nav)

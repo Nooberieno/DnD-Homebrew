@@ -451,11 +451,6 @@ tbody > tr:nth-child(odd){
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-  padding: 2px 16px;
-  align-self: center;
-}
-
 .card-link{
   text-decoration: none;
   flex: 1 1 50px;
@@ -649,4 +644,35 @@ tbody > tr:nth-child(odd){
 
 .sortable-table th::after{
   content: attr(data-after);
+}
+
+.statblock{
+  background-color: $macchiato-crust;
+  color: $macchiato-subtext1;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+
+  & > hr{
+    background-color: $macchiato-yellow;
+    height: 2px;
+    margin: .5rem 0;
+    padding: 0 !important;
+  }
+
+  & > p{
+    margin-bottom: 16px;
+  }
+
+  & > table > tbody > tr{
+    background-color: $macchiato-crust;
+  }
+}
+
+.proficiency-bonus{
+  display: flex;
+  & > p{
+    margin: auto;
+  }
 }

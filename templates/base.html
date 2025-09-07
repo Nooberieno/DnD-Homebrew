@@ -26,7 +26,7 @@
 
                 <details class="nav-dropdown">
                     <summary class="nav-text">Player</summary>
-                    <div>
+                    <div class="nav-items">
                         <a href="{{ get_url(path='@/spells/_index.md') | safe}}">Spells</a>
                         <a href="{{ get_url(path='@/items/_index.md') | safe}}">Items</a>
                         <a href="{{ get_url(path='@/races/_index.md')}}">Races</a>
@@ -37,6 +37,10 @@
 
                 <details class="nav-dropdown">
                     <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="{{ get_url(path='@/rules/_index.md') | safe}}">Additional Rules</a>
+                        <a href="{{ get_url(path='@/beastiary/_index.md') | safe}}">Beastiary</a>
+                    </div>
                 </details>
                 
                 <div class="flex-column" style="flex-grow: 1;">
@@ -51,9 +55,7 @@
 
     <main>
         <section class="section">
-            <div class="container">
                 {% block content %}{% endblock content %}
-            </div>
         </section>
     </main>
 </body>
