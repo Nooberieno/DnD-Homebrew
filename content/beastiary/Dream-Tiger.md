@@ -37,11 +37,12 @@ ___
 
 **Challenge** 8
 
-**Proficiency Bonus** 5
+**Proficiency Bonus** +3
 
 </div>
 
 ___
+### Traits
 ***Dream Stalker.*** The Dream Tiger can enter the dreams of creatures within 1 mile of it. If a creature is sleeping, the Dream Tiger can cast *Phantasmal Force* (save DC 15) without expending a spell slot. The illusion created by this effect can deal psychic damage as if it were real. A creature affected by this ability wakes up if it takes damage from the illusion.  
 ***Nightmare Predator.*** When the Dream Tiger reduces a creature to 0 hit points in a dream, the creature must succeed on a DC 15 Wisdom saving throw or take 14 (4d6) psychic damage and wake up with one level of exhaustion.  
 ***Ethereal Form.*** The Dream Tiger can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.  

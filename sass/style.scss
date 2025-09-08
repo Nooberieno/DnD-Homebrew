@@ -646,33 +646,96 @@ tbody > tr:nth-child(odd){
   content: attr(data-after);
 }
 
-.statblock{
-  background-color: $macchiato-crust;
-  color: $macchiato-subtext1;
+.statblock {
+  background-color: $macchiato-surface0;
+  color: $macchiato-text;
   width: 80%;
-  margin: auto;
-  padding: 5px;
-  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  transition: 0.3s;
+  font-family: $font;
 
-  & > hr{
-    background-color: $macchiato-yellow;
+  h2 {
+    font-size: 1.75rem;
+    color: $macchiato-mauve;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  em {
+    color: $macchiato-subtext0;
+  }
+
+  hr {
+    border: none;
     height: 2px;
-    margin: .5rem 0;
-    padding: 0 !important;
+    background: linear-gradient(
+      to right,
+      $macchiato-red,
+      $macchiato-yellow,
+      $macchiato-green
+    );
+    margin: 0.75rem 0;
   }
 
-  & > p{
-    margin-bottom: 16px;
+  p {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
   }
 
-  & > table > tbody > tr{
-    background-color: $macchiato-crust;
+  table {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    border-collapse: collapse;
+
+    th, td {
+      padding: 6px 10px;
+    }
+
+    thead {
+      background-color: $macchiato-surface1;
+      color: $macchiato-pink;
+      font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: $macchiato-surface1;
+    }
+  }
+
+  strong {
+    color: $macchiato-lavender;
+  }
+
+  .proficiency-bonus {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: $macchiato-teal;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
   }
 }
 
-.proficiency-bonus{
-  display: flex;
-  & > p{
-    margin: auto;
-  }
+/* Feature / action headers */
+.statblock h3 {
+  margin-top: 1rem;
+  color: $macchiato-peach;
+  font-size: 1.3rem;
+  border-bottom: 1px solid $macchiato-overlay1;
+  padding-bottom: 0.25rem;
+}
+
+.statblock h4 {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  color: $macchiato-blue;
+}
+
+.statblock:hover{
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
 }

@@ -44,6 +44,7 @@ ___
 </div>
 
 ___
+### Traits
 ***Amphibious.*** The Quacken can breathe air and water.  
 ***Legendary Resistance (3/Day).*** If the Quacken fails a saving throw, it can choose to succeed instead.  
 ***Siege Monster.*** The Quacken deals double damage to objects and structures.  

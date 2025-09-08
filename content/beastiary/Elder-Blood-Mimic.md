@@ -43,9 +43,12 @@ ___
 
 **Challenge** 13
 
+**Proficiency Bonus** +5
+
 </div>
 
 ___
+### Traits
 ***Amorphous.*** The Elder Blood Mimic can move through a space as narrow as 1 inch wide without squeezing.  
 ***Legendary Resistance (3/Day).*** If the Elder Blood Mimic fails a saving throw, it can choose to succeed instead.  
 ***Hive Mind.*** All mimics within 1 mile of the Elder Blood Mimic are telepathically connected to it and act as extensions of its will. While the Elder Blood Mimic lives, all mimics within this radius have advantage on attack rolls, saving throws, and ability checks.  
