@@ -4,17 +4,30 @@
 <div class="content">
 
     <h1 class="title">
-        This is a website for hosting my DnD Homebrew
+        DnD Homebrew
     </h1>
     
     <h2>Disclaimer</h2>
     
     <p>This website is not endorsed Wizards of the Coast</p>
-    <p>This website is intented as a more accesible digital reference for products you own and some additional HomeBrew content</p>
-    <p>Please ensure you only access content in accordence with your local laws</p>
+    <p>This website is intented as a more accesible digital reference for HomeBrew content</p>
     
+    <p>
+        This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of
+        the Coast LLC and available at <a href="https://dnd.wizards.com/resources/systems-reference-document" target="_blank">https://dnd.wizards.com/resources/systems-reference-document</a>. 
+    </p>
+    <p>
+        The
+        SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at
+        <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">https://creativecommons.org/licenses/by/4.0/legalcode</a>
+    </p>
+
+    <p>You can contribute and check out the project on <a href="https://github.com/Nooberieno/DnD-Homebrew" target="_blank">GitHub</a></p>
+    
+    <h2>Player</h2>
+
     <div class="cards"> 
-        {% for sub in section.subsections %}
+        {% for sub in ['spells/_index.md', 'classes-subclasses/_index.md', 'races/_index.md', 'items/_index.md', "conditions-and-diseases/_index.md"] %}
         {%set sub = get_section(path=sub)%}
         <a class="card-link" href="{{ sub.path | safe }}">
             <div class="card">
@@ -26,6 +39,23 @@
         </a>
         {% endfor %}
     </div>
+
+    <h2>DM</h2>
+
+    <div class="cards"> 
+        {% for sub in ['beastiary/_index.md', 'rules/_index.md'] %}
+        {% set sub = get_section(path=sub)%}
+        <a class="card-link" href="{{ sub.path | safe }}">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9858</div>
+                    {{ sub.title }}
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
 </div>
 
 {% endblock content %}

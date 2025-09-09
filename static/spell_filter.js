@@ -18,12 +18,14 @@ function clearFilterClass(filterClass){
     document.querySelectorAll(`.${filterClass}-filter`).forEach(button => {
         button.classList.remove("active")
     })
+    updateVisibility()
 }
 
 function addFilterClass(filterClass){
     document.querySelectorAll(`.${filterClass}-filter`).forEach(button => {
         button.classList.add("active")
     })
+    updateVisibility()
 }
 
 function initFilters(filterClass) {
@@ -91,17 +93,21 @@ function updateVisibility() {
         const itemLevel = item.dataset.level
 
         const sourceMatch = activeSourceFilters.includes(itemSource);
-        const classMatch = activeClassFilters.length == 0 || itemClasses.some(cls => activeClassFilters.includes(cls));
+        let classMatch = itemClasses.some(cls => activeClassFilters.includes(cls));
 
         const subclassMatch = itemSubclasses.some(scls => activeSubclassFilters.includes(scls));
         const featMatch = itemFeats.some(ft => activeFeatFilters.includes(ft))
         const raceMatch = itemRaces.some(rc => activeRaceFilters.includes(rc))
         
-        const levelMatch = activeLevelFilters.length == 0 || activeLevelFilters.includes(itemLevel)
+        const levelMatch = activeLevelFilters.includes(itemLevel)
 
-        const otherSource = subclassMatch || featMatch || raceMatch
+        const otherSource = featMatch || raceMatch
+
+        if(activeClassFilters.length == 0 && activeSubclassFilters.length == 0 && !otherSource){
+            classMatch = true
+        }
         
-        if (sourceMatch && (classMatch || otherSource) && levelMatch) {
+        if (sourceMatch && (classMatch || subclassMatch || otherSource) && levelMatch) {
             item.classList.remove('hidden');
         } else {
             item.classList.add('hidden');

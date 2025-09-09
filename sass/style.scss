@@ -327,8 +327,14 @@ tbody > tr:nth-child(odd){
   text-align: left;
 }
 
+.section{
+  height: 100%;
+  width: 100%;
+}
+
 .content{
   margin: auto;
+  height: 100%;
 }
 
 @media (width > 768px){
@@ -429,22 +435,21 @@ tbody > tr:nth-child(odd){
 }
 
 .cards{
-  height: 50px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  padding-left: 1.5625em;
   gap: 13px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  position: absolute;
+  inset: 0; /* fill the square */
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
 }
 
 .card:hover {
@@ -453,10 +458,16 @@ tbody > tr:nth-child(odd){
 
 .card-link{
   text-decoration: none;
-  flex: 1 1 50px;
-  box-sizing: border-box;
-  aspect-ratio: 1 / 1;
-  display: flex;
+  position: relative;
+  flex: 1 1 150px; /* min size */
+  max-width: 200px; /* optional limit */
+  display: block;
+}
+
+.card-link::before {
+  content: "";
+  display: block;
+  padding-top: 100%; /* makes it square */
 }
 
 .symbol{

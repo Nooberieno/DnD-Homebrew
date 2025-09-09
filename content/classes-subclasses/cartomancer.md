@@ -1,7 +1,7 @@
 +++
 title = "Cartomancer"
 [taxonomies]
-subclasses = ['Cartomancer: Joker Deck']
+subclasses = ['Cartomancer: Tarot Deck', 'Cartomancer: Poker Deck', 'Cartomancer: Joker Deck', 'Cartomancer: Zener Deck']
 +++
 <table class="class-table">
   <thead>
@@ -386,7 +386,8 @@ subclasses = ['Cartomancer: Joker Deck']
 {% end %}
 
 ## Subclasses
-{{subclass_button(subclass="Joker Deck")}} 
+
+{{subclass_button(subclass="Tarot Deck")}} {{subclass_button(subclass="Poker Deck")}} {{subclass_button(subclass="Joker Deck")}} {{subclass_button(subclass="Zener Deck")}} 
 
 
 ## Class Features
@@ -429,6 +430,82 @@ Your choice grants you features when you choose it at 1st level and again at 6th
 
 Your deck of cards is the heart of your magic and is where you store your spells. Should this deck be destroyed you lose the ability to access all spells and features grant by your deck, except cantrips which are fixed in your mind.  If you can find a deck with the same symbols and number of cards, you can spend 1 hour to turn it your deck.
 
+{% subclass_feature(subclass="Tarot Deck") %}
+### Tarot Deck
+_"Each card carries a story, a secret, a truth waiting to be unveiled. Through the Tarot, you glimpse the weave of fate — and bend it to your will."_
+
+Tarot Deck Cartomancers are seers and fate-weavers, drawing power from prophecy and symbolism. Unlike the trickery of Jokers or the sharp odds of Poker, Tarot focuses on foresight, destiny, and manipulating probability in subtle but devastating ways.
+
+This deck contains 78 cards: 56 Minor Arcana split evenly into 4 suits (Cups, Pentacles, Wands and Swords) and 22 Major Arcana
+
+_Note: If you have an actual Tarot Deck with 22 Major Arcana cards, you can draw a card from it for the Arcana's Whisper(Major) instead of rolling dice._
+
+
+### Deck Spells
+_1st-level Tarot Deck feature_
+
+Your deck infuses you with the ability to cast certain spells. At 3rd, 5th, 7th and 9th level you gain access to spells connected to your deck.
+
+Once you gain access to a deck spell, you will always know it and it does not count against the number of spells you can know. If you gain access to a spell that doesn't appear on the cartomancer spell list, the spell is nonetheless a cartomancer spell for you.
+
+| Cartomancer Level | Deck Spells |
+|---|---|
+| 3rd | Detect Magic, Detect Poison and Disease |
+| 5th | Augury, Zone of Truth |
+| 7th | Clairvoyance, Protection from Energy |
+| 9th | Arcane Eye, Aura of Purity |
+
+
+### Arcana's Whisper (Minor)
+_1st-level Tarot Deck feature_
+
+You can draw from the four suits of the Minor Arcana to subtly twist fate.
+
+As a bonus action, choose one of the four suits and expend 1 Deal to invoke its effect.
+
+| Suit | Effect |
+|---|---|
+| **Cups** | A creature you choose within 30 ft regains hit points equal to 1d4 + your Intelligence modifier. (Healing grows to 2d4 at 5th level, 3d4 at 11th, 4d4 at 17th.) |
+| **Pentacles** | You or an ally within 30 ft gains +2 AC until the start of your next turn. |
+| **Wands** | One creature of your choice within 30 ft gains a bonus equal to 1d4 on its next attack roll or saving throw before the start of your next turn. |
+| **Swords** | Choose one creature within 30 ft. Until the start of your next turn, that creature has disadvantage on its next attack roll. |
+
+{% end %}
+
+{% subclass_feature(subclass="Poker Deck") %}
+### Poker Deck
+_"A card shark’s patience, a gambler’s nerve. You don’t play every hand—but when you do, it’s the one that ends the game."_
+
+The Poker Deck Cartomancer relies on reading the table (and the battlefield), calculating odds, and then betting everything on the perfect play. You stack subtle advantages until the moment is right for the big reveal.
+
+This deck contains 52 cards: 13 clubs, 13 spades, 13 diamonds and 13 hearts.
+
+
+### Deck Spells
+_1st-level Tarot Deck feature_
+
+Your deck infuses you with the ability to cast certain spells. At 3rd, 5th, 7th and 9th level you gain access to spells connected to your deck.
+
+Once you gain access to a deck spell, you will always know it and it does not count against the number of spells you can know. If you gain access to a spell that doesn't appear on the cartomancer spell list, the spell is nonetheless a cartomancer spell for you.
+
+| Cartomancer Level | Deck Spells |
+|---|---|
+| 3rd | Detect Magic, Detect Poison and Disease |
+| 5th | Augury, Zone of Truth |
+| 7th | Clairvoyance, Protection from Energy |
+| 9th | Arcane Eye, Aura of Purity |
+
+
+### High Card
+_1st-level Poker Deck feature_
+
+_The best hands begin with a single card_
+
+- You gain proficiency in the Insight skill. If you already have it, gain proficiency in Perception instead
+- Once per turn, when you roll damage for a spell, you can treat one damage die as having rolled its maximum value. You can use this a number of times equal to your Intelligence Modifier per long rest.
+
+{% end %}
+
 {% subclass_feature(subclass="Joker Deck") %}
 ### Joker Deck
 _"You don’t play by the rules—you make them up as you go. Every shuffle is a chance, every deal a gamble. And no one’s better at stacking the odds than you."_
@@ -439,7 +516,7 @@ This deck is made up of 54 cards: 13 clubs, 13 spades, 13 diamonds, 13 hearts an
 
 
 ### Deck Spells
-_1st-level Joker Deck feature_
+_1st-level Tarot Deck feature_
 
 Your deck infuses you with the ability to cast certain spells. At 3rd, 5th, 7th and 9th level you gain access to spells connected to your deck.
 
@@ -447,10 +524,10 @@ Once you gain access to a deck spell, you will always know it and it does not co
 
 | Cartomancer Level | Deck Spells |
 |---|---|
-| 3rd | Charm Person, Disguise Self |
-| 5th | Crown of Madness, Calm Emotions |
-| 7th | Feign Death, Nondetection |
-| 9th | Freedom of Movement, Seeming |
+| 3rd | Detect Magic, Detect Poison and Disease |
+| 5th | Augury, Zone of Truth |
+| 7th | Clairvoyance, Protection from Energy |
+| 9th | Arcane Eye, Aura of Purity |
 
 
 ### Buffoon
@@ -464,11 +541,60 @@ You are not a clown, you are the entire circus and you play your role perfectly.
 
 {% end %}
 
+{% subclass_feature(subclass="Zener Deck") %}
+### Zener Deck
+_"Symbols repeat, patterns emerge, and thought bleeds into reality. You’ve pierced the veil between mind and matter — and the cards are your instruments of proof."_
+
+The Zener Deck Cartomancer channels psychic phenomena through their symbolic deck. They are perceptive seers, mental duelists, and wielders of predictive probability.
+
+This deck contains 25 cards five of each symbol. The five symbols: a hollow circle, a plus sign, three vertical wavy lines, a hollow square, and a hollow five-pointed star.
+
+
+### Deck Spells
+_1st-level Tarot Deck feature_
+
+Your deck infuses you with the ability to cast certain spells. At 3rd, 5th, 7th and 9th level you gain access to spells connected to your deck.
+
+Once you gain access to a deck spell, you will always know it and it does not count against the number of spells you can know. If you gain access to a spell that doesn't appear on the cartomancer spell list, the spell is nonetheless a cartomancer spell for you.
+
+| Cartomancer Level | Deck Spells |
+|---|---|
+| 3rd | Detect Magic, Detect Poison and Disease |
+| 5th | Augury, Zone of Truth |
+| 7th | Clairvoyance, Protection from Energy |
+| 9th | Arcane Eye, Aura of Purity |
+
+
+### Paranormal Perception
+_1st-level Zener Deck feature_
+
+_"The veil between the material and the mental is thin for you, and you can feel the static of unseen minds."_
+
+As an action, you can focus your perception to sense the presence of psychic phenomena. For 1 minute, you gain the following benefits:
+
+- You know if a creature within 30 feet of you is under the effect of a charm, possession, or illusion spell.
+- You can make a Wisdom (Insight) check contested by a creature’s Charisma (Deception) to determine if it is hiding its thoughts or alignment of intent (hostile, neutral, friendly).
+
+You may use this feature a number of times equal to your proficiency bonus, and you regain expended uses after a long rest.
+
+
+### Mind's Eye
+_1st-level Zener Deck feature_
+
+_"Sight may betray you, your cards wont"_
+
+- You gain proficiency in the Insight skill, if you already have it, gain proficiency in Investigation instead.
+- You can use %%Spell: Detect Thoughts|PHB%% _Detect Thoughts_ once per long rest without expending a spell slot
+
+{% end %}
+
 ### Card Charisma
-At 2nd level, you may add your Intelligence modifier whenever you make a Deception or Persuasion check while doing card tricks
+At 2nd level, you may add your intelligence modifier whenever you make a Deception or Persuasion check while doing card tricks
 
 ### Deck Actions
 At 3rd level, you learn to apply your deck in ways other than just casting spells. You gain two of the following Deck Actions of your choice. You gain another one at 10th and 17th level.
+
+Spells can only benefit from 1 Deck Action at a time.
 
 - Overstock:
 
@@ -524,9 +650,20 @@ When you cast a spell that deals a type of damage from the following list, you c
 
 _Cost: 1-9 Deals_
 
-You can store a spell from the cartomancer spell list in a card by spending Deals equal to the spell’s level (1 Deal for a cantrip). The stored spell must have a casting time of 1 action. Only you can release the stored spell. To store it (Stock), you must be able to perform the spell's components. To release it (Draw), you must either touch the card or provide a verbal component while within 10 ft of the card. Once released, the spell behaves exactly as if it were just cast by you. While storing a spell in this way you cannot cast it normally without using Draw and only 1 spell can be stored this way at a time. Using Stock again causes the previous card to lose its magic. An unused spell fades from the card after a long rest.
+You can store a spell from the cartomancer spell list in a card by spending Deals equal to the spell’s level (1 Deal for a cantrip).   
+The stored spell must have a casting time of 1 action.  
+Only you can release the stored spell.   
+To store it (Stock), you must be able to perform the spell's components.   
+To release it (Draw), you must either touch the card or provide a verbal component while within 10 ft of the card.   
+Once released, the spell behaves exactly as if it were just cast by you.   
+While storing a spell in this way you cannot cast it normally without using Draw and only 1 spell can be stored this way at a time.   
+Using Stock again causes the previous card to lose its magic.   
+An unused spell fades from the card after a long rest.  
 
-You have 3 Deals, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can never have more Deals than shown on the table for your level. You regain all spent Deals when you finish a long rest.
+**Deals**  
+You have 3 Deals, and you gain one additional point every time you level up, to a maximum of 20 at level 20.  
+You can never have more Deals than shown on the table for your level.  
+You regain all spent Deals when you finish a long rest.
 
 ### Ability Score Improvement
 When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -538,6 +675,30 @@ When you reach 5th level, you learn to alter your cards in such a way to change 
 
 ### Deck of Cards Feature
 At 6th level, you gain one feature granted by your deck of cards
+
+{% subclass_feature(subclass="Tarot Deck") %}
+### The Cards Will Tell
+_6th-level Tarot Deck feature_
+
+When you finish a long rest, you may spend 10 minutes laying out three cards from your Tarot deck in a ritual of foresight. As you complete the reading, you glimpse fragments of a possible future.
+
+The DM provides you with a vision, omen, or symbolic impression and the three cards that symbolize these events. The message may be cryptic or clear, literal or metaphorical, at the DM’s discretion. You do not know exactly **when** or **how** the vision will come to pass — only that it is tied to events in the near future.
+
+- The vision might reveal danger (“a blade in the dark”), an opportunity (“a crown toppled”), or insight about a specific creature, object, or location (“the tower burns”).
+- The DM decides the content, clarity, and timing of the vision.
+- You may choose to focus your reading on a **specific creature** you have met, even without their knowledge. In that case, the vision relates to that creature’s fate.
+
+{% end %}
+
+{% subclass_feature(subclass="Poker Deck") %}
+### Straight
+_6th-level Poker Deck feature_
+
+_90% of gambling addicts quit right before they’re about to hit it big_
+
+When you cast a spell that has a casting time of 1 action, you can spend 2 deals to change the casting time to 1 bonus action for this casting.
+
+{% end %}
 
 {% subclass_feature(subclass="Joker Deck") %}
 ### House Rules
@@ -551,6 +712,14 @@ You can use this feature a number of times equal to your proficiency bonus and y
 
 {% end %}
 
+{% subclass_feature(subclass="Zener Deck") %}
+### Mental Echo
+_6th-level Zener Deck feature_
+
+Whenever you succeed on a saving throw against a spell or effect that would read your mind, charm you, or frighten you, you can use your reaction to force the originator of the effect to make a Wisdom saving throw against your spell save DC. On a failed save, they take 2d8 psychic damage and have disadvantage on their next Wisdom saving throw before the end of your next turn.
+
+{% end %}
+
 ### Ability Score Improvement
 When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
@@ -561,6 +730,49 @@ At 10th level, you learn an additional Deck Action.
 
 ### Deck of Cards Feature
 At 14th level, you gain one feature granted by your deck of cards
+
+{% subclass_feature(subclass="Tarot Deck") %}
+### Arcana's Whisper (Major)
+_14th-level Tarot Deck feature_
+
+Whenever you finish a long rest, you draw a Major Arcana card and infuse it with magic, roll a d22 and record its result. Use result minus one and consult the Arcana's Whisper table. As an Action you can use 3 deals to unleash the effect. Once used, the card loses its magic.
+
+| # | Card | Effect |
+|---|---|---|
+| 0 | **The Fool** | You and up to 2 allies teleport up to 30 ft to unoccupied spaces you can see. |
+| 1 | **The Magician** | You immediately regain one expended spell slot of 3rd level or lower. |
+| 2 | **The High Priestess** | For 1 minute, you have advantage on Insight and Perception checks, and enemies have disadvantage on saving throws against your divination spells. |
+| 3 | **The Empress** | You and up to 3 allies each regain 3d8 + your Intelligence modifier hit points. |
+| 4 | **The Emperor** | Choose one ally within 30 ft. That ally gains temporary hit points equal to twice your Cartomancer level. |
+| 5 | **The Hierophant** | You cast _Dispel Magic_ without expending a spell slot. |
+| 6 | **The Lovers** | Choose two creatures within 30 ft. They both gain advantage on attack rolls against enemies within 10 ft of the other until the end of your next turn. |
+| 7 | **The Chariot** | You gain +2 AC and advantage on Strength and Dexterity saves until the start of your next turn. |
+| 8 | **Strength** | One creature of your choice within 30 ft makes a Strength saving throw. On a fail, they are restrained until the start of your next turn. |
+| 9 | **The Hermit** | You become invisible until the start of your next turn or until you attack or cast a spell. |
+| 10 | **Wheel of Fortune** | Roll 1d6. On an even number, regain 2 Deals. On an odd number, one enemy within 30 ft of your choice loses their reaction until the start of your next turn. |
+| 11 | **Justice** | Choose a creature within 30 ft. They must make a Wisdom saving throw. On a failure, they are stunned until the start of your next turn. |
+| 12 | **The Hanged Man** | You suspend one creature within 30 ft, lifting them 10 ft into the air (as _Levitate_) until the start of your next turn. |
+| 13 | **Death** | Choose one creature within 30 ft. They must succeed on a Constitution saving throw or take necrotic damage equal to 4d10. On a success, half as much. |
+| 14 | **Temperance** | You and up to 2 allies each gain resistance to one damage type of your choice, excluding force, for 1 minute. |
+| 15 | **The Devil** | One creature within 30 ft must succeed on a Charisma save or become charmed by you until the end of your next turn. |
+| 16 | **The Tower** | A 20-ft radius sphere centered on a point within 60 ft erupts. All creatures in the area must make a Dexterity saving throw or take 3d10 force damage and be knocked prone. |
+| 17 | **The Star** | You or an ally within 30 ft regains 20 hit points and removes one condition (blinded, deafened, poisoned, or frightened). |
+| 18 | **The Moon** | An illusory double of yourself appears next to you. Until the start of your next turn, attacks against you have disadvantage. |
+| 19 | **The Sun** | All allies within 30 ft gain 10 temporary hit points and advantage on their next attack roll. |
+| 20 | **Judgement** | Choose up to 3 creatures within 30 ft. They each make a Charisma saving throw or take 5d8 radiant damage. |
+| 21 | **The World** | For 1 minute, you gain a flying speed equal to your walking speed and can add +1d4 to all attack rolls and saving throws. |
+
+{% end %}
+
+{% subclass_feature(subclass="Poker Deck") %}
+### Full House
+_14th-level Poker Deck feature_
+
+When you cast a spell of 1st through 5th level that targets only yourself, you can choose up to 3 allies within 30 feet to also gain its effects.
+
+You can use this feature once per long rest.
+
+{% end %}
 
 {% subclass_feature(subclass="Joker Deck") %}
 ### Wild Card
@@ -589,6 +801,16 @@ You can use this feature once per long rest.
 
 {% end %}
 
+{% subclass_feature(subclass="Zener Deck") %}
+### Destiny Calibration
+_14th-level Zener Deck feature_
+
+When you or a creature you can see within 30 feet makes an attack roll, saving throw, or ability check, you can use your reaction to roll a d4 and add or subtract it (your choice) from the roll.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum 1). You regain all expended uses after a long rest.
+
+{% end %}
+
 ### Ability Score Improvement
 When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
@@ -600,6 +822,33 @@ At 17th level, you learn an additional Deck Action.
 ### Deck of Cards Feature
 At 18th level, you gain one feature granted by your deck of cards
 
+{% subclass_feature(subclass="Tarot Deck") %}
+### Crown of Fate
+_18th-level Tarot Deck feature_
+
+_"The weave of destiny is yours to shape — threads tighten, cut, or rerouted at your will."_
+
+- When you finish a long rest, draw **two Major Arcana cards** instead of one. You can choose which one to empower with magic, or spend 5 Deals at once to empower both.
+- When a creature within 30 ft that you can see fails a saving throw, you can use your reaction to force them to succeed instead. You can use this feature a number of times equal to your Intelligence modifier (minimum 1), regaining all uses when you finish a long rest.
+
+{% end %}
+
+{% subclass_feature(subclass="Poker Deck") %}
+### Royal Flush
+_18th-level Poker Deck feature_
+
+_Big Deck Energy_
+
+When you cast a spell that deals damage it can gains the following benefits:
+
+- Enemies have disadvantage on any saving throw made against the spell
+- You have advantage on the Attack Roll
+- When you roll damage for this spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.
+
+You can use this feature a number of times equal to your Proficiency Bonus (Minimum of once)
+
+{% end %}
+
 {% subclass_feature(subclass="Joker Deck") %}
 ### Harlequin
 _18th-level Joker Deck feature_
@@ -609,6 +858,14 @@ _“Sometimes the only way to stay sane is to go a little crazy.”_
 - You are immune to being frightened or charmed.
 - You can use Wild Card 4 times per long rest.
 - When you or a creature you can see within 30 feet makes an attack roll, ability check, or saving throw, you can use your reaction to force them to reroll the die. You can use this feature a number of times equal to your Intelligence modifier (minimum 1) and regain all uses upon finishing a long rest.
+
+{% end %}
+
+{% subclass_feature(subclass="Zener Deck") %}
+### The Fifth Symbol
+_18th-level Zener Deck feature_
+
+You are immune to psychic damage, any effect that would sense your emotions or read your thoughts and the charmed condition
 
 {% end %}
 
