@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="content">
+  <h1 class="title">
+    {{ section.title }}
+  </h1>
+  <h2>Item Groups</h2>
+  <ul>
+    {% for sub in section.subsections %}
+    {%set sub = get_section(path=sub)%}
+    <li><a href="{{ sub.path | safe }}">{{ sub.title }} </a></li>
+    {% endfor %}
+  </ul>
+  <h2>Individual Items</h2>
+  <ul>
+    {% for page in section.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock content %}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}">
+        <link rel="icon" type="image/x-icon" href="{{ get_url(path='favicon.ico', trailing_slash=false) | safe }}">
+        
+        <script src="{{ get_url(path='elasticlunr.min.js', trailing_slash=false) | safe}}"></script>
+        <script src="{{ get_url(path='search_index.en.js', trailing_slash=false) | safe}}"></script>
+        <script src="{{ get_url(path='search.js', trailing_slash=false) | safe}}"></script>
+        <script src="{{ get_url(path='nav.js', trailing_slash=false) | safe}}"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="{{ config.base_url }}">
+                    <img class="logo" src="{{ get_url(path='favicon.svg', trailing_slash=false) | safe }}">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="{{ get_url(path='@/spells/_index.md') | safe}}">Spells</a>
+                        <a href="{{ get_url(path='@/items/_index.md') | safe}}">Items</a>
+                        <a href="{{ get_url(path='@/races/_index.md')}}">Races</a>
+                        <a href="{{ get_url(path='@/classes-subclasses/_index.md')}}">Classes</a>
+                        <a href="{{ get_url(path='@/conditions-and-diseases/_index.md')}}">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="{{ get_url(path='@/rules/_index.md') | safe}}">Additional Rules</a>
+                        <a href="{{ get_url(path='@/beastiary/_index.md') | safe}}">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                {% block content %}{% endblock content %}
+        </section>
+    </main>
+</body>
+</html>

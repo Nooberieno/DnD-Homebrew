@@ -1,0 +1,78 @@
+{% macro source_list(source_book, pages)%}
+
+{% for page in pages %}
+    {% if page.taxonomies.sourcebook[0] == source_book %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endif %}
+{% endfor %}
+
+{% endmacro source_list %}
+
+{# {% macro abbreviate_sourcebook %}
+
+{% endmacro abbreviate_sourcebook %} #}
+
+{% macro abbreviate_spellbook(spellbook) %}
+
+{% set abrev = "" %}
+
+{% if spellbook == "Principa Incantare" %}
+    {% set abrev = "PI" %}
+{% elif spellbook == "Jujutsu Spells" %}
+    {% set abrev = "JS" %}
+{% elif spellbook == "Codex of the Maddened Pyromancer"%}
+    {% set abrev = "CotMP"%}
+{% elif spellbook == "Tome of Petty Spellcasters"%}
+    {% set abrev = "ToPS"%}
+{% elif spellbook == "Tusk's Grimoire"%}
+    {% set abrev = "TG"%}
+{% elif spellbook == "The Art of Cards"%}
+    {% set abrev = "TAoC"%}
+{% endif %}
+
+
+{% if abrev %}
+    {{ abrev }}
+{% else %}
+    {{ spellbook }}
+{% endif %}
+{% endmacro abbreviate_spellbook%}
+
+
+{% macro abbreviate_school(school) %}
+
+{% set abrev = ""%}
+
+{% if school == "Abjuration" %}
+    {% set abrev = "Abj."%}
+
+{% elif school == "Conjuration" %}
+    {% set abrev = "Conj."%}
+
+{% elif school == "Divination" %}
+    {% set abrev = "Divin." %}
+
+{% elif school == "Enchantment" %}
+    {% set abrev = "Ench." %}
+
+{% elif school == "Evocation" %}
+    {% set abrev = "Evoc." %}
+
+{% elif school == "Illusion" %}
+    {% set abrev = "Illu." %}
+
+{% elif school == "Necromancy" %}
+    {% set abrev = "Necro." %}
+
+{% elif school == "Transmutation" %}
+    {% set abrev = "Trans." %}
+
+{% endif %}
+
+{% if abrev %}
+    {{ abrev }}
+{% else %}
+    {{ school }}
+{% endif %}
+
+{% endmacro abbreviate_school %}

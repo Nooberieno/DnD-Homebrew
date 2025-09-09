@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script src="{{ get_url(path='sortable_tables.js', trailing_slash=false) | safe }}"></script>
+
+<h1 style="text-align: center;">
+    Table of Talismans
+</h1>
+
+<br>
+<br>
+<br>
+<table class="talisman-table sortable-table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Cost</th>
+        <th>Effects</th>
+        <th>Upgradable?</th>
+        <th>Upgrade Cost</th>
+        <th>Tier</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% set sorted_pages = section.pages | sort(attribute="extra.tier", reverse=true)%}
+    {% for page in sorted_pages %}
+    <tr>
+        <td><a href="{{ page.permalink | safe }}">{{ page.title }}</a></td>
+        <td>{{ page.extra.cost }}</td>
+        <td>{{ page.extra.effects | markdown | safe }}</td>
+        <td>{{ page.extra.upgradable | markdown | safe}}</td>
+        <td>{% if page.extra.upgrade_cost %} {{ page.extra.upgrade_cost }} {% else %} N/A {% endif %}</td>
+        <td>{{ page.extra.tier }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}

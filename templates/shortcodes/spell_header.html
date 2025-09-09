@@ -1,0 +1,10 @@
+
+<th colspan="3"></th>
+<th colspan={{space}}></th>
+{% if progress == "full" %}
+    <th class="spell-header" colspan="9">Spell Slots per Spell Level</th>
+{% elif progress == "1/2" %}
+    <th class="spell-header" colspan="5">Spell Slots per Spell Level</th>
+{% else %}
+    <th class="spell-header" colspan="3">Spell Slots per Spell Level</th>
+{% endif %}
