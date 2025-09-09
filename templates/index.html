@@ -29,7 +29,7 @@
     <div class="cards"> 
         {% for sub in ['spells/_index.md', 'classes-subclasses/_index.md', 'races/_index.md', 'items/_index.md', "conditions-and-diseases/_index.md"] %}
         {%set sub = get_section(path=sub)%}
-        <a class="card-link" href="{{ sub.path | safe }}">
+        <a class="card-link" href="{{ sub.permalink }}">
             <div class="card">
                 <div class="container">
                     <div class="symbol">&#9861</div>
