@@ -14,15 +14,24 @@ function makeTableSortable(table){
             sortDirection = !sortDirection;
 
             rows.sort((a, b) => {
-                let valA = a.children[idx].textContent.trim();
-                let valB = b.children[idx].textContent.trim();
 
-                // Try to parse as number if possible
-                let numA = parseFloat(valA.replace(/[^0-9.-]+/g,""));
-                let numB = parseFloat(valB.replace(/[^0-9.-]+/g,""));
-                if (!isNaN(numA) && !isNaN(numB)) {
-                    valA = numA;
-                    valB = numB;
+                if (a.dataset.level !== undefined && b.dataset.level !== undefined) {
+                    valA = parseFloat(a.dataset.level);
+                    valB = parseFloat(b.dataset.level);
+                } else if(header.textContent.trim() === "Upgradable?"){
+                    valA = a.children[idx].textContent.trim() === "No" ? 0 : 1
+                    valB = b.children[idx].textContent.trim() === "No" ? 0 : 1
+                } else {
+                    valA = a.children[idx].textContent.trim();
+                    valB = b.children[idx].textContent.trim();
+
+                     // Try to parse as number if possible
+                    let numA = parseFloat(valA.replace(/[^0-9.-]+/g, ""));
+                    let numB = parseFloat(valB.replace(/[^0-9.-]+/g, ""));
+                    if (!isNaN(numA) && !isNaN(numB)) {
+                        valA = numA;
+                        valB = numB;
+                    }
                 }
 
                 if (valA < valB) return sortDirection ? -1 : 1;

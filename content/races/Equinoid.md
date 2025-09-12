@@ -24,7 +24,7 @@ Your base walking speed is 35 ft
 ### Creature Type
 You are a fey
 ### Languages
-You can speak, read and write Common and [[Taurian]]. Taurian is a language usually only spoken by horse like creature, such as Equinoids and Centaurs and other creatures could mistake it for the sounds of regular horses
+You can speak, read and write Common and Taurian. Taurian is a language usually only spoken by horse like creature, such as Equinoids and Centaurs and other creatures could mistake it for the sounds of regular horses
 
 ### Fight or Flight
 When creating your character, choose a basic instinct: Fight or Flight. Both of these give an optional reaction you can use when getting attacked. These can be used a number of times equal half to your proficiency modifier.

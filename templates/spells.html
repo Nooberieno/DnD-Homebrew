@@ -19,123 +19,122 @@
 {% set feats = get_taxonomy(kind="feats") %}
 {% set races = get_taxonomy(kind="races") %}
 
-<button class="open-filters" aria-label="Open Filter Popup">Filters</button>
 
-<div class="filters hidden">
-    <div class="content">
-    <div class="filter-container">
-
-        <div class="popup-row">
-            <h1>Filters</h1>
-            <div style="margin-left: auto;">
-                <button class="reset-filters" onclick="resetFilterButtons()">Reset all</button>
-                <button class="close-filters" aria-label="Close Popup">X</button>
-            </div>
-        </div>
-
-        <div class="popup-row">
-          <b>Source</b>
-          <div style="margin-left: auto;">
-            <button class="add-filter" onclick="addFilterClass('source')">All</button>
-            <button class="clear-filter" onclick="clearFilterClass('source')">Clear</button>
-          </div>
-        </div>
-        <div class="source-filters">
-            {% for source in spellbooks.items %}
-            <button class="source-filter" data-source="{{ source.name }}">
+<div class="spell-layout">
+  <div class="spell-main">
+    <button class="open-filters" aria-label="Open Filter Popup">Filters</button>
+    
+      
+      <div class="filters hidden">
+          <div class="content" style="display: flex; align-items: center;">
+            <div class="filter-container">
+              
+              <div class="popup-row">
+                <h1>Filters</h1>
+                <div style="margin-left: auto;">
+                  <button class="reset-filters" onclick="resetFilterButtons()">Reset all</button>
+                  <button class="close-filters" aria-label="Close Popup">X</button>
+                </div>
+              </div>
+              
+              <div class="popup-row">
+                <b>Source</b>
+                <div style="margin-left: auto;">
+                  <button class="add-filter" onclick="addFilterClass('source')">All</button>
+                  <button class="clear-filter" onclick="clearFilterClass('source')">Clear</button>
+                </div>
+              </div>
+            <div class="source-filters">
+              {% for source in spellbooks.items %}
+              <button class="source-filter" data-source="{{ source.name }}">
                 {{ source.name }}
-        </button>
-        {% endfor %}
-    </div>
-    
-        <div class="popup-row">
-          <b>Classes</b>
-          <div style="margin-left: auto;">
-            <button class="add-filter" onclick="addFilterClass('class')">All</button>
-            <button class="clear-filter" onclick="clearFilterClass('class')">Clear</button>
+              </button>
+              {% endfor %}
+            </div>
+            
+            <div class="popup-row">
+              <b>Classes</b>
+              <div style="margin-left: auto;">
+                <button class="add-filter" onclick="addFilterClass('class')">All</button>
+                <button class="clear-filter" onclick="clearFilterClass('class')">Clear</button>
+              </div>
+            </div>
+            <div class="class-filters">
+              <br>
+              {% for class in classes.items %}
+              <button class="class-filter" data-class="{{ class.name }}">
+                {{ class.name }}
+              </button>
+              {% endfor %}
+            </div>
+            
+            <div class="popup-row">
+              <b>Subclasses</b>
+              <div style="margin-left: auto;">
+                <button class="add-filter" onclick="addFilterClass('subclass')">All</button>
+                <button class="clear-filter" onclick="clearFilterClass('subclass')">Clear</button>
+              </div>
+            </div>
+            <div class="subclass-filters">
+              <br>
+              {% for subclass in subclasses.items %}
+              {% if subclass.name not in ["Monk: Way of the Curse", "Monk: Iai Chop", "Fighter: Heavenly Restricted"]%}
+              <button class="subclass-filter" data-subclass="{{ subclass.name }}">
+                {{ subclass.name }}
+              </button>
+              {% endif %}
+              {% endfor %}
+            </div>
+            
+            
+            <div class="popup-row">
+              <b>Spell Level</b>
+              <div style="margin-left: auto;">
+                <button class="add-filter" onclick="addFilterClass('level')">All</button>
+                <button class="clear-filter" onclick="clearFilterClass('level')">Clear</button>
+              </div>
+            </div>
+            <div class="level-filters">
+              <br>
+              {% for level in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] %}
+              <button class="level-filter" data-level="{{ level }}">
+                {{ level }}
+              </button>
+              
+              {% endfor%}
+            </div>
           </div>
-        </div>    
-        <div class="class-filters">
-        <br>
-        {% for class in classes.items %}
-        <button class="class-filter" data-class="{{ class.name }}">
-            {{ class.name }}
-        </button>
-        {% endfor %}
-    </div>
-    
-        <div class="popup-row">
-          <b>Subclasses</b>
-          <div style="margin-left: auto;">
-            <button class="add-filter" onclick="addFilterClass('subclass')">All</button>
-            <button class="clear-filter" onclick="clearFilterClass('subclass')">Clear</button>
-          </div>
-        </div>  
-    <div class="subclass-filters">
-        <br>
-        {% for subclass in subclasses.items %}
-        {% if subclass.name not in ["Monk: Way of the Curse", "Monk: Iai Chop", "Fighter: Heavenly Restricted"]%}
-        <button class="subclass-filter" data-subclass="{{ subclass.name }}">
-            {{ subclass.name }}
-        </button>
-        {% endif %}
-        {% endfor %}
-    </div>
-
-
-    <div class="popup-row">
-          <b>Spell Level</b>
-          <div style="margin-left: auto;">
-            <button class="add-filter" onclick="addFilterClass('level')">All</button>
-            <button class="clear-filter" onclick="clearFilterClass('level')">Clear</button>
-          </div>
-        </div>  
-    <div class="level-filters">
-        <br>
-        {% for level in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] %}
-        <button class="level-filter" data-level="{{ level }}">
-            {{ level }}
-        </button>
-
-        {% endfor%}
-    </div>
-    </div>
-</div>
-</div>
-
-
-<div class="no-scroll" style="display: flex; height: 80vh">
-<div>
-<div class="spell-list">
-    {% set sorted_pages = section.pages | sort(attribute="extra.level", reverse=true)%}
-  <table class="spell-table sortable-table">
-      <thead>
-          <tr>
+        </div>
+      </div>
+      
+      <div class="spell-list">
+        {% set sorted_pages = section.pages | sort(attribute="extra.level", reverse=true)%}
+        <table class="spell-table sortable-table">
+          <thead>
+            <tr>
               <th>Spell</th>
               <th>Level</th>
               <th>Concentration</th>
               <th>School</th>
               <th>Source</th>
             </tr>
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
             
             {% for page in sorted_pages %}
-            <tr class="spell-item" 
-            data-source="{{ page.taxonomies.spellbook[0] }}"
+            <tr class="spell-item" data-source="{{ page.taxonomies.spellbook[0] }}"
             data-classes="{{ page.taxonomies.classes | join(sep=' ') }}"
             data-subclasses="{% if page.taxonomies.subclasses %} {{ page.taxonomies.subclasses | join(sep='9')}} {% endif %}"
             data-feats="{% if page.taxonomies.feats %} {{ page.taxonomies.feats | join(sep='9') }} {% endif %}"
             data-races="{% if page.taxonomies.races %} {{ page.taxonomies.races | join(sep='9') }} {% endif %}"
-            data-level="{{ page.extra.level }}"
-            >
+            data-level="{{ page.extra.level }}">
             <td>
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+              <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
             </td>
             {% if page.extra.level == 0 %}
             <td>Cantrip</td>
             {% else %}
-            <td>{{ page.extra.level }}</td> 
+            <td>{{ page.extra.level }}</td>
             {% endif %}
             
             {% if page.extra.concentration %}
@@ -144,17 +143,19 @@
             <td></td>
             {%endif%}
             
-            <td> <abbr title="{{ page.extra.school }}">{{ macros::abbreviate_school(school=page.extra.school)}}</abbr></td>
+            <td> <abbr title="{{ page.extra.school }}">{{ macros::abbreviate_school(school=page.extra.school)}}</abbr>
+            </td>
             
-            <td><abbr title="{{ page.taxonomies.spellbook[0] }}">{{ macros::abbreviate_spellbook(spellbook=page.taxonomies.spellbook[0]) }}</abbr></td>
+            <td><abbr title="{{ page.taxonomies.spellbook[0] }}">{{
+              macros::abbreviate_spellbook(spellbook=page.taxonomies.spellbook[0]) }}</abbr></td>
+              
+            </tr>
             
-        </tr>
-        
-        {% endfor %}
-    </tbody>
-</table>
-</div>
-</div>
-</div>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+  </div>
 
-{% endblock content %}
+  
+  {% endblock content %}
