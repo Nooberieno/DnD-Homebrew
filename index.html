@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="https://nooberieno.github.io/DnD-Homebrew/style.css">
+        <link rel="icon" type="image/x-icon" href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico">
+        
+        <script src="https://nooberieno.github.io/DnD-Homebrew/elasticlunr.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                    <img class="logo" src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/spells/">Spells</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/items/">Items</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/races/">Races</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/">Classes</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/rules/">Additional Rules</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                
+<div class="content">
+
+    <h1 class="title">
+        DnD Homebrew
+    </h1>
+    
+    <h2>Disclaimer</h2>
+    
+    <p>This website is not endorsed Wizards of the Coast</p>
+    <p>This website is intented as a more accesible digital reference for HomeBrew content</p>
+    
+    <p>
+        This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of
+        the Coast LLC and available at <a href="https://dnd.wizards.com/resources/systems-reference-document" target="_blank">https://dnd.wizards.com/resources/systems-reference-document</a>. 
+    </p>
+    <p>
+        The
+        SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at
+        <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">https://creativecommons.org/licenses/by/4.0/legalcode</a>
+    </p>
+
+    <p>You can contribute and check out the project on <a href="https://github.com/Nooberieno/DnD-Homebrew" target="_blank">GitHub</a></p>
+    
+    <h2>Player</h2>
+
+    <div class="cards"> 
+        
+        
+        <a class="card-link" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;spells&#x2F;">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9861</div>
+                    Spells
+                </div>
+            </div>
+        </a>
+        
+        
+        <a class="card-link" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;classes-subclasses&#x2F;">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9861</div>
+                    Classes
+                </div>
+            </div>
+        </a>
+        
+        
+        <a class="card-link" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;races&#x2F;">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9861</div>
+                    Races
+                </div>
+            </div>
+        </a>
+        
+        
+        <a class="card-link" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;items&#x2F;">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9861</div>
+                    Items
+                </div>
+            </div>
+        </a>
+        
+        
+        <a class="card-link" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;conditions-and-diseases&#x2F;">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9861</div>
+                    Conditions and Diseases
+                </div>
+            </div>
+        </a>
+        
+    </div>
+
+    <h2>DM</h2>
+
+    <div class="cards"> 
+        
+        
+        <a class="card-link" href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9858</div>
+                    Beastiary
+                </div>
+            </div>
+        </a>
+        
+        
+        <a class="card-link" href="https://nooberieno.github.io/DnD-Homebrew/rules/">
+            <div class="card">
+                <div class="container">
+                    <div class="symbol">&#9858</div>
+                    Additional Rules
+                </div>
+            </div>
+        </a>
+        
+    </div>
+
+</div>
+
+
+        </section>
+    </main>
+</body>
+</html>

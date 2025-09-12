@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="https://nooberieno.github.io/DnD-Homebrew/style.css">
+        <link rel="icon" type="image/x-icon" href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico">
+        
+        <script src="https://nooberieno.github.io/DnD-Homebrew/elasticlunr.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                    <img class="logo" src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/spells/">Spells</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/items/">Items</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/races/">Races</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/">Classes</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/rules/">Additional Rules</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                
+<script src="https://nooberieno.github.io/DnD-Homebrew/subrace_filter.js"></script>
+
+<div class="content">
+  <h1 class="title">
+    Cephalkin
+  </h1>
+  <p><em>“Masters of the seas, trickery, and quick wit.”</em></p>
+<p>The Cephalkin are an aquatic humanoid race resembling humanoid cephalopods. They have tentacles for lower limbs, dexterous upper limbs, and an innate connection to the ocean. Many Cephalkin are daring adventurers, pirates, or explorers who seek the freedom of the seas and beyond. Cephalkin civilizations are found in deep oceans hidden from sight.</p>
+<h3 id="appearance"><strong>Appearance</strong></h3>
+<p>Cephalkin mostly characterized by the fact that they have 8 tentacles for lower limbs, their facial tentacles which resemble the facial hair of other humanoids, darker skin tones, which come in variety of colors, that they use to disguise themselves, trying to look like coral.  Their upper limbs consist of dexterous appendages, which at first glance look like arms, but they are way more dexterous and bend in unnatural ways. Cephalkin have five fingers with small suction cup-like fingertips.</p>
+<h3 id="cephalkin-traits"><strong>Cephalkin Traits</strong></h3>
+<p><strong>Creature Type</strong><br />
+You are a Humanoid</p>
+<p><strong>Ability Score Increase.</strong><br />
+Your Dexterity score increases by 2.</p>
+<p><strong>Age.</strong><br />
+Cephalkin mature around 20 years old and live up to 600 years.</p>
+<p><strong>Alignment.</strong><br />
+Most Cephalkin lean toward chaotic alignments, valuing freedom and individuality.</p>
+<p><strong>Size.</strong><br />
+Cephalkin are typically 5–6 feet tall when standing, but their tentacles can extend them to a length of 8–11 feet. Your size is Medium.</p>
+<p><strong>Speed.</strong><br />
+Your base walking speed is 30 feet. You have a swimming speed of 30 feet.</p>
+<p><strong>Languages.</strong><br />
+You can speak, read, and write Common and Primordial(Aquan).</p>
+<h3 id="features">Features</h3>
+<p><strong>Aquatic Heritage.</strong><br />
+You can breathe both water and air.</p>
+<p><strong>Camouflage.</strong><br />
+you can attempt to hide even when you are only lightly obscured by water, foliage, dim light, or other natural phenomena. When you do so, you can change the color and pattern of your skin to match your surroundings. While camouflaged in this way, you have advantage on Dexterity (Stealth) checks to hide, and you have advantage on attack rolls against any creature that hasn't seen you since you became camouflaged. Your camouflage lasts until you move or take an action or reaction.</p>
+<p><strong>Tentacles.</strong><br />
+You have 8 flexible tentacles that you can use to grapple creatures. Your tentacle reach is 5 feet longer than normal.</p>
+<p><strong>Subrace</strong><br />
+When you choose a race, you also need to pick one of the subraces listed below</p>
+<h3 id="subraces-octoid-coleoid-nautiloid"><strong>Subraces: Octoid, Coleoid, Nautiloid</strong></h3>
+<p><button class="subrace-button" data-subclass="Octoid Cephalkin">
+    Octoid Cephalkin
+</button>
+<button class="subrace-button" data-subclass="Coleoid Cephalkin">
+    Coleoid Cephalkin
+</button>
+<button class="subrace-button" data-subclass="Nautiloid Cephalkin">
+    Nautiloid Cephalkin
+</button></p>
+<div class="subrace-features hidden" data-subclass="Octoid Cephalkin">
+    <h4 id="octoid-cephalkin"><strong>Octoid Cephalkin</strong></h4>
+<blockquote>
+<p><em>Octoids possess strong, versatile tentacles, making them excellent grapplers and close-combat specialists.</em></p>
+</blockquote>
+<p>Octoid Cephalkin have the most developed tentacles out of all Cephalkin, this is to navigate the deep ocean floors they live on and catch prey effectively. Octoid Cephalkin have increased muscle growth compared to other Cephalkin. Octoids often venture on land to learn martial arts and how to wield weapons, as nothing brings them more joy then to show of their strength. Many a wrestling champion has been or been the student of an Octoid Cephalkin.</p>
+<p><strong>Ability Score Increase.</strong><br />
+Your Strength score increases by 1.</p>
+<p><strong>Superior Darkvision</strong>
+Accustomed to the extreme low light environment of the deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+<p><strong>Tentacle Strength.</strong><br />
+You can use your tentacles as a natural weapon. When you grapple a creature, you can deal bludgeoning damage equal to 1d6 + your Strength modifier as part of the grapple.</p>
+<p><strong>Tentacle Agility.</strong><br />
+You have advantage on ability checks and saving throws to avoid being knocked prone. You can also use your tentacles to manipulate small objects or perform simple tasks, though they can’t wield weapons or shields.</p>
+
+</div><div class="subrace-features hidden" data-subclass="Coleoid Cephalkin">
+    <h4 id="coleoid-cephalkin"><strong>Coleoid Cephalkin</strong></h4>
+<blockquote>
+<p><em>Coleoids are stealthy and nimble, relying on their camouflage and ability to squeeze through tight spaces.</em></p>
+</blockquote>
+<p>It is theorized that Coleoid Cephalkin used to live in the same deep waters as other Cephalkin, but a fearsome predator forced them into hiding in cave system in shallower waters, although no one has been clear about what this predator could be. It is however a common explanation for Coleoid's more pronounced stealth and nimbleness. Coleoid Cephalkin have the weakest, yet most flexible tentacles and although their tentacles are weak, the suction cups on them are extremely well developed, allowing them to stick to most surfaces. Coleoids can be recognized by their signature pointy head shape, reminiscent of their distant squid cousins.</p>
+<p><strong>Ability Score Increase.</strong><br />
+Your Charisma score increases by 1.</p>
+<p><strong>Darkvision</strong>
+Accustomed to low light environments of deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+<p><strong>Enhanced Camouflage.</strong><br />
+As an action, you can blend into your surroundings, gaining advantage on Dexterity (Stealth) checks for 1 minute. While camouflaged, your speed is reduced by 10 feet. You can use this ability a number of times equal to your proficiency modifier, regaining all uses after a long rest.</p>
+<p><strong>Tentacle Climb.</strong><br />
+You have a climbing speed of 25 ft. Starting at 3rd level, you can move up, down, and across vertical surfaces and ceilings without needing to make an ability check, leaving your hands free.</p>
+<p><strong>Water Dependency.</strong><br />
+If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of <a href="https://2014.5e.tools/conditionsdiseases.html#exhaustion_phb">exhaustion</a> at the end of that day. You can only recover from this <a href="https://2014.5e.tools/conditionsdiseases.html#exhaustion_phb">exhaustion</a> through magic or by immersing yourself in water for at least 1 hour.</p>
+<p><strong>Squeeze.</strong><br />
+You can squeeze through a space as narrow as 2 inches wide, provided you are wearing and carrying nothing.</p>
+<p><strong>Dexterous grapple</strong>
+You can now grapple enemies within 5 ft of you as a bonus action, additionally you gain advantage on attack rolls against enemies you are grappling.</p>
+
+</div><div class="subrace-features hidden" data-subclass="Nautiloid Cephalkin">
+    <h4 id="nautiloid-cephalkin"><strong>Nautiloid Cephalkin</strong></h4>
+<blockquote>
+<p><em>Nautiloids have evolved a defensive shell, prioritizing durability over their agility on land.</em></p>
+</blockquote>
+<p>Many believers of the Coleoid predator theory, say that the Nautiloid's shell is another adaptation to defend from predators. These Cephalkin live at the lowest of depths and have the hardest time adjusting to land, finding that their shell slows them down when walking. Nautiloid Cephalkin often have many facial tentacles, which is often considered creepy by other humanoid races. Nautiloids are easily recognized by the spiral shell covering their heads, which contain and protect their brains. This means Nautiloids will die if their shell is removed. Their shell has made them quite the target for bandits and poachers, as armor created from a Nautiloid's shell lighter and more durable than any metal.</p>
+<p><strong>Ability Score Increase.</strong><br />
+Your Constitution score increases by 1.</p>
+<p><strong>Superior Darkvision</strong>
+Accustomed to the extreme low light environment of the deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+<p><strong>Natural Armor.</strong><br />
+Your tough shell grants you a +2 bonus to AC while you are not wearing heavy armor. Your shell also lowers your base walking speed to 25 ft</p>
+<p><strong>Ink Spray.</strong><br />
+As an action, you can expel a cloud of dark ink in a 10-foot radius. The area becomes heavily obscured until the end of your next turn. Creatures in the area when the ink appears must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be blinded until the end of their next turn. You can use this ability once per short or long rest.</p>
+<p><strong>Increased Swimming Speed.</strong><br />
+Your swimming speed increases to 40 feet.</p>
+
+</div>
+</div>
+
+        </section>
+    </main>
+</body>
+</html>
