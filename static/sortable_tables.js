@@ -15,7 +15,7 @@ function makeTableSortable(table){
 
             rows.sort((a, b) => {
 
-                if (a.dataset.level !== undefined && b.dataset.level !== undefined) {
+                if (header.textContent.trim().toLowerCase() === "level") {
                     valA = parseFloat(a.dataset.level);
                     valB = parseFloat(b.dataset.level);
                 } else if(header.textContent.trim() === "Upgradable?"){
