@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="https://nooberieno.github.io/DnD-Homebrew/style.css">
+        <link rel="icon" type="image/x-icon" href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico">
+        
+        <script src="https://nooberieno.github.io/DnD-Homebrew/elasticlunr.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                    <img class="logo" src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/spells/">Spells</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/items/">Items</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/races/">Races</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/">Classes</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/rules/">Additional Rules</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                
+
+
+
+<ul>
+    
+    <li>A Warlord&#x27;s Way Around the Seven Seas</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/races/cephalkin/">Cephalkin</a>
+        </li>
+        
+    </ul>
+    
+    <li>Gojo&#x27;s Guide to Cursing</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/transfigured-humanoid/">Transfigured Humanoid</a>
+        </li>
+        
+    </ul>
+    
+    <li>Jujutsu Spells</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/heart-catch/">Heart Catch</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/cursed-speech/">Cursed Speech</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/idle-transfiguration/">Idle Transfiguration</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/boogie-woogie/">Boogie Woogie</a>
+        </li>
+        
+    </ul>
+    
+    <li>Races of Anur</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/races/equinoid/">Equinoid</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/races/shadow-genasi/">Shadow Genasi</a>
+        </li>
+        
+    </ul>
+    
+    <li>Rot and Ruin</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/diseases/scarlet-rot/">Scarlet Rot</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/juvenile-quacken/">Juvenile Quacken</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/elder-blood-mimic/">Elder Blood Mimic</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/selachian-sandstalker/">Selachian Sandstalker</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/juvenile-quacken-tentaclaw/">Juvenile Quacken Tentaclaw</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/dream-tiger/">Dream Tiger</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/twinblade-general/">Twinblade (general)</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/great-katana-general/">Great Katana (general)</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/katana-general/">Katana (general)</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/elanora-s-poleblade/">Elanora&#x27;s Poleblade</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/rivers-of-blood/">Rivers of Blood</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/faith-breaker/">Faith Breaker</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/weapons/backbreaker/">BackBreaker</a>
+        </li>
+        
+    </ul>
+    
+    <li>The Art of Cards</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/maximum-circus/">Maximum Circus</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/magician-s-box/">Magician&#x27;s Box</a>
+        </li>
+        
+    </ul>
+    
+    <li>Tome of Petty Spellcasters</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/non-magic-missile/">Non-Magic Missile</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/wrath-of-the-stubbed-toe/">Wrath of the Stubbed Toe</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/lego-minefield/">Lego Minefield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/glimpse/">Glimpse</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/that-s-a-lot-of-words/">That&#x27;s A Lot Of Words</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/wet-socks/">Wet Socks</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/osmium-ovaries/">Osmium Ovaries</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/zero-spatial-awareness/">Zero Spatial Awareness</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/ashes-to-ashes/">Ashes To Ashes</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/scooter-strike/">Scooter Strike</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/pull-yourself-together/">Pull Yourself Together</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/melchior-s-muzzle/">Melchior&#x27;s Muzzle</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/let-him-cook/">Let Him Cook</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/testicular-torsion/">Testicular Torsion</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/rubber-bones/">Rubber Bones</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/irritating-gaze/">Irritating Gaze</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/screw-that-one-guy-in-particular/">Screw That One Guy In Particular</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/instant-brazilian-wax/">Instant Brazilian Wax</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/tungsten-balls/">Tungsten Balls</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/out/">Out!</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/power-word-cringe/">Power Word: Cringe</a>
+        </li>
+        
+    </ul>
+    
+    <li>Tome of the Tarnished</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/the-flame-of-frenzy/">The Flame of Frenzy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/giantsflame-take-thee/">Giantsflame, Take Thee</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/dragon-s-maw/">Dragon&#x27;s Maw</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/carbonated-blood/">Carbonated Blood</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/bloodboon/">Bloodboon</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/midra-s-flame-of-frenzy/">Midra&#x27;s Flame of Frenzy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/golden-vow/">Golden Vow</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/inescapable-frenzy/">Inescapable Frenzy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/furious-blade-of-ansbach/">Furious Blade of Ansbach</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/unendurable-frenzy/">Unendurable Frenzy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/flame-grant-me-strength/">Flame, Grant me Strength</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/howl-of-shabriri/">Howl of Shabriri</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/flame-cleanse-thee/">Flame, Cleanse Thee</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/lightning-spear/">Lightning Spear</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/frenzied-burst/">Frenzied Burst</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/conditions/bleeding/">Bleeding</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/conditions/rotting/">Rotting</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/conditions/frenzied/">Frenzied</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/infusion-stones/">Infusion Stones</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/flamedrake-talisman/">FlameDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/orb-of-wildfire/">Orb of Wildfire</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/flamedrake-talisman-reforged/">FlameDrake Talisman Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-ritual-shield/">True Ritual Shield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/crimson-amber-medallion-reforged/">Crimson Amber Medallion Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/briar-talisman/">Briar Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/blade-of-mercy/">Blade of Mercy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/snowdrake-talisman-reforged/">SnowDrake Talisman Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/flock-s-canvas-talisman/">Flock&#x27;s Canvas Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/snowdrake-talisman/">SnowDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/bull-goat-s-talisman/">Bull-Goat&#x27;s Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/ritual-sword-talisman/">Ritual Sword Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/haligdrake-talisman-reforged/">HaligDrake Talisman Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-dragoncrest-greatshield/">True Dragoncrest Greatshield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/loaded-dice/">Loaded  Dice</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/shattered-stone-talisman/">Shattered Stone Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/tome-of-knowledge/">Tome of Knowledge</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-spelldrake-talisman/">True SpellDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/red-feathered-branchsword/">Red-Feathered Branchsword</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/dragoncrest-greatshield-reforged/">Dragoncrest Greatshield Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/orb-of-inferno/">Orb of Inferno</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/ritual-shield-talisman/">Ritual Shield Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/assassin-s-crimson-dagger/">Assassin&#x27;s Crimson Dagger</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/imprint-talisman/">Imprint Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/glacier-scorpion-charm/">Glacier Scorpion Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/focus-sash/">Focus Sash</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/aged-one-s-exhultation/">Aged One&#x27;s Exhultation</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/power-herb/">Power Herb</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-ritual-sword/">True Ritual Sword</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/blue-feathered-branchsword/">Blue-Feathered Branchsword</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/tome-of-overflowing-knowledge/">Tome of Overflowing Knowledge</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/fire-scorpion-charm/">Fire Scorpion Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/twinblade-talisman/">Twinblade Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/mental-herb/">Mental Herb</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/boltdrake-talisman/">BoltDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-boltdrake-talisman/">True BoltDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/crimson-amber-medallion/">Crimson Amber Medallion</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/ritual-shield-reforged/">Ritual Shield Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-haligdrake-talisman/">True HaligDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/bull-goat-s-artifact/">Bull-Goat&#x27;s Artifact</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/faithful-s-canvas-talisman/">Faithful&#x27;s Canvas Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-dragoncrest-greatshield/">Superior Dragoncrest Greatshield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/kindred-of-rot-s-exhultation/">Kindred of Rot&#x27;s Exhultation</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-ritual-sword/">Superior Ritual Sword</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/dagger-talisman/">Dagger Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/winged-sword-insignia/">Winged Sword Insignia</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/rune-of-temporal-weaving/">Rune of Temporal Weaving</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-boltdrake-talisman/">Superior BoltDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-haligdrake-talisman/">Superior HaligDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/rotten-winged-sword-insignia/">Rotten Winged Sword Insignia</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/clarifying-horn-talisman/">Clarifying Horn Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/pearl-shield/">Pearl Shield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/assassin-s-cerulean-dagger/">Assassin&#x27;s Cerulean Dagger</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/lance-talisman/">Lance Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/longtailed-cat-talisman/">Longtailed Cat Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/ancient-dragon-talisman/">Ancient Dragon Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/spelldrake-talisman/">SpellDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/fatal-stinger-charm/">Fatal Stinger Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/boltdrake-talisman-reforged/">BoltDrake Talisman Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-snowdrake-talisman/">Superior SnowDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/haligdrake-talisman/">HaligDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-crimson-amber-medallion/">True Crimson Amber Medallion</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/mirror-of-mana-reflection/">Mirror of Mana Reflection</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/magic-scorpion-charm/">Magic Scorpion Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/immunizing-horn-charm/">Immunizing Horn Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/moon-of-ravka/">Moon of Ravka</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/dragoncrest-greatshield/">Dragoncrest Greatshield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/sacred-scorpion-charm/">Sacred Scorpion Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/sacrificial-twig/">Sacrificial Twig</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/ritual-sword-reforged/">Ritual Sword Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/destiny-knot/">Destiny Knot</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/spelldrake-talisman-reforged/">SpellDrake Talisman Reforged</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-spelldrake-talisman/">Superior SpellDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-ritual-shield/">Superior Ritual Shield</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/greater-health-talisman/">Greater Health Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-crimson-amber-medallion/">Superior Crimson Amber Medallion</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/bull-goat-s-relic/">Bull-Goat&#x27;s Relic</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/orb-of-cinders/">Orb of Cinders</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/stalwart-horn-charm/">Stalwart Horn Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-flamedrake-talisman/">True FlameDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/true-snowdrake-talisman/">True SnowDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/lightning-scorpion-charm/">Lightning Scorpion Charm</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/superior-flamedrake-talisman/">Superior FlameDrake Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/quick-claw/">Quick Claw</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/old-lord-s-talisman/">Old Lord&#x27;s Talisman</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/talismans/lord-of-blood-s-exhultation/">Lord of Blood&#x27;s Exhultation</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/items/preserving-bolus/">Preserving Bolus</a>
+        </li>
+        
+    </ul>
+    
+    <li>Tusk&#x27;s Grimoire</li>
+    <ul>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-lethargy/">Hymn of Lethargy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-strengthening/">Hymn of Strengthening</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-ferocity/">Hymn of Ferocity</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-rage/">Hymn of Rage</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-blindness/">Hymn of Blindness</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-combustion/">Hymn of Combustion</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-frenzy/">Hymn of Frenzy</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-raging-fire/">Hymn of Raging Fire</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-giants/">Hymn of Giants</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-slumber/">Hymn of Slumber</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-the-dragon/">Hymn of the Dragon</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-agony/">Hymn of Agony</a>
+        </li>
+        
+        <li>
+            <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-protection/">Hymn of Protection</a>
+        </li>
+        
+    </ul>
+    
+</ul>
+    
+
+
+
+        </section>
+    </main>
+</body>
+</html>

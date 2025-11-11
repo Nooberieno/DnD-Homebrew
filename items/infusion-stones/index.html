@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="https://nooberieno.github.io/DnD-Homebrew/style.css">
+        <link rel="icon" type="image/x-icon" href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico">
+        
+        <script src="https://nooberieno.github.io/DnD-Homebrew/elasticlunr.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                    <img class="logo" src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/spells/">Spells</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/items/">Items</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/races/">Races</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/">Classes</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/rules/">Additional Rules</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                
+<div class="content">
+  <h1 class="title">
+    Infusion Stones
+  </h1>
+  <p class="subtitle"><strong></strong></p>
+  <p>Infusion Stones are items that can be applied to weapons for additional effects on hit. There are 2 main types: Elemental Infusion Stones and Condition Infusion Stones</p>
+<h2 id="effects">Effects</h2>
+<p>The effect of an Infusion Stone is based on what type of Infusion Stone it is.</p>
+<h3 id="elemental-stones">Elemental Stones</h3>
+<p>When rolling for damage using weapon which has an Elemental Infusion Stone applied to it, the weapon deals 1d6 additional damage of the damage type of the Elemental Stone (A weapon with a Fire Infusion Stone deals 1d6 additional fire damage).</p>
+<h3 id="condition-stones">Condition Stones</h3>
+<p>When a creature is hit with a weapon that has a Condition Infusion Stone applied to it, it must make a Constitution Saving Throw with</p>
+<p>  <strong>DC</strong> = 9 + Proficiency + Dex or Str.</p>
+<p>Upon failure the creature is affected by the Condition of the Condition Stone (A weapon with a Blind Infusion Stone will cause Blindness upon a failed save). The creature may reroll the save at the end of each of its turns. The condition lasts until the creature succeeds the save or until 3 rounds have passed since the creature has gained the condition from the Condition Stone, whichever happens first.</p>
+<h2 id="applying-infusion-stones">Applying Infusion Stones</h2>
+<p>Applying Infusion Stones is a tricky 10 minute process, which is most commonly done by blacksmiths or weapon smiths. The duration and charges of the effects rely on the type of Infusion Stone.</p>
+<p>You can apply multiple of the same Elemental Stone to a weapon, as long as that weapon does not already have a different Elemental Stone applied. In this case, only the Duration increases, not the effects.</p>
+<h3 id="elemental-stones-1">Elemental Stones</h3>
+<p>To apply an Elemental Stone, roll 1d6. This is the number of weeks that the stone will be active.</p>
+<h3 id="condition-stones-1">Condition Stones</h3>
+<p>To apply a Condition Stone, roll 1d4 and 1d10. The result of the d4 is the number of weeks the stone will be active. The result of the d10 is the number of charges. A charge is removed each time a creature gains the Condition via use of this stone. If there are charges left over and the stone is no longer active, all charges will disappear.</p>
+<h3 id="applying-infusion-stones-yourself">Applying Infusion Stones Yourself</h3>
+<p>While you can apply Infusion Stones yourself, it is going to yield worse results than when someone who has experience in handling magical weapons. When rolling for the duration of the Infusion Stone, roll with disadvantage.</p>
+<p>If you are proficient with <a href="https://2014.5e.tools/items.html#smith&#x27;s%20tools_phb">Smith's Tools</a> you may reroll and 1's on the duration dice once per die.</p>
+<h3 id="applying-infusion-stones-to-ammo">Applying Infusion Stones to Ammo</h3>
+<p>An Infusion Stone can also be applied to ammunition*, such as arrows, bolts or bullets. However, because ammo is designed to be expended, the enchantment within an Infusion Stone will burn out more quickly.</p>
+<p>An Infusion Stone can enchant a maximum of 20 pieces of ammunition at once. Once a piece of ammunition is fired, it always loses it enchantment even if it is physically recovered. As with regular weapons, you may not mix Infusion Stones on the same bundle of ammunition. If the ammunition has a Condition Stone applied to it, 2 charges are deducted instead of 1</p>
+<p>*<em>The weapon used to launch the ammunition can also have an Infusion Stone applied to it. In this case, the Elemental Stones work as normal, Condition Stones keep the 2 charges cost.</em></p>
+<h2 id="list-of-infusion-stones-with-prices">List of Infusion Stones with Prices</h2>
+<table><thead><tr><th>Stone Type</th><th>Effect</th><th>Rarity</th><th>Suggested Price (GP)</th></tr></thead><tbody>
+<tr><td>Fire Stone</td><td>+1d6 fire damage</td><td>Uncommon</td><td>500</td></tr>
+<tr><td>Cold Stone</td><td>+1d6 cold damage</td><td>Uncommon</td><td>500</td></tr>
+<tr><td>Lightning Stone</td><td>+1d6 lightning damage</td><td>Uncommon</td><td>600</td></tr>
+<tr><td>Acid Stone</td><td>+1d6 acid damage</td><td>Uncommon</td><td>600</td></tr>
+<tr><td>Poison Stone</td><td>+1d6 poison damage</td><td>Uncommon</td><td>300</td></tr>
+<tr><td>Radiant Stone</td><td>+1d6 radiant damage</td><td>Rare</td><td>1,200</td></tr>
+<tr><td>Necrotic Stone</td><td>+1d6 necrotic damage</td><td>Rare</td><td>1,000</td></tr>
+<tr><td>Blind Stone</td><td>Blinded</td><td>Rare</td><td>2,000</td></tr>
+<tr><td>Deaf Stone</td><td>Deafened</td><td>Uncommon</td><td>300</td></tr>
+<tr><td>Fear Stone</td><td>Frightened</td><td>Rare</td><td>1,800</td></tr>
+<tr><td>Slow Stone</td><td>Slowed</td><td>Rare</td><td>2,500</td></tr>
+<tr><td>Root Stone</td><td>Restrained</td><td>Very Rare</td><td>4,000</td></tr>
+<tr><td>Charm Stone</td><td>Charmed</td><td>Rare</td><td>1,500</td></tr>
+<tr><td>Confusion Stone</td><td>Confused</td><td>Very Rare</td><td>3,500</td></tr>
+<tr><td>Silence Stone</td><td>Silenced</td><td>Rare</td><td>2,000</td></tr>
+<tr><td><em>There are no Infusion Stones that cause the Unconscious, Paralysis or Stunned conditions</em></td><td></td><td></td><td></td></tr>
+</tbody></table>
+<h3 id="additional-condition-stones-for-tome-of-the-tarnished-conditions">Additional Condition Stones For Tome of The Tarnished Conditions</h3>
+<table><thead><tr><th>Stone Type</th><th>Effect</th><th>Rarity</th><th>Suggested Price (GP)</th></tr></thead><tbody>
+<tr><td>Blood Stone</td><td>Bleeding</td><td>Rare</td><td>1,000</td></tr>
+<tr><td>Madness Stone</td><td>Frenzied</td><td>Rare</td><td>2,500</td></tr>
+<tr><td>Decaying Stone</td><td>Rotting</td><td>Very Rare</td><td>4,000</td></tr>
+</tbody></table>
+
+</div>
+
+        </section>
+    </main>
+</body>
+</html>

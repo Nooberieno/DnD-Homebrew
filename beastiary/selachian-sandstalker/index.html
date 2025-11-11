@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="https://nooberieno.github.io/DnD-Homebrew/style.css">
+        <link rel="icon" type="image/x-icon" href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico">
+        
+        <script src="https://nooberieno.github.io/DnD-Homebrew/elasticlunr.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                    <img class="logo" src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/spells/">Spells</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/items/">Items</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/races/">Races</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/">Classes</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/rules/">Additional Rules</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                
+<div class="content">
+  <h1 class="title">
+    Selachian Sandstalker
+  </h1>
+  <p class="subtitle"><strong></strong></p>
+  <p><em>The jaws of the desert</em></p>
+<h3 id="general-lore">General Lore</h3>
+<p>Selachian Sandstalkers are immense desert-dwelling shark-like creatures that prowl beneath the sands of desolate, sun-blasted wastelands. Resembling a hybrid of monstrous sand sharks and armored subterranean predators, these creatures have adapted perfectly to their harsh environment. Their sleek, finned bodies allow them to glide effortlessly through sand as though it were water, and their tough, chitinous armor provides both defense and camouflage against the ever-shifting desert dunes.</p>
+<h4 id="physical-characteristics">Physical Characteristics</h4>
+<ul>
+<li><strong>Size:</strong> Adults range from 20 to 50 feet in length, with dorsal fins that occasionally breach the sand like the infamous oceanic great white sharks.</li>
+<li><strong>Coloration:</strong> Selachian Sandstalkers are typically sand-colored, ranging from pale beige to deep rust red, with intricate striping that mimics the natural contours of desert dunes.</li>
+<li><strong>Fins and Armor:</strong> Their dorsal and pectoral fins are thick and sharp, capable of slicing through rock and reinforced desert structures. The armored ridges along their backs bristle with spines to deter larger predators or rivals.</li>
+<li><strong>Maw:</strong> Their maws are lined with concentric rings of serrated teeth, which they use to swallow prey whole or crush any obstacles in their path.</li>
+</ul>
+<h4 id="behavior">Behavior</h4>
+<ul>
+<li><strong>Attraction to Vibrations:</strong> Like the legendary sandworms of other realms, Selachian Sandstalkers are drawn to surface vibrations, whether from footsteps, the thudding of hooves, or the rhythmic pounding of desert storms. They can detect even faint disturbances from miles away.</li>
+<li><strong>Burrowing Tactics:</strong> They lurk beneath the sands and ambush prey, bursting from below in a whirlwind of dust, teeth, and churning sand.</li>
+<li><strong>Herding Instincts:</strong> Though solitary for much of their lives, certain conditions—such as seasonal migrations or the lure of ancient desert ruins—can draw them together into "shoals," making vast areas of desert impassable without risk of attack.</li>
+</ul>
+<div class="statblock">
+<hr />
+<h2 id="selachian-sandstalker">Selachian Sandstalker</h2>
+<p><em>Huge Monstrosity, Unaligned</em></p>
+<hr />
+<h3 id="traits">Traits</h3>
+<p><strong>Armor Class</strong> 18 (natural armor, chitinous plates)<br />
+<strong>Hit Points</strong> 310 (23d12+161)</p>
+<p><strong>Speed</strong> 40 ft., burrow 60 ft., swim 30 ft.</p>
+<hr />
+<table><thead><tr><th style="text-align: center">STR</th><th style="text-align: center">DEX</th><th style="text-align: center">CON</th><th style="text-align: center">INT</th><th style="text-align: center">WIS</th><th style="text-align: center">CHA</th></tr></thead><tbody>
+<tr><td style="text-align: center">26 (+8)</td><td style="text-align: center">12 (+1)</td><td style="text-align: center">24 (+7)</td><td style="text-align: center">5 (-3)</td><td style="text-align: center">16 (+3)</td><td style="text-align: center">9 (-1)</td></tr>
+</tbody></table>
+<hr />
+<p><strong>Saving Throws</strong> Strength +11, Dexterity +5, Constitution +11, Wisdom +7</p>
+<p><strong>Damage Resistances</strong> fire, bludgeoning, piercing, and slashing from nonmagical attacks</p>
+<p><strong>Damage Immunities</strong> poison</p>
+<p><strong>Senses</strong> tremorsense 120 ft., blindsight 60 ft., passive Perception 17</p>
+<p><strong>Languages</strong> —</p>
+<div class=proficiency-bonus>
+<p><strong>Challenge</strong> 15</p>
+<p><strong>Proficiency Bonus</strong> 5</p>
+</div>
+<hr />
+<p><em><strong>Amphibious Predator.</strong></em> The Selachian Sandstalker can breathe both air and water. It can also move through sand, earth, and loose soil as easily as swimming through water.<br />
+<em><strong>Sand Glide.</strong></em> The Sandstalker can burrow through nonmagical, unworked sand without disturbing the material it moves through. While burrowing, it is considered to have full cover.<br />
+<em><strong>Tremor Lure.</strong></em> The Sandstalker is aware of all vibrations in the ground within 120 feet. It has advantage on attack rolls against any creature touching the ground.<br />
+<em><strong>Siege Monster.</strong></em> The Sandstalker deals double damage to objects and structures.</p>
+<h3 id="actions">Actions</h3>
+<p><em><strong>Multiattack.</strong></em> The Sandstalker makes two attacks: one with its Bite and one with its Fin Slash.<br />
+<em><strong>Bite.</strong></em> Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 36 (5d10+8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Strength saving throw or be swallowed. A swallowed creature is blinded and restrained, has total cover against attacks and effects outside the Sandstalker, and takes 21 (6d6) acid damage at the start of each of the Sandstalker’s turns. If the Sandstalker takes 40 damage or more on a single turn from a creature inside it, it must succeed on a DC 19 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of it.<br />
+<em><strong>Fin Slash.</strong></em> Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 24 (4d8+8) slashing damage.<br />
+<em><strong>Sand Eruption (Recharge 5–6).</strong></em> The Sandstalker bursts up from beneath the sands in a 30-foot radius eruption. Each creature in the area must make a DC 19 Dexterity saving throw, taking 45 (10d8) bludgeoning damage and being knocked prone on a failed save, or half as much damage on a successful one. The area becomes difficult terrain until cleared.</p>
+<h3 id="reactions">Reactions</h3>
+<p><em><strong>Thrash.</strong></em> When a creature the Sandstalker has swallowed deals damage to it, the Sandstalker thrashes violently. Each creature within 15 feet must succeed on a DC 19 Strength saving throw or be knocked prone.</p>
+</div>
+</div>
+
+        </section>
+    </main>
+</body>
+</html>

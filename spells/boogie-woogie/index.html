@@ -1,0 +1,3121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>DnD Homebrew</title>
+        <link rel="stylesheet" href="https://nooberieno.github.io/DnD-Homebrew/style.css">
+        <link rel="icon" type="image/x-icon" href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico">
+        
+        <script src="https://nooberieno.github.io/DnD-Homebrew/elasticlunr.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+
+</head>
+<body class="preload">
+
+    <header id="nav-header">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; gap: 8px;">
+
+                <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                    <img class="logo" src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg">
+                    <div class="logo-text">Home</div>
+                </a>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Player</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/spells/">Spells</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/items/">Items</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/races/">Races</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/">Classes</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/">Condtions & Diseases</a>
+                    </div>
+                </details>
+
+                <details class="nav-dropdown">
+                    <summary class="nav-text">Dungeon Master</summary>
+                    <div class="nav-items">
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/rules/">Additional Rules</a>
+                        <a href="https://nooberieno.github.io/DnD-Homebrew/beastiary/">Beastiary</a>
+                    </div>
+                </details>
+                
+                <div class="flex-column" style="flex-grow: 1;">
+                <input type="text" id="search" placeholder="Search..." />
+                    <section class="search-results" aria-live="polite">
+                        <article class="search-results__items" role="list"></article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+                
+
+<script src="https://nooberieno.github.io/DnD-Homebrew/spell_filter.js"></script>
+<script src="https://nooberieno.github.io/DnD-Homebrew/sortable_tables.js"></script>
+
+
+
+<h1 class="title">
+  Spells
+</h1>
+
+
+
+
+
+
+
+
+
+
+<div class="spell-layout">
+  <div class="spell">
+    <h1 class="title"> Boogie Woogie </h1>
+    <p><em>Level 5 Conjuration Spell</em><br />
+<strong>Casting Time</strong>: 1 action<br />
+<strong>Range</strong>: 60 ft<br />
+<strong>Components</strong>: S(a clap from the soul)<br />
+<strong>Duration</strong>: Instantaneous<br />
+<strong>Classes</strong>: Sorcerer, Wizard</p>
+<p><strong>Description</strong></p>
+<p>You clap your hands together, which swaps to objects in space. Choose two targets you can see within range. These targets can be creatures, objects, or a combination of both. If the chosen targets are willing, they instantly switch places. Unwilling targets must make a Charisma saving throw to resist the effect. On a successful save, the spell has no effect on that target.</p>
+<p><em>At Higher Levels</em>: When casting with a 6th level spell slot or higher you gain 10 ft of range for every level above 5th</p>
+
+  </div>
+
+  <div class="spell-main">
+    <button class="open-filters" aria-label="Open Filter Popup">Filters</button>
+    
+      
+      <div class="filters hidden">
+          <div class="content" style="display: flex; align-items: center;">
+            <div class="filter-container">
+              
+              <div class="popup-row">
+                <h1>Filters</h1>
+                <div style="margin-left: auto;">
+                  <button class="reset-filters" onclick="resetFilterButtons()">Reset all</button>
+                  <button class="close-filters" aria-label="Close Popup">X</button>
+                </div>
+              </div>
+              
+              <div class="popup-row">
+                <b>Source</b>
+                <div style="margin-left: auto;">
+                  <button class="add-filter" onclick="addFilterClass('source')">All</button>
+                  <button class="clear-filter" onclick="clearFilterClass('source')">Clear</button>
+                </div>
+              </div>
+            <div class="source-filters">
+              
+              <button class="source-filter" data-source="Codex of the Maddened Pyromancer">
+                Codex of the Maddened Pyromancer
+              </button>
+              
+              <button class="source-filter" data-source="Jujutsu Spells">
+                Jujutsu Spells
+              </button>
+              
+              <button class="source-filter" data-source="Principa Incantare">
+                Principa Incantare
+              </button>
+              
+              <button class="source-filter" data-source="The Art of Cards">
+                The Art of Cards
+              </button>
+              
+              <button class="source-filter" data-source="Tome of Petty Spellcasters">
+                Tome of Petty Spellcasters
+              </button>
+              
+              <button class="source-filter" data-source="Tusk&#x27;s Grimoire">
+                Tusk&#x27;s Grimoire
+              </button>
+              
+            </div>
+            
+            <div class="popup-row">
+              <b>Classes</b>
+              <div style="margin-left: auto;">
+                <button class="add-filter" onclick="addFilterClass('class')">All</button>
+                <button class="clear-filter" onclick="clearFilterClass('class')">Clear</button>
+              </div>
+            </div>
+            <div class="class-filters">
+              <br>
+              
+              <button class="class-filter" data-class="Artificer">
+                Artificer
+              </button>
+              
+              <button class="class-filter" data-class="Bard">
+                Bard
+              </button>
+              
+              <button class="class-filter" data-class="Cartomancer">
+                Cartomancer
+              </button>
+              
+              <button class="class-filter" data-class="Cleric">
+                Cleric
+              </button>
+              
+              <button class="class-filter" data-class="Druid">
+                Druid
+              </button>
+              
+              <button class="class-filter" data-class="Paladin">
+                Paladin
+              </button>
+              
+              <button class="class-filter" data-class="Ranger">
+                Ranger
+              </button>
+              
+              <button class="class-filter" data-class="Sorcerer">
+                Sorcerer
+              </button>
+              
+              <button class="class-filter" data-class="Warlock">
+                Warlock
+              </button>
+              
+              <button class="class-filter" data-class="Wizard">
+                Wizard
+              </button>
+              
+            </div>
+            
+            <div class="popup-row">
+              <b>Subclasses</b>
+              <div style="margin-left: auto;">
+                <button class="add-filter" onclick="addFilterClass('subclass')">All</button>
+                <button class="clear-filter" onclick="clearFilterClass('subclass')">Clear</button>
+              </div>
+            </div>
+            <div class="subclass-filters">
+              <br>
+              
+              
+              <button class="subclass-filter" data-subclass="Cartomancer: Joker Deck">
+                Cartomancer: Joker Deck
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Cartomancer: Poker Deck">
+                Cartomancer: Poker Deck
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Cartomancer: Tarot Deck">
+                Cartomancer: Tarot Deck
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Cartomancer: Zener Deck">
+                Cartomancer: Zener Deck
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Cleric: Light Domain">
+                Cleric: Light Domain
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Druid: Circle of the Tides">
+                Druid: Circle of the Tides
+              </button>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Ranger: Nightstalker - Shadow Shot Variant">
+                Ranger: Nightstalker - Shadow Shot Variant
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Ranger: Nightstalker - Spectral Blades Variant">
+                Ranger: Nightstalker - Spectral Blades Variant
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Rogue: Arcane Trickster">
+                Rogue: Arcane Trickster
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Warlock: Genie">
+                Warlock: Genie
+              </button>
+              
+              
+              
+              <button class="subclass-filter" data-subclass="Wizard: Divination">
+                Wizard: Divination
+              </button>
+              
+              
+            </div>
+            
+            
+            <div class="popup-row">
+              <b>Spell Level</b>
+              <div style="margin-left: auto;">
+                <button class="add-filter" onclick="addFilterClass('level')">All</button>
+                <button class="clear-filter" onclick="clearFilterClass('level')">Clear</button>
+              </div>
+            </div>
+            <div class="level-filters">
+              <br>
+              
+              <button class="level-filter" data-level="0">
+                0
+              </button>
+              
+              
+              <button class="level-filter" data-level="1">
+                1
+              </button>
+              
+              
+              <button class="level-filter" data-level="2">
+                2
+              </button>
+              
+              
+              <button class="level-filter" data-level="3">
+                3
+              </button>
+              
+              
+              <button class="level-filter" data-level="4">
+                4
+              </button>
+              
+              
+              <button class="level-filter" data-level="5">
+                5
+              </button>
+              
+              
+              <button class="level-filter" data-level="6">
+                6
+              </button>
+              
+              
+              <button class="level-filter" data-level="7">
+                7
+              </button>
+              
+              
+              <button class="level-filter" data-level="8">
+                8
+              </button>
+              
+              
+              <button class="level-filter" data-level="9">
+                9
+              </button>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="spell-list">
+        
+        <table class="spell-table sortable-table">
+          <thead>
+            <tr>
+              <th>Spell</th>
+              <th>Level</th>
+              <th>Concentration</th>
+              <th>School</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="0">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-agony/">Hymn of Agony</a>
+            </td>
+            
+            <td>Cantrip</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Artificer Ranger Druid"
+            data-subclasses=" Wizard: Divination "
+            data-feats=""
+            data-races=""
+            data-level="0">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/glimpse/">Glimpse</a>
+            </td>
+            
+            <td>Cantrip</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="0">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/screw-that-one-guy-in-particular/">Screw That One Guy In Particular</a>
+            </td>
+            
+            <td>Cantrip</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-slumber/">Hymn of Slumber</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Cleric"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/let-him-cook/">Let Him Cook</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-lethargy/">Hymn of Lethargy</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-blindness/">Hymn of Blindness</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Wizard Warlock Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/furious-blade-of-ansbach/">Furious Blade of Ansbach</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Druid Ranger Cleric Bard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/carbonated-blood/">Carbonated Blood</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Wizard Sorcerer"
+            data-subclasses=" Rogue: Arcane Trickster "
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/wet-socks/">Wet Socks</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/non-magic-missile/">Non-Magic Missile</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Illusion">
+
+
+
+
+    
+
+
+
+
+    Illu.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-frenzy/">Hymn of Frenzy</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="1">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-rage/">Hymn of Rage</a>
+            </td>
+            
+            <td>1</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Sorcerer"
+            data-subclasses=" Rogue: Arcane Trickster "
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/wrath-of-the-stubbed-toe/">Wrath of the Stubbed Toe</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Conjuration">
+
+
+
+
+    
+
+
+
+
+    Conj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="The Art of Cards"
+            data-classes="Cartomancer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/magician-s-box/">Magician&#x27;s Box</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Conjuration">
+
+
+
+
+    
+
+
+
+
+    Conj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="The Art of Cards">
+
+
+
+
+    
+
+
+
+
+    TAoC
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-ferocity/">Hymn of Ferocity</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Wizard Warlock Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/flame-grant-me-strength/">Flame, Grant me Strength</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Wizard Sorcerer Bard"
+            data-subclasses=" Rogue: Arcane Trickster "
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/scooter-strike/">Scooter Strike</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Conjuration">
+
+
+
+
+    
+
+
+
+
+    Conj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Wizard Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/lightning-spear/">Lightning Spear</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Wizard Bard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="2">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/instant-brazilian-wax/">Instant Brazilian Wax</a>
+            </td>
+            
+            <td>2</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Druid Wizard Warlock"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/melchior-s-muzzle/">Melchior&#x27;s Muzzle</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-protection/">Hymn of Protection</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Abjuration">
+
+
+
+
+    
+
+
+
+
+    Abj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Cleric Druid Wizard"
+            data-subclasses=" Rogue: Arcane Trickster9Warlock: Genie "
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/out/">Out!</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Abjuration">
+
+
+
+
+    
+
+
+
+
+    Abj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/osmium-ovaries/">Osmium Ovaries</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Wizard Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/irritating-gaze/">Irritating Gaze</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Illusion">
+
+
+
+
+    
+
+
+
+
+    Illu.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-strengthening/">Hymn of Strengthening</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/power-word-cringe/">Power Word: Cringe</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="The Art of Cards"
+            data-classes="Bard Cartomancer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/maximum-circus/">Maximum Circus</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="The Art of Cards">
+
+
+
+
+    
+
+
+
+
+    TAoC
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Jujutsu Spells"
+            data-classes="Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/idle-transfiguration/">Idle Transfiguration</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Jujutsu Spells">
+
+
+
+
+    
+
+
+
+
+    JS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/tungsten-balls/">Tungsten Balls</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Wizard Warlock Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/lego-minefield/">Lego Minefield</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Conjuration">
+
+
+
+
+    
+
+
+
+
+    Conj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Paladin Cleric"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/golden-vow/">Golden Vow</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Abjuration">
+
+
+
+
+    
+
+
+
+
+    Abj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Bard Paladin Cleric Warlock"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/flame-cleanse-thee/">Flame, Cleanse Thee</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Sorcerer Warlock Druid Bard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/that-s-a-lot-of-words/">That&#x27;s A Lot Of Words</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Abjuration">
+
+
+
+
+    
+
+
+
+
+    Abj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-combustion/">Hymn of Combustion</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Codex of the Maddened Pyromancer"
+            data-classes="Wizard Sorcerer Warlock"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="3">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/frenzied-burst/">Frenzied Burst</a>
+            </td>
+            
+            <td>3</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Codex of the Maddened Pyromancer">
+
+
+
+
+    
+
+
+
+
+    CotMP
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="4">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-giants/">Hymn of Giants</a>
+            </td>
+            
+            <td>4</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Enchantment">
+
+
+
+
+    
+
+
+
+
+    Ench.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="4">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/dragon-s-maw/">Dragon&#x27;s Maw</a>
+            </td>
+            
+            <td>4</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Conjuration">
+
+
+
+
+    
+
+
+
+
+    Conj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Codex of the Maddened Pyromancer"
+            data-classes="Sorcerer Wizard Warlock"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="4">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/inescapable-frenzy/">Inescapable Frenzy</a>
+            </td>
+            
+            <td>4</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Codex of the Maddened Pyromancer">
+
+
+
+
+    
+
+
+
+
+    CotMP
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Codex of the Maddened Pyromancer"
+            data-classes="Warlock Sorcerer Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="4">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/howl-of-shabriri/">Howl of Shabriri</a>
+            </td>
+            
+            <td>4</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Codex of the Maddened Pyromancer">
+
+
+
+
+    
+
+
+
+
+    CotMP
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Jujutsu Spells"
+            data-classes="Sorcerer Wizard"
+            data-subclasses=" Rogue: Arcane Trickster "
+            data-feats=""
+            data-races=""
+            data-level="4">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/heart-catch/">Heart Catch</a>
+            </td>
+            
+            <td>4</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Jujutsu Spells">
+
+
+
+
+    
+
+
+
+
+    JS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Jujutsu Spells"
+            data-classes="Sorcerer Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="5">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/boogie-woogie/">Boogie Woogie</a>
+            </td>
+            
+            <td>5</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Conjuration">
+
+
+
+
+    
+
+
+
+
+    Conj.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Jujutsu Spells">
+
+
+
+
+    
+
+
+
+
+    JS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Wizard Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="5">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/zero-spatial-awareness/">Zero Spatial Awareness</a>
+            </td>
+            
+            <td>5</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Illusion">
+
+
+
+
+    
+
+
+
+
+    Illu.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Bard Sorcerer Paladin"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="5">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/rubber-bones/">Rubber Bones</a>
+            </td>
+            
+            <td>5</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Codex of the Maddened Pyromancer"
+            data-classes="Sorcerer Wizard Warlock"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="5">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/the-flame-of-frenzy/">The Flame of Frenzy</a>
+            </td>
+            
+            <td>5</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Codex of the Maddened Pyromancer">
+
+
+
+
+    
+
+
+
+
+    CotMP
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Cleric Druid Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="5">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/pull-yourself-together/">Pull Yourself Together</a>
+            </td>
+            
+            <td>5</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Sorcerer Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="5">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/giantsflame-take-thee/">Giantsflame, Take Thee</a>
+            </td>
+            
+            <td>5</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Codex of the Maddened Pyromancer"
+            data-classes="Wizard Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="6">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/unendurable-frenzy/">Unendurable Frenzy</a>
+            </td>
+            
+            <td>6</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Codex of the Maddened Pyromancer">
+
+
+
+
+    
+
+
+
+
+    CotMP
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Principa Incantare"
+            data-classes="Wizard Warlock Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="6">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/bloodboon/">Bloodboon</a>
+            </td>
+            
+            <td>6</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Principa Incantare">
+
+
+
+
+    
+
+
+
+
+    PI
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Wizard Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="6">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/testicular-torsion/">Testicular Torsion</a>
+            </td>
+            
+            <td>6</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="6">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-raging-fire/">Hymn of Raging Fire</a>
+            </td>
+            
+            <td>6</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Codex of the Maddened Pyromancer"
+            data-classes="Wizard Sorcerer"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="7">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/midra-s-flame-of-frenzy/">Midra&#x27;s Flame of Frenzy</a>
+            </td>
+            
+            <td>7</td>
+            
+            
+            
+            <td>X</td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Codex of the Maddened Pyromancer">
+
+
+
+
+    
+
+
+
+
+    CotMP
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tusk&#x27;s Grimoire"
+            data-classes="Artificer Bard Cartomancer Cleric Druid Paladin Ranger Sorcerer Warlock Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="7">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/hymn-of-the-dragon/">Hymn of the Dragon</a>
+            </td>
+            
+            <td>7</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tusk&#x27;s Grimoire">
+
+
+
+
+    
+
+
+
+
+    TG
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Jujutsu Spells"
+            data-classes="Cleric Sorcerer Wizard"
+            data-subclasses=""
+            data-feats=""
+            data-races=""
+            data-level="8">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/cursed-speech/">Cursed Speech</a>
+            </td>
+            
+            <td>8</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Transmutation">
+
+
+
+
+    
+
+
+
+
+    Trans.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Jujutsu Spells">
+
+
+
+
+    
+
+
+
+
+    JS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+            <tr class="spell-item" data-source="Tome of Petty Spellcasters"
+            data-classes="Sorcerer Warlock"
+            data-subclasses=" Cleric: Light Domain "
+            data-feats=""
+            data-races=""
+            data-level="9">
+            <td>
+              <a href="https://nooberieno.github.io/DnD-Homebrew/spells/ashes-to-ashes/">Ashes To Ashes</a>
+            </td>
+            
+            <td>9</td>
+            
+            
+            
+            <td></td>
+            
+            
+            <td> <abbr title="Evocation">
+
+
+
+
+    
+
+
+
+
+    Evoc.
+
+
+</abbr>
+            </td>
+            
+            <td><abbr title="Tome of Petty Spellcasters">
+
+
+
+
+    
+
+
+
+
+    ToPS
+
+</abbr></td>
+              
+            </tr>
+            
+            
+          </tbody>
+        </table>
+      </div>
+  </div>
+
+  
+  
+        </section>
+    </main>
+</body>
+</html>
