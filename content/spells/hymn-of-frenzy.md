@@ -22,4 +22,4 @@ _Requires speaking Orcish to cast_
 
 **Description**
 
-Chanting this Hymn sends a single target into a frenzy. The target gains advantage on melee attacks, but only on the creature closest to them, if they try to attack any other creature they have disadvantage. The target's movement speed is increased by 10 ft, but they are only allowed to move closer to the creature closest to them, they also gain advantage against all rolls the closest creature tries to inflict on them, be that attack, damage, spell saves
+Chanting this Hymn sends a single target into a frenzy. The target gains advantage on melee attacks, but only on the creature closest to them, if they try to attack any other creature they have disadvantage. The target's movement speed is increased by 10 ft, but they are only allowed to move closer to the creature closest to them, they also gain advantage on all saving throws against the closest creature.

@@ -55,7 +55,7 @@ function makeTeaser(body, terms) {
   var TEASER_MAX_WORDS = 30;
 
   var stemmedTerms = terms.map(function (w) {
-    return elasticlunr.stemmer(w.toLowerCase());
+    return w.toLowerCase();
   });
   var termFound = false;
   var index = 0;
@@ -73,7 +73,7 @@ function makeTeaser(body, terms) {
 
       if (word.length > 0) {
         for (var k in stemmedTerms) {
-          if (elasticlunr.stemmer(word).startsWith(stemmedTerms[k])) {
+          if (word.startsWith(stemmedTerms[k])) {
             value = TERM_WEIGHT;
             termFound = true;
           }
@@ -153,10 +153,11 @@ function makeTeaser(body, terms) {
  * @return {string} - The formatted HTML string for the search result item.
  */
 function formatSearchResultItem(item, terms) {
+  const doc = item.item;
   return (
     '<article class="search-results__item">' +
-    `<a href="${item.ref}">${item.doc.title}</a>` +
-    `<section>${makeTeaser(item.doc.body, terms)}</section>` +
+    `<a href="${doc.url}">${doc.title}</a>` +
+    `<section>${makeTeaser(doc.body, terms)}</section>` +
     "</article>"
   );
 }
@@ -179,14 +180,21 @@ function initSearch() {
     },
   };
   var currentTerm = "";
-  var index = null;
+  var fuse = null;
 
   const initIndex = function () {
-    if (!index) {
-      // Use the window.searchIndex that Zola provides
-      index = elasticlunr.Index.load(window.searchIndex);
+    if (!fuse) {
+      fuse = new Fuse(window.searchIndex, {
+        keys: [
+          { name: "title", weight: 2 },
+          { name: "body", weight: 1 },
+        ],
+        includeScore: true,
+        threshold: 0.5,
+        minMatchCharLength: 2,
+      });
     }
-    return index;
+    return fuse;
   };
 
   $searchInput.addEventListener(
@@ -203,7 +211,7 @@ function initSearch() {
         return;
       }
 
-      var results = initIndex().search(term, options);
+      var results = initIndex().search(term);
       if (results.length === 0) {
         $searchResults.style.display = "block";
         $searchResultsItems.innerHTML = `
@@ -219,7 +227,7 @@ function initSearch() {
         item.innerHTML = formatSearchResultItem(results[i], term.split(" "));
         $searchResultsItems.appendChild(item);
       }
-    }, 150)
+    }, 150),
   );
 
   $searchInput.addEventListener(

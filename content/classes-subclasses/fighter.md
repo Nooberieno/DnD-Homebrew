@@ -2,6 +2,7 @@
 title = "Fighter"
 [taxonomies]
 subclasses = ['Fighter: Heavenly Restricted']
+sourcebook = ["Gojo's Guide to Cursing"]
 +++
 <table class="class-table">
   <thead>
@@ -136,7 +137,7 @@ subclasses = ['Fighter: Heavenly Restricted']
 
 ## Subclasses
 
-{{subclass_button(subclass="Heavenly Restricted Fighter")}} 
+{{subclass_button(subclass="Heavenly Restricted")}} 
 
 
 ## Class Features
@@ -144,17 +145,17 @@ subclasses = ['Fighter: Heavenly Restricted']
 ### Fighting Style
 You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.
 
-- <a href="https://2014.5e.tools/optionalfeatures.html#archery_phb">Archery</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#defense_phb">Defense</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#dueling_phb">Dueling</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#great weapon fighting_phb">Great Weapon Fighting</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#protection_phb">Protection</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#two-weapon fighting_phb">Two-Weapon Fighting</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#blind fighting_tce">Blind Fighting</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#interception_tce">Interception</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#superior technique_tce">Superior Technique</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#thrown weapon fighting_tce">Thrown Weapon Fighting</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#unarmed fighting_tce">Unarmed Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#archery_phb">Archery</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#defense_phb">Defense</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#dueling_phb">Dueling</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#great weapon fighting_phb">Great Weapon Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#protection_phb">Protection</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#two-weapon fighting_phb">Two-Weapon Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#blind fighting_tce">Blind Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#interception_tce">Interception</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#superior technique_tce">Superior Technique</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#thrown weapon fighting_tce">Thrown Weapon Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#unarmed fighting_tce">Unarmed Fighting</a>
 ### Second Wind
 You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
 
@@ -168,13 +169,13 @@ Once you use this feature, you must finish a short or long rest before you can u
 ### Martial Archetype
 At 3rd level, you choose an archetype from the list available that you strive to emulate in your combat styles and techniques. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
-{% subclass_feature(subclass="Heavenly Restricted Fighter") %}
-### Heavenly Restricted Fighter
+{% subclass_feature(subclass="Heavenly Restricted") %}
+### Heavenly Restricted
 These fighters where born with bodies containing extreme strength, but as a trade-off their bodies are incapable of handling magic. Through training they can master their body, gaining exceptional strength, speed, and heightened senses, allowing them to surpass the limits of ordinary mortals.
 
 
 ### Enhanced Physicality
-_3th-level Heavenly Restricted Fighter feature_
+_3rd-level Heavenly Restricted feature_
 
 At 3rd level, you forgo all forms of magic and supernatural power in exchange for unparalleled physical attributes.
 
@@ -220,9 +221,9 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 ### Martial Archetype feature
 At 7th level, you gain a feature granted by your Martial Archetype.
 
-{% subclass_feature(subclass="Heavenly Restricted Fighter") %}
+{% subclass_feature(subclass="Heavenly Restricted") %}
 ### Unyielding Body
-_7th-level Heavenly Restricted Fighter feature_
+_7th-level Heavenly Restricted feature_
 
 By 7th level, your physical training allows you to withstand incredible punishment and perform superhuman feats.
 
@@ -244,9 +245,9 @@ You can use this feature twice between long rests starting at 13th level and thr
 ### Martial Archetype feature
 At 10th level, you gain a feature granted by your Martial Archetype.
 
-{% subclass_feature(subclass="Heavenly Restricted Fighter") %}
+{% subclass_feature(subclass="Heavenly Restricted") %}
 ### Perceptive Reflexes
-_10th-level Heavenly Restricted Fighter feature_
+_10th-level Heavenly Restricted feature_
 
 Starting at 10th level, your heightened perception and reflexes make you a formidable opponent in battle.
 
@@ -275,9 +276,9 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 ### Martial Archetype feature
 At 15th level, you gain a feature granted by your Martial Archetype.
 
-{% subclass_feature(subclass="Heavenly Restricted Fighter") %}
+{% subclass_feature(subclass="Heavenly Restricted") %}
 ### Supreme Physicality
-_15th-level Heavenly Restricted Fighter feature_
+_15th-level Heavenly Restricted feature_
 
 At 15th level, your physical abilities reach their peak, allowing you to perform feats that defy common understanding.
 
@@ -301,9 +302,9 @@ At 17th level, you can use Indomitable three times between long rests.
 ### Martial Archetype feature
 At 18th level, you gain a feature granted by your Martial Archetype.
 
-{% subclass_feature(subclass="Heavenly Restricted Fighter") %}
+{% subclass_feature(subclass="Heavenly Restricted") %}
 ### Limitless Potential
-_18th-level Heavenly Restricted Fighter feature_
+_18th-level Heavenly Restricted feature_
 
 At 18th level, you unlock the full potential of your physical abilities, transcending the boundaries of human limitation.
 

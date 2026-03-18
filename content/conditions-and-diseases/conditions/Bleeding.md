@@ -8,6 +8,8 @@ sourcebook = ["Tome of the Tarnished"]
 ## Inflicting Bleeding
 Some magical weapons or spells can inflict Bleeding. Bleeding can be applied multiple times to the same target, up to a maximum of 4 times.
 
+
+
 ## Effects of Bleeding
 At the start of each turn the bleeding creature takes a d4 of damage for each for each Level of Bleeding  it has, up to a maximum of 4d4 damage. This damage has no type and cannot be reduced in any way. The bleeding creature has disadvantage on Constitution saving throws to maintain concentration. Bleeding creatures have disadvantage on saving throw to resist disease, as their open wound can easily be infected.
 

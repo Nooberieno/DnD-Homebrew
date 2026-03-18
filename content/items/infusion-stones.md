@@ -2,11 +2,13 @@
 title = "Infusion Stones"
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
-
 [extra]
 tier = "Minor"
-type = "Generic Variant"
 +++
+_Generic Variant, Common_
+
+
+# Infusion Stones
 Infusion Stones are items that can be applied to weapons for additional effects on hit. There are 2 main types: Elemental Infusion Stones and Condition Infusion Stones
 
 ## Effects
@@ -16,11 +18,7 @@ The effect of an Infusion Stone is based on what type of Infusion Stone it is.
 When rolling for damage using weapon which has an Elemental Infusion Stone applied to it, the weapon deals 1d6 additional damage of the damage type of the Elemental Stone (A weapon with a Fire Infusion Stone deals 1d6 additional fire damage).
 
 ### Condition Stones
-When a creature is hit with a weapon that has a Condition Infusion Stone applied to it, it must make a Constitution Saving Throw with   
-
-&nbsp;&nbsp;**DC** = 9 + Proficiency + Dex or Str. 
- 
-Upon failure the creature is affected by the Condition of the Condition Stone (A weapon with a Blind Infusion Stone will cause Blindness upon a failed save). The creature may reroll the save at the end of each of its turns. The condition lasts until the creature succeeds the save or until 3 rounds have passed since the creature has gained the condition from the Condition Stone, whichever happens first.
+When a creature is hit with a weapon that has a Condition Infusion Stone applied to it, it must make a Constitution Saving Throw with DC = 9 + Proficiency + Dex or Str. Upon failure the creature is affected by the Condition of the Condition Stone (A weapon with a Blind Infusion Stone will cause Blindness upon a failed save). The creature may reroll the save at the end of each of its turns. The condition lasts until the creature succeeds the save or until 3 rounds have passed since the creature has gained the condition from the Condition Stone, whichever happens first.
 
 ## Applying Infusion Stones
 Applying Infusion Stones is a tricky 10 minute process, which is most commonly done by blacksmiths or weapon smiths. The duration and charges of the effects rely on the type of Infusion Stone.

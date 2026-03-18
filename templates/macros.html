@@ -8,9 +8,58 @@
 
 {% endmacro source_list %}
 
-{# {% macro abbreviate_sourcebook %}
 
-{% endmacro abbreviate_sourcebook %} #}
+
+{% macro abbreviate_sourcebook(source_book) %}
+
+{% set abrev = "" %}
+
+{% if source_book == "Gojo's Guide to Cursing" %}
+    {% set abrev = "GGtC" %}
+{% elif source_book == "A Warlord's Way Around the Seven Seas" %}
+    {% set abrev = "AWWAtSS" %}
+{% elif source_book == "Tome of the Tarnished"%}
+    {% set abrev = "TotT"%}
+{% elif source_book == "Tome of Petty Spellcasters"%}
+    {% set abrev = "ToPS"%}
+{% elif source_book == "Tusk's Grimoire"%}
+    {% set abrev = "TG"%}
+{% elif source_book == "The Art of Cards"%}
+    {% set abrev = "TAoC"%}
+{% elif source_book == "Cayde-6's Guardian Manual"%}
+    {% set abrev = "CGM"%}
+{% elif source_book == "Races of Anur"%}
+    {% set abrev = "RoA"%}
+{% elif source_book == "Shinra's Logbook for Pyrokinetics"%}
+    {% set abrev = "SLfP"%}
+{% elif source_book == "Rot and Ruin"%}
+    {% set abrev = "RaR"%}
+{% elif source_book == "The Merchant's Compendium to Goods and Services"%}
+    {% set abrev = "TMCtGaS"%}
+{% endif %}
+
+{% if abrev %}
+    {{ abrev }}
+{% else %}
+    {{ source_book }}
+{% endif %}
+
+{% endmacro abbreviate_sourcebook %}
+
+{% macro source_book_list(sourcebooks) %}
+<div class="aside">
+    {% for book in sourcebooks %}
+    {% set sourcebook = get_taxonomy_term(kind='sourcebook', term=book) %}
+    {% set source_book_abrev = self::abbreviate_sourcebook(source_book=book) %}
+    <a style="text-decoration: none;" href="{{ sourcebook.permalink }}">
+      <abbr title="{{ book }}" class="source-tag source-{{source_book_abrev | lower | trim}}">
+        {{ source_book_abrev }}
+      </abbr>
+    </a>
+    {% endfor %}
+  </div>
+{% endmacro source_book_list%}
+
 
 {% macro abbreviate_spellbook(spellbook) %}
 
@@ -37,6 +86,8 @@
     {{ spellbook }}
 {% endif %}
 {% endmacro abbreviate_spellbook%}
+
+
 
 
 {% macro abbreviate_school(school) %}

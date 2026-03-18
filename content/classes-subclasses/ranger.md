@@ -2,6 +2,7 @@
 title = "Ranger"
 [taxonomies]
 subclasses = ['Ranger: Nightstalker - Shadow Shot Variant', 'Ranger: Nightstalker - Spectral Blades Variant']
+sourcebook = ["Cayde-6's Guardian Manual"]
 +++
 <table class="class-table">
   <thead>
@@ -318,13 +319,13 @@ You can also speak, read, and write two additional languages of your choice.
 ### Fighting Style
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-- <a href="https://2014.5e.tools/optionalfeatures.html#archery_phb">Archery</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#defense_phb">Defense</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#dueling_phb">Dueling</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#two-weapon fighting_phb">Two-Weapon Fighting</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#blind fighting_tce">Blind Fighting</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#druidic warrior_tce">Druidic Warrior</a>
-- <a href="https://2014.5e.tools/optionalfeatures.html#thrown weapon fighting_tce">Thrown Weapon Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#archery_phb">Archery</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#defense_phb">Defense</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#dueling_phb">Dueling</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#two-weapon fighting_phb">Two-Weapon Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#blind fighting_tce">Blind Fighting</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#druidic warrior_tce">Druidic Warrior</a>
+<a href="https://2014.5e.tools/optionalfeatures.html#thrown weapon fighting_tce">Thrown Weapon Fighting</a>
 ### Spellcasting
 By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:ranger=1">ranger spell list</a>.
 
@@ -361,7 +362,7 @@ _Masters of the shadows and misdirection_
 
 
 ### Shadow Infusion
-_3th-level Nightstalker - Shadow Shot Variant feature_
+_3rd-level Nightstalker - Shadow Shot Variant feature_
 
 You gain the ability to channel shadowy energy to bind and hinder your foes. You learn the following techniques:
 
@@ -377,7 +378,7 @@ You may use these abilities an amount of times equal to your proficiency modifie
 
 
 ### Modifiers
-_3th-level Nightstalker - Shadow Shot Variant feature_
+_3rd-level Nightstalker - Shadow Shot Variant feature_
 
 You may add a single modifier to both **Shadow Snare** and **Shade Step**
 
@@ -399,13 +400,13 @@ _Silent hunters that strike from the Shadows_
 
 
 ### Shadow Infusion
-_3th-level Nightstalker - Shadow Shot Variant feature_
+_3rd-level Nightstalker - Spectral Blades Variant feature_
 
-You gain the ability to channel shadowy energy to bind and hinder your foes. You learn the following techniques:
+You gain the ability to channel shadowy energy increase your attack power. You learn the following techniques
 
-**Shadow Snare**:
+**Gloaming Predator**
 
-As a bonus action, you can fire a shadowy tether at a creature within 60 ft. The target must make a Dexterity Saving throw. On a failed save, the target is restrained by shadowy tendrils till the end of its next turn.
+As a bonus action infuse a melee weapon with shadows, this grants a damage boost of 1d6 necrotic damage, and you may add your wisdom modifier to attack rolls. After a successful hit, the shadows fade and the weapon goes back to normal.
 
 **Shade Step**:
 
@@ -415,19 +416,19 @@ You may use these abilities an amount of times equal to your proficiency modifie
 
 
 ### Modifiers
-_3th-level Nightstalker - Shadow Shot Variant feature_
+_3rd-level Nightstalker - Spectral Blades Variant feature_
 
-You may add a single modifier to both **Shadow Snare** and **Shade Step**
+You may add a single modifier to both **Gloaming Predator** and **Shade Step**
 
-Shadow Snare Modifiers:
+**Gloaming Predator** Modifiers:
 
-- Blood Bound: Tethered enemies share damage, up to a max of 20. Damage dealt to one also deals damage to the other
-- Black Hole: Tethered enemies explode when killed dealing 20 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius
+- **Shadowstrike**: On a hit with **Gloaming Predator**, reduce the target's movement speed by 10 ft until the start of your next turn.
+- **Lifedrinker**: Gain temporary hit points equal to half the damage dealt with **Gloaming Predator**.
 
-Shade Step Modifiers:
+**Shade Step** Modifiers:
 
-- Vanish in Smoke: Activating Shade Step also gives its benefits to allies within 5 ft of you
-- Hunter's Agility: While Shade Step is active, gain 20 ft of extra movement speed.
+- Vanish in Smoke: Activating **Shade Step** also gives its benefits to allies within 5 ft of you
+- Hunter's Agility: While **Shade Step** is active, gain 20 ft of extra movement speed.
 
 {% end %}
 
@@ -696,10 +697,6 @@ You become a whirlwind of shadow and death. As an action, you can activate **Spe
 - You can make an additional attack with **Gloaming Predator** as a bonus action on each of your turns.
 
 Once you use **Spectral Blades**, you cannot do so again until you finish a long rest.
-
-- You gain the effects of **Gloaming Predator**, and attacks with them deal an additional 1d8 necrotic damage.
-- When you hit a creature with **Gloaming Predator**, you can teleport up to 10 ft to an unoccupied space you can see within dim light or darkness.
-- You can make an additional attack with **Gloaming Predator** as a bonus action on each of your turns.
 
 {% end %}
 

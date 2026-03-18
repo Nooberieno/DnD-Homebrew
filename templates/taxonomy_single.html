@@ -1,11 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-
-{% if term %}
-    {% for page in term.pages %}
-        <a href="{{ page.permalink | safe}}">{{ page.title }}</a>
-    {% endfor %}
-{% endif %}
-
-{% endblock content%}
+<div class="content">
+    <h1 class="title">{{ term.name }}</h1>
+    
+    {% if term.pages %}
+        <p>Number of pages: {{ term.pages | length }}</p>
+        
+        {% for _, pages in term.pages | group_by(attribute="ancestors")%}
+            {% set section = get_section(path=pages | first | get(key="ancestors") | last) %}
+            <h2> {{ section.title }} </h2>
+            <ul>
+            {% for page in pages%}
+                    <li>
+                        <a href="{{ page.permalink | safe }}"> {{page.title}} </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    {% else %}
+        <p>No pages found in this entry.</p>
+    {% endif %}
+</div>
+{% endblock content %}

@@ -7,11 +7,11 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "3"
 cost = "500 GP"
-upgradable = "[True HaligDrake Talisman](@/items/talismans/True-HaligDrake-Talisman.md)"
+upgradable = "Yes (True HaligDrake Talisman)"
 upgrade_cost = "1000 GP"
 effects = "Take 30% less Radiant damage"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Superior HaligDrake Talisman | 500 GP | Take 30% less Radiant damage | [True HaligDrake Talisman](@/items/talismans/True-HaligDrake-Talisman.md) | 1000 GP | 3 |
+| Superior HaligDrake Talisman | 500 GP | Take 30% less Radiant damage | Yes (True HaligDrake Talisman) | 1000 GP | 3 |

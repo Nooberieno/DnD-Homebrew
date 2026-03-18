@@ -7,11 +7,11 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "1"
 cost = "50 GP"
-upgradable = "[SnowDrake Talisman Reforged](@/items/talismans/SnowDrake-Talisman-Reforged.md)"
+upgradable = "Yes (SnowDrake Talisman Reforged)"
 upgrade_cost = "75 GP"
 effects = "Take 5 less Cold damage"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| SnowDrake Talisman | 50 GP | Take 5 less Cold damage | [SnowDrake Talisman Reforged](@/items/talismans/SnowDrake-Talisman-Reforged.md) | 75 GP | 1 |
+| SnowDrake Talisman | 50 GP | Take 5 less Cold damage | Yes (SnowDrake Talisman Reforged) | 75 GP | 1 |

@@ -2,6 +2,7 @@
 title = "Druid"
 [taxonomies]
 subclasses = ['Druid: Circle of the Tides']
+sourcebook = ["A Warlord's Way Around the Seven Seas"]
 +++
 <table class="class-table">
   <thead>
@@ -346,7 +347,7 @@ subclasses = ['Druid: Circle of the Tides']
 
 ## Subclasses
 
-{{subclass_button(subclass="Circle of the Tides Druid")}} 
+{{subclass_button(subclass="Circle of the Tides")}} 
 
 
 ## Class Features
@@ -413,48 +414,6 @@ When you cast the spell in this way, the familiar is a fey instead of a beast, a
 ### Druid Circle
 At 2nd level, you choose to identify with a circle of druids from the list of available circles. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
-{% subclass_feature(subclass="Circle of the Tides Druid") %}
-### Circle of the Tides Druid
-> Circle of the Tides Druids are fierce guardians of the sea and all that live inside of it. Their order gathers in the ocean to share news and trade warnings. It is said that 5 of these druids together can cause a hurricane.
-
-
-### Circle Spells
-_2th-level Circle of the Tides Druid feature_
-
-At 2nd level, your connection to the ocean grants you access to certain spells. You gain access to these spells at the levels listed in the Circle of the Tides Spells table. Once you gain access to a Circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain a spell that doesn’t appear on the druid spell list, it is nonetheless a druid spell for you.
-
-| Druid Level | Spells |
-|---|---|
-| 2nd | _Healing Word_, _Fog Cloud_ |
-| 3rd | _Misty Step_, _Prayer of Healing_ |
-| 5th | _Tidal Wave_, _Wall of Water_, _Mass Healing Word_ |
-| 7th | _Control Water_, _Watery Sphere_ |
-| 9th | _Maelstrom_, _Cone of Cold_ |
-
-
-### Oceanic Blessing
-_2th-level Circle of the Tides Druid feature_
-
-You use Wild Shape to transform into creatures that have a swimming speed at 2nd and 3rd level. Additionally you can breath in water and have a swimming speed equal to your walking speed while not wearing heavy armor.
-
-
-### Ocean's Embrace
-_2th-level Circle of the Tides Druid feature_
-
-Starting at 2nd level, you gain the ability to call upon the power of the tides to protect yourself or others. As a bonus action, you can surround yourself or a creature you can see within 30 feet with a swirling barrier of water for 1 minute. The barrier grants the following effects:
-
-- The target gains temporary hit points equal to your druid level + your Wisdom modifier.
-- The target’s movement speed decreases by 10 feet.
-- The target has resistance to fire damage.
-
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
-
-- The target gains temporary hit points equal to your druid level + your Wisdom modifier.
-- The target’s movement speed decreases by 10 feet.
-- The target has resistance to fire damage.
-
-{% end %}
-
 ### Wild Shape Improvement
 At 4th level, your Wild Shape improves as shown on the Beast Shapes table.
 
@@ -471,9 +430,9 @@ Whenever you reach a level in this class that grants the Ability Score Improveme
 ### Druid Circle feature
 At 6th level, you gain a feature granted by your Druid Circle.
 
-{% subclass_feature(subclass="Circle of the Tides Druid") %}
+{% subclass_feature(subclass="Circle of the Tides") %}
 ### Tidal Mastery
-_6th-level Circle of the Tides Druid feature_
+_6th-level Circle of the Tides feature_
 
 At 6th level, you can command the tides to aid your allies or hinder your foes. When you cast a spell that creates or manipulates water, such as _Tidal Wave_ or _Control Water_, you can choose one of the following additional effects:
 
@@ -493,9 +452,9 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 ### Druid Circle feature
 At 10th level, you gain a feature granted by your Druid Circle feature.
 
-{% subclass_feature(subclass="Circle of the Tides Druid") %}
+{% subclass_feature(subclass="Circle of the Tides") %}
 ### Tidal Aura
-_10th-level Circle of the Tides Druid feature_
+_10th-level Circle of the Tides feature_
 
 As a bonus action, you can expend a use of Wild Shape to exude a mystical watery force in a 30 ft radius. Creatures of your choice within this Aura treat it as difficult terrain. If a creature has a swimming speed it ignores this effect. Your Tidal Aura also enhances your healing powers. When you cast a spell that restores hit points to a creature within this Tidal Aura, all allied creatures within the Aura regains additional hit points equal to Wisdom modifier (minimum of 1) + your druid level. your Tidal Aura lasts for 1 minute. Its effects end early  if you end it as a bonus action, or if you are incapacitated.
 
@@ -509,9 +468,9 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 ### Druid Circle feature
 At 14th level, you gain a feature granted by your Druid Circle feature.
 
-{% subclass_feature(subclass="Circle of the Tides Druid") %}
+{% subclass_feature(subclass="Circle of the Tides") %}
 ### Waters of Life
-_14th-level Circle of the Tides Druid feature_
+_14th-level Circle of the Tides feature_
 
 You can activate Tidal Aura without expending a use of Wild Shape. Once activating Tidal Aura this way, you cannot do so again until you have completed a long rest. Creatures of your choice treat the area your Tidal Aura is occupying as difficult terrain if they have a swimming speed.  Tidal Aura now gives temporary hit points equal to your druid level to creatures of your choice on the beginning of each of their turns if they start their turn in the Tidal Aura. Allied creatures in your Tidal Aura reduce fire damage by an amount equal to your druid level.
 

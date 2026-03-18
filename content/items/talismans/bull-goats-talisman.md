@@ -7,11 +7,11 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "1"
 cost = "75 GP"
-upgradable = "[Bull-Goat's Relic](@/items/talismans/Bull-Goat's-Relic.md)"
+upgradable = "Yes (Bull-Goat's Relic)"
 upgrade_cost = "150"
 effects = "When Prone you can spend 5 ft of movement to stand up"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Bull-Goat's Talisman | 75 GP | When Prone you can spend 5 ft of movement to stand up | [Bull-Goat's Relic](@/items/talismans/Bull-Goat's-Relic.md) | 150 | 1 |
+| Bull-Goat's Talisman | 75 GP | When Prone you can spend 5 ft of movement to stand up | Yes (Bull-Goat's Relic) | 150 | 1 |

@@ -22,4 +22,5 @@ school = "Illusion"
 
 Out of spells, but not out of options, you find something you can hurl at a target within range. Make a ranged spell attack against the target. On hit the target takes 3d10 force damage. This spell ignores resistance or immunity to magic.
 
+**Note**
 This spell may only be cast after you have expended all spell slots, this spell may only be cast twice per long rest and does not take up any spell slots, it does count towards the number of spells you know.

@@ -2,7 +2,7 @@
 title = "Boogie Woogie"
 
 [taxonomies]
-sourcebook = ["Jujutsu Spells"]
+sourcebook = ["Gojo's Guide to Cursing"]
 spellbook = ["Jujutsu Spells"]
 classes = ['Sorcerer', 'Wizard']
 [extra]

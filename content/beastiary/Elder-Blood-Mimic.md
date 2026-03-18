@@ -7,7 +7,7 @@ sourcebook = ["Rot and Ruin"]
 
 _As if regular Mimics weren't enough already_
 
-> Elder Blood Mimics are apex predators among their kind, ancient aberrations born from the confluence of mimic evolution and dark, otherworldly energies. Unlike their smaller kin, which rely mostly on ambush tactics and mimicry of objects, Elder Blood Mimics, like regular Blood Mimics possess to ability to copy creatures. What really sets Elder Blood Mimics apart is a special Core that functions as their heart and along with extreme intelligence and reasoning ability gives them the terrifying ability to dominate and control entire colonies of mimics and blood mimics alike. Their presence warps the environment around them, transforming once-thriving settlements into twisted nightmares where every object could be a predator.
+> Elder Blood Mimics are apex predators among their kind, ancient aberrations born from the confluence of mimic evolution and dark, otherworldly energies. Unlike their smaller kin, which rely mostly on ambush tactics and mimicry of objects, Elder Blood Mimics, like regular [Blood Mimics](@/beastiary/elder-blood-mimic.md) possess to ability to copy creatures. What really sets Elder Blood Mimics apart is a special Core that functions as their heart and along with extreme intelligence and reasoning ability gives them the terrifying ability to dominate and control entire colonies of mimics and blood mimics alike. Their presence warps the environment around them, transforming once-thriving settlements into twisted nightmares where every object could be a predator.
 > These creatures are exceedingly rare, with only a handful known to exist across the planes. Each Elder Blood Mimic is unique, shaped by the environment it has dominated and the prey it has consumed. They are highly intelligent, capable of complex strategies and manipulation, often creating symbiotic relations with humanoid civilizations to ensure a steady food supply.
 > Elder Blood Mimics are driven by an insatiable hunger, not just for flesh or power. They seek to expand their influence, often corrupting or consuming anything that threatens their dominion. Killing an Elder Blood Mimic is no small feat. Their hive mind ensures that even in death, their influence can linger, requiring the destruction of their core to sever their connection to their kin
 
@@ -41,14 +41,11 @@ ___
 
 <div class=proficiency-bonus>
 
-**Challenge** 13
-
-**Proficiency Bonus** +5
+**Challenge** 13 (52,000 XP)
 
 </div>
 
 ___
-### Traits
 ***Amorphous.*** The Elder Blood Mimic can move through a space as narrow as 1 inch wide without squeezing.  
 ***Legendary Resistance (3/Day).*** If the Elder Blood Mimic fails a saving throw, it can choose to succeed instead.  
 ***Hive Mind.*** All mimics within 1 mile of the Elder Blood Mimic are telepathically connected to it and act as extensions of its will. While the Elder Blood Mimic lives, all mimics within this radius have advantage on attack rolls, saving throws, and ability checks.  

@@ -5,7 +5,7 @@ title = "Juvenile Quacken"
 sourcebook = ["Rot and Ruin"]
 +++
 
-The child of a Quacken. A juvenile Quacken is less terrifying, but a powerful abomination in its own right.
+The child of a [Quacken](The%20Quacken.md). A juvenile Quacken is less terrifying, but a powerful abomination in its own right.
 
 # Juvenile Quacken
 
@@ -37,18 +37,17 @@ ___
 
 <div class=proficiency-bonus>
 
-**Challenge** 15
+**Challenge** 15 (60,000 XP)
 
 **Proficiency Bonus** 5
 
 </div>
 
 ___
-### Traits
 ***Amphibious.*** The Quacken can breathe air and water.  
 ***Legendary Resistance (3/Day).*** If the Quacken fails a saving throw, it can choose to succeed instead.  
 ***Siege Monster.*** The Quacken deals double damage to objects and structures.  
-***Tentaclaws.*** The Quacken has six [tentaclaws](@/beastiary/Juvenile-Quacken-Tentaclaw.md). A Quacken’s tentaclaw has its own stat block, but shares the Quacken’s senses and can’t act independently from the Quacken. The Quacken commands and moves its tentaclaws on its turn, according to its Multi-attack action. A tentaclaw can’t be more than 30 feet away from the Quacken, and if the Quacken moving would result in a tentaclaw being beyond this range, the tentaclaw moves with the Quacken. If a Quacken’s tentaclaw is reduced to 0 hit points, it separates from the Quacken and goes inert. If the Quacken is reduced to 0 hit points, all its tentaclaws are reduced to 0 hit points as well. The Quacken regrows all lost tentaclaws when it finishes a long rest.  
+***Tentaclaws.*** The Quacken has six [tentaclaws](@/beastiary/juvenile-quacken-tentaclaw.md). A Quacken’s tentaclaw has its own stat block, but shares the Quacken’s senses and can’t act independently from the Quacken. The Quacken commands and moves its tentaclaws on its turn, according to its Multi-attack action. A tentaclaw can’t be more than 30 feet away from the Quacken, and if the Quacken moving would result in a tentaclaw being beyond this range, the tentaclaw moves with the Quacken. If a Quacken’s tentaclaw is reduced to 0 hit points, it separates from the Quacken and goes inert. If the Quacken is reduced to 0 hit points, all its tentaclaws are reduced to 0 hit points as well. The Quacken regrows all lost tentaclaws when it finishes a long rest.  
 
 ### Actions
 ***Multi-attack.*** The Quacken has up to three of its tentaclaws each move up to its speed and make a single Slam attack or Fling each. It can replace one of these tentaclaw actions with a use of its Maw instead.  

@@ -26,5 +26,6 @@ school = "Enchantment"
 You see the spark of potential in your ally's action, and you shout out an encouraging phrase that rekindles their focus and determination
 
 
+***Saving Throw***: If the target failed a saving throw it can re-roll the failed die and add your spellcasting modifier to the new roll.
 
 A creature may only benefit from this spell once per short rest

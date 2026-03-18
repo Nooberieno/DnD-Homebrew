@@ -5,7 +5,8 @@ title = "Shadow Genasi"
 sourcebook = ["Races of Anur"]
 +++
 
- 
+
+
 
 _Genasi are an interesting race, some offspring of Genies and mortals, others influenced by a Genie's magic. Shadow Genasi represent everything Genies aren't allowed to do._
 Born of shadows and wishes, Shadow Genasi are the tragic offspring of desires fulfilled at a great cost. Devoid of elements, these Genasi are marked by their connection to Shadows and Secrecy, for the Genie who created them, does not want others to know they created life.  Most Shadow Genasi are shunned from society, fearing that accepting such magically created life would send the gods into a frenzy. This is why most Shadow Genasi eventually end up in the Shadowfell.

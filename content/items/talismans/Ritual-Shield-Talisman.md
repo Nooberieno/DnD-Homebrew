@@ -7,11 +7,11 @@ sourcebook = ["Tome of the Tarnished"]
 [extra]
 tier = "2"
 cost = "200 GP"
-upgradable = "[Ritual Shield Reforged](@/items/talismans/Ritual-Shield-Reforged.md)"
+upgradable = "Yes (Ritual Shield Reforged)"
 upgrade_cost = "200 GP"
 effects = "Take 5 less damage when at max hp"
 +++
 
 | Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Ritual Shield Talisman | 200 GP | Take 5 less damage when at max hp | [Ritual Shield Reforged](@/items/talismans/Ritual-Shield-Reforged.md) | 200 GP | 2 |
+| Ritual Shield Talisman | 200 GP | Take 5 less damage when at max hp | Yes (Ritual Shield Reforged) | 200 GP | 2 |

@@ -5,6 +5,8 @@ title = "Juvenile Quacken Tentaclaw"
 sourcebook = ["Rot and Ruin"]
 +++
 
+### Juvenile Quacken Tentaclaw
+
 <div class="statblock">
 
 ___
@@ -16,6 +18,7 @@ ___
 **Hit Points** 57 (6d12 + 36)  
 
 **Speed** 20 ft., fly 60 ft., swim 60 ft.  
+
 ___
 |STR|DEX|CON|INT|WIS|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -32,14 +35,13 @@ ___
 
 <div class=proficiency-bonus>
 
-**Challenge** —  
+**Challenge** 15 (60,000 XP)
 
-**Proficiency Bonus** +5
+**Proficiency Bonus** 5
 
 </div>
 
 ___
-### Traits
 ***Body Part.*** The tentaclaw is part of the Quacken, shares its senses, and can’t exist or act independently from it. The tentaclaw acts on the Quacken’s turn, and doesn’t move or take actions unless commanded by the Quacken. A tentaclaw can’t be more than 30 feet away from the Quacken, and if the Quacken moving would result in a tentaclaw being beyond this range, the tentaclaw moves with the Quacken. If a Quacken’s tentaclaw is reduced to 0 hit points, it separates from the Quacken and goes inert. If the Quacken is reduced to 0 hit points, the tentaclaw is reduced to 0 hit points as well.  
 ***Condition Sharing.*** If the Quacken is blinded, charmed, deafened, frightened, incapacitated, petrified, poisoned, or stunned, the tentaclaw gains that condition as well, losing its immunity for the duration.  
 ***Siege Monster.*** The tentaclaw deals double damage to objects and structures.  

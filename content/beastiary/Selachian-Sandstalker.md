@@ -28,7 +28,6 @@ ___
 *Huge Monstrosity, Unaligned*
 
 ___
-### Traits
 **Armor Class** 18 (natural armor, chitinous plates)  
 **Hit Points** 310 (23d12+161)  
 
@@ -52,7 +51,7 @@ ___
 
 <div class=proficiency-bonus>
 
-**Challenge** 15
+**Challenge** 15 (60,000 XP)
 
 **Proficiency Bonus** 5
 
