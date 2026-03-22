@@ -51,3 +51,5 @@ You have advantage on Stealth check in dark environments, additionally you can t
 
 **Tragic Origins**
 You have proficiency in the Insight Skill
+
+        

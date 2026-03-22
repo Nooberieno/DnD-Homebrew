@@ -7,7 +7,7 @@ sourcebook = ["Rot and Ruin"]
 
 _The jaws of the desert_
 
-### General Lore
+## General Lore
 Selachian Sandstalkers are immense desert-dwelling shark-like creatures that prowl beneath the sands of desolate, sun-blasted wastelands. Resembling a hybrid of monstrous sand sharks and armored subterranean predators, these creatures have adapted perfectly to their harsh environment. Their sleek, finned bodies allow them to glide effortlessly through sand as though it were water, and their tough, chitinous armor provides both defense and camouflage against the ever-shifting desert dunes.  
 
 #### Physical Characteristics  
@@ -25,51 +25,69 @@ Selachian Sandstalkers are immense desert-dwelling shark-like creatures that pro
 
 ___
 ## Selachian Sandstalker
-*Huge Monstrosity, Unaligned*
-
+_Huge Monstrosity, Unaligned_
 ___
-**Armor Class** 18 (natural armor, chitinous plates)  
-**Hit Points** 310 (23d12+161)  
-
-**Speed** 40 ft., burrow 60 ft., swim 30 ft.  
-
+**Armor Class.** 18<br>
+**Hit Points.** 310 (23d12+161)<br>
+**Speed.** 40 ft., burrow 60 ft., swim 30 ft.
 ___
 |STR|DEX|CON|INT|WIS|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|26 (+8)|12 (+1)|24 (+7)|5 (-3)|16 (+3)|9 (-1)|
+|26 (+8)|12 (+1)|24 (+7)|5 (-3)|16 (+3)|9 (-1)
 ___
-**Saving Throws** Strength +11, Dexterity +5, Constitution +11, Wisdom +7 
-
-**Damage Resistances** fire, bludgeoning, piercing, and slashing from nonmagical attacks  
-
-**Damage Immunities** poison  
-
-**Senses** tremorsense 120 ft., blindsight 60 ft., passive Perception 17  
-
-**Languages** —  
+**Saving Throws.** Strength +11, Dexterity +5, Constitution +11, Wisdom +7<br>
 
 
-<div class=proficiency-bonus>
+**Damage Resistances.** fire, bludgeoning, piercing, and slashing from nonmagical attacks<br>
+**Damage Immunities.** poison<br>
+**Condition Immunities.** blinded, charmed, poisoned, prone<br>
+**Senses.** tremorsense 120 ft., blindsight 60 ft., passive Perception 17<br>
+**Languages.** —<br>
 
-**Challenge** 15 (60,000 XP)
+<br>
+<div class="proficiency-bonus">
 
-**Proficiency Bonus** 5
+**Challenge.** 15<br>
+
+<div style="float: right;">
+
+**Proficiency Bonus.** +5
+
+</div>
 
 </div>
 
 ___
-***Amphibious Predator.*** The Selachian Sandstalker can breathe both air and water. It can also move through sand, earth, and loose soil as easily as swimming through water.  
-***Sand Glide.*** The Sandstalker can burrow through nonmagical, unworked sand without disturbing the material it moves through. While burrowing, it is considered to have full cover.  
-***Tremor Lure.*** The Sandstalker is aware of all vibrations in the ground within 120 feet. It has advantage on attack rolls against any creature touching the ground.  
-***Siege Monster.*** The Sandstalker deals double damage to objects and structures.  
+
+
+
+_**Amphibious Predator.**_  The Selachian Sandstalker can breathe both air and water. It can also move through sand, earth, and loose soil as easily as swimming through water.
+
+_**Sand Glide.**_  The Sandstalker can burrow through nonmagical, unworked sand without disturbing the material it moves through. While burrowing, it is considered to have full cover.
+
+_**Tremor Lure.**_  The Sandstalker is aware of all vibrations in the ground within 120 feet. It has advantage on attack rolls against any creature touching the ground.
+
+_**Siege Monster.**_  The Sandstalker deals double damage to objects and structures.
+
 
 ### Actions
-***Multiattack.*** The Sandstalker makes two attacks: one with its Bite and one with its Fin Slash.  
-***Bite.*** Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 36 (5d10+8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Strength saving throw or be swallowed. A swallowed creature is blinded and restrained, has total cover against attacks and effects outside the Sandstalker, and takes 21 (6d6) acid damage at the start of each of the Sandstalker’s turns. If the Sandstalker takes 40 damage or more on a single turn from a creature inside it, it must succeed on a DC 19 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of it.  
-***Fin Slash.*** Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 24 (4d8+8) slashing damage.  
-***Sand Eruption (Recharge 5–6).*** The Sandstalker bursts up from beneath the sands in a 30-foot radius eruption. Each creature in the area must make a DC 19 Dexterity saving throw, taking 45 (10d8) bludgeoning damage and being knocked prone on a failed save, or half as much damage on a successful one. The area becomes difficult terrain until cleared.  
+
+
+_**Multiattack.**_  The Sandstalker makes two attacks: one with its Bite and one with its Fin Slash.
+
+_**Bite.**_  Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 36 (5d10+8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Strength saving throw or be swallowed. A swallowed creature is blinded and restrained, has total cover against attacks and effects outside the Sandstalker, and takes 21 (6d6) acid damage at the start of each of the Sandstalker’s turns. If the Sandstalker takes 40 damage or more on a single turn from a creature inside it, it must succeed on a DC 19 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of it.
+
+_**Fin Slash.**_  Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 24 (4d8+8) slashing damage.
+
+_**Sand Eruption (Recharge 5–6).**_  The Sandstalker bursts up from beneath the sands in a 30-foot radius eruption. Each creature in the area must make a DC 19 Dexterity saving throw, taking 45 (10d8) bludgeoning damage and being knocked prone on a failed save, or half as much damage on a successful one. The area becomes difficult terrain until cleared.
+
 
 ### Reactions
-***Thrash.*** When a creature the Sandstalker has swallowed deals damage to it, the Sandstalker thrashes violently. Each creature within 15 feet must succeed on a DC 19 Strength saving throw or be knocked prone.  
+
+
+_**Thrash.**_  When a creature the Sandstalker has swallowed deals damage to it, the Sandstalker thrashes violently. Each creature within 15 feet must succeed on a DC 19 Strength saving throw or be knocked prone.
+
+
+
 
 </div>

@@ -5,6 +5,8 @@ title = "Scarlet Rot"
 sourcebook = ["Rot and Ruin"]
 +++
 
+
+
 Scarlet Rot is a magical disease that progressively decays any living matter.
 
 ## Effects of Scarlet Rot
@@ -13,3 +15,4 @@ A creature affected by Scarlet Rot has disadvantage on Charisma checks and vulne
 ## Ending Scarlet Rot
 Scarlet Rot can be ended by a Lessor Restoration. This does not end the [Rotting](@/conditions-and-diseases/conditions/rotting.md) condition affecting the creature. 
 A Greater Restoration cures both the disease and the condition.
+[Preserving Boluses](@/items/preserving-boluses.md) can prevent the infliction of Scarlet Rot, but not end the disease

@@ -5,6 +5,8 @@ title = "Hymn of Blindness"
 sourcebook = ["Tusk's Grimoire"]
 spellbook = ["Tusk's Grimoire"]
 classes = ['Artificer', 'Bard', 'Cartomancer', 'Cleric', 'Druid', 'Paladin', 'Ranger', 'Sorcerer', 'Warlock', 'Wizard']
+
+
 [extra]
 level = 1
 concentration = false
@@ -13,13 +15,17 @@ school = "Enchantment"
 
 _Requires speaking Orcish to cast_
 
-*Level 1 Enchantment Spell*  
-**Casting Time**: 1 action  
-**Range**: 30 ft  
-**Components**: V, S  
-**Duration**: 3 minutes  
-**Classes**: Artificer, Bard, Cartomancer, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard  
+_Level 1 Enchantment Spell_<br>
+**Casting Time**: 1 action<br>
+**Range**: 30 ft<br>
+**Components**: V, S<br>
+**Duration**: 3 minutes<br>
+**Classes**: Artificer, Bard, Cartomancer, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard<br>
 
-**Description**
+
+
+
+---
 
 You veil a target within range with magical darkness. The target needs to make a Wisdom saving throw, on failure the target is blinded for the duration, unable to see anything beyond the shadowy veil. However, the target gains advantage on saving throws against being charmed or frightened, relying on their intuition and other senses.
+

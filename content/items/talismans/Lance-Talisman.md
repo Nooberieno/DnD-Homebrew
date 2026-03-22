@@ -9,8 +9,9 @@ tier = "1"
 cost = "100 GP"
 upgradable = "No"
 effects = "Increases damage while mounted by 5%"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Lance Talisman | 100 GP | Increases damage while mounted by 5% | No | N/A | 1 |
+| Lance Talisman | 100 GP | Increases damage while mounted by 5% | No | N/A | 1 | No |

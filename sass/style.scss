@@ -29,35 +29,6 @@ $mocha: (
     base-transparent: #1e1e2e46,
 );
 
-/*
-$mocha-pink: #f5c2e7;
-$mocha-mauve: #cba6f7;
-$mocha-red: #f38ba8;
-$mocha-maroon: #eba0ac;
-$mocha-peach: #fab387;
-$mocha-yellow: #f9e2af;
-$mocha-green: #a6e3a1;
-$mocha-teal: #94e2d5;
-$mocha-sky: #89dceb;
-$mocha-sapphire: #74c7ec;
-$mocha-blue: #89b4fa;
-$mocha-lavender: #b4befe;
-$mocha-text: #cdd6f4;
-$mocha-subtext1: #bac2de;
-$mocha-subtext0: #a6adc8;
-$mocha-overlay2: #9399b2;
-$mocha-overlay1: #7f849c;
-$mocha-overlay0: #6c7086;
-$mocha-surface2: #585b70;
-$mocha-surface1: #45475a;
-$mocha-surface0: #313244;
-$mocha-base: #1e1e2e;
-$mocha-mantle: #181825;
-$mocha-crust: #11111b;
-
-$mocha-base-transparent: #1e1e2e46;
-*/
-
 $latte: (
     text: #4c4f69,
     pink: #ea76cb,
@@ -85,35 +56,6 @@ $latte: (
     crust: #dce0e8,
     base-transparent: #eff1f546,
 );
-
-/*
-$latte-pink: #ea76cb;
-$latte-mauve: #8839ef;
-$latte-red: #d20f39;
-$latte-maroon: #e64553;
-$latte-peach: #fe640b;
-$latte-yellow: #df8e1d;
-$latte-green: #40a02b;
-$latte-teal: #179299;
-$latte-sky: #04a5e5;
-$latte-sapphire: #209fb5;
-$latte-blue: #1e66f5;
-$latte-lavender: #7287fd;
-$latte-text: #4c4f69;
-$latte-subtext1: #5c5f77;
-$latte-subtext0: #6c6f85;
-$latte-overlay2: #7c7f93;
-$latte-overlay1: #8c8fa1;
-$latte-overlay0: #9ca0b0;
-$latte-surface2: #acb0be;
-$latte-surface1: #bcc0cc;
-$latte-surface0: #ccd0da;
-$latte-base: #eff1f5;
-$latte-mantle: #e6e9ef;
-$latte-crust: #dce0e8;
-
-$latte-base-transparent: #eff1f546;
-*/
 
 @mixin theme_vars($theme) {
     --color-text: #{map-get($theme, text)};
@@ -143,6 +85,22 @@ $latte-base-transparent: #eff1f546;
     --color-base-transparent: #{map-get($theme, base-transparent)};
 }
 
+.theme-latte {
+    @include theme_vars($latte);
+}
+
+.theme-mocha {
+    @include theme_vars($mocha);
+}
+
+hr {
+    color: var(--color-mauve);
+}
+
+em {
+    color: var(--color-green);
+}
+
 h1,
 h2,
 h3,
@@ -150,14 +108,6 @@ h4,
 h5,
 h6 {
     font: $font-helvetica;
-}
-
-.theme-latte {
-    @include theme_vars($latte);
-}
-
-.theme-mocha {
-    @include theme_vars($mocha);
 }
 
 a {
@@ -203,6 +153,16 @@ h3 {
     border-bottom: 1px solid var(--color-green);
 }
 
+h4,
+h5,
+h6 {
+    color: var(--color-yellow);
+}
+
+strong {
+    color: var(--color-sky);
+}
+
 table {
     border-collapse: collapse;
     margin: auto;
@@ -215,6 +175,10 @@ table > tbody > tr > td {
 
 tbody > tr:nth-child(odd) {
     background-color: var(--color-mantle);
+}
+
+p {
+    line-height: 1.5;
 }
 
 .flex-column {
@@ -573,8 +537,8 @@ tbody > tr:nth-child(odd) {
 }
 
 .spell-header {
-    color: #9775fa;
-    border-bottom: 1px solid #9775fa;
+    color: var(--color-sky);
+    border-bottom: 1px solid var(--color-sky);
     padding-bottom: 10px;
     box-sizing: border-box;
     text-align: center !important;
@@ -922,6 +886,10 @@ tbody > tr:nth-child(odd) {
         tbody tr:nth-child(even) {
             background-color: var(--color-surface1);
         }
+
+        tbody tr:nth-child(odd) {
+            background-color: var(--color-surface0);
+        }
     }
 
     strong {
@@ -936,6 +904,24 @@ tbody > tr:nth-child(odd) {
         color: var(--color-teal);
         margin-top: -0.5rem;
         margin-bottom: 1rem;
+    }
+}
+
+.theme-latte .statblock {
+    background-color: var(--color-crust);
+    table {
+        thead {
+            background-color: var(--color-overlay1);
+            color: var(--color-yellow);
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: var(--color-overlay1);
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: var(--color-crust);
+        }
     }
 }
 

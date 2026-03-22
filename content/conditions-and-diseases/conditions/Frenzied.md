@@ -5,6 +5,8 @@ title = "Frenzied"
 sourcebook = ["Tome of the Tarnished"]
 +++
 
+
+
 _Note: Frenzied requires the use of the tables used in the Madness optional rule, check with your DM if this is allowed_
 
 ## Inflicting Frenzied

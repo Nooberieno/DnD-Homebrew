@@ -9,8 +9,9 @@ tier = "5"
 cost = "4000 GP"
 upgradable = "No"
 effects = "If a spell deals fire damage reroll 1s on its damage dice"
+attunement = "Yes"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Orb of Inferno | 4000 GP | If a spell deals fire damage reroll 1s on its damage dice | No | N/A | 5 |
+| Orb of Inferno | 4000 GP | If a spell deals fire damage reroll 1s on its damage dice | No | N/A | 5 | Yes |

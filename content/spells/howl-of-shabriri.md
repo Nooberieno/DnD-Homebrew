@@ -5,19 +5,26 @@ title = "Howl of Shabriri"
 sourcebook = ["Tome of the Tarnished"]
 spellbook = ["Codex of the Maddened Pyromancer"]
 classes = ['Warlock', 'Sorcerer', 'Wizard']
+
+
 [extra]
 level = 4
 concentration = true
 school = "Evocation"
 +++
 
-*Level 4 Evocation Spell*  
-**Casting Time**: 1 action  
-**Range**: Self (75 ft)  
-**Components**: V, S  
-**Duration**: Concentration, up to 7 turns  
-**Classes**: Warlock, Sorcerer, Wizard  
 
-**Description**
+
+_Level 4 Evocation Spell_<br>
+**Casting Time**: 1 action<br>
+**Range**: Self (75 ft)<br>
+**Components**: V, S<br>
+**Duration**: Concentration, up to 7 turns<br>
+**Classes**: Warlock, Sorcerer, Wizard<br>
+
+
+
+
+---
 
 You release a maddening shriek that affects your body and the perception of the creatures around you. While maintaining concentration, your damage dealt increases by 25%, but you also take 30% more damage. Enemies within range are drawn to attack you, increasing the likelihood they target you in combat.

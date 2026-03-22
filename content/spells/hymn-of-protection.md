@@ -25,9 +25,10 @@ _Level 3 Abjuration Spell_<br>
 
 
 
-**Description**
+---
 
 You chant an ancient Orcish hymn, creating a protective magic circle that shields yourself and allies from harmful spells. the hymn creates a shimmering magic circle that extends in a 15 ft radius around you, which is visible as a faint shimmering dome that creatures can move freely through, but remains centered on you. While chanting, you maintain concentration to sustain the protective effect.
 - For the duration, any allied creature within the aura (including you) can add your spellcasting ability modifier (minimum of 1) to any saving throw made against spells and other magical effects
 - Any time an ally within the aura takes damage caused by a spell, the damage is reduced by an amount equal to your spellcasting ability modifier (minimum of 1). This effect applies to each instance of spell damage, not just once per turn.
 - Allies within the aura gain a +2 bonus to ability checks made to counter or dispel spells that target them or originate within the aura.
+

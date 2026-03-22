@@ -11,4 +11,7 @@ _Weapon(Great Katana), Uncommon_
 
 | Cost | Damage | Weight | Properties | Requirements | Abilities |
 | ---- | ------ | ------ | ---------- | ------------ | --------- |
-| 30 GP | 2d6 Slashing | 4 lbs | Heavy, Two-Handed | - | - |
+| 30 GP | 2d6 Slashing | 4 lbs | Heavy,  Two-Handed | - | - |
+
+
+

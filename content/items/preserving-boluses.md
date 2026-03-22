@@ -1,11 +1,13 @@
 +++
 title = "Preserving Boluses"
+
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
+
 [extra]
 tier = "Minor"
 +++
-_Wondrous Item, Rare__
+_Wondrous Item, Rare_
 
 
 ## Preserving Boluses

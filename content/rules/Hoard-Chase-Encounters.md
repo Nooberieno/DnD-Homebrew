@@ -2,6 +2,10 @@
 title = "Hoard Chase Encounters"
 +++
 
+
+
+
+
 Did your players piss off 3 goblin settlements in a row, did they upset the population of a city or did they draw the attention of the local guards or army? Whatever the case they are now being chased by a massive amount of creatures. Hoard Chase encounters are a good way to force your players into a specific place without railroading them. Say you want them out of a dungeon, you could have tens or even hundreds of monsters appear from the behind the walls that they suddenly need to escape from, but how does that work?
 
 ## Creating a Hoard Chase

@@ -46,3 +46,5 @@ Equinoid can communicate with horse like animals as if they shared a language, m
 You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot. You can also be mounted other creatures of size medium or smaller.
 ### Hooves 
 You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.
+
+        

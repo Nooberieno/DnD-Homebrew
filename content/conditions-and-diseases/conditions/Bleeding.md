@@ -5,6 +5,10 @@ title = "Bleeding"
 sourcebook = ["Tome of the Tarnished"]
 +++
 
+
+
+
+
 ## Inflicting Bleeding
 Some magical weapons or spells can inflict Bleeding. Bleeding can be applied multiple times to the same target, up to a maximum of 4 times.
 

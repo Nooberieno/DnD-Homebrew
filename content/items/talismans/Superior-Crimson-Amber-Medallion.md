@@ -10,8 +10,9 @@ cost = "750 GP"
 upgradable = "Yes (True Crimson Amber Medallion)"
 upgrade_cost = "1000 GP"
 effects = "Gain +20% max hp"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Superior Crimson Amber Medallion | 750 GP | Gain +20% max hp | Yes (True Crimson Amber Medallion) | 1000 GP | 3 |
+| Superior Crimson Amber Medallion | 750 GP | Gain +20% max hp | Yes (True Crimson Amber Medallion) | 1000 GP | 3 | No |

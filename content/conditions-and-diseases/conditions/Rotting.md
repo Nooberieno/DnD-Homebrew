@@ -5,6 +5,8 @@ title = "Rotting"
 sourcebook = ["Tome of the Tarnished"]
 +++
 
+
+
 ## Inflicting Rotting
 Some magical weapons or spells can inflict Rotting. Rotting is also inflicted onto any creatures that have [Scarlet Rot](@/conditions-and-diseases/diseases/scarlet-rot.md).
 
@@ -37,3 +39,4 @@ Each long rest, the condition worsens. The effects stack.
 Lesser Restoration stops Rotting from getting worse for 24 hours, but does not remove the condition.
 [Preserving Boluses](@/items/preserving-boluses.md) can prevent Rotting stop Rotting from getting worse, but cannot cure the condition.
 Greater Restoration, Heal, Wish, or Divine Intervention remove Rotting completely.
+

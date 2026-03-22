@@ -1,5 +1,6 @@
 +++
 title = "Druid"
+
 [taxonomies]
 subclasses = ['Druid: Circle of the Tides']
 sourcebook = ["A Warlord's Way Around the Seven Seas"]
@@ -326,7 +327,10 @@ sourcebook = ["A Warlord's Way Around the Seven Seas"]
     </tr>
   </tbody>
 </table>
+
+
 {% aside() %}
+
 ## Druid
 
 **Hit Dice**: 1d8
@@ -338,12 +342,14 @@ sourcebook = ["A Warlord's Way Around the Seven Seas"]
 
 **Starting Equipment**:
 - (a) a wooden <a href="https://2014.5e.tools/items.html#shield_phb">shield</a> or (b) any <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon=1">simple weapon</a>
-- (a) a <a href="https://2014.5e.tools/items.html#scimitar_phb">scimitar</a> or (b) any <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon~melee weapon=sand=2">simple melee weapon</a>
+- (a) a <a href="https://2014.5e.tools/items.html#scimitar_phb">scimitar</a> or (b) any <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon~melee weapon=2">simple melee weapon</a>
 - <a href="https://2014.5e.tools/items.html#Leather armor_phb">Leather armor</a>, an <a href="https://2014.5e.tools/items.html#explorer's pack_phb">explorer's pack</a>, and a <a href="https://2014.5e.tools/items.html#druidic focus_phb">druidic focus</a>
 
 **Multiclassing Requirements**:
 - WIS 13
+
 {% end %}
+
 
 ## Subclasses
 
@@ -359,10 +365,10 @@ You know Druidic, the secret language of druids. You can speak the language and 
 Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 for the general rules of spellcasting and chapter 11 for the <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:druid=1">druid spell list</a>.
 
 #### Cantrips
- At 1st level, you know two cantrips of your choice from the <a href="https://2014.5e.tools/spells.html#blankhash,flstlevel:0=1,flstclass:druid=1">druid spell list</a>. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
+At 1st level, you know two cantrips of your choice from the <a href="https://2014.5e.tools/spells.html#blankhash,flstlevel:0=1,flstclass:druid=1">druid spell list</a>. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
 
 #### Preparing and Casting Spells
- The Druid table shows how many spell slots you have to cast your <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:druid=1">druid spells</a> of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+The Druid table shows how many spell slots you have to cast your <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:druid=1">druid spells</a> of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
@@ -371,17 +377,17 @@ For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-l
 You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
 #### Spellcasting Ability
- Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
 
 &nbsp;&nbsp;**Spell save DC** = 8 + wis + Proficiency Bonus
 
 &nbsp;&nbsp;**Spell attack modifier** = wis + Proficiency Bonus
 
 #### Ritual Casting
- You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 
 #### Spellcasting Focus
- You can use a <a href="https://2014.5e.tools/items.html#druidic focus_phb">druidic focus</a> as a spellcasting focus for your druid spells.
+You can use a <a href="https://2014.5e.tools/items.html#druidic focus_phb">druidic focus</a> as a spellcasting focus for your druid spells.
 
 ### Wild Shape
 Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
@@ -398,11 +404,11 @@ You can stay in a beast shape for a number of hours equal to half your druid lev
 
 While you are transformed, the following rules apply:
 
-- Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
-- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
-- You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
-- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
-- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
+1. Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
+2. When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
+3. You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
+4. You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
+5. You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
 ### Wild Companion
 _2nd-level druid <a href="https://2014.5e.tools/variantrules.html#optional%20class%20features_tce">optional feature</a>_
@@ -436,10 +442,12 @@ _6th-level Circle of the Tides feature_
 
 At 6th level, you can command the tides to aid your allies or hinder your foes. When you cast a spell that creates or manipulates water, such as _Tidal Wave_ or _Control Water_, you can choose one of the following additional effects:
 
-- Surging Tide: You can push creatures within the affected area up to 10 feet in a direction of your choice.
-- Rejuvenating Waters: Allies within the affected area regain hit points equal to your druid level.
+1. Surging Tide: You can push creatures within the affected area up to 10 feet in a direction of your choice.
+2. Rejuvenating Waters: Allies within the affected area regain hit points equal to your druid level.
+
 
 {% end %}
+
 
 ### Wild Shape Improvement
 At 8th level, your Wild Shape improves as shown on the Beast Shapes table.
@@ -458,7 +466,9 @@ _10th-level Circle of the Tides feature_
 
 As a bonus action, you can expend a use of Wild Shape to exude a mystical watery force in a 30 ft radius. Creatures of your choice within this Aura treat it as difficult terrain. If a creature has a swimming speed it ignores this effect. Your Tidal Aura also enhances your healing powers. When you cast a spell that restores hit points to a creature within this Tidal Aura, all allied creatures within the Aura regains additional hit points equal to Wisdom modifier (minimum of 1) + your druid level. your Tidal Aura lasts for 1 minute. Its effects end early  if you end it as a bonus action, or if you are incapacitated.
 
+
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -474,7 +484,9 @@ _14th-level Circle of the Tides feature_
 
 You can activate Tidal Aura without expending a use of Wild Shape. Once activating Tidal Aura this way, you cannot do so again until you have completed a long rest. Creatures of your choice treat the area your Tidal Aura is occupying as difficult terrain if they have a swimming speed.  Tidal Aura now gives temporary hit points equal to your druid level to creatures of your choice on the beginning of each of their turns if they start their turn in the Tidal Aura. Allied creatures in your Tidal Aura reduce fire damage by an amount equal to your druid level.
 
+
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -496,4 +508,5 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 At 20th level, you can use your Wild Shape an unlimited number of times.
 
 Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.
+
 

@@ -9,8 +9,9 @@ tier = "3"
 cost = "1000 GP"
 upgradable = "No"
 effects = "When reduced to 0 hp, you instead drop to 1 hp and gain 30 temporary hp. This item is then consumed"
+attunement = "Yes"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Sacrificial Twig | 1000 GP | When reduced to 0 hp, you instead drop to 1 hp and gain 30 temporary hp. This item is then consumed | No | N/A | 3 |
+| Sacrificial Twig | 1000 GP | When reduced to 0 hp, you instead drop to 1 hp and gain 30 temporary hp. This item is then consumed | No | N/A | 3 | Yes |

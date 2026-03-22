@@ -1,8 +1,9 @@
 +++
 title = "Cartomancer"
+
 [taxonomies]
 subclasses = ['Cartomancer: Joker Deck', 'Cartomancer: Poker Deck', 'Cartomancer: Tarot Deck', 'Cartomancer: Zener Deck']
-sourcebook = ['The Art of Cards']
+sourcebook = ["The Art of Cards"]
 +++
 <table class="class-table">
   <thead>
@@ -368,7 +369,10 @@ sourcebook = ['The Art of Cards']
     </tr>
   </tbody>
 </table>
+
+
 {% aside() %}
+
 ## Cartomancer
 
 **Hit Dice**: 1d6
@@ -384,7 +388,9 @@ sourcebook = ['The Art of Cards']
 
 **Multiclassing Requirements**:
 - INT 13
+
 {% end %}
+
 
 ## Subclasses
 
@@ -402,27 +408,27 @@ For example, if you're a 4th-level cartomancer, you can recover up to two levels
 Your skill and prowess with cards and the arcane cards you posses are the source of your spells.
 
 #### Cantrips
- At 1st level, you know three cantrips of your choice from the cartomancer spell list. You learn additional cartomancer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the cartomancer table.
+At 1st level, you know three cantrips of your choice from the cartomancer spell list. You learn additional cartomancer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the cartomancer table.
 
 #### Spell Slots
- The cartomancer table shows how many spell slots you have to cast your cartomancer spells of 1st level and higher. To cast one of these cartomancer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+The cartomancer table shows how many spell slots you have to cast your cartomancer spells of 1st level and higher. To cast one of these cartomancer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 #### Spells Known of 1st level or higher
- You know two 1st-level spells of your choice from the cartomancer spell list.
+You know two 1st-level spells of your choice from the cartomancer spell list.
 
 You learn an additional cartomancer spell of your choice at each level except 12th, 14th, 16th, 18th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
 
 Additionally, when you gain a level in this class, you can choose one of the cartomancer spells you know and replace it with another spell from the cartomancer spell list, which also must be of a level for which you have spell slots.
 
 #### Spellcasting ability
- Intelligence is your spellcasting ability for your cartomancer spells, since the power of your magic relies on your ability to project your will into the world. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a cartomancer spell you cast and when making an attack roll with one.
+Intelligence is your spellcasting ability for your cartomancer spells, since the power of your magic relies on your ability to project your will into the world. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a cartomancer spell you cast and when making an attack roll with one.
 
 &nbsp;&nbsp;**Spell save DC** = 8 + int + Proficiency Bonus
 
 &nbsp;&nbsp;**Spell attack modifier** = int + Proficiency Bonus
 
 #### Ritual Casting
- You can cast any cartomancer spell you know as a ritual if that spell has the ritual tag
+You can cast any cartomancer spell you know as a ritual if that spell has the ritual tag
 
 ### Deck of Cards
 Choose your arcane deck of cards, which describe the deck you possess, from the list of available decks.
@@ -460,11 +466,13 @@ _1st-level Joker Deck feature_
 
 You are not a clown, you are the entire circus and you play your role perfectly. After all, who expects the fool to trick _them_.
 
-- You gain proficiency in Performance. If you already have it, gain proficiency in Sleight of Hand instead.
-- Whenever you use Card Charisma, you can add your Intelligence modifier twice instead of once.
-- Whenever you successfully distract or entertain a creature with roleplay or illusion magic, you can impose disadvantage on its next attack roll against you or an ally within 10 feet.
+1. You gain proficiency in Performance. If you already have it, gain proficiency in Sleight of Hand instead.
+2. Whenever you use Card Charisma, you can add your Intelligence modifier twice instead of once.
+3. Whenever you successfully distract or entertain a creature with roleplay or illusion magic, you can impose disadvantage on its next attack roll against you or an ally within 10 feet.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Poker Deck") %}
 ### Poker Deck
@@ -495,10 +503,12 @@ _1st-level Poker Deck feature_
 
 _The best hands begin with a single card_
 
-- You gain proficiency in the Insight skill. If you already have it, gain proficiency in Perception instead
-- Once per turn, when you roll damage for a spell, you can treat one damage die as having rolled its maximum value. You can use this a number of times equal to your Intelligence Modifier per long rest.
+1. You gain proficiency in the Insight skill. If you already have it, gain proficiency in Perception instead
+2. Once per turn, when you roll damage for a spell, you can treat one damage die as having rolled its maximum value. You can use this a number of times equal to your Intelligence Modifier per long rest.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Tarot Deck") %}
 ### Tarot Deck
@@ -540,7 +550,9 @@ As a bonus action, choose one of the four suits and expend 1 Deal to invoke its 
 | **Wands** | One creature of your choice within 30 ft gains a bonus equal to 1d4 on its next attack roll or saving throw before the start of your next turn. |
 | **Swords** | Choose one creature within 30 ft. Until the start of your next turn, that creature has disadvantage on its next attack roll. |
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Zener Deck") %}
 ### Zener Deck
@@ -573,8 +585,8 @@ _"The veil between the material and the mental is thin for you, and you can feel
 
 As an action, you can focus your perception to sense the presence of psychic phenomena. For 1 minute, you gain the following benefits:
 
-- You know if a creature within 30 feet of you is under the effect of a charm, possession, or illusion spell.
-- You can make a Wisdom (Insight) check contested by a creature’s Charisma (Deception) to determine if it is hiding its thoughts or alignment of intent (hostile, neutral, friendly).
+1. You know if a creature within 30 feet of you is under the effect of a charm, possession, or illusion spell.
+2. You can make a Wisdom (Insight) check contested by a creature’s Charisma (Deception) to determine if it is hiding its thoughts or alignment of intent (hostile, neutral, friendly).
 
 You may use this feature a number of times equal to your proficiency bonus, and you regain expended uses after a long rest.
 
@@ -584,10 +596,12 @@ _1st-level Zener Deck feature_
 
 _"Sight may betray you, your cards wont"_
 
-- You gain proficiency in the Insight skill, if you already have it, gain proficiency in Investigation instead.
-- You can use %%Spell: Detect Thoughts|PHB%% _Detect Thoughts_ once per long rest without expending a spell slot
+1. You gain proficiency in the Insight skill, if you already have it, gain proficiency in Investigation instead.
+2. You can use %%Spell: Detect Thoughts|PHB%% _Detect Thoughts_ once per long rest without expending a spell slot
+
 
 {% end %}
+
 
 ### Card Charisma
 At 2nd level, you may add your Intelligence modifier whenever you make a Deception or Persuasion check while doing card tricks
@@ -676,7 +690,9 @@ Once per turn when you cast a spell that forces a saving throw, you can choose t
 
 You can use this feature a number of times equal to your proficiency bonus and you regain all uses upon finishing a long rest.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Poker Deck") %}
 ### Straight
@@ -686,7 +702,9 @@ _90% of gambling addicts quit right before they’re about to hit it big_
 
 When you cast a spell that has a casting time of 1 action, you can spend 2 deals to change the casting time to 1 bonus action for this casting.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Tarot Deck") %}
 ### The Cards Will Tell
@@ -696,11 +714,13 @@ When you finish a long rest, you may spend 10 minutes laying out three cards fro
 
 The DM provides you with a vision, omen, or symbolic impression and the three cards that symbolize these events. The message may be cryptic or clear, literal or metaphorical, at the DM’s discretion. You do not know exactly **when** or **how** the vision will come to pass — only that it is tied to events in the near future.
 
-- The vision might reveal danger (“a blade in the dark”), an opportunity (“a crown toppled”), or insight about a specific creature, object, or location (“the tower burns”).
-- The DM decides the content, clarity, and timing of the vision.
-- You may choose to focus your reading on a **specific creature** you have met, even without their knowledge. In that case, the vision relates to that creature’s fate.
+1. The vision might reveal danger (“a blade in the dark”), an opportunity (“a crown toppled”), or insight about a specific creature, object, or location (“the tower burns”).
+2. The DM decides the content, clarity, and timing of the vision.
+3. You may choose to focus your reading on a **specific creature** you have met, even without their knowledge. In that case, the vision relates to that creature’s fate.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Zener Deck") %}
 ### Mental Echo
@@ -708,7 +728,9 @@ _6th-level Zener Deck feature_
 
 Whenever you succeed on a saving throw against a spell or effect that would read your mind, charm you, or frighten you, you can use your reaction to force the originator of the effect to make a Wisdom saving throw against your spell save DC. On a failed save, they take 2d8 psychic damage and have disadvantage on their next Wisdom saving throw before the end of your next turn.
 
+
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -746,7 +768,9 @@ As an action roll a d12 and consult the Wild Card Table for the result.
 
 You can use this feature once per long rest.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Poker Deck") %}
 ### Full House
@@ -756,7 +780,9 @@ When you cast a spell of 1st through 5th level that targets only yourself, you c
 
 You can use this feature once per long rest.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Tarot Deck") %}
 ### Arcana's Whisper (Major)
@@ -789,7 +815,9 @@ Whenever you finish a long rest, you draw a Major Arcana card and infuse it with
 | 20 | **Judgement** | Choose up to 3 creatures within 30 ft. They each make a Charisma saving throw or take 5d8 radiant damage. |
 | 21 | **The World** | For 1 minute, you gain a flying speed equal to your walking speed and can add +1d4 to all attack rolls and saving throws. |
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Zener Deck") %}
 ### Destiny Calibration
@@ -799,7 +827,9 @@ When you or a creature you can see within 30 feet makes an attack roll, saving t
 
 You can use this feature a number of times equal to your Intelligence modifier (minimum 1). You regain all expended uses after a long rest.
 
+
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -818,11 +848,13 @@ _18th-level Joker Deck feature_
 
 _“Sometimes the only way to stay sane is to go a little crazy.”_
 
-- You are immune to being frightened or charmed.
-- You can use Wild Card 4 times per long rest.
-- When you or a creature you can see within 30 feet makes an attack roll, ability check, or saving throw, you can use your reaction to force them to reroll the die. You can use this feature a number of times equal to your Intelligence modifier (minimum 1) and regain all uses upon finishing a long rest.
+1. You are immune to being frightened or charmed.
+2. You can use Wild Card 4 times per long rest.
+3. When you or a creature you can see within 30 feet makes an attack roll, ability check, or saving throw, you can use your reaction to force them to reroll the die. You can use this feature a number of times equal to your Intelligence modifier (minimum 1) and regain all uses upon finishing a long rest.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Poker Deck") %}
 ### Royal Flush
@@ -832,13 +864,15 @@ _Big Deck Energy_
 
 When you cast a spell that deals damage it can gains the following benefits:
 
-- Enemies have disadvantage on any saving throw made against the spell
-- You have advantage on the Attack Roll
-- When you roll damage for this spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.
+1. Enemies have disadvantage on any saving throw made against the spell
+2. You have advantage on the Attack Roll
+3. When you roll damage for this spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.
 
 You can use this feature a number of times equal to your Proficiency Bonus (Minimum of once)
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Tarot Deck") %}
 ### Crown of Fate
@@ -846,10 +880,12 @@ _18th-level Tarot Deck feature_
 
 _"The weave of destiny is yours to shape — threads tighten, cut, or rerouted at your will."_
 
-- When you finish a long rest, draw **two Major Arcana cards** instead of one. You can choose which one to empower with magic, or spend 5 Deals at once to empower both.
-- When a creature within 30 ft that you can see fails a saving throw, you can use your reaction to force them to succeed instead. You can use this feature a number of times equal to your Intelligence modifier (minimum 1), regaining all uses when you finish a long rest.
+1. When you finish a long rest, draw **two Major Arcana cards** instead of one. You can choose which one to empower with magic, or spend 5 Deals at once to empower both.
+2. When a creature within 30 ft that you can see fails a saving throw, you can use your reaction to force them to succeed instead. You can use this feature a number of times equal to your Intelligence modifier (minimum 1), regaining all uses when you finish a long rest.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Zener Deck") %}
 ### The Fifth Symbol
@@ -857,7 +893,9 @@ _18th-level Zener Deck feature_
 
 You are immune to psychic damage, any effect that would sense your emotions or read your thoughts and the charmed condition
 
+
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -866,4 +904,5 @@ If your DM allows the use of feats, you may instead take a [feat](https://2014.5
 
 ### Trump Card
 If you roll initiative with no Deals, you regain 4.
+
 

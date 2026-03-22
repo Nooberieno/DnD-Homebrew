@@ -1,7 +1,9 @@
 +++
 title = "Infusion Stones"
+
 [taxonomies]
 sourcebook = ["Tome of the Tarnished"]
+
 [extra]
 tier = "Minor"
 +++

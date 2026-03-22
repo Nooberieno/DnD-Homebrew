@@ -10,8 +10,9 @@ cost = "500 GP"
 upgradable = "Yes (Superior Ritual Sword)"
 upgrade_cost = "900 GP"
 effects = "Deal 3% more damage when at max hp"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Ritual Sword Reforged | 500 GP | Deal 3% more damage when at max hp | Yes (Superior Ritual Sword) | 900 GP | 3 |
+| Ritual Sword Reforged | 500 GP | Deal 3% more damage when at max hp | Yes (Superior Ritual Sword) | 900 GP | 3 | No |

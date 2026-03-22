@@ -1,5 +1,6 @@
 +++
 title = "Ranger"
+
 [taxonomies]
 subclasses = ['Ranger: Nightstalker - Shadow Shot Variant', 'Ranger: Nightstalker - Spectral Blades Variant']
 sourcebook = ["Cayde-6's Guardian Manual"]
@@ -242,7 +243,10 @@ sourcebook = ["Cayde-6's Guardian Manual"]
     </tr>
   </tbody>
 </table>
+
+
 {% aside() %}
+
 ## Ranger
 
 **Hit Dice**: 1d10
@@ -254,14 +258,16 @@ sourcebook = ["Cayde-6's Guardian Manual"]
 
 **Starting Equipment**:
 - (a) <a href="https://2014.5e.tools/items.html#scale mail_phb">scale mail</a> or (b) <a href="https://2014.5e.tools/items.html#leather armor_phb">leather armor</a>
-- (a) two <a href="https://2014.5e.tools/items.html#shortsword_phb">shortswords</a> or (b) two <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon~melee weapon=sand=2">simple melee weapons</a>
+- (a) two <a href="https://2014.5e.tools/items.html#shortsword_phb">shortswords</a> or (b) two <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon~melee weapon=2">simple melee weapons</a>
 - (a) a <a href="https://2014.5e.tools/items.html#dungeoneer's pack_phb">dungeoneer's pack</a> or (b) an <a href="https://2014.5e.tools/items.html#explorer's pack_phb">explorer's pack</a>
 - A <a href="https://2014.5e.tools/items.html#longbow_phb">longbow</a> and a <a href="https://2014.5e.tools/items.html#quiver_phb">quiver</a> of <a href="https://2014.5e.tools/items.html#arrows (20)_phb">20 arrows</a>
 
 **Multiclassing Requirements**:
 - DEX 13
 - WIS 13
+
 {% end %}
+
 
 ## Subclasses
 
@@ -297,12 +303,12 @@ You are particularly familiar with one type of natural environment and are adept
 
 While traveling for an hour or more in your favored terrain, you gain the following benefits:
 
-- Difficult terrain doesn't slow your group's travel.
-- Your group can't become lost except by magical means.
-- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
-- If you are traveling alone, you can move stealthily at a normal pace.
-- When you forage, you find twice as much food as you normally would.
-- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
+1. Difficult terrain doesn't slow your group's travel.
+2. Your group can't become lost except by magical means.
+3. Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
+4. If you are traveling alone, you can move stealthily at a normal pace.
+5. When you forage, you find twice as much food as you normally would.
+6. While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
 
 You choose additional favored terrain types at 6th and 10th level.
 
@@ -312,7 +318,7 @@ _1st-level ranger <a href="https://2014.5e.tools/variantrules.html#optional%20cl
 You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.
 
 #### Canny
- Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.
+Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.
 
 You can also speak, read, and write two additional languages of your choice.
 
@@ -330,19 +336,19 @@ At 2nd level, you adopt a particular style of fighting as your specialty. Choose
 By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:ranger=1">ranger spell list</a>.
 
 #### Spell Slots
- The Ranger table shows how many spell slots you have to cast your <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:ranger=1">ranger spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+The Ranger table shows how many spell slots you have to cast your <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:ranger=1">ranger spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot.
 
 #### Spells Known of 1st Level and Higher
- You know two 1st-level spells of your choice from the ranger spell list.
+You know two 1st-level spells of your choice from the ranger spell list.
 
 The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.
 
 Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.
 
 #### Spellcasting Ability
- Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.
+Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.
 
 &nbsp;&nbsp;**Spell save DC** = 8 + wis + Proficiency Bonus
 
@@ -384,15 +390,17 @@ You may add a single modifier to both **Shadow Snare** and **Shade Step**
 
 Shadow Snare Modifiers:
 
-- Blood Bound: Tethered enemies share damage, up to a max of 20. Damage dealt to one also deals damage to the other
-- Black Hole: Tethered enemies explode when killed dealing 20 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius
+1. Blood Bound: Tethered enemies share damage, up to a max of 20. Damage dealt to one also deals damage to the other
+2. Black Hole: Tethered enemies explode when killed dealing 20 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius
 
 Shade Step Modifiers:
 
-- Vanish in Smoke: Activating Shade Step also gives its benefits to allies within 5 ft of you
-- Hunter's Agility: While Shade Step is active, gain 20 ft of extra movement speed.
+1. Vanish in Smoke: Activating Shade Step also gives its benefits to allies within 5 ft of you
+2. Hunter's Agility: While Shade Step is active, gain 20 ft of extra movement speed.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Nightstalker - Spectral Blades Variant
@@ -422,15 +430,17 @@ You may add a single modifier to both **Gloaming Predator** and **Shade Step**
 
 **Gloaming Predator** Modifiers:
 
-- **Shadowstrike**: On a hit with **Gloaming Predator**, reduce the target's movement speed by 10 ft until the start of your next turn.
-- **Lifedrinker**: Gain temporary hit points equal to half the damage dealt with **Gloaming Predator**.
+1. **Shadowstrike**: On a hit with **Gloaming Predator**, reduce the target's movement speed by 10 ft until the start of your next turn.
+2. **Lifedrinker**: Gain temporary hit points equal to half the damage dealt with **Gloaming Predator**.
 
 **Shade Step** Modifiers:
 
-- Vanish in Smoke: Activating **Shade Step** also gives its benefits to allies within 5 ft of you
-- Hunter's Agility: While **Shade Step** is active, gain 20 ft of extra movement speed.
+1. Vanish in Smoke: Activating **Shade Step** also gives its benefits to allies within 5 ft of you
+2. Hunter's Agility: While **Shade Step** is active, gain 20 ft of extra movement speed.
+
 
 {% end %}
+
 
 ### Primeval Awareness
 Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.
@@ -472,7 +482,7 @@ At 6th level, you choose one additional favored enemy, as well as an associated 
 You gain an additional benefit when you reach 6th level in this class.
 
 #### Roving
- Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.
+Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.
 
 ### Ranger Archetype feature
 At 7th level, you gain a feature granted to you by your Ranger Archetype.
@@ -491,7 +501,9 @@ When hitting an enemy with **Shadow Snare** marks it as if targeted by the _Hunt
 
 Any path that is dimly lit or completely dark counts as your Favored Terrain
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Shadow Shot Variant") %}
 ### Modifiers
@@ -501,15 +513,17 @@ You may add a single modifier to both **Hunter or Hunted** and **Shadow Scout**:
 
 **Hunter or Hunted** Modifiers:
 
-- Necrosis: When a marked enemy dies, regain health equal to 1d6 times your Ranger Level.
-- Bloom: When a marked enemy dies, it explodes dealing 25 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius. (damage stacks with Black Hole)
+1. Necrosis: When a marked enemy dies, regain health equal to 1d6 times your Ranger Level.
+2. Bloom: When a marked enemy dies, it explodes dealing 25 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius. (damage stacks with Black Hole)
 
 **Shadow Scout** Modifiers:
 
-- Over the Horizon: You and all allies within 50 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
-- One with the Abyss: You and all allies within 50 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
+1. Over the Horizon: You and all allies within 50 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
+2. One with the Abyss: You and all allies within 50 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Keen Scout
@@ -525,7 +539,9 @@ When hitting an enemy with **Shadow Snare** marks it as if targeted by the _Hunt
 
 Any path that is dimly lit or completely dark counts as your Favored Terrain
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Modifiers
@@ -535,15 +551,17 @@ You may add a single modifier to both **Hunter or Hunted** and **Shadow Scout**:
 
 **Hunter or Hunted** Modifiers:
 
-- Necrosis: When a marked enemy dies, regain health equal to 1d6 times your Ranger Level.
-- Bloom: When a marked enemy dies, it explodes dealing 25 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius. (damage stacks with Black Hole)
+1. Necrosis: When a marked enemy dies, regain health equal to 1d6 times your Ranger Level.
+2. Bloom: When a marked enemy dies, it explodes dealing 25 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius. (damage stacks with Black Hole)
 
 **Shadow Scout** Modifiers:
 
-- Over the Horizon: You and all allies within 50 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
-- One with the Abyss: You and all allies within 50 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
+1. Over the Horizon: You and all allies within 50 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
+2. One with the Abyss: You and all allies within 50 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -574,7 +592,7 @@ You gain an additional favored terrain.
 You gain an additional benefit when you reach 10th level in this class.
 
 #### Tireless
- As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.
 
@@ -593,7 +611,9 @@ When you use **Shadow Snare**, you can choose up to two creatures within 10 feet
 
 When you use **Shade Step**, you can teleport up to 30 feet to an unoccupied space you can see within dim light or darkness. You can use this ability even if you're not hidden, and doing so grants you advantage on the first attack you make before the end of your turn.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Shadow Shot Variant") %}
 ### Modifiers
@@ -603,15 +623,17 @@ You may add a single modifier to both **Tethered Dominion** and **Way of the Dri
 
 **Tethered Dominion** Modifiers:
 
-- Umbra Reaper: When you kill a creature restrained by **Shadow Snare**, you can immediately use **Shadow Snare** again without expending a use. This can chain up to your proficiency modifier times per turn.
-- Apex Predator: Shooting an enemy twice with **Shadow Snare** guarantees the next attack against it will be a critical hit.
+1. Umbra Reaper: When you kill a creature restrained by **Shadow Snare**, you can immediately use **Shadow Snare** again without expending a use. This can chain up to your proficiency modifier times per turn.
+2. Apex Predator: Shooting an enemy twice with **Shadow Snare** guarantees the next attack against it will be a critical hit.
 
 **Way of the Drifter** Modifiers:
 
-- Way of the Fearless: When teleporting with **Shade Step** gain temporary hit points equal to 2 x your ranger level.
-- Way of the Nomad: When teleporting with **Shade Step** recover 1 hp for every ft between you and the nearest enemy
+1. Way of the Fearless: When teleporting with **Shade Step** gain temporary hit points equal to 2 x your ranger level.
+2. Way of the Nomad: When teleporting with **Shade Step** recover 1 hp for every ft between you and the nearest enemy
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Shadow Dominion
@@ -625,7 +647,9 @@ When you use **Shadow Snare**, you can choose up to two creatures within 10 feet
 
 When you use **Shade Step**, you can teleport up to 30 feet to an unoccupied space you can see within dim light or darkness. You can use this ability even if you're not hidden, and doing so grants you advantage on the first attack you make before the end of your turn.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Modifiers
@@ -635,15 +659,17 @@ You may add a single modifier to both **Tethered Dominion** and **Way of the Dri
 
 **Tethered Dominion** Modifiers:
 
-- Umbra Reaper: When you kill a creature restrained by **Shadow Snare**, you can immediately use **Shadow Snare** again without expending a use. This can chain up to your proficiency modifier times per turn.
-- Apex Predator: Shooting an enemy twice with **Shadow Snare** guarantees the next attack against it will be a critical hit.
+1. Umbra Reaper: When you kill a creature restrained by **Shadow Snare**, you can immediately use **Shadow Snare** again without expending a use. This can chain up to your proficiency modifier times per turn.
+2. Apex Predator: Shooting an enemy twice with **Shadow Snare** guarantees the next attack against it will be a critical hit.
 
 **Way of the Drifter** Modifiers:
 
-- Way of the Fearless: When teleporting with **Shade Step** gain temporary hit points equal to 2 x your ranger level.
-- Way of the Nomad: When teleporting with **Shade Step** recover 1 hp for every ft between you and the nearest enemy
+1. Way of the Fearless: When teleporting with **Shade Step** gain temporary hit points equal to 2 x your ranger level.
+2. Way of the Nomad: When teleporting with **Shade Step** recover 1 hp for every ft between you and the nearest enemy
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -673,7 +699,9 @@ The **Shadow Snare** persists for up to 1 minute, ending early if your concentra
 
 Once you use **Shadow Shot**, you cannot do so again until you finish a long rest.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Shadow Shot Variant") %}
 ### Modifiers
@@ -681,10 +709,12 @@ _15th-level Nightstalker - Shadow Shot Variant feature_
 
 You may add a single modifier to **Shadow Shot**:
 
-- Deadfall: Increase the range of the **Shadow Snare** to 15 ft. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, decreases initial damage to 2d10, but boosts the damage while restrained to 4d6
-- Mobius Quiver: Fire **Shadow Shot** up to 3 times, but the range is decreased to a 5 ft radius and all damage dealt by **Shadow Shot** is halved
+1. Deadfall: Increase the range of the **Shadow Snare** to 15 ft. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, decreases initial damage to 2d10, but boosts the damage while restrained to 4d6
+2. Mobius Quiver: Fire **Shadow Shot** up to 3 times, but the range is decreased to a 5 ft radius and all damage dealt by **Shadow Shot** is halved
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Spectral Blades
@@ -692,13 +722,15 @@ _15th-level Nightstalker - Spectral Blades Variant feature_
 
 You become a whirlwind of shadow and death. As an action, you can activate **Spectral Blades**, entering a heightened state of combat focus for 1 minute. During this time:
 
-- You gain the effects of **Gloaming Predator**, and attacks with them deal an additional 1d8 necrotic damage.
-- When you hit a creature with **Gloaming Predator**, you can teleport up to 10 ft to an unoccupied space you can see within dim light or darkness.
-- You can make an additional attack with **Gloaming Predator** as a bonus action on each of your turns.
+1. You gain the effects of **Gloaming Predator**, and attacks with them deal an additional 1d8 necrotic damage.
+2. When you hit a creature with **Gloaming Predator**, you can teleport up to 10 ft to an unoccupied space you can see within dim light or darkness.
+3. You can make an additional attack with **Gloaming Predator** as a bonus action on each of your turns.
 
 Once you use **Spectral Blades**, you cannot do so again until you finish a long rest.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Modifiers
@@ -706,10 +738,12 @@ _15th-level Nightstalker - Shadow Shot Variant feature_
 
 You may add a single modifier to **Shadow Shot**:
 
-- Deadfall: Increase the range of the **Shadow Snare** to 15 ft. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, decreases initial damage to 2d10, but boosts the damage while restrained to 4d6
-- Mobius Quiver: Fire **Shadow Shot** up to 3 times, but the range is decreased to a 5 ft radius and all damage dealt by **Shadow Shot** is halved
+1. Deadfall: Increase the range of the **Shadow Snare** to 15 ft. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, decreases initial damage to 2d10, but boosts the damage while restrained to 4d6
+2. Mobius Quiver: Fire **Shadow Shot** up to 3 times, but the range is decreased to a 5 ft radius and all damage dealt by **Shadow Shot** is halved
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -726,4 +760,5 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 
 ### Foe Slayer
 At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
+
 

@@ -9,8 +9,9 @@ tier = "2"
 cost = "300 GP"
 upgradable = "No"
 effects = "Critical hit occur when rolling a 19 or 20"
+attunement = "Yes"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Dagger Talisman | 300 GP | Critical hit occur when rolling a 19 or 20 | No | N/A | 2 |
+| Dagger Talisman | 300 GP | Critical hit occur when rolling a 19 or 20 | No | N/A | 2 | Yes |

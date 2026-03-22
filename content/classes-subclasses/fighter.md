@@ -1,5 +1,6 @@
 +++
 title = "Fighter"
+
 [taxonomies]
 subclasses = ['Fighter: Heavenly Restricted']
 sourcebook = ["Gojo's Guide to Cursing"]
@@ -115,7 +116,10 @@ sourcebook = ["Gojo's Guide to Cursing"]
     </tr>
   </tbody>
 </table>
+
+
 {% aside() %}
+
 ## Fighter
 
 **Hit Dice**: 1d10
@@ -132,8 +136,10 @@ sourcebook = ["Gojo's Guide to Cursing"]
 - (a) a <a href="https://2014.5e.tools/items.html#dungeoneer's pack_phb">dungeoneer's pack</a> or (b) an <a href="https://2014.5e.tools/items.html#explorer's pack_phb">explorer's pack</a>
 
 **Multiclassing Requirements**:
-- STR 13 or DEX 13
+- DEX 13 or STR 13
+
 {% end %}
+
 
 ## Subclasses
 
@@ -183,17 +189,19 @@ _if you multiclass in this class and a spellcasting class, you can choose to rei
 
 You gain the following benefits:
 
-- Your carrying capacity doubles, and you can add your proficiency bonus to Strength checks and saving throws. Additionally, you have advantage on checks made to break objects.
-- Your base walking speed increases by 10 feet. You also gain the ability to dash as a bonus action.
-- You gain proficiency in the Perception and Stealth skills. If you are already proficient, you add double your proficiency bonus to Perception and Stealth checks.
+1. Your carrying capacity doubles, and you can add your proficiency bonus to Strength checks and saving throws. Additionally, you have advantage on checks made to break objects.
+2. Your base walking speed increases by 10 feet. You also gain the ability to dash as a bonus action.
+3. You gain proficiency in the Perception and Stealth skills. If you are already proficient, you add double your proficiency bonus to Perception and Stealth checks.
 
 And the following detriments:
 
-- You cannot cast magic and your body naturally resists any form of spellcasting. If a spell specifies that a unwilling target can resist, you always count as an unwilling target and have to resist, no matter the spell.
-- If you had proficiency in the Arcane skill you lose it and can gain proficiency in another Dexterity or Strength based skill of your choice that you did not have proficiency in. If you had proficiency in all Dexterity and Strength based skills, you gain nothing and just lose the Arcane proficiency.
-- You always have disadvantage when rolling Arcane skill checks and can never have a bonus in the Arcane skill, even if your stats would grant you bonuses.
+1. You cannot cast magic and your body naturally resists any form of spellcasting. If a spell specifies that a unwilling target can resist, you always count as an unwilling target and have to resist, no matter the spell.
+2. If you had proficiency in the Arcane skill you lose it and can gain proficiency in another Dexterity or Strength based skill of your choice that you did not have proficiency in. If you had proficiency in all Dexterity and Strength based skills, you gain nothing and just lose the Arcane proficiency.
+3. You always have disadvantage when rolling Arcane skill checks and can never have a bonus in the Arcane skill, even if your stats would grant you bonuses.
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -205,8 +213,8 @@ _4th-level fighter <a href="https://2014.5e.tools/variantrules.html#optional%20c
 
 Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:
 
-- Replace a <a href="https://2014.5e.tools/optionalfeatures.html#blankhash,flstfeature type:FS:F=1">fighting style</a> you know with another fighting style available to fighters.
-- If you know any <a href="https://2014.5e.tools/optionalfeatures.html#blankhash,flstfeature type:MV:B=1">maneuvers</a> from the fighter archetype, you can replace one maneuver you know with a different maneuver.
+1. Replace a <a href="https://2014.5e.tools/optionalfeatures.html#blankhash,flstfeature type:FS:F=1">fighting style</a> you know with another fighting style available to fighters.
+2. If you know any <a href="https://2014.5e.tools/optionalfeatures.html#blankhash,flstfeature type:MV:B=1">maneuvers</a> from the fighter archetype, you can replace one maneuver you know with a different maneuver.
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action on your turn.
@@ -227,10 +235,12 @@ _7th-level Heavenly Restricted feature_
 
 By 7th level, your physical training allows you to withstand incredible punishment and perform superhuman feats.
 
-- Whenever a creature of your size or smaller targets you with a melee weapon attack, you can use your reaction to push it away. The creature that attacked you must succeed on a Strength saving throw or be pushed 5 feet away from you. You can use this feature a number of times equal to your Strength Modifier and regain all uses upon finishing a long rest
-- When you make an unarmed strike, you can choose to deal 1d6 + your Strength modifier in damage, or 1d8 + your Strength modifier if you are wielding no weapons and not wearing armor.
+1. Whenever a creature of your size or smaller targets you with a melee weapon attack, you can use your reaction to push it away. The creature that attacked you must succeed on a Strength saving throw or be pushed 5 feet away from you. You can use this feature a number of times equal to your Strength Modifier and regain all uses upon finishing a long rest
+2. When you make an unarmed strike, you can choose to deal 1d6 + your Strength modifier in damage, or 1d8 + your Strength modifier if you are wielding no weapons and not wearing armor.
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -251,11 +261,13 @@ _10th-level Heavenly Restricted feature_
 
 Starting at 10th level, your heightened perception and reflexes make you a formidable opponent in battle.
 
-- You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
-- When a creature misses you with a melee attack, you can use your reaction to make a single melee weapon attack against that creature.
-- You can see in dim light as if it were bright light, and in darkness as if it were dim light, up to a range of 30 feet.
+1. You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
+2. When a creature misses you with a melee attack, you can use your reaction to make a single melee weapon attack against that creature.
+3. You can see in dim light as if it were bright light, and in darkness as if it were dim light, up to a range of 30 feet.
+
 
 {% end %}
+
 
 ### Extra Attack (2)
 At 11th level, you can attack three times whenever you take the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action on your turn.
@@ -282,11 +294,13 @@ _15th-level Heavenly Restricted feature_
 
 At 15th level, your physical abilities reach their peak, allowing you to perform feats that defy common understanding.
 
-- You can use your action to make a single attack that ignores resistance and immunity to nonmagical damage. You can use this feature a number of times equal to your Strength modifier (minimum of 1), and regain all uses after a long rest.
-- You gain a +2 bonus to your Dexterity saving throws and initiative rolls.
-- When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this feature, you can't use it again until you finish a long rest.
+1. You can use your action to make a single attack that ignores resistance and immunity to nonmagical damage. You can use this feature a number of times equal to your Strength modifier (minimum of 1), and regain all uses after a long rest.
+2. You gain a +2 bonus to your Dexterity saving throws and initiative rolls.
+3. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this feature, you can't use it again until you finish a long rest.
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -308,10 +322,12 @@ _18th-level Heavenly Restricted feature_
 
 At 18th level, you unlock the full potential of your physical abilities, transcending the boundaries of human limitation.
 
-- You gain a +2 bonus to either your Strength, Dexterity, and Constitution scores. This bonus can increase your ability scores above 20, but not above 25.
-- When you take damage, you can use your reaction to halve the damage taken. You can use this feature a number of times equal to your Constitution modifier (minimum of 1), and regain all uses after a long rest.
+1. You gain a +2 bonus to either your Strength, Dexterity, and Constitution scores. This bonus can increase your ability scores above 20, but not above 25.
+2. When you take damage, you can use your reaction to halve the damage taken. You can use this feature a number of times equal to your Constitution modifier (minimum of 1), and regain all uses after a long rest.
+
 
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -320,4 +336,5 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 
 ### Extra Attack (3)
 At 20th level, you can attack four times whenever you take the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action on your turn.
+
 

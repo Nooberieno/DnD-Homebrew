@@ -9,8 +9,9 @@ tier = "4"
 cost = "2000 GP"
 upgradable = "No"
 effects = "Increase the damage of successive on a single turn (6% → 8% → 13%)."
+attunement = "Yes"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
 | ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Rotten Winged Sword Insignia | 2000 GP | Increase the damage of successive on a single turn (6% → 8% → 13%). | No | N/A | 4 |
+| Rotten Winged Sword Insignia | 2000 GP | Increase the damage of successive on a single turn (6% → 8% → 13%). | No | N/A | 4 | Yes |

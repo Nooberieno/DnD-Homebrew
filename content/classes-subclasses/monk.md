@@ -1,5 +1,6 @@
 +++
 title = "Monk"
+
 [taxonomies]
 subclasses = ['Monk: Way of the Curse', 'Monk: Iai Chop']
 sourcebook = ["Gojo's Guide to Cursing", "Shinra's Logbook for Pyrokinetics"]
@@ -178,7 +179,10 @@ sourcebook = ["Gojo's Guide to Cursing", "Shinra's Logbook for Pyrokinetics"]
     </tr>
   </tbody>
 </table>
+
+
 {% aside() %}
+
 ## Monk
 
 **Hit Dice**: 1d8
@@ -195,7 +199,9 @@ sourcebook = ["Gojo's Guide to Cursing", "Shinra's Logbook for Pyrokinetics"]
 **Multiclassing Requirements**:
 - DEX 13
 - WIS 13
+
 {% end %}
+
 
 ## Subclasses
 
@@ -208,13 +214,13 @@ sourcebook = ["Gojo's Guide to Cursing", "Shinra's Logbook for Pyrokinetics"]
 Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.
 
 ### Martial Arts
-Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are <a href="https://2014.5e.tools/items.html#shortsword_phb">shortswords</a> and any <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon~melee weapon=sand=2,flstproperty:heavy~two-handed=2">simple melee weapons that don't have the two-handed or heavy property</a>.
+Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are <a href="https://2014.5e.tools/items.html#shortsword_phb">shortswords</a> and any <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:simple weapon~melee weapon=2,flstproperty:heavy~two-handed=2">simple melee weapons that don't have the two-handed or heavy property</a>.
 
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a <a href="https://2014.5e.tools/items.html#shield_phb">shield</a>.
 
-- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
-- You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
-- When you use the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
+1. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
+2. You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
+3. When you use the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the <a href="https://2014.5e.tools/actions.html#Attack_phb">Attack</a> action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
 
 Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama).
 
@@ -248,9 +254,9 @@ You train yourself to use a variety of weapons as monk weapons, not just simple 
 
 The chosen weapon must meet these criteria:
 
-- The weapon must be a <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:martial weapon~simple weapon=2,flstproperty:heavy~special=2">simple or martial weapon</a>.
-- You must be proficient with it.
-- It must lack the heavy and special properties.
+1. The weapon must be a <a href="https://2014.5e.tools/items.html#blankhash,flstsource:phb=1,flstcategory:basic=1,flsttype:martial weapon~simple weapon=2,flstproperty:heavy~special=2">simple or martial weapon</a>.
+2. You must be proficient with it.
+3. It must lack the heavy and special properties.
 
 ### Unarmored Movement
 Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.
@@ -277,10 +283,10 @@ At 3rd level, you learn to generate your Ki through negative emotions and can re
 
 **Regaining Ki in Combat:**
 
-- You regain 1 Ki Point each time you hit an enemy with an unarmed strike.
-- You regain 1 Ki Point each time you take damage from a hostile creature.
-- You cannot regain more than 2 Ki Points per round through these means.
-- The amount Ki Points you regain in battle may not exceed your pool of Ki Points.
+1. You regain 1 Ki Point each time you hit an enemy with an unarmed strike.
+2. You regain 1 Ki Point each time you take damage from a hostile creature.
+3. You cannot regain more than 2 Ki Points per round through these means.
+4. The amount Ki Points you regain in battle may not exceed your pool of Ki Points.
 
 
 ### Divergent Fist
@@ -294,7 +300,9 @@ The immediate damage  Increases to 2d8 at 11th level and 3d8 at 17th level.
 
 The delayed damage: Increases to 2d4 at 11th level and 3d4 at 17th level.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop
@@ -330,7 +338,9 @@ As an action, you cross your arms to create a blinding light. Each creature with
 
 As a bonus action, you expend 2 Ki points to ignite a blade of flames in your hand and make a powerful upward slash. Choose one creature within 5 feet of you. Make a melee attack roll against the target. On a hit, the target takes 1d8 fire damage and is knocked 10 feet into the air. If the target is airborne, it falls prone unless it has a flying speed.
 
+
 {% end %}
+
 
 ### Ki-Fueled Attack
 _3rd-level monk <a href="https://2014.5e.tools/variantrules.html#optional%20class%20features_tce">optional feature</a>_
@@ -373,10 +383,12 @@ _6th-level Way of the Curse feature_
 
 At 6th level, you learn to channel Cursed Energy to bolster your physical abilities. As a bonus action, you can spend 2 Ki Points to gain the following benefits for 1 minute:
 
-- Your unarmed strikes deal an additional 1d4 force damage.
-- Your movement speed increases by 10 feet.
+1. Your unarmed strikes deal an additional 1d4 force damage.
+2. Your movement speed increases by 10 feet.
+
 
 {% end %}
+
 
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop form
@@ -392,7 +404,9 @@ By expending 3 Ki points, you can ignite and create flames on both palms of your
 
 You cover the palm of your hand in flames perform a powerful downward slashing motion. By expending 3 Ki points you can use your action to unleash a devastating downward slash of flame. Choose a 5-foot radius within 30 feet. Each creature in the area must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage and is knocked prone. On a successful save, it takes half damage.
 
+
 {% end %}
+
 
 ### Evasion
 At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
@@ -424,7 +438,9 @@ When you hit a creature with an unarmed strike, you can spend 4 Ki Points to tur
 
 This attack is treated as a critical hit, and you add an extra 2d10 force damage (which isn't doubled due to a critical hit) to the damage roll. This additional damage increases to 3d10 at 17th level.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop Form
@@ -438,7 +454,9 @@ You ignite and create a sharp-blade of flames on the palm of your hands and perf
 
 When making this attack, you lose your ability to use extra attack on this turn. This attack cannot be done on any other attack than the first attack of your turn.
 
+
 {% end %}
+
 
 ### Ability Score Improvement
 When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -472,13 +490,15 @@ By 17th level, your mastery over Cursed Energy is unmatched, allowing you to pus
 
 **Unlimited Potential:** As an action, you can spend 8 Ki Points to enter a state of heightened power for 1 minute. During this time, you gain the following benefits:
 
-- You regain 2 Ki Points at the start of each of your turns.
-- Your unarmed strikes score a critical hit on a roll of 19 or 20.
-- You have resistance to all damage.
+1. You regain 2 Ki Points at the start of each of your turns.
+2. Your unarmed strikes score a critical hit on a roll of 19 or 20.
+3. You have resistance to all damage.
 
 You can use this feature once per long rest.
 
+
 {% end %}
+
 
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop form
@@ -488,10 +508,12 @@ _17th-level Iai Chop feature_
 
 You create a ring of flames, resembling the sun and can choose to throw it at your opponent or expand dealing damage to enemies in the vicinity. This costs 4 Ki points and uses your action.
 
-- Throw: Hurl the ring at a creature within 60 feet. The target must make a Dexterity saving throw. On a failed save, it takes 6d8 fire damage and is stunned until the end of your next turn. On a successful save, it takes half damage.
-- Expand: Move the ring outwards, creating an slicing effect that affects a 15foot radius centered on you. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes 6d6 fire damage and is knocked prone. On a successful save, it takes half damage. This does not affect you.
+1. Throw: Hurl the ring at a creature within 60 feet. The target must make a Dexterity saving throw. On a failed save, it takes 6d8 fire damage and is stunned until the end of your next turn. On a successful save, it takes half damage.
+2. Expand: Move the ring outwards, creating an slicing effect that affects a 15foot radius centered on you. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes 6d6 fire damage and is knocked prone. On a successful save, it takes half damage. This does not affect you.
+
 
 {% end %}
+
 
 ### Empty Body
 Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.
@@ -505,4 +527,5 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 
 ### Perfect Self
 At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.
+
 
