@@ -263,8 +263,8 @@ sourcebook = ["Hunter's Handbook"]
 - A <a href="https://2014.5e.tools/items.html#longbow_phb">longbow</a> and a <a href="https://2014.5e.tools/items.html#quiver_phb">quiver</a> of <a href="https://2014.5e.tools/items.html#arrows (20)_phb">20 arrows</a>
 
 **Multiclassing Requirements**:
-- DEX 13
 - WIS 13
+- DEX 13
 
 {% end %}
 

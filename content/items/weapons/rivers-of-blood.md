@@ -17,9 +17,6 @@ This was the Blade of Okina. Players can get this weapon upon defeating Okina at
 
 
 
-### Seppuku
-As a bonus action, you can stab the blade into yourself, upon doing so you lose 2d6 hit points.
-
 ### Bloodlust
 Whenever a creature within 10 feet of you gains the [Bleeding](@/conditions-and-diseases/conditions/bleeding.md) condition, or whenever you use **Seppuku**, the blade absorbs the creature's blood and gains **1 charge**.
 
@@ -31,3 +28,6 @@ When attacking with this katana, you can expend a charge to make the sword attac
 
 - The blood slash deals an additional 2d6 Necrotic damage.
 - The creature needs to make a Constitution Saving throw of DC 8 + Proficiency + Dex. Upon failure it gains 1 level of [Bleeding](@/conditions-and-diseases/conditions/bleeding.md)
+
+### Seppuku
+As a bonus action, you can stab the blade into yourself, upon doing so you lose 2d6 hit points.
