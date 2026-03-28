@@ -1,0 +1,417 @@
+<!doctype html>
+<html class="theme-latte" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>DnD Homebrew</title>
+        <link
+            rel="stylesheet"
+            href="https://nooberieno.github.io/DnD-Homebrew/style.css"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="https://nooberieno.github.io/DnD-Homebrew/favicon.ico"
+        />
+
+        <script src="https://nooberieno.github.io/DnD-Homebrew/fuse.min.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search_index.en.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/search.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/nav.js"></script>
+        <script src="https://nooberieno.github.io/DnD-Homebrew/theme.js"></script>
+    </head>
+    <body class="preload">
+        <header id="nav-header">
+            <div style="display: flex; flex-direction: column">
+                <div
+                    style="
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 8px;
+                    "
+                >
+                    <a id="home-button" href="https:&#x2F;&#x2F;nooberieno.github.io&#x2F;DnD-Homebrew&#x2F;">
+                        <img
+                            class="logo"
+                            src="https://nooberieno.github.io/DnD-Homebrew/favicon.svg"
+                        />
+                        <div class="logo-text">Home</div>
+                    </a>
+
+                    <details class="nav-dropdown">
+                        <summary class="nav-text">Player</summary>
+                        <div class="nav-items">
+                            <a
+                                href="https://nooberieno.github.io/DnD-Homebrew/spells/"
+                                >Spells</a
+                            >
+                            <a
+                                href="https://nooberieno.github.io/DnD-Homebrew/items/"
+                                >Items</a
+                            >
+                            <a href="https://nooberieno.github.io/DnD-Homebrew/races/"
+                                >Races</a
+                            >
+                            <a
+                                href="https://nooberieno.github.io/DnD-Homebrew/classes-subclasses/"
+                                >Classes</a
+                            >
+                            <a
+                                href="https://nooberieno.github.io/DnD-Homebrew/conditions-and-diseases/"
+                                >Condtions & Diseases</a
+                            >
+                        </div>
+                    </details>
+
+                    <details class="nav-dropdown">
+                        <summary class="nav-text">Dungeon Master</summary>
+                        <div class="nav-items">
+                            <a
+                                href="https://nooberieno.github.io/DnD-Homebrew/rules/"
+                                >Additional Rules</a
+                            >
+                            <a
+                                href="https://nooberieno.github.io/DnD-Homebrew/beastiary/"
+                                >Beastiary</a
+                            >
+                        </div>
+                    </details>
+
+                    <div class="flex-column" style="flex-grow: 1">
+                        <input
+                            type="text"
+                            id="search"
+                            placeholder="Search..."
+                        />
+                        <section class="search-results" aria-live="polite">
+                            <article
+                                class="search-results__items"
+                                role="list"
+                            ></article>
+                        </section>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" />
+                        <div class="toggle-label">Switch theme</div>
+                    </label>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="section">
+                
+<div class="content">
+    <h1 class="title">
+         Changelog
+    </h1>
+    <p class="subtitle"><strong></strong></p>
+    <h1 id="0-1">0.1</h1>
+<h2 id="site">Site</h2>
+<ul>
+<li>Added this page</li>
+<li>Added light and dark mode</li>
+<li>Improved formatting and contrast</li>
+<li>Improved Search</li>
+<li>Added sourcebook tag to each page</li>
+</ul>
+<h2 id="sourcebooks">Sourcebooks</h2>
+<h3 id="removed">Removed</h3>
+<ul>
+<li>The Art of Cards and all of its content has been removed</li>
+</ul>
+<h3 id="changes">Changes</h3>
+<ul>
+<li>Gojo's Guide to Cursing is now named: Jujutsu Sorcery</li>
+<li>Cayde-6's Guardian Manual is now named: Hunters Handbook</li>
+<li>Shinra's Logbook for Pyrokinetics is now named: Embers of Cataclysm</li>
+</ul>
+<h2 id="spells">Spells</h2>
+<h3 id="tusk-s-grimoire">Tusk's Grimoire</h3>
+<h4 id="removed-1">Removed</h4>
+<ul>
+<li>Removed Hymn of Strengthening</li>
+<li>Removed Hymn of Frenzy</li>
+<li>Removed Hymn of Slumber</li>
+</ul>
+<h4 id="changed">Changed</h4>
+<ul>
+<li>Hymn of Protection now requires a reaction to reduce damage</li>
+<li>Hymn of Protection now lasts for a maximum of 1 minute with concentration</li>
+<li>Hymn of Agony had its duration changed from Instantaneous to 1 Round, since the spells effect lasts for 1 round</li>
+<li>Hymn of Blindness requires a Wisdom saving throw, with the effect happening on failure</li>
+<li>Hymn of Blindness had its duration changed from 3 minutes to 1 Round</li>
+<li>Hymn of Blindness no longer gives the affected target advantage on saving throws against being Charmed or Frightened</li>
+<li>Hymn of Rage no longer has a static save DC, instead it now uses the casters spell save DC</li>
+<li>Hymn of Rage now requires concentration</li>
+<li>Hymn of Rage has no effect on creatures immune to the Charmed condition</li>
+<li>Hymn of Ferocity no longer has a static save DC, instead it now uses the casters spell save DC</li>
+<li>Hymn of Ferocity now requires concentration</li>
+<li>Hymn of Ferocity has no effect on creatures immune to the Charmed condition</li>
+<li>Hymn of Combustion deals 6d10 Fire damage instead of Fire damage equal to your spellcasting ability modifier</li>
+<li>Hymn of Combustion now requires a Constitution saving throw instead of a Dexterity saving throw</li>
+<li>Hymn of Combustion no longer deals half damage to creatures within 5 ft of the original target on a failed Dexterity saving throw.</li>
+</ul>
+<h4 id="overhauled">Overhauled</h4>
+<p>These spells have had their entire description changed</p>
+<ul>
+<li>Hymn of Raging Fire</li>
+<li>Hymn of Lethargy</li>
+</ul>
+<h3 id="tome-of-petty-spellcasters">Tome of Petty Spellcasters</h3>
+<h4 id="removed-2">Removed</h4>
+<ul>
+<li>Removed Tungsten Balls</li>
+<li>Removed Osmium Ovaries</li>
+<li>Removed That's A Lot of Words</li>
+<li>Removed Testicular Torsion</li>
+<li>Removed Instant Brazilian Wax</li>
+</ul>
+<h4 id="changed-1">Changed</h4>
+<ul>
+<li>Wet Socks had its duration lowered from 1 hour to 1 minute.</li>
+<li>Wet Socks now allows affected creatures to make a Constitution saving throw to end the effect at the end of each of their turns</li>
+<li>Glimpse now states that its regular lens cannot benefit from any special sense (such as darkvision or truesight)</li>
+<li>Irritating Gaze now has a duration of 1 minute.</li>
+<li>Out! is no longer accessible to Bards and Arcane Trickster Rogues</li>
+<li>Out! now lasts for 8 hours instead of 24 hours</li>
+<li>Out! is a 5th level spell instead of a 3rd</li>
+<li>Screw That One Guy In Particular now specifies it hits a random target.</li>
+<li>Screw That One Guy In Particular requires any spellcaster wanting to hit the same target, to be within 30 ft of that target.</li>
+<li>Lego Minefield had its damage reduced from 4d6 to 3d6</li>
+<li>Non-Magic Missile has been reworked and is now a cantrip</li>
+<li>Ashes To Ashes is now available to all clerics, instead to just light domain clerics</li>
+<li>Let Him Cook no longer allows targets to add the casters spellcasting ability modifier to damage rolls</li>
+<li>Let Him Cook no longer allows targets to add the casters spellcasting ability modifier to failed saving throws</li>
+<li>Let Him Cook no longer limits creatures from receiving its benefits once per short rest</li>
+<li>Melchior's Muzzle no longer states that a slashing or natural weapon can free the creature.</li>
+<li>Melchior's Muzzle grants affected targets the ability to break free on an Athletics check against your spell save DC</li>
+<li>Melchior's Muzzle no longer explicitly states that a creature that has swallowed something cannot release while the spell is in effect</li>
+<li>Melchior's Muzzle no longer explicitly states that a breath weapon can end this spell early</li>
+<li>Power Word: Cringe no longer has an effect if the target failed their save by 10 or more.</li>
+<li>Power Word: Cringe now deals 6d6 Psychic damage instead of  4d6</li>
+<li>Power Word: Cringe gives disadvantage on Charisma saves for a turn if its saving throw was failed by 5 or more.</li>
+</ul>
+<h4 id="overhauled-1">Overhauled</h4>
+<ul>
+<li>Rubber Bones</li>
+<li>Zero Spatial Awareness</li>
+<li>Non-Magic Missile</li>
+<li>Ashes To Ashes</li>
+</ul>
+<h3 id="principa-incantare">Principa Incantare</h3>
+<h4 id="changed-2">Changed</h4>
+<ul>
+<li>Furious Blade of Ansbach had the optional 5 ft leap removed.</li>
+<li>Giantflame, Take Thee now deals 8d8 fire damage instead of 10d6 (its no longer just 5th level fireball)</li>
+<li>Giantsflame, Take Thee had its radius increased from 20 ft to 30 ft (its no longer just 5th level fireball)</li>
+<li>Bloodboon now deals 7d10 Fire damage instead of 8d10</li>
+<li>Lightning Spear specifies that it makes a ranged spell attack, instead of a ranged attack</li>
+</ul>
+<h4 id="overhauled-2">Overhauled</h4>
+<ul>
+<li>Golden Vow</li>
+<li>Flame, Grant me Strength</li>
+<li>Flame, Cleanse Thee</li>
+</ul>
+<h3 id="codex-of-the-maddened-pyromancer">Codex of the Maddened Pyromancer</h3>
+<h4 id="changed-3">Changed</h4>
+<ul>
+<li>Frenzied Burst had its base damage buffed from 3d10 to 5d10</li>
+<li>Frenzied Burst now deals 7d10 fire damage when charged</li>
+<li>Frenzied burst now uses a ranged spell attack instead of a Dexterity saving throw</li>
+<li>Frenzied Burst no longer deals half damage on a successful save</li>
+</ul>
+<h4 id="overhauled-3">Overhauled</h4>
+<ul>
+<li>Howl of Shabriri</li>
+<li>Inescapable Frenzy</li>
+<li>Unendurable Frenzy</li>
+<li>Midra's Flame of Frenzy</li>
+</ul>
+<h3 id="the-art-of-cards">The Art of Cards</h3>
+<ul>
+<li>Maximum Circus uses a ranged spell attack instead of a Dexterity saving throw</li>
+<li>Maximum Circus no longer deals half damage on a successful save</li>
+<li>Maximum Circus' projectiles damage type is no longer determined per projectile</li>
+</ul>
+<h3 id="jujutsu-sorcery">Jujutsu Sorcery</h3>
+<h4 id="removed-3">Removed</h4>
+<ul>
+<li>Removed Cursed Speech</li>
+<li>Removed Heart Catch</li>
+</ul>
+<h4 id="changed-4">Changed</h4>
+<ul>
+<li>Idle Transfiguration is now a 5th level spell</li>
+<li>Boogie Woogie can no longer apply to objects that are being worn or carried</li>
+<li>Boogie Woogie now fails if one of the targets cannot fit in the other's space</li>
+<li>Boogie Woogie now has a range of 90 ft instead of 60 ft</li>
+<li>Boogie Woogie's range increases per 15 ft per spell slot level instead of 10 ft</li>
+</ul>
+<h4 id="overhauled-4">Overhauled</h4>
+<ul>
+<li>Idle Transfiguration</li>
+</ul>
+<h2 id="items">Items</h2>
+<h2 id="rot-and-ruin">Rot and Ruin</h2>
+<ul>
+<li>Added Daybreak</li>
+</ul>
+<h3 id="tome-of-the-tarnished">Tome of the Tarnished</h3>
+<ul>
+<li>The Talisman Pouch no longer requires attunement</li>
+<li>Preserving Bolus got a duration of 4 hours, ending early if the creature that activated the bolus moves more than 20 ft away from it or is incapacitated</li>
+<li>Infusion Stones that cause conditions can now only be used once per turn.</li>
+</ul>
+<h4 id="talismans">Talismans</h4>
+<h6 id="removed-4">Removed</h6>
+<ul>
+<li>Removed Blue-Feathered Bransword</li>
+<li>Removed Red-Feathered Branchsword</li>
+</ul>
+<h6 id="attunement">Attunement</h6>
+<p>Because the Talisman Pouch no longer requires attunement, some talismans do.
+The following Talismans have all been changed so that they now require attunement.</p>
+<ul>
+<li>Dagger Talisman</li>
+<li>Focus Sash</li>
+<li>Assassin's Cerulean</li>
+<li>Assassin's Crimson</li>
+<li>Mirror of Mana Reflection</li>
+<li>Sacrificial Twig</li>
+<li>Tome of Knowledge</li>
+<li>Winged Sword Insignia</li>
+<li>Blue-Feathered Branchsword</li>
+<li>Loaded Dice</li>
+<li>Moon of Ravka</li>
+<li>Old Lord's Talisman</li>
+<li>Red-Feathered Branchsword</li>
+<li>Rotten Winged Sword Insignia</li>
+<li>Twinblade Talisman</li>
+<li>Mental Herb</li>
+<li>Orb of Inferno</li>
+<li>Tome of Overflowing Knowledge</li>
+<li>True Ritual Shield</li>
+<li>Ancient Dragon Talisman</li>
+<li>Fatal Stinger Charm</li>
+<li>Briar Talisman</li>
+</ul>
+<h6 id="effect">Effect</h6>
+<p>A bunch of Talisman have had their effect changed to no longer use percentages or because their upgraded versions uses percentages</p>
+<ul>
+<li>Blade of Mercy  gives an additional damage die on the weapon attack after a critical hit, instead of 20% extra damage</li>
+<li>Lance Talisman  gives 1d4 additional damage of the weapons damage die, instead of 5% extra damage</li>
+<li>Crimson Amber Medallion  gives 1d10 max hp, instead of +5</li>
+<li>Crimson Amber Medallion  gives 2d10 max hp, instead of 10%</li>
+<li>Superior Crimson Amber Medallion  gives 3d10 max hp, instead of 20%</li>
+<li>True Crimson Amber Medallion  gives 4d10 max hp, instead of 30%</li>
+<li>Dragoncrest Greatshield  decreases damage from Bludgeoning, Slashing and Piercing by 1d4 instead of 10%</li>
+<li>Dragoncrest Greatshield Reforged  decreases damage from Bludgeoning, Slashing and Piercing by 2d4 instead of 13%</li>
+<li>Superior Dragoncrest Greatshield  decreases damage from Bludgeoning, Slashing and Piercing by 3d4 instead of 16%</li>
+<li>True Dragoncrest Greatshield  decreases damage from Bludgeoning, Slashing and Piercing by 4d4 instead of 20%</li>
+<li>Fire Scorpion Charm increases fire damage by 1d12 instead of 15% and increases taken Bludgeoning, Slashing and Piercing damage by 1d10 instead of 10%</li>
+<li>Glacier Scorpion Charm increases Cold damage by 1d12 instead of 15% and increases taken Bludgeoning, Slashing and Piercing damage by 1d10 instead of 10%</li>
+<li>Lightning Scorpion Charm increases Lightning damage by 1d12 instead of 15% and increases taken Bludgeoning, Slashing and Piercing damage by 1d10 instead of 10%</li>
+<li>Sacred Scorpion Charm increases Radiant damage by 1d12 instead of 15% and increases taken Bludgeoning, Slashing and Piercing damage by 1d10 instead of 10%</li>
+<li>Fatal Stinger Charm increases damage from Scorpion Charms to 2d12 instead of 25%</li>
+<li>Shattered Stone Talisman increases damage from unarmed strikes by 1d8 instead of 10%</li>
+<li>Assassin's Crimson Dagger lets you choose up to 3 damage dice and regain a number of hit points equal to their total value after landing a critical hit instead of regaining 25% of the damage dealt by the critical hit</li>
+<li>Aged One's Exultation increases damage of weapon attacks by 1d6, stacking up to 3 times for 3d6 additional damage, instead of giving 5% stacking 3 up to 3 times for 15% additional damage</li>
+<li>Kindred of Rot's Exultation increases damage of weapon attacks by 1d6, stacking up to 3 times for 3d6 additional damage, instead of giving 5% stacking 3 up to 3 times for 15% additional damage</li>
+<li>Lord of Blood's Exultation increases damage of weapon attacks by 1d6, stacking up to 3 times for 3d6 additional damage, instead of giving 5% stacking 3 up to 3 times for 15% additional damage</li>
+<li>Ritual Shield Talisman reduces damage by 2d10 when at max hp, instead of reducing damage by 10 when at max hp</li>
+<li>Ritual Shield Talisman Reforged reduces damage by 3d10 when at max hp, instead of reducing damage by 20 when at max hp</li>
+<li>Superior Ritual Shield Talisman reduces damage by 4d10 when at max hp, instead of reducing damage by 25% when at max hp</li>
+<li>True Ritual Shield Talisman grants resistance to all damage when at max hp, instead of reducing damage by 50% when at max hp</li>
+<li>Ritual Sword Talisman adds 2d6 damage of the weapons damage type to weapon attacks when at max hp, instead of adding +5 damage when at max hp</li>
+<li>Ritual Sword Reforged adds 2d8 damage of the weapons damage type to weapon attacks when at max hp, instead of adding 3% damage when at max hp</li>
+<li>Superior Ritual Sword adds 2d10 damage of the weapons damage type to weapon attacks when at max hp, instead of adding 7% damage when at max hp</li>
+<li>True Ritual Sword adds 2d12 damage of the weapons damage type to weapon attacks when at max hp, instead of adding 10% damage when at max hp</li>
+<li>Winged Sword Insignia adds increasing damage to successive attacks (1d4 → 1d6 → 1d8) instead of (3% → 5% → 8%)</li>
+<li>Rotten Winged Sword Insignia adds increasing damage to successive attacks (1d6 → 1d8 → 1d10) instead of (6% → 8% → 13%)</li>
+<li>Twinblade Talisman increases the second attack of 2 weapon fighting by 1d12 instead of 35%</li>
+<li>BoltDrake Talisman reduces Lightning and Thunder damage by 1d12, instead of 5</li>
+<li>BoltDrake Talisman Reforged reduces Lightning and Thunder damage by 2d12 instead of 10%</li>
+<li>Superior BoltDrake Talisman Reforged reduces Lightning and Thunder damage by 3d12 instead of 30%</li>
+<li>FlameDrake Talisman reduces fire damage by 1d10, instead of 5</li>
+<li>FlameDrake Talisman Reforged reduces Fire damage by 2d10 instead of 10%</li>
+<li>Superior FlameDrake Talisman Reforged reduces Fire damage by 3d10 instead of 30%</li>
+<li>HaligDrake Talisman reduces Radiant damage by 1d10, instead of 5</li>
+<li>HaligDrake Talisman Reforged reduces Radiant damage by 2d10 instead of 10%</li>
+<li>Superior HaligDrake Talisman Reforged reduces Radiant damage by 3d10 instead of 30%</li>
+<li>SnowDrake Talisman reduces Cold damage by 1d10, instead of 5</li>
+<li>SnowDrake Talisman Reforged reduces Cold damage by 2d10 instead of 10%</li>
+<li>Superior SnowDrake Talisman Reforged reduces Cold damage by 3d10 instead of 30%</li>
+<li>SpellDrake Talisman reduces damage from spells by 1d4 instead of 3</li>
+<li>SpellDrake Talisman Reforged reduces damage from spells by 2d4 instead of 5%</li>
+<li>Superior SpellDrake Talisman reduces damage from spells by 3d4 instead of 10%</li>
+<li>True SpellDrake Talisman Reforged reduces damage from spells by 4d4 instead of 15%</li>
+<li>Moon of Ravka grants 1 additional level until 3rd level spells instead of until 5th level spells</li>
+<li>Loaded Dice allow you to treat any d20 roll of 9 or lower as a 10 if you have advantage instead of using a 17 if you had advantage and rolled lower than a 17</li>
+</ul>
+<h6 id="tier">Tier</h6>
+<p>Some Talismans have had their Tier changed, usually as a result of their effect changing</p>
+<ul>
+<li>Moon of Ravka went from 4 to 3</li>
+<li>Loaded Dice went from 4 to 3</li>
+</ul>
+<h2 id="races">Races</h2>
+<h2 id="races-of-anur">Races of Anur</h2>
+<ul>
+<li>Removed section on Equinoid coupling</li>
+</ul>
+<h2 id="monsters">Monsters</h2>
+<h3 id="jujutsu-sorcery-1">Jujutsu Sorcery</h3>
+<h3 id="overhauled-5">Overhauled</h3>
+<ul>
+<li>Transfigured Humanoid</li>
+</ul>
+<h4 id="miscellaneous">Miscellaneous</h4>
+<ul>
+<li>Added Iron Thunder</li>
+<li>Added Lesser Rune Drachton</li>
+<li>Added Mistblossom</li>
+<li>Added Shadow Pagona</li>
+<li>Added Ancient Psychic Dragon</li>
+</ul>
+<h2 id="subclasses">Subclasses</h2>
+<h3 id="jujutsu-sorcery-2">Jujutsu Sorcery</h3>
+<h4 id="way-of-the-curse-monk">Way of the Curse Monk</h4>
+<ul>
+<li>Regaining ki in combat has been reworked to be less broken.</li>
+<li>The cost of Divergent Fist has increased from 1 to 2 Ki points</li>
+<li>The cost of Black Flash has increased from 4 to 5 Ki points</li>
+<li>Cursed Energy Master no longer gives you 2 Ki points at the start of your turn</li>
+</ul>
+<h4 id="heavenly-restricted-fighter">Heavenly Restricted Fighter</h4>
+<ul>
+<li>Enhanced Physicality no longer provides pseudo-expertise to Perception and Stealth</li>
+<li>Enhanced Physicality no longer provides proficiency in the Stealth skill</li>
+<li>Enhanced Physicality no longer gives disadvantage on Arcana checks</li>
+<li>Enchanced Physicality no longer forces you to not have a bonus to Arcana checks</li>
+<li>Unyielding Body now grants 1d6 bludgeoning damage or 1d6 + your strength modifier when you are wielding no weapons and are not wearing armor, instead of 1d6 + strength modifier and 1d8 + strength when not wielding weapons and not wearing armor</li>
+<li>Perceptive Reflexes has been fully changed: It now allows you to detect invisible or hiding creatures within 10 ft of you</li>
+<li>Supreme Physicality has been fully reworked: It now allows you to drop to 1 hp instead of 0 when not outright killed, once per long rest</li>
+<li>Limitless Potential now just grants you a +2 bonus to either strength, dexterity or constitution, this bonus can go above 20, but not 22.</li>
+</ul>
+<h3 id="hunter-s-handbook">Hunter's Handbook</h3>
+<h4 id="nightstalker-shadow-shot-variant">Nightstalker - Shadow Shot Variant</h4>
+<p>This subclass has been completely reworked.</p>
+<h4 id="nightstalker-spectral-blades-variant">Nightstalker - Spectral Blades Variant</h4>
+<p>This subclass has been completely reworked.</p>
+<h3 id="embers-of-cataclysm">Embers of Cataclysm</h3>
+<h4 id="iai-chop-monk">Iai Chop Monk</h4>
+<ul>
+<li>Iai Chop Monk's no longer have proficiency with any attack dealing fire damage.</li>
+<li>Second form: Moonlight has had its duration changed from 1 minute to until the end of your next turn</li>
+<li>Third form: Daybreak no longer requires a melee attack roll, but an unarmed strike instead</li>
+</ul>
+
+</div>
+
+            </section>
+        </main>
+    </body>
+</html>
