@@ -14,5 +14,5 @@ attunement = "Yes"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
 | Tome of Knowledge | 750 GP | Gain an additional spell slot in the lowest level you can cast | Yes (Tome of Overflowing Knowledge) | 3000 GP | 3 | Yes |

@@ -27,4 +27,8 @@ _Level 7 Evocation Spell_<br>
 
 ---
 
-Summons a ball-like apparition of yellow flame that continuously spews forth yellow flames. Deals 8d6 fire damage to all creatures within range. If the creature starts its turn in range it must make a Dexterity saving throw and take another 8d6 on a failed save, taking half as much on a successful one. While this spell is active, the caster is completely blind, immediately failing all checks or saves that require sight.
+You envelop yourself in a roiling ball of maddening yellow flame. When you cast this spell, each creature of your choice within 20 feet of you must make a Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one.
+
+At the start of each of your turns while concentrating, each creature of your choice within range must make a Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much on a successful one. Creatures that enter the area for the first time on a turn must also make the saving throw.
+
+While this spell persists, you are blinded by the flames and automatically fail any ability check, attack roll, or saving throw that relies on sight. The flames shed bright light in a 20-foot radius and dim light for an additional 20 feet.

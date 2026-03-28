@@ -27,6 +27,8 @@ _Level 3 Evocation Spell_<br>
 
 ---
 
-Creates a purifying flame that burns away ailments and conditions. when casting remove one negative condition or ailment affecting the touched creature. This can include poison, disease, paralysis, or similar effects.
+Creates a purifying flame that burns away ailments. when you cast this spell, you can remove one of the following conditions: Poisoned, Paralyzed, Deafened, Blinded,  Petrified or 1 level of Exhaustion from the afflicted creature.
 
-_At Higher Levels_: When casting with a 5th spell slot or higher, this spell can cleanse all allies within a 10 ft radius at once.
+Alternatively, You can remove 1 disease afflicting the target.
+
+_At Higher Levels:_ When you cast this spell using a 5th-level spell slot or higher, you can target all creatures of your choice within 10 feet of you, removing one condition or one disease from each creature. The condition or disease must be the same for each creature.

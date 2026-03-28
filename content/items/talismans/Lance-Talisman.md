@@ -8,10 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "1"
 cost = "100 GP"
 upgradable = "No"
-effects = "Increases damage while mounted by 5%"
+effects = "While mounted all weapon attacks deal 1d4 damage of the weapons damage type"
 attunement = "No"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Lance Talisman | 100 GP | Increases damage while mounted by 5% | No | N/A | 1 | No |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Lance Talisman | 100 GP | While mounted all weapon attacks deal 1d4 damage of the weapons damage type | No | N/A | 1 | No |

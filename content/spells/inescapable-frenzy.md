@@ -27,4 +27,10 @@ _Level 4 Evocation Spell_<br>
 
 ---
 
-You catch your target in a grapple as yellow flames gush forward from your eyes. The target is considered grappled for the duration of the spell. The target takes 3d8 fire damage immediately and at the start of each of their turns, you take half that damage. The target can attempt to exit the grapple with an Athletics or Acrobatics check, if they fail they take an additional 4d6 fire damage, if they succeed the grapple ends and they take half of the damage.
+You seize a creature as maddening yellow flames erupt between you, binding your bodies together in shared agony. The target must make a Strength saving throw. On a failed save, it becomes restrained for the duration as long as it remains within your reach. On a successful save, the spell fails.
+
+While restrained in this way, the target takes 3d8 fire damage when the spell is cast, and 3d8 fire damage at the start of each of its turns.
+
+At the end of each of its turns, the target can make a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, ending the spell on a success. On a failed check, the flames surge violently, and the target takes an additional 2d6 fire damage.
+
+The spell ends early if the target is ever more than 5 feet away from you.

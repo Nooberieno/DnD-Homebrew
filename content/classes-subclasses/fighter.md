@@ -3,7 +3,7 @@ title = "Fighter"
 
 [taxonomies]
 subclasses = ['Fighter: Heavenly Restricted']
-sourcebook = ["Gojo's Guide to Cursing"]
+sourcebook = ["Jujutsu Sorcery"]
 +++
 <table class="class-table">
   <thead>
@@ -152,16 +152,27 @@ sourcebook = ["Gojo's Guide to Cursing"]
 You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.
 
 <a href="https://2014.5e.tools/optionalfeatures.html#archery_phb">Archery</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#defense_phb">Defense</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#dueling_phb">Dueling</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#great weapon fighting_phb">Great Weapon Fighting</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#protection_phb">Protection</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#two-weapon fighting_phb">Two-Weapon Fighting</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#blind fighting_tce">Blind Fighting</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#interception_tce">Interception</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#superior technique_tce">Superior Technique</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#thrown weapon fighting_tce">Thrown Weapon Fighting</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#unarmed fighting_tce">Unarmed Fighting</a>
+
 ### Second Wind
 You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
 
@@ -187,17 +198,15 @@ At 3rd level, you forgo all forms of magic and supernatural power in exchange fo
 
 _if you multiclass in this class and a spellcasting class, you can choose to reinvest your levels into a non spellcasting class, if you decide to keep your levels in a spellcasting class accepting this Martial Archetype means that if you try to cast a spell it **will automatically fail**. If your race grants spells or cantrips you lose access to them, instead you may increase your Strength, Constitution or Dexterity by 1 even above 20_
 
-You gain the following benefits:
+Your carrying capacity doubles, and you can add your proficiency bonus to Strength checks and saving throws. Additionally, you have advantage on checks made to break objects.
 
-1. Your carrying capacity doubles, and you can add your proficiency bonus to Strength checks and saving throws. Additionally, you have advantage on checks made to break objects.
-2. Your base walking speed increases by 10 feet. You also gain the ability to dash as a bonus action.
-3. You gain proficiency in the Perception and Stealth skills. If you are already proficient, you add double your proficiency bonus to Perception and Stealth checks.
+Your base walking speed increases by 10 feet. You also gain the ability to dash as a bonus action.
 
-And the following detriments:
+You gain proficiency in the Perception skill.
 
-1. You cannot cast magic and your body naturally resists any form of spellcasting. If a spell specifies that a unwilling target can resist, you always count as an unwilling target and have to resist, no matter the spell.
-2. If you had proficiency in the Arcane skill you lose it and can gain proficiency in another Dexterity or Strength based skill of your choice that you did not have proficiency in. If you had proficiency in all Dexterity and Strength based skills, you gain nothing and just lose the Arcane proficiency.
-3. You always have disadvantage when rolling Arcane skill checks and can never have a bonus in the Arcane skill, even if your stats would grant you bonuses.
+However, you cannot cast magic and your body naturally resists any form of spellcasting.
+
+If a spell specifies that a unwilling target can resist, you always count as an unwilling target and have to resist, no matter the spell.
 
 
 {% end %}
@@ -235,8 +244,9 @@ _7th-level Heavenly Restricted feature_
 
 By 7th level, your physical training allows you to withstand incredible punishment and perform superhuman feats.
 
-1. Whenever a creature of your size or smaller targets you with a melee weapon attack, you can use your reaction to push it away. The creature that attacked you must succeed on a Strength saving throw or be pushed 5 feet away from you. You can use this feature a number of times equal to your Strength Modifier and regain all uses upon finishing a long rest
-2. When you make an unarmed strike, you can choose to deal 1d6 + your Strength modifier in damage, or 1d8 + your Strength modifier if you are wielding no weapons and not wearing armor.
+Whenever a creature of your size or smaller targets you with a melee weapon attack, you can use your reaction to push it away. The creature that attacked you must succeed on a Strength saving throw or be pushed 5 feet away from you. You can use this feature a number of times equal to your Strength Modifier and regain all uses upon finishing a long rest
+
+When you make an unarmed strike, you deal 1d6 bludgeoning damage, or 1d6 + your Strength modifier if you are wielding no weapons and not wearing armor.
 
 
 {% end %}
@@ -261,9 +271,7 @@ _10th-level Heavenly Restricted feature_
 
 Starting at 10th level, your heightened perception and reflexes make you a formidable opponent in battle.
 
-1. You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.
-2. When a creature misses you with a melee attack, you can use your reaction to make a single melee weapon attack against that creature.
-3. You can see in dim light as if it were bright light, and in darkness as if it were dim light, up to a range of 30 feet.
+Using you senses, you can detect any invisible or hiding creature within 10 ft of you.
 
 
 {% end %}
@@ -294,9 +302,7 @@ _15th-level Heavenly Restricted feature_
 
 At 15th level, your physical abilities reach their peak, allowing you to perform feats that defy common understanding.
 
-1. You can use your action to make a single attack that ignores resistance and immunity to nonmagical damage. You can use this feature a number of times equal to your Strength modifier (minimum of 1), and regain all uses after a long rest.
-2. You gain a +2 bonus to your Dexterity saving throws and initiative rolls.
-3. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this feature, you can't use it again until you finish a long rest.
+When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this feature, you can't use it again until you finish a long rest.
 
 
 {% end %}
@@ -322,8 +328,7 @@ _18th-level Heavenly Restricted feature_
 
 At 18th level, you unlock the full potential of your physical abilities, transcending the boundaries of human limitation.
 
-1. You gain a +2 bonus to either your Strength, Dexterity, and Constitution scores. This bonus can increase your ability scores above 20, but not above 25.
-2. When you take damage, you can use your reaction to halve the damage taken. You can use this feature a number of times equal to your Constitution modifier (minimum of 1), and regain all uses after a long rest.
+You gain a +2 bonus to either your Strength, Dexterity, and Constitution scores. This bonus can increase your ability scores above 20, but not above 22.
 
 
 {% end %}

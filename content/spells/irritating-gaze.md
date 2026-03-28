@@ -19,7 +19,7 @@ _Level 3 Illusion Spell_<br>
 **Casting Time**: 1 action<br>
 **Range**: 60 ft<br>
 **Components**: V, S<br>
-**Duration**: Instantaneous<br>
+**Duration**: Up to 1 minute<br>
 **Classes**: Bard, Wizard, Sorcerer<br>
 
 

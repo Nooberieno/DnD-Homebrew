@@ -8,10 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "2"
 cost = "500 GP"
 upgradable = "No"
-effects = "Decrease damage from Piercing, Slashing and Bludgeoning by 10% while wielding a shield"
+effects = "Decrease damage from Piercing, Slashing and Bludgeoning by 1d8 while wielding a shield"
 attunement = "No"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Pearl Shield | 500 GP | Decrease damage from Piercing, Slashing and Bludgeoning by 10% while wielding a shield | No | N/A | 2 | No |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Pearl Shield | 500 GP | Decrease damage from Piercing, Slashing and Bludgeoning by 1d8 while wielding a shield | No | N/A | 2 | No |

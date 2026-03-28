@@ -30,9 +30,7 @@ _Level 1 Enchantment Spell_<br>
 
 You see the spark of potential in your ally's action, and you shout out an encouraging phrase that rekindles their focus and determination
 
-***Attack***: If the target failed an attack it can re-roll the failed die, adding your spellcasting modifier to the attack and damage roll.
+***Attack***: If the target failed an attack it can re-roll the failed die, adding your spellcasting modifier to the new roll.
 
-***Saving Throw***: If the target failed a saving throw it can re-roll the failed die and add your spellcasting modifier to the new roll.
-
-A creature may only benefit from this spell once per short rest
+***Saving Throw***: If the target failed a saving throw it can re-roll the failed die.
 

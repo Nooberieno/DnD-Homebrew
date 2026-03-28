@@ -9,8 +9,9 @@ tier = "2"
 cost = "400 GP"
 upgradable = "No"
 effects = "You may add your proficiency modifier to Constitution saving throws for keeping concentration"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Clarifying Horn Talisman | 400 GP | You may add your proficiency modifier to Constitution saving throws for keeping concentration | No | N/A | 2 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Clarifying Horn Talisman | 400 GP | You may add your proficiency modifier to Constitution saving throws for keeping concentration | No | N/A | 2 | No |

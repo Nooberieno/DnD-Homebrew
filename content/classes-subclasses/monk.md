@@ -2,8 +2,8 @@
 title = "Monk"
 
 [taxonomies]
-subclasses = ['Monk: Way of the Curse', 'Monk: Iai Chop']
-sourcebook = ["Gojo's Guide to Cursing", "Shinra's Logbook for Pyrokinetics"]
+subclasses = ['Monk: Iai Chop', 'Monk: Way of the Curse']
+sourcebook = ["Jujutsu Sorcery", "Embers of Cataclysm"]
 +++
 <table class="class-table">
   <thead>
@@ -197,15 +197,15 @@ sourcebook = ["Gojo's Guide to Cursing", "Shinra's Logbook for Pyrokinetics"]
 - 10 <a href="https://2014.5e.tools/items.html#dart_phb">darts</a>
 
 **Multiclassing Requirements**:
-- DEX 13
 - WIS 13
+- DEX 13
 
 {% end %}
 
 
 ## Subclasses
 
-{{subclass_button(subclass="Way of the Curse")}} {{subclass_button(subclass="Iai Chop")}} 
+{{subclass_button(subclass="Iai Chop")}} {{subclass_button(subclass="Way of the Curse")}} 
 
 
 ## Class Features
@@ -271,39 +271,6 @@ If you reduce the damage to 0, you can catch the missile if it is small enough f
 ### Monastic Tradition
 When you reach 3rd level, you commit yourself to a monastic tradition, chosen from the list of available traditions. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
 
-{% subclass_feature(subclass="Way of the Curse") %}
-### Way of the Curse
-Harnessing the dark power of cursed energy, Way of the Curse Monks devote themselves to mastering the art of overwhelming strikes and incorporating the chaotic energy of the cursed world around them. These monks generate Ki, not by peace of mind, but through negative emotions and cursed energy. They combine speed an raw energy to become unpredictable and powerful warriors.
-
-
-### Cursed Energy Manipulation
-_3rd-level Way of the Curse feature_
-
-At 3rd level, you learn to generate your Ki through negative emotions and can regenerate it through combat.
-
-**Regaining Ki in Combat:**
-
-1. You regain 1 Ki Point each time you hit an enemy with an unarmed strike.
-2. You regain 1 Ki Point each time you take damage from a hostile creature.
-3. You cannot regain more than 2 Ki Points per round through these means.
-4. The amount Ki Points you regain in battle may not exceed your pool of Ki Points.
-
-
-### Divergent Fist
-_3rd-level Way of the Curse feature_
-
-You can unleash a powerful unarmed strike imbued with Cursed Energy that causes a delayed reaction in your target.  When you hit a target with an unarmed strike, you can spend 1 Ki Point to trigger Divergent Fist. The target takes an additional 1d8 force damage immediately.
-
-The next time the target attempts to make an attack roll before the start of your next turn, they need to make a Constitution saving throw, if they fail they have disadvantage on the attack roll. If the target misses, it then takes 1d4 force damage as the delayed shockwave from Divergent Fist hits.
-
-The immediate damage  Increases to 2d8 at 11th level and 3d8 at 17th level.
-
-The delayed damage: Increases to 2d4 at 11th level and 3d4 at 17th level.
-
-
-{% end %}
-
-
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop
 
@@ -313,8 +280,6 @@ _3rd-level Iai Chop feature_
 Taking or dealing fire damage restores 1 Ki point in combat(No more than 2 per round, which may not exceed your pool of Ki points), you gain resistance to fire damage if you did not have it already.
 
 You learn the produce flame and control flame cantrips, Wisdom is your spellcasting ability for these cantrips.
-
-You have proficiency with any attack dealing fire damage.
 
 **Iai Chop: First Form _Fire Moon_**
 
@@ -332,11 +297,46 @@ choose either the second or third form of Iai Chop
 
 **Iai Chop: Second Form _Moonlight_**
 
-As an action, you cross your arms to create a blinding light. Each creature within a 30 ft cone that can see you must make a Wisdom saving throw. On a failed save, the creature is blinded for 1 minute. A blinded creature can repeat the saving throw at the end of its turns, ending the effect on a success. You can use this feature once per short or long rest, or by spending 2 Ki points to use it again.
+As an action, you cross your arms to create a blinding light. Each creature within a 30 ft cone that can see you must make a Wisdom saving throw. On a failed save, the creature is blinded until the end of your next turn. You can use this feature once per short or long rest, or by spending 2 Ki points to use it again.
 
 **Iai Chop: Third Form _Daybreak_**
 
-As a bonus action, you expend 2 Ki points to ignite a blade of flames in your hand and make a powerful upward slash. Choose one creature within 5 feet of you. Make a melee attack roll against the target. On a hit, the target takes 1d8 fire damage and is knocked 10 feet into the air. If the target is airborne, it falls prone unless it has a flying speed.
+As a bonus action, you expend 2 Ki points to ignite a blade of flames in your hand and make a powerful upward slash. Choose one creature within 5 feet of you. Make an unarmed strike against the target. On a hit, the target takes 1d8 fire damage and is knocked 10 feet into the air. If the target is airborne, it falls prone unless it has a flying speed.
+
+
+{% end %}
+
+
+{% subclass_feature(subclass="Way of the Curse") %}
+### Way of the Curse
+Harnessing the dark power of cursed energy, Way of the Curse Monks devote themselves to mastering the art of overwhelming strikes and incorporating the chaotic energy of the cursed world around them. These monks generate Ki, not by peace of mind, but through negative emotions and cursed energy. They combine speed an raw energy to become unpredictable and powerful warriors.
+
+
+### Cursed Energy Manipulation
+_3rd-level Way of the Curse feature_
+
+At 3rd level, you learn to generate your Ki through negative emotions and can regenerate it through combat.
+
+**Regaining Ki in Combat:**
+
+1. Each time you score a Critical Hit with an Unarmed Strike, you regain 1 Ki point.
+2. When you reduce a creature to 0 or fewer hit points with an Unarmed Strike.
+3. You cannot regain more than 2 Ki Points per round through these means.
+4. The amount Ki Points you regain in battle may not exceed your pool of Ki Points.
+
+You cannot regain Ki this way as a result of attacking a Paralyzed, Unconscious or otherwise unaware or helpless creature. Nor does this feature work on creatures that have fewer Hit Dice than half you Monk level.
+
+
+### Divergent Fist
+_3rd-level Way of the Curse feature_
+
+You can unleash a powerful unarmed strike imbued with Cursed Energy that causes a delayed reaction in your target.  When you hit a target with an unarmed strike, you can spend 2 Ki Point to trigger Divergent Fist. The target takes an additional 1d8 force damage immediately.
+
+The next time the target attempts to make an attack roll before the start of your next turn, they need to make a Constitution saving throw, if they fail they have disadvantage on the attack roll. If the target misses, it then takes 1d4 force damage as the delayed shockwave from Divergent Fist hits.
+
+The immediate damage  Increases to 2d8 at 11th level and 3d8 at 17th level.
+
+The delayed damage: Increases to 2d4 at 11th level and 3d4 at 17th level.
 
 
 {% end %}
@@ -377,19 +377,6 @@ Starting at 6th level, your unarmed strikes count as magical for the purpose of 
 ### Monastic Tradition feature
 At 6th level, you gain one feature granted by your Monastic Tradition.
 
-{% subclass_feature(subclass="Way of the Curse") %}
-### Cursed Energy Reinforcement
-_6th-level Way of the Curse feature_
-
-At 6th level, you learn to channel Cursed Energy to bolster your physical abilities. As a bonus action, you can spend 2 Ki Points to gain the following benefits for 1 minute:
-
-1. Your unarmed strikes deal an additional 1d4 force damage.
-2. Your movement speed increases by 10 feet.
-
-
-{% end %}
-
-
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop form
 _6th-level Iai Chop feature_
@@ -403,6 +390,19 @@ By expending 3 Ki points, you can ignite and create flames on both palms of your
 **Iai Chop: Fifth Form _Sunset_**
 
 You cover the palm of your hand in flames perform a powerful downward slashing motion. By expending 3 Ki points you can use your action to unleash a devastating downward slash of flame. Choose a 5-foot radius within 30 feet. Each creature in the area must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage and is knocked prone. On a successful save, it takes half damage.
+
+
+{% end %}
+
+
+{% subclass_feature(subclass="Way of the Curse") %}
+### Cursed Energy Reinforcement
+_6th-level Way of the Curse feature_
+
+At 6th level, you learn to channel Cursed Energy to bolster your physical abilities. As a bonus action, you can spend 2 Ki Points to gain the following benefits for 1 minute:
+
+1. Your unarmed strikes deal an additional 1d4 force damage.
+2. Your movement speed increases by 10 feet.
 
 
 {% end %}
@@ -428,20 +428,6 @@ At 10th level, your mastery of the ki flowing through you makes you immune to di
 ### Monastic Tradition feature
 At 11th level, you gain one feature granted by your Monastic Tradition.
 
-{% subclass_feature(subclass="Way of the Curse") %}
-### Black Flash
-_11th-level Way of the Curse feature_
-
-At 11th level, you gain the ability to perform a Black Flash, a critical strike infused with Cursed Energy that disrupts space and time.
-
-When you hit a creature with an unarmed strike, you can spend 4 Ki Points to turn the attack into a Black Flash.
-
-This attack is treated as a critical hit, and you add an extra 2d10 force damage (which isn't doubled due to a critical hit) to the damage roll. This additional damage increases to 3d10 at 17th level.
-
-
-{% end %}
-
-
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop Form
 _11th-level Iai Chop feature_
@@ -453,6 +439,20 @@ gain the sixth form of the Iai Chop
 You ignite and create a sharp-blade of flames on the palm of your hands and perform a powerful thrust. This attack is a new attack option you can use when taking the attack action, expend 3 Ki points and choose one creature within 10 feet. The target must make a Dexterity saving throw. On a failed save the target takes 4d10 fire damage and is pushed back 20 feet. If the target collides with a solid object, such as a wall, it takes an additional 2d10 bludgeoning damage and falls prone. On a successful save the target takes half fire damage and is not pushed back.
 
 When making this attack, you lose your ability to use extra attack on this turn. This attack cannot be done on any other attack than the first attack of your turn.
+
+
+{% end %}
+
+
+{% subclass_feature(subclass="Way of the Curse") %}
+### Black Flash
+_11th-level Way of the Curse feature_
+
+At 11th level, you gain the ability to perform a Black Flash, a critical strike infused with Cursed Energy that disrupts space and time.
+
+When you hit a creature with an unarmed strike, you can spend 5 Ki Points to turn the attack into a Black Flash.
+
+This attack is treated as a critical hit, and you add an extra 2d10 force damage (which isn't doubled due to a critical hit) to the damage roll. This additional damage increases to 3d10 at 17th level.
 
 
 {% end %}
@@ -482,24 +482,6 @@ If your DM allows the use of feats, you may instead take a <a href="https://2014
 ### Monastic Tradition feature
 At 17th level, you gain one feature granted by your Monastic Tradition.
 
-{% subclass_feature(subclass="Way of the Curse") %}
-### Cursed Energy Mastery
-_17th-level Way of the Curse feature_
-
-By 17th level, your mastery over Cursed Energy is unmatched, allowing you to push beyond the limits of normal monks.  Your entire body radiates with an intense, chaotic energy, and your movements and attacks leave trails of dark energy in their wake.
-
-**Unlimited Potential:** As an action, you can spend 8 Ki Points to enter a state of heightened power for 1 minute. During this time, you gain the following benefits:
-
-1. You regain 2 Ki Points at the start of each of your turns.
-2. Your unarmed strikes score a critical hit on a roll of 19 or 20.
-3. You have resistance to all damage.
-
-You can use this feature once per long rest.
-
-
-{% end %}
-
-
 {% subclass_feature(subclass="Iai Chop") %}
 ### Iai Chop form
 _17th-level Iai Chop feature_
@@ -510,6 +492,23 @@ You create a ring of flames, resembling the sun and can choose to throw it at yo
 
 1. Throw: Hurl the ring at a creature within 60 feet. The target must make a Dexterity saving throw. On a failed save, it takes 6d8 fire damage and is stunned until the end of your next turn. On a successful save, it takes half damage.
 2. Expand: Move the ring outwards, creating an slicing effect that affects a 15foot radius centered on you. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes 6d6 fire damage and is knocked prone. On a successful save, it takes half damage. This does not affect you.
+
+
+{% end %}
+
+
+{% subclass_feature(subclass="Way of the Curse") %}
+### Cursed Energy Mastery
+_17th-level Way of the Curse feature_
+
+By 17th level, your mastery over Cursed Energy is unmatched, allowing you to push beyond the limits of normal monks.  Your entire body radiates with an intense, chaotic energy, and your movements and attacks leave trails of dark energy in their wake.
+
+As an action, you can spend 8 Ki Points to enter a state of heightened power for 1 minute. During this time, you gain the following benefits:
+
+1. Your unarmed strikes score a critical hit on a roll of 19 or 20.
+2. You have resistance to all damage.
+
+You can use this feature once per long rest.
 
 
 {% end %}

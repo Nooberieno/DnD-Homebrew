@@ -8,14 +8,14 @@ classes = ['Artificer', 'Bard', 'Cartomancer', 'Cleric', 'Druid', 'Paladin', 'Ra
 
 
 [extra]
-level = 1
+level = 2
 concentration = false
 school = "Enchantment"
 +++
 
 _Requires speaking Orcish to cast_
 
-_Level 1 Enchantment Spell_<br>
+_Level 2 Enchantment Spell_<br>
 **Casting Time**: 1 action<br>
 **Range**: 30 ft<br>
 **Components**: V, S<br>
@@ -27,5 +27,9 @@ _Level 1 Enchantment Spell_<br>
 
 ---
 
-Through the draining Hymn of Lethargy, you cast a languid aura around a target within range, sapping their energy and slowing their movements. The target's speed is halved, and they have disadvantage on Dexterity saving throws for the duration of the spell. The target feels a weight upon them, making every action more arduous and taxing. At the start of each turn during the duration the target needs to make a wisdom saving throw of DC 13, if they fail they take 1d4 Psychic damage.
+You cast a languid aura around a target within range, sapping their energy and slowing their movements. The target must make a Wisdom saving throw or be affected by this spell for the duration.
+
+The target's speed is halved and they have disadvantage on Dexterity saving throws for the duration of the spell.
+
+The creature affected by this spell can make another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.
 

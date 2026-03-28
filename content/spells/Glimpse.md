@@ -28,7 +28,7 @@ _Transmutation Cantrip_  <br>
 ---
 
 
-By touching your thumb to your index finger, you create a magical lens through which your vision sharpens and extends. You can see up to 1 mile away with perfect clarity, discerning fine details as though observing something no more than a 100 ft from you
+By touching your thumb to your index finger, you create a magical lens through which your vision sharpens and extends. You can see up to 1 mile away with perfect clarity, discerning fine details as though observing something no more than a 100 ft from you. The lens only amplifies your regular vision and any other sense (such as darkvision or truesight) does not apply while looking through the lens.
 
 **Cantrip Upgrades**: At higher levels you gain the ability to create different types of lenses using different fingers
 - **5th level**: By forming the lens with your thumb and middle finger you create a darkvision effect. You can see in non-magical darkness through the lens to a distance of 120 ft

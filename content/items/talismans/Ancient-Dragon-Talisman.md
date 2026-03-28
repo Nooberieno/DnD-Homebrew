@@ -8,9 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "5"
 cost = "5000 GP"
 upgradable = "No"
-effects = "True Drake talismans now grant immunity instead of resistances, with the exception of the [SpellDrake Talisman](@/items/talismans/spelldrake-talisman-reforged.md)"
+effects = "True Drake talismans now grant immunity instead of resistances, with the exception of the [SpellDrake Talisman](@/items/talismans/spelldrake-talisman.md)"
+attunement = "Yes"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Ancient Dragon Talisman | 5000 GP | True Drake talismans now grant immunity instead of resistances, with the exception of the [SpellDrake Talisman](@/items/talismans/spelldrake-talisman-reforged.md) | No | N/A | 5 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Ancient Dragon Talisman | 5000 GP | True Drake talismans now grant immunity instead of resistances, with the exception of the [SpellDrake Talisman](@/items/talismans/spelldrake-talisman.md) | No | N/A | 5 | Yes |

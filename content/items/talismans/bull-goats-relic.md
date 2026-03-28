@@ -14,5 +14,5 @@ attunement = "No"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
 | Bull-Goat's Relic | 300 GP | Bull-Goat's Talisman effect + You can resist being knocked prone with a strength saving throw of DC 20 | Yes (Bull-Goat's Artifact) | 700 GP | 2 | No |

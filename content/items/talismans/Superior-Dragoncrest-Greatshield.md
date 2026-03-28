@@ -9,10 +9,10 @@ tier = "4"
 cost = "1500 GP"
 upgradable = "Yes (True Dragoncrest Greatshield)"
 upgrade_cost = "2150 GP"
-effects = "Decrease damage taken from Slashing, Piercing and Bludgeoning by 16%"
+effects = "Decrease damage taken from Slashing, Piercing and Bludgeoning by 3d4"
 attunement = "No"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Superior Dragoncrest Greatshield | 1500 GP | Decrease damage taken from Slashing, Piercing and Bludgeoning by 16% | Yes (True Dragoncrest Greatshield) | 2150 GP | 4 | No |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Superior Dragoncrest Greatshield | 1500 GP | Decrease damage taken from Slashing, Piercing and Bludgeoning by 3d4 | Yes (True Dragoncrest Greatshield) | 2150 GP | 4 | No |

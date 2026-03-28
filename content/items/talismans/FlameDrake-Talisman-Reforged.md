@@ -9,9 +9,10 @@ tier = "2"
 cost = "150 GP"
 upgradable = "Yes (Superior FlameDrake Talisman)"
 upgrade_cost = "200 GP"
-effects = "Take 10% less Fire damage"
+effects = "Reduce Fire damage by 2d10"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| FlameDrake Talisman Reforged | 150 GP | Take 10% less Fire damage | Yes (Superior FlameDrake Talisman) | 200 GP | 2 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| FlameDrake Talisman Reforged | 150 GP | Reduce Fire damage by 2d10 | Yes (Superior FlameDrake Talisman) | 200 GP | 2 | No |

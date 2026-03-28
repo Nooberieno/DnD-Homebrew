@@ -8,10 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "3"
 cost = "2000 GP"
 upgradable = "No"
-effects = "Restores health equal to 25% of damage dealt by a critical hit"
+effects = "When you score a critical hit, choose up to 3 damage dice rolled for the critical hit. You can regain hit points equal to the total value of those dice."
 attunement = "Yes"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Assassin's Crimson Dagger | 2000 GP | Restores health equal to 25% of damage dealt by a critical hit | No | N/A | 3 | Yes |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Assassin's Crimson Dagger | 2000 GP | When you score a critical hit, choose up to 3 damage dice rolled for the critical hit. You can regain hit points equal to the total value of those dice. | No | N/A | 3 | Yes |

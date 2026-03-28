@@ -9,9 +9,10 @@ tier = "2"
 cost = "150 GP"
 upgradable = "Yes (Superior SnowDrake Talisman)"
 upgrade_cost = "200 GP"
-effects = "Take 10% less Cold damage"
+effects = "Reduce Cold damage by 2d10"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| SnowDrake Talisman Reforged | 150 GP | Take 10% less Cold damage | Yes (Superior SnowDrake Talisman) | 200 GP | 2 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| SnowDrake Talisman Reforged | 150 GP | Reduce Cold damage by 2d10 | Yes (Superior SnowDrake Talisman) | 200 GP | 2 | No |

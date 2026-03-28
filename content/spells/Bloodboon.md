@@ -28,5 +28,5 @@ _Level 6 Evocation Spell_<br>
 ---
 
 
-You thrust your arm into the body of the Lord of Blood, then scatter his flaming blood to set the area ablaze. Scatter flaming blood in a 30-foot cone, dealing 8d10 fire damage to creatures in the area on a failed Dexterity saving throw.
+You thrust your arm into the body of the Lord of Blood, then scatter his flaming blood to set the area ablaze. Scatter flaming blood in a 30-foot cone, dealing 7d10 Fire damage to creatures in the area on a failed Dexterity saving throw.
 

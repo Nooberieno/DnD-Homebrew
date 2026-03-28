@@ -18,7 +18,7 @@ _Requires speaking Orcish to cast_
 _Level 7 Evocation Spell_<br>
 **Casting Time**: 1 action<br>
 **Range**: Self(60 ft line, 5 ft wide)<br>
-**Components**: V, S, M (A dragon scale of the appropriate type of damage: black/copper for acid, blue/bronze for lightning, red/brass for fire, green for poison and white/silver for cold)<br>
+**Components**: V, S, M (A dragon scale)<br>
 **Duration**: Instantaneous<br>
 **Classes**: Artificer, Bard, Cartomancer, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard<br>
 

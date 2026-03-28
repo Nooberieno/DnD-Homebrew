@@ -8,10 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "5"
 cost = "4000 GP"
 upgradable = "No"
-effects = "Take 50% less damage when at max hp. This reduction does not apply on Critical Hits"
+effects = "Gain resistance to all damage when at max hp. This reduction does not apply on Critical Hits"
 attunement = "Yes"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| True Ritual Shield | 4000 GP | Take 50% less damage when at max hp. This reduction does not apply on Critical Hits | No | N/A | 5 | Yes |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| True Ritual Shield | 4000 GP | Gain resistance to all damage when at max hp. This reduction does not apply on Critical Hits | No | N/A | 5 | Yes |

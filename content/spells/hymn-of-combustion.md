@@ -27,4 +27,4 @@ _Level 3 Evocation Spell_<br>
 
 ---
 
-With the incendiary Hymn of Combustion, you channel destructive energy into a target within range. The target bursts into flames, taking fire damage equal to your spellcasting modifier. Additionally, any creature within 5 feet of the target must succeed on a Dexterity saving throw or take half of the initial damage.
+You channel destructive energy into a target within range. The target needs to make a Constitution saving throw. The target takes 6d10 fire damage on a failed save, or half as much on a successful one.

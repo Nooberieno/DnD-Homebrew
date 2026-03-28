@@ -9,9 +9,10 @@ tier = "2"
 cost = "150 GP"
 upgradable = "Yes (Superior BoltDrake Talisman)"
 upgrade_cost = "200 GP"
-effects = "Take 10% less Lightning and Thunder damage"
+effects = "Reduce Lightning and Thunder damage by 2d10"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| BoltDrake Talisman Reforged | 150 GP | Take 10% less Lightning and Thunder damage | Yes (Superior BoltDrake Talisman) | 200 GP | 2 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| BoltDrake Talisman Reforged | 150 GP | Reduce Lightning and Thunder damage by 2d10 | Yes (Superior BoltDrake Talisman) | 200 GP | 2 | No |

@@ -13,5 +13,5 @@ attunement = "No"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
 | Bull-Goat's Artifact | 1000 GP | Previous effects + When knocked prone you can use your reaction to stand up | No | N/A | 3 | No |

@@ -20,14 +20,14 @@ This was the Blade of Okina. Players can get this weapon upon defeating Okina at
 ### Seppuku
 As a bonus action, you can stab the blade into yourself, upon doing so you lose 2d6 hit points.
 
-### Corpse Piler
-When attacking with this katana, you can expend a charge to make the sword attack with a blood slash. If a creature is hit with a blood slash, choose 1 of the following effects:
-
-- The blood slash deals an additional 2d6 Necrotic damage.
-- The creature needs to make a Constitution Saving throw of DC 8 + Proficiency + Dex. Upon failure it gains 1 level of [Bleeding](@/conditions-and-diseases/conditions/bleeding.md)
-
 ### Bloodlust
 Whenever a creature within 10 feet of you gains the [Bleeding](@/conditions-and-diseases/conditions/bleeding.md) condition, or whenever you use **Seppuku**, the blade absorbs the creature's blood and gains **1 charge**.
 
 - The blade can hold a maximum of **3 charges**.
 - All charges fade when you finish a short or long rest.
+
+### Corpse Piler
+When attacking with this katana, you can expend a charge to make the sword attack with a blood slash. If a creature is hit with a blood slash, choose 1 of the following effects:
+
+- The blood slash deals an additional 2d6 Necrotic damage.
+- The creature needs to make a Constitution Saving throw of DC 8 + Proficiency + Dex. Upon failure it gains 1 level of [Bleeding](@/conditions-and-diseases/conditions/bleeding.md)

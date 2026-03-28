@@ -19,7 +19,7 @@ _Level 1 Enchantment Spell_<br>
 **Casting Time**: 1 action<br>
 **Range**: 30 ft<br>
 **Components**: V, S<br>
-**Duration**: 3 minutes<br>
+**Duration**: 1 Round<br>
 **Classes**: Artificer, Bard, Cartomancer, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard<br>
 
 
@@ -27,5 +27,4 @@ _Level 1 Enchantment Spell_<br>
 
 ---
 
-You veil a target within range with magical darkness. The target needs to make a Wisdom saving throw, on failure the target is blinded for the duration, unable to see anything beyond the shadowy veil. However, the target gains advantage on saving throws against being charmed or frightened, relying on their intuition and other senses.
-
+You veil a target within range with magical darkness. The target needs to make a Wisdom saving throw, on failure the target is blinded for the duration.

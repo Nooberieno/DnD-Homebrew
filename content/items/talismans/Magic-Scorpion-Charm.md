@@ -8,9 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "3"
 cost = "800 GP"
 upgradable = "No"
-effects = "Increases all Magical Damage by 15%, but increases damage taken from Slashing, Piercing and Bludgeoning by 25%"
+effects = "Increases all Magical Damage by 1d12, but increases damage taken from Slashing, Piercing and Bludgeoning by 2d10"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Magic Scorpion Charm | 800 GP | Increases all Magical Damage by 15%, but increases damage taken from Slashing, Piercing and Bludgeoning by 25% | No | N/A | 3 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Magic Scorpion Charm | 800 GP | Increases all Magical Damage by 1d12, but increases damage taken from Slashing, Piercing and Bludgeoning by 2d10 | No | N/A | 3 | No |

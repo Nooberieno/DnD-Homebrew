@@ -53,9 +53,54 @@ When you choose a race, you also need to pick one of the subraces listed below
 
 ### **Subraces: Octoid, Coleoid, Nautiloid**
 
-{{subrace_button(subrace="Coleoid Cephalkin")}}
-{{subrace_button(subrace="Nautiloid Cephalkin")}}
 {{subrace_button(subrace="Octoid Cephalkin")}}
+{{subrace_button(subrace="Nautiloid Cephalkin")}}
+{{subrace_button(subrace="Coleoid Cephalkin")}}
+
+{% subrace_features(subrace="Octoid Cephalkin") %}
+ **Octoid Cephalkin**
+
+> _Octoids possess strong, versatile tentacles, making them excellent grapplers and close-combat specialists._  
+
+Octoid Cephalkin have the most developed tentacles out of all Cephalkin, this is to navigate the deep ocean floors they live on and catch prey effectively. Octoid Cephalkin have increased muscle growth compared to other Cephalkin. Octoids often venture on land to learn martial arts and how to wield weapons, as nothing brings them more joy then to show of their strength. Many a wrestling champion has been or been the student of an Octoid Cephalkin.
+
+**Ability Score Increase**  
+Your Strength score increases by 1.
+
+**Superior Darkvision**
+Accustomed to the extreme low light environment of the deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Tentacle Strength**  
+You can use your tentacles as a natural weapon. When you grapple a creature, you can deal bludgeoning damage equal to 1d6 + your Strength modifier as part of the grapple.
+
+**Tentacle Agility**  
+You have advantage on ability checks and saving throws to avoid being knocked prone. You can also use your tentacles to manipulate small objects or perform simple tasks, though they can’t wield weapons or shields.
+
+
+{% end %}
+
+{% subrace_features(subrace="Nautiloid Cephalkin") %}
+ **Nautiloid Cephalkin**
+
+> _Nautiloids have evolved a defensive shell, prioritizing durability over their agility on land._
+  
+Many believers of the Coleoid predator theory, say that the Nautiloid's shell is another adaptation to defend from predators. These Cephalkin live at the lowest of depths and have the hardest time adjusting to land, finding that their shell slows them down when walking. Nautiloid Cephalkin often have many facial tentacles, which is often considered creepy by other humanoid races. Nautiloids are easily recognized by the spiral shell covering their heads, which contain and protect their brains. This means Nautiloids will die if their shell is removed. Their shell has made them quite the target for bandits and poachers, as armor created from a Nautiloid's shell lighter and more durable than any metal.
+
+**Ability Score Increase**  
+Your Constitution score increases by 1.
+
+**Superior Darkvision**
+Accustomed to the extreme low light environment of the deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Natural Armor**  
+Your tough shell grants you a +2 bonus to AC while you are not wearing heavy armor. Your shell also lowers your base walking speed to 25 ft
+
+**Ink Spray**  
+As an action, you can expel a cloud of dark ink in a 10-foot radius. The area becomes heavily obscured until the end of your next turn. Creatures in the area when the ink appears must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be blinded until the end of their next turn. You can use this ability once per short or long rest.
+
+**Increased Swimming Speed**  
+Your swimming speed increases to 40 feet.
+{% end %}
 
 {% subrace_features(subrace="Coleoid Cephalkin") %}
  **Coleoid Cephalkin**
@@ -84,51 +129,6 @@ You can squeeze through a space as narrow as 2 inches wide, provided you are wea
 
 **Dexterous grapple**
 You can now grapple enemies within 5 ft of you as a bonus action, additionally you gain advantage on attack rolls against enemies you are grappling.
-
-{% end %}
-
-{% subrace_features(subrace="Nautiloid Cephalkin") %}
- **Nautiloid Cephalkin**
-
-> _Nautiloids have evolved a defensive shell, prioritizing durability over their agility on land._
-  
-Many believers of the Coleoid predator theory, say that the Nautiloid's shell is another adaptation to defend from predators. These Cephalkin live at the lowest of depths and have the hardest time adjusting to land, finding that their shell slows them down when walking. Nautiloid Cephalkin often have many facial tentacles, which is often considered creepy by other humanoid races. Nautiloids are easily recognized by the spiral shell covering their heads, which contain and protect their brains. This means Nautiloids will die if their shell is removed. Their shell has made them quite the target for bandits and poachers, as armor created from a Nautiloid's shell lighter and more durable than any metal.
-
-**Ability Score Increase**  
-Your Constitution score increases by 1.
-
-**Superior Darkvision**
-Accustomed to the extreme low light environment of the deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-
-**Natural Armor**  
-Your tough shell grants you a +2 bonus to AC while you are not wearing heavy armor. Your shell also lowers your base walking speed to 25 ft
-
-**Ink Spray**  
-As an action, you can expel a cloud of dark ink in a 10-foot radius. The area becomes heavily obscured until the end of your next turn. Creatures in the area when the ink appears must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be blinded until the end of their next turn. You can use this ability once per short or long rest.
-
-**Increased Swimming Speed**  
-Your swimming speed increases to 40 feet.
-{% end %}
-
-{% subrace_features(subrace="Octoid Cephalkin") %}
- **Octoid Cephalkin**
-
-> _Octoids possess strong, versatile tentacles, making them excellent grapplers and close-combat specialists._  
-
-Octoid Cephalkin have the most developed tentacles out of all Cephalkin, this is to navigate the deep ocean floors they live on and catch prey effectively. Octoid Cephalkin have increased muscle growth compared to other Cephalkin. Octoids often venture on land to learn martial arts and how to wield weapons, as nothing brings them more joy then to show of their strength. Many a wrestling champion has been or been the student of an Octoid Cephalkin.
-
-**Ability Score Increase**  
-Your Strength score increases by 1.
-
-**Superior Darkvision**
-Accustomed to the extreme low light environment of the deep oceans, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-
-**Tentacle Strength**  
-You can use your tentacles as a natural weapon. When you grapple a creature, you can deal bludgeoning damage equal to 1d6 + your Strength modifier as part of the grapple.
-
-**Tentacle Agility**  
-You have advantage on ability checks and saving throws to avoid being knocked prone. You can also use your tentacles to manipulate small objects or perform simple tasks, though they can’t wield weapons or shields.
-
 
 {% end %}
 

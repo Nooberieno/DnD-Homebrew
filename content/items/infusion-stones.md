@@ -20,7 +20,7 @@ The effect of an Infusion Stone is based on what type of Infusion Stone it is.
 When rolling for damage using weapon which has an Elemental Infusion Stone applied to it, the weapon deals 1d6 additional damage of the damage type of the Elemental Stone (A weapon with a Fire Infusion Stone deals 1d6 additional fire damage).
 
 ### Condition Stones
-When a creature is hit with a weapon that has a Condition Infusion Stone applied to it, it must make a Constitution Saving Throw with DC = 9 + Proficiency + Dex or Str. Upon failure the creature is affected by the Condition of the Condition Stone (A weapon with a Blind Infusion Stone will cause Blindness upon a failed save). The creature may reroll the save at the end of each of its turns. The condition lasts until the creature succeeds the save or until 3 rounds have passed since the creature has gained the condition from the Condition Stone, whichever happens first.
+Once per turn, when a creature is hit with a weapon that has a Condition Infusion Stone applied to it, it must make a Constitution Saving Throw with DC = 9 + Proficiency + Dex or Str. Upon failure the creature is affected by the Condition of the Condition Stone (A weapon with a Blind Infusion Stone will cause Blindness upon a failed save). The creature may reroll the save at the end of each of its turns. The condition lasts until the creature succeeds the save or until 3 rounds have passed since the creature has gained the condition from the Condition Stone, whichever happens first.
 
 ## Applying Infusion Stones
 Applying Infusion Stones is a tricky 10 minute process, which is most commonly done by blacksmiths or weapon smiths. The duration and charges of the effects rely on the type of Infusion Stone.
@@ -43,7 +43,7 @@ An Infusion Stone can also be applied to ammunition*, such as arrows, bolts or b
 
 An Infusion Stone can enchant a maximum of 20 pieces of ammunition at once. Once a piece of ammunition is fired, it always loses it enchantment even if it is physically recovered. As with regular weapons, you may not mix Infusion Stones on the same bundle of ammunition. If the ammunition has a Condition Stone applied to it, 2 charges are deducted instead of 1
 
-*_The weapon used to launch the ammunition can also have an Infusion Stone applied to it. In this case, the Elemental Stones work as normal, Condition Stones keep the 2 charges cost._
+\*_The weapon used to launch the ammunition can also have an Infusion Stone applied to it. In this case, the Elemental Stones work as normal, Condition Stones keep the 2 charges cost._
 
 ## List of Infusion Stones with Prices
 

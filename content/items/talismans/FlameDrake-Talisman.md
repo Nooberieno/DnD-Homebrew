@@ -9,9 +9,10 @@ tier = "1"
 cost = "50 GP"
 upgradable = "Yes (FlameDrake Talisman Reforged)"
 upgrade_cost = "75 GP"
-effects = "Take 5 less Fire damage"
+effects = "Reduce Fire damage by 1d10"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| FlameDrake Talisman | 50 GP | Take 5 less Fire damage | Yes (FlameDrake Talisman Reforged) | 75 GP | 1 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| FlameDrake Talisman | 50 GP | Reduce Fire damage by 1d10 | Yes (FlameDrake Talisman Reforged) | 75 GP | 1 | No |

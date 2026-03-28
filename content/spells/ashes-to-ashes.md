@@ -4,8 +4,8 @@ title = "Ashes To Ashes"
 [taxonomies]
 sourcebook = ["Tome of Petty Spellcasters"]
 spellbook = ["Tome of Petty Spellcasters"]
-classes = ['Sorcerer', 'Warlock']
-subclasses = ['Cleric: Light Domain']
+classes = ['Sorcerer', 'Warlock', 'Cleric']
+
 
 [extra]
 level = 9
@@ -17,24 +17,20 @@ school = "Evocation"
 
 _Level 9 Evocation Spell_<br>
 **Casting Time**: 1 action<br>
-**Range**: self(150 ft radius)<br>
+**Range**: Self (60 ft radius)<br>
 **Components**: V, S, M(a phoenix heart which the spell consumes)<br>
 **Duration**: Instantaneous<br>
-**Classes**: Sorcerer, Warlock<br>
-**Subclasses**: _Light Domain_ Cleric
+**Classes**: Sorcerer, Warlock, Cleric<br>
+
 
 > *You think you're a god, lets test that theory shall we*
 
 ---
 
 
-You ignite yourself with an immense, fiery explosion that deals devastating damage to all creatures around you, including yourself. When this spell occurs you take 90% of your max health as fire damage. This spell ignores resistance to fire damage or magic and treats immunity to fire damage or magic as resistance.
-Except creatures within 10 ft of you, all creatures within 150 ft of you must succeed on a Constitution saving throw, taking 10d10 fire damage on a failed save or half as much on a successful one. Additionally creatures take extra damage based on their proximity to you i.e. how close they are to you
+You ignite yourself in a catastrophic explosion of scorching radiant energy. Each creature within a 60 ft radius must make a Dexterity saving throw, taking 10d12 Fire damage + 10d12 Radiant damage on a failed save, or half as much on a successful one. Any creature reduced to 0 hp points by this spell is turned to ashes and may only be brought back by a Wish or True Resurrection spell.
 
-- Within 90 ft, an additional 25 fire damage
-- Within 45 ft, an additional 50 fire damage
-- Within 20 ft, an additional 75 fire damage
+As part of casting this spell, you drop to 0 hit points. At the end of your next turn, you turn to ash and are reborn at 1 hit point, unless you fail all your death saving throws in that round due to enemy interference.
 
-Creatures within 10 ft of you do not roll the saving throw and take 100 + 10d10 fire damage. A creature that takes 100 fire damage or more from this spell is Blinded until a Greater Restoration or Heal spell is cast to restore its vision. Additionally, a creature reduced to 0 hp by this spell is turned to ashes and may only be brought back by a Wish or True Resurrection spell.
-After this spell's effect takes place, you can only heal up to 50% of your max hp and cannot cast any high level magic (7th, 8th and 9th level spells). These drawbacks are not permanent and revert after you complete a long rest.
+After you cast this spell you take 1 level of Exhaustion and cannot cast spells of 7th level or higher until you complete a long rest.
 

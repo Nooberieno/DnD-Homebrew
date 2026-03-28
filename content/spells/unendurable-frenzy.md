@@ -27,4 +27,8 @@ _Level 6 Evocation Spell_<br>
 
 ---
 
-Unleash a violent burst of yellow flame from your eyes, causing chaos and destruction. Deals 8d6 fire damage to a single target within 60 feet. Can be cast while moving. Each turn you maintain concentration on this spell, you take 1d6 fire damage.
+You unleash a continuous torrent of maddening yellow flame from your eyes, lashing out in a destructive beam. You project a 60-foot-long, 5-foot-wide line of fire. Each creature in the line must make a Dexterity saving throw, taking 11d6 fire damage on a failed save, or half as much damage on a successful one.
+
+You can create a new line of frenzy as your action on any turn until the spell ends. Every time you do so, you take 1d6 fire damage, which cannot be reduced or avoided in any way.
+
+The beam sheds bright light in a 30-foot radius and dim light for an additional 30 feet. While the spell persists, your eyes glow with searing flame, and you cannot willingly avert your gaze.

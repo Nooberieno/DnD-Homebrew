@@ -3,7 +3,7 @@ title = "Ranger"
 
 [taxonomies]
 subclasses = ['Ranger: Nightstalker - Shadow Shot Variant', 'Ranger: Nightstalker - Spectral Blades Variant']
-sourcebook = ["Cayde-6's Guardian Manual"]
+sourcebook = ["Hunter's Handbook"]
 +++
 <table class="class-table">
   <thead>
@@ -326,12 +326,19 @@ You can also speak, read, and write two additional languages of your choice.
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 <a href="https://2014.5e.tools/optionalfeatures.html#archery_phb">Archery</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#defense_phb">Defense</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#dueling_phb">Dueling</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#two-weapon fighting_phb">Two-Weapon Fighting</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#blind fighting_tce">Blind Fighting</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#druidic warrior_tce">Druidic Warrior</a>
+
 <a href="https://2014.5e.tools/optionalfeatures.html#thrown weapon fighting_tce">Thrown Weapon Fighting</a>
+
 ### Spellcasting
 By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the <a href="https://2014.5e.tools/spells.html#blankhash,flstclass:ranger=1">ranger spell list</a>.
 
@@ -374,29 +381,24 @@ You gain the ability to channel shadowy energy to bind and hinder your foes. You
 
 **Shadow Snare**:
 
-As a bonus action, you can fire a shadowy tether at a creature within 60 ft. The target must make a Dexterity Saving throw. On a failed save, the target is restrained by shadowy tendrils till the end of its next turn.
+As a bonus action, you can fire a shadowy tether at a creature within 60 ft. The target must make a Dexterity Saving throw. On a failed save, the target's speed becomes 0 untill the start of your next turn.
+
+You may use this ability an amount of times equal to your proficiency modifier, regaining all uses upon finishing a long rest.
 
 **Shade Step**:
 
-You step into the shadows, getting out of sight from enemies. You gain the same benefits as using the Hide action
-
-You may use these abilities an amount of times equal to your proficiency modifier, regaining all uses upon finishing a long rest.
+You can take the Hide action as a bonus action.
 
 
 ### Modifiers
 _3rd-level Nightstalker - Shadow Shot Variant feature_
 
-You may add a single modifier to both **Shadow Snare** and **Shade Step**
+You get access to one of the following
 
-Shadow Snare Modifiers:
-
-1. Blood Bound: Tethered enemies share damage, up to a max of 20. Damage dealt to one also deals damage to the other
-2. Black Hole: Tethered enemies explode when killed dealing 20 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius
-
-Shade Step Modifiers:
-
-1. Vanish in Smoke: Activating Shade Step also gives its benefits to allies within 5 ft of you
-2. Hunter's Agility: While Shade Step is active, gain 20 ft of extra movement speed.
+1. **Blood Bound**: When you hit a creature affected by Shadow Snare, you can deal extra necrotic damage equal to your Wisdom modifier to another creature within 10 ft.
+2. **Black Hole**: When a creature affected by Shadow Snare drops to 0 hit points, creatures within 5 ft take necrotic damage equal to your Wisdom modifier
+3. **Vanish in Smoke**: When you take the Hide action, one ally within 5 ft can also attempt to Hide.
+4. **Hunter's Agility**: When you take the Hide action, your movement speed increases by 10 feet until the start of your next turn.
 
 
 {% end %}
@@ -414,29 +416,26 @@ You gain the ability to channel shadowy energy increase your attack power. You l
 
 **Gloaming Predator**
 
-As a bonus action infuse a melee weapon with shadows, this grants a damage boost of 1d6 necrotic damage, and you may add your wisdom modifier to attack rolls. After a successful hit, the shadows fade and the weapon goes back to normal.
+As a bonus action infuse a melee weapon with shadows. The next time you hit a creature with that weapon before the start of your next turn, the attack deals an additional 1d6 necrotic damage, and when you attack with this weapon you can use your Wisdom modifier, instead of Strength or Dexterity for attack and damage rolls.
+
+After a successful hit, the shadows fade and the weapon goes back to normal.
+
+You may use this ability an amount of times equal to your proficiency modifier, regaining all uses upon finishing a long rest.
 
 **Shade Step**:
 
-You step into the shadows, getting out of sight from enemies. You gain the same benefits as using the Hide action
-
-You may use these abilities an amount of times equal to your proficiency modifier, regaining all uses upon finishing a long rest.
+You can take the Hide action as a bonus action.
 
 
 ### Modifiers
 _3rd-level Nightstalker - Spectral Blades Variant feature_
 
-You may add a single modifier to both **Gloaming Predator** and **Shade Step**
-
-**Gloaming Predator** Modifiers:
+You get access to one of the following
 
 1. **Shadowstrike**: On a hit with **Gloaming Predator**, reduce the target's movement speed by 10 ft until the start of your next turn.
-2. **Lifedrinker**: Gain temporary hit points equal to half the damage dealt with **Gloaming Predator**.
-
-**Shade Step** Modifiers:
-
-1. Vanish in Smoke: Activating **Shade Step** also gives its benefits to allies within 5 ft of you
-2. Hunter's Agility: While **Shade Step** is active, gain 20 ft of extra movement speed.
+2. **Lifedrinker**: Gain temporary hit points equal to half the damage dealt with **Gloaming Predator**, these temporary hit points may not be higher than half your Ranger level.
+3. **Vanish in Smoke**: When you take the Hide action, one ally within 5 ft can also attempt to Hide.
+4. **Hunter's Agility**: When you take the Hide action, your movement speed increases by 10 feet until the start of your next turn.
 
 
 {% end %}
@@ -491,11 +490,11 @@ At 7th level, you gain a feature granted to you by your Ranger Archetype.
 ### Keen Scout
 _7th-level Nightstalker - Shadow Shot Variant feature_
 
-You gain an additional 20 ft base movement speed.
-
 **Hunter or Hunted**
 
-When hitting an enemy with **Shadow Snare** marks it as if targeted by the _Hunter's Mark_ spell, this effect lasts until the end of the day and doesn't require concentration.
+When you hit an enemy with **Shadow Snare**, you can mark it as if targeted by the _Hunter's Mark_ spell, this effect lasts for 1 minute and doesn't require concentration.
+
+You can use this feature a number of times equal to your Wisdom modifier, regaining all uses upon finishing a long rest.
 
 **Shadow Scout**
 
@@ -509,17 +508,12 @@ Any path that is dimly lit or completely dark counts as your Favored Terrain
 ### Modifiers
 _7th-level Nightstalker - Shadow Shot Variant feature_
 
-You may add a single modifier to both **Hunter or Hunted** and **Shadow Scout**:
+You get access to one of the following
 
-**Hunter or Hunted** Modifiers:
-
-1. Necrosis: When a marked enemy dies, regain health equal to 1d6 times your Ranger Level.
-2. Bloom: When a marked enemy dies, it explodes dealing 25 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius. (damage stacks with Black Hole)
-
-**Shadow Scout** Modifiers:
-
-1. Over the Horizon: You and all allies within 50 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
-2. One with the Abyss: You and all allies within 50 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
+1. **Necrosis**: When a marked enemy dies, regain hit points equal to your Wisdom modifier.
+2. **Bloom**: When a marked enemy dies, enemies within 5 ft take 2d6 necrotic damage
+3. **Over the Horizon**: You and all allies within 30 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
+4. **One with the Abyss**: You and all allies within 30 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
 
 
 {% end %}
@@ -527,13 +521,13 @@ You may add a single modifier to both **Hunter or Hunted** and **Shadow Scout**:
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Keen Scout
-_7th-level Nightstalker - Shadow Shot Variant feature_
-
-You gain an additional 20 ft base movement speed.
+_7th-level Nightstalker - Spectral Blades Variant feature_
 
 **Hunter or Hunted**
 
-When hitting an enemy with **Shadow Snare** marks it as if targeted by the _Hunter's Mark_ spell, this effect lasts until the end of the day and doesn't require concentration.
+When hitting an enemy with **Gloaming Predator**, you can mark it as if targeted by the _Hunter's Mark_ spell, this effect lasts for 1 minute and does not require concentration.
+
+You can use this feature a number of times equal to your Wisdom modifier, regaining all uses upon finishing a long rest.
 
 **Shadow Scout**
 
@@ -545,19 +539,14 @@ Any path that is dimly lit or completely dark counts as your Favored Terrain
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Modifiers
-_7th-level Nightstalker - Shadow Shot Variant feature_
+_7th-level Nightstalker - Spectral Blades Variant feature_
 
-You may add a single modifier to both **Hunter or Hunted** and **Shadow Scout**:
+You get access to one of the following
 
-**Hunter or Hunted** Modifiers:
-
-1. Necrosis: When a marked enemy dies, regain health equal to 1d6 times your Ranger Level.
-2. Bloom: When a marked enemy dies, it explodes dealing 25 or their max hp (whichever is lower) necrotic damage to all creatures within a 5 ft radius. (damage stacks with Black Hole)
-
-**Shadow Scout** Modifiers:
-
-1. Over the Horizon: You and all allies within 50 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
-2. One with the Abyss: You and all allies within 50 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
+1. **Shadow Dance**: After killing a marked enemy, move up to 10 ft without provoking attack of opportunity.
+2. **Death Spiral**: Once per turn, when you hit a creature that has resistance to bludgeoning, piercing, or slashing damage, you deal an additional 1d6 necrotic damage.
+3. **Over the Horizon**: You and all allies within 30 ft are not negatively impacted by traveling at a fast pace when moving through your Favored Terrain
+4. **One with the Abyss**: You and all allies within 30 ft are able to move stealthily at a normal pace when moving through your Favored Terrain
 
 
 {% end %}
@@ -605,11 +594,13 @@ _11th-level Nightstalker - Shadow Shot Variant feature_
 
 **Tethered Dominion**
 
-When you use **Shadow Snare**, you can choose up to two creatures within 10 feet of the initial target to also be restrained by the shadowy tendrils. These additional targets must make Dexterity saving throws or be restrained until the end of your next turn.
+When you use **Shadow Snare**, you can choose one additional creature within 10 feet of the initial target.
+
+Each target must make a Dexterity saving throw. On a failure, a creature is restrained until the start of your next turn instead of having its speed reduced to 0.
 
 **Way of the Drifter**
 
-When you use **Shade Step**, you can teleport up to 30 feet to an unoccupied space you can see within dim light or darkness. You can use this ability even if you're not hidden, and doing so grants you advantage on the first attack you make before the end of your turn.
+When you take the Hide action, you can teleport up to 15 feet to an unoccupied space you can see within dim light or darkness.
 
 
 {% end %}
@@ -619,17 +610,12 @@ When you use **Shade Step**, you can teleport up to 30 feet to an unoccupied spa
 ### Modifiers
 _11th-level Nightstalker - Shadow Shot Variant feature_
 
-You may add a single modifier to both **Tethered Dominion** and **Way of the Drifter**
+You get access to one of the following
 
-**Tethered Dominion** Modifiers:
-
-1. Umbra Reaper: When you kill a creature restrained by **Shadow Snare**, you can immediately use **Shadow Snare** again without expending a use. This can chain up to your proficiency modifier times per turn.
-2. Apex Predator: Shooting an enemy twice with **Shadow Snare** guarantees the next attack against it will be a critical hit.
-
-**Way of the Drifter** Modifiers:
-
-1. Way of the Fearless: When teleporting with **Shade Step** gain temporary hit points equal to 2 x your ranger level.
-2. Way of the Nomad: When teleporting with **Shade Step** recover 1 hp for every ft between you and the nearest enemy
+1. **Umbra Reaper**: Once per turn, when you reduce a creature affected by Shadow Snare to 0 hit points, regain one use of **Shadow Snare**.
+2. **Apex Predator**: Shooting an enemy twice with **Shadow Snare** gives you advantage on your next ranged attack roll against it.
+3. **Way of the Fearless**: When teleporting with **Way of the drifter** gain temporary hit points equal to your ranger level.
+4. **Way of the Nomad**: When teleporting with **Way of the Drifter** regain hit points equal to your Wisdom modifier
 
 
 {% end %}
@@ -637,15 +623,15 @@ You may add a single modifier to both **Tethered Dominion** and **Way of the Dri
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Shadow Dominion
-_11th-level Nightstalker - Shadow Shot Variant feature_
+_11th-level Nightstalker - Spectral Blades Variant feature_
 
-**Tethered Dominion**
+**Sharpened Specter**
 
-When you use **Shadow Snare**, you can choose up to two creatures within 10 feet of the initial target to also be restrained by the shadowy tendrils. These additional targets must make Dexterity saving throws or be restrained until the end of your next turn.
+Double the uses of **Gloaming Predator** and increase its damage to 2d6.
 
-**Way of the Drifter**
+**Way of the Wraith**
 
-When you use **Shade Step**, you can teleport up to 30 feet to an unoccupied space you can see within dim light or darkness. You can use this ability even if you're not hidden, and doing so grants you advantage on the first attack you make before the end of your turn.
+After killing an enemy with **Gloaming Predator** you may use **Shade Step**.
 
 
 {% end %}
@@ -653,19 +639,14 @@ When you use **Shade Step**, you can teleport up to 30 feet to an unoccupied spa
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Modifiers
-_11th-level Nightstalker - Shadow Shot Variant feature_
+_11th-level Nightstalker - Spectral Blades Variant feature_
 
-You may add a single modifier to both **Tethered Dominion** and **Way of the Drifter**
+You get access to one of the following
 
-**Tethered Dominion** Modifiers:
-
-1. Umbra Reaper: When you kill a creature restrained by **Shadow Snare**, you can immediately use **Shadow Snare** again without expending a use. This can chain up to your proficiency modifier times per turn.
-2. Apex Predator: Shooting an enemy twice with **Shadow Snare** guarantees the next attack against it will be a critical hit.
-
-**Way of the Drifter** Modifiers:
-
-1. Way of the Fearless: When teleporting with **Shade Step** gain temporary hit points equal to 2 x your ranger level.
-2. Way of the Nomad: When teleporting with **Shade Step** recover 1 hp for every ft between you and the nearest enemy
+1. **Flawless Executioner**: When you kill an enemy with **Gloaming Predator**, you regain hit points equal to your Wisdom modifier.
+2. **Void Chain**: Once per turn, when you hit a creature with **Gloaming Predator**,  you deal an additional 1d6 necrotic damage.
+3. **Stylish Executioner**: When activating **Way of the Wraith** you may teleport to an unoccupied space within 5 feet of a creature you can see within 30 feet of you.
+4. **Way of Bloodlust**: After using **Way of the Wraith**, your next attack with **Gloaming Predator** deals an additional 2d6 necrotic damage, and you regain 5 hit points.
 
 
 {% end %}
@@ -689,13 +670,11 @@ At 15th level, you gain a feature granted to you by your Ranger Archetype.
 ### Shadow Shot
 _15th-level Nightstalker - Shadow Shot Variant feature_
 
-Summon a large bow of shadows to bind your foes
+**Shadow Shot** allows you to summon a **Shadow Snare** at a location within 60 feet that you can see.  Creatures within a 15-foot radius sphere centered on that point must make a Dexterity saving throw. On a failure, they take 3d8 Necrotic damage and are restrained. On a success they take half damage and are not restrained. While restrained, they take 2d6 necrotic damage at the start of each of their turns.
 
-**Shadow Shot** allows you to summon a **Shadow Snare** at a location within 60 feet that you can see. This snare can bind up to six enemies within a 10 ft radius, dealing 4d10 necrotic damage to each on a failed Dexterity saving throw and half as much on a successful one.
+A creature restrained by this ability can repeat the saving throw at the end of each of its turns, ending the effect for itself on a success.
 
-Creatures within the snare's radius must also make a Dexterity saving throw. On a failure, they are restrained by shadowy tendrils until the end of their next turn. While restrained, they take 2d6 necrotic damage at the start of each of their turns.
-
-The **Shadow Snare** persists for up to 1 minute, ending early if your concentration is broken.
+The **Shadow Snare** persists for up to 1 minute requiring concentration (as if concentrating on a spell). The effect ends early if you are incapacitated or lose concentration.
 
 Once you use **Shadow Shot**, you cannot do so again until you finish a long rest.
 
@@ -707,10 +686,10 @@ Once you use **Shadow Shot**, you cannot do so again until you finish a long res
 ### Modifiers
 _15th-level Nightstalker - Shadow Shot Variant feature_
 
-You may add a single modifier to **Shadow Shot**:
+You get access to one of the following
 
-1. Deadfall: Increase the range of the **Shadow Snare** to 15 ft. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, decreases initial damage to 2d10, but boosts the damage while restrained to 4d6
-2. Mobius Quiver: Fire **Shadow Shot** up to 3 times, but the range is decreased to a 5 ft radius and all damage dealt by **Shadow Shot** is halved
+1. **Deadfall**: Increase the area of the **Shadow Snare** to 20 ft radius. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, and boosts the damage while restrained to 3d6
+2. **Mobius Quiver**: Create two **Shadow Snares**, targeting different locations but the area is reduced to a 5 ft radius
 
 
 {% end %}
@@ -722,9 +701,9 @@ _15th-level Nightstalker - Spectral Blades Variant feature_
 
 You become a whirlwind of shadow and death. As an action, you can activate **Spectral Blades**, entering a heightened state of combat focus for 1 minute. During this time:
 
-1. You gain the effects of **Gloaming Predator**, and attacks with them deal an additional 1d8 necrotic damage.
+1. You gain the effects of **Gloaming Predator**
 2. When you hit a creature with **Gloaming Predator**, you can teleport up to 10 ft to an unoccupied space you can see within dim light or darkness.
-3. You can make an additional attack with **Gloaming Predator** as a bonus action on each of your turns.
+3. You can make one additional attack as part of the Attack action.
 
 Once you use **Spectral Blades**, you cannot do so again until you finish a long rest.
 
@@ -734,12 +713,14 @@ Once you use **Spectral Blades**, you cannot do so again until you finish a long
 
 {% subclass_feature(subclass="Nightstalker - Spectral Blades Variant") %}
 ### Modifiers
-_15th-level Nightstalker - Shadow Shot Variant feature_
+_15th-level Nightstalker - Spectral Blades Variant feature_
 
-You may add a single modifier to **Shadow Shot**:
+You get access to one of the following
 
-1. Deadfall: Increase the range of the **Shadow Snare** to 15 ft. **Shadow Shot** now pulls enemies towards the **Shadow Snare**, decreases initial damage to 2d10, but boosts the damage while restrained to 4d6
-2. Mobius Quiver: Fire **Shadow Shot** up to 3 times, but the range is decreased to a 5 ft radius and all damage dealt by **Shadow Shot** is halved
+1. **Trapper's Ambush**: Gain and use **Shade Step** immediately when exiting a hostile creatures range.
+2. **Shattering Strike**: When you hit a creature with Gloaming Predator twice on your turn,
+
+it must make a Strength saving throw or fall prone.
 
 
 {% end %}

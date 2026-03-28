@@ -8,10 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "5"
 cost = "4000 GP"
 upgradable = "No"
-effects = "Decrease damage taken from Slashing, Piercing and Bludgeoning by 20%"
+effects = "Decrease damage taken from Slashing, Piercing and Bludgeoning by 4d4"
 attunement = "No"
 +++
 
 | Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| True Dragoncrest Greatshield | 4000 GP | Decrease damage taken from Slashing, Piercing and Bludgeoning by 20% | No | N/A | 5 | No |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| True Dragoncrest Greatshield | 4000 GP | Decrease damage taken from Slashing, Piercing and Bludgeoning by 4d4 | No | N/A | 5 | No |

@@ -7,10 +7,7 @@ sourcebook = ["Races of Anur"]
 
 
 
-The Equinoid race is one of the possible crossbreeds between a Minotaur and a Centaur. An Equinoid is distinguished by the beast like torso of the Minotaur and the horse like lower body from the Centaur. Female and male Equinoid tend to live alone, though not far away from others of their kind. They often mingle for festivals, trade or rituals. Only Equinoid couples stay together for long periods of time, for good reason.
-
-### Coupling
-An Equinoid couple is formed through ritual, binding their fates. Should one member die or should the couple be separated for long periods of time, then the Equinoid are cursed. They are cursed with increasingly bad luck. It starts of mild, but as time goes on the intensity and severity increase. From food poisoning to lightning strikes, death lurks in every corner for a cursed Equinoid. No Equinoid has been known to survive
+The Equinoid race is one of the possible crossbreeds between a Minotaur and a Centaur. An Equinoid is distinguished by the beast like torso of the Minotaur and the horse like lower body from the Centaur. Female and male Equinoid tend to live alone, though not far away from others of their kind. They often mingle for festivals, trade or rituals. 
 
 ## Traits
 ### Age

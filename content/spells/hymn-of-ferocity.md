@@ -9,7 +9,7 @@ classes = ['Artificer', 'Bard', 'Cartomancer', 'Cleric', 'Druid', 'Paladin', 'Ra
 
 [extra]
 level = 2
-concentration = false
+concentration = true
 school = "Enchantment"
 +++
 
@@ -19,7 +19,7 @@ _Level 2 Enchantment Spell_<br>
 **Casting Time**: 1 action<br>
 **Range**: 45 ft<br>
 **Components**: V, S<br>
-**Duration**: Up to 10 minutes<br>
+**Duration**: Concentration, up to 10 minutes<br>
 **Classes**: Artificer, Bard, Cartomancer, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard<br>
 
 
@@ -27,14 +27,14 @@ _Level 2 Enchantment Spell_<br>
 
 ---
 
-You intone the powerful Hymn of Ferocity, creating a magic circle that envelops an ally or creature you can see within range. The target becomes engulfed in a crimson aura,
-the target has:
+This spell brings out feelings of great anger in a creature you can see within range. An willing creature must make a Wisdom saving throw to avoid the effect. A creature that is immune to being charmed is unaffected by this spell.
 
+A creature under the effects of this spell gains the following benefits:
 - Advantage on Strength checks and Strength saving throws.
 - A +2 bonus to any damage roll on melee attacks using Strength
 - Resistance to bludgeoning, piercing, and slashing damage.
+-
+If the targeted creature is able to cast spells, it can't cast them or concentrate on them while under the effects of this spell.
 
-If you are able to cast spells, you can't cast them or concentrate on them while raging.
-
-This spells ends early if the target is knocked [unconscious](https://2014.5e.tools/conditionsdiseases.html#unconscious_phb) or if the target ends it on their bonus action. The target must make a Wisdom saving throw of DC 15 if they wish to resist the effects and not enter a rage.
+This spells ends early if the target is knocked [unconscious](https://2014.5e.tools/conditionsdiseases.html#unconscious_phb) or if the target ends it on their bonus action. You can also end the targets rage on your turn as a bonus action.
 

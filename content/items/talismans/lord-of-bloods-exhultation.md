@@ -8,9 +8,10 @@ sourcebook = ["Tome of the Tarnished"]
 tier = "3"
 cost = "1500 GP"
 upgradable = "No"
-effects = "Increases damage by 5% when a creature within 60 ft gets afflicted by [Bleeding](@/conditions-and-diseases/conditions/bleeding.md). (stacks up to 3 times for a max of 15% additional damage) You lose this bonus at the end of your turn"
+effects = "Increases damage by 1d6 when a creature within 60 ft gets afflicted by [Bleeding](@/conditions-and-diseases/conditions/bleeding.md). (stacks up to 3 times for a max of 3d6 additional damage) You lose this bonus at the end of your turn"
+attunement = "No"
 +++
 
-| Name                          | Cost    | Effects                                                                                           | Upgradable? | Upgrade Cost | Tier |
-| ----------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ----------- | ------------ | ---- |
-| Lord of Blood's Exhultation | 1500 GP | Increases damage by 5% when a creature within 60 ft gets afflicted by [Bleeding](@/conditions-and-diseases/conditions/bleeding.md). (stacks up to 3 times for a max of 15% additional damage) You lose this bonus at the end of your turn | No | N/A | 3 |
+| Name | Cost | Effects | Upgradable? | Upgrade Cost | Tier | Attunement |
+| ---------- | ------ | ---------------------------------------------------------------- | ----------- | ------------ | ---- | ---------- |
+| Lord of Blood's Exhultation | 1500 GP | Increases damage by 1d6 when a creature within 60 ft gets afflicted by [Bleeding](@/conditions-and-diseases/conditions/bleeding.md). (stacks up to 3 times for a max of 3d6 additional damage) You lose this bonus at the end of your turn | No | N/A | 3 | No |
